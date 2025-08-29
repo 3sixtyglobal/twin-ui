@@ -16,6 +16,7 @@ import {
 /**
  * Progress colors.
  */
+// eslint-disable-next-line @typescript-eslint/naming-convention
 export const ProgressColors = {
 	/**
 	 * Orange.

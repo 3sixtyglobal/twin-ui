@@ -16,7 +16,7 @@
 		"vitest.config.*",
 		"tsconfig.json",
 		"typedoc.json",
-		".eslintrc.cjs",
+		"eslint.config.js",
 		"eslint.config.js",
 		"**/wordlists/**",
 		"**/storybook-static/**",

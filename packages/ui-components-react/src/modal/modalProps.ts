@@ -31,6 +31,7 @@ export interface FooterButton extends ButtonProps {
 	onClick?: () => void;
 }
 
+// eslint-disable-next-line @typescript-eslint/naming-convention
 export const ModalDefaultProps = {
 	show: false,
 	dismissible: true,

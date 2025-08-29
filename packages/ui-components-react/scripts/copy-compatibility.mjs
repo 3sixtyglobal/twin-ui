@@ -35,7 +35,7 @@ async function createCompatibilityLayer() {
 
 	try {
 		// Find all .mjs files in the ES directory
-		const files = await FastGlob(path.join(ES_DIR, `**/*.mjs`).replace(/\\/g, '/'));
+		const files = await FastGlob(path.join(ES_DIR, '**/*.mjs').replace(/\\/g, '/'));
 
 		if (files.length === 0) {
 			process.stdout.write('No .mjs files found in ES directory. Check your build process.\n');
@@ -60,7 +60,7 @@ async function createCompatibilityLayer() {
 		}
 
 		// Also copy map files if they exist
-		const mapFiles = await FastGlob(path.join(ES_DIR, `**/*.mjs.map`).replace(/\\/g, '/'));
+		const mapFiles = await FastGlob(path.join(ES_DIR, '**/*.mjs.map').replace(/\\/g, '/'));
 		for (const file of mapFiles) {
 			const sourceFile = file;
 			const targetFile = path.join(ESM_DIR, path.basename(file));

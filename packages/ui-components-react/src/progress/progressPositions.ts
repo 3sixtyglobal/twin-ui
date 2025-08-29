@@ -6,6 +6,7 @@ import { INSIDE, OUTSIDE } from "../constants/positions";
 /**
  * Progress positions.
  */
+// eslint-disable-next-line @typescript-eslint/naming-convention
 export const ProgressPositions = {
 	/**
 	 * Inside.
