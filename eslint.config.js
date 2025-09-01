@@ -16,6 +16,12 @@ import simpleImportSortPlugin from 'eslint-plugin-simple-import-sort';
 import unicornPlugin from 'eslint-plugin-unicorn';
 import unusedImportsPlugin from 'eslint-plugin-unused-imports';
 import globals from 'globals';
+import { fileExists } from './scripts/common.mjs';
+
+let customModule;
+if (await fileExists('./eslint.config-custom.js')) {
+	customModule = await import('./eslint.config-custom.js');
+}
 
 headerPlugin.rules.header.meta.schema = false;
 
@@ -514,18 +520,30 @@ const jsDocRules = {
 	'jsdoc/valid-types': 'error'
 };
 
-export default [
+const allRules = {
+	tsRules,
+	jsRules,
+	stylisticRules,
+	stylisticJsRules,
+	headerRules,
+	promiseRules,
+	importRules,
+	unicornRules,
+	jsDocRules
+};
+
+if (customModule?.extendRules) {
+	customModule.extendRules(allRules);
+}
+
+const config = [
 	// Global ignores
 	{
 		ignores: [
 			'**/dist/**',
 			'**/coverage/**',
 			'**/rollup.config.mjs',
-			'**/vitest.config.ts.timestamp*',
-			'**/storybook-static/**',
-			'**/.svelte-kit/**',
-			'**/.storybook/**',
-			'**/*.d.ts'
+			'**/vitest.config.ts.timestamp*'
 		]
 	},
 
@@ -641,42 +659,16 @@ export default [
 
 	// Test files
 	{
-		files: ['**/*.spec.ts', '**/setupTestEnv.ts'],
+		files: ['**/tests/**/*.ts'],
 		rules: {
 			'no-console': 'off',
 			'unicorn/no-useless-undefined': 'off'
 		}
-	},
-
-	// Svelte files
-	{
-		files: ['*.svelte'],
-		parser: 'svelte-eslint-parser',
-		parserOptions: {
-			parser: '@typescript-eslint/parser'
-		},
-		rules: {
-			'no-unused-vars': ['off'],
-			'max-len': ['off'],
-			'no-inner-declarations': ['off'],
-			'header/header': ['off'],
-			'jsdoc/require-jsdoc': ['off'],
-			...tsRules,
-			'@typescript-eslint/quotes': ['error', 'single', { avoidEscape: true }],
-			'svelte/valid-compile': ['off']
-		}
-	},
-
-	// React
-	{
-		files: ['**/packages/ui-components-react/**/*.ts'],
-		rules: {}
-	},
-	{
-		files: ['**/apps/**/*.ts'],
-		rules: {
-			'@typescript-eslint/naming-convention': 'off',
-			'jsdoc/require-jsdoc': 'off'
-		}
 	}
 ];
+
+if (customModule?.extendConfig) {
+	customModule.extendConfig(allRules, config);
+}
+
+export default config;
