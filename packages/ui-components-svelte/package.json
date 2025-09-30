@@ -66,5 +66,16 @@
 		"dist",
 		"docs",
 		"locales"
+	],
+	"keywords": [
+		"twin",
+		"trade",
+		"iota",
+		"framework",
+		"blockchain",
+		"ui",
+		"components",
+		"react",
+		"frontend"
 	]
 }
