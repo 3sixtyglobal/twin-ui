@@ -13,7 +13,7 @@
 		"sourceMap": true,
 		"declaration": true,
 		"declarationDir": "dist/types",
-		"types": ["@types/node"],
+		"types": ["node"],
 		"skipLibCheck": true
 	},
 	"include": ["src/**/*.ts"]
