@@ -46,7 +46,6 @@
 		"eslint-plugin-simple-import-sort": "12.1.1",
 		"eslint-plugin-unicorn": "61.0.2",
 		"eslint-plugin-unused-imports": "4.2.0",
-		"fast-glob": "3.3.3",
 		"globals": "16.4.0",
 		"husky": "9.1.7",
 		"markdownlint-cli": "0.45.0",
@@ -61,5 +60,9 @@
 		"packages/ui-components-svelte",
 		"apps/ui-storybook-react"
 	],
-	"type": "module"
+	"type": "module",
+	"bugs": {
+		"url": "git+https://github.com/twinfoundation/ui/issues"
+	},
+	"homepage": "https://twindev.org"
 }

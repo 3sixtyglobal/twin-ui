@@ -75,5 +75,9 @@
 		"components",
 		"react",
 		"frontend"
-	]
+	],
+	"bugs": {
+		"url": "git+https://github.com/twinfoundation/ui/issues"
+	},
+	"homepage": "https://twindev.org"
 }
