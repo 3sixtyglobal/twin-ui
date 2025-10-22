@@ -6,7 +6,6 @@ import { SMALL, MEDIUM, LARGE, EXTRA_LARGE } from "../constants/sizes";
 /**
  * Progress sizes.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const ProgressSizes = {
 	/**
 	 * Small.

@@ -1,0 +1,2021 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with all aria-label combinations > breadcrumb aria-label 0 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with all aria-label combinations > breadcrumb aria-label 1 1`] = `
+<nav
+  aria-label="Custom breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with all aria-label combinations > breadcrumb aria-label 2 1`] = `
+<nav
+  aria-label=""
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with all className combinations > breadcrumb className 0 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with all className combinations > breadcrumb className 1 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class="custom-class"
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with all className combinations > breadcrumb className 2 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with all props provided 1`] = `
+<nav
+  aria-label="Custom breadcrumb navigation"
+  class="custom-breadcrumb-class"
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        <svg
+          data-testid="mock-icon"
+        />
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with basic items 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/products"
+      >
+        Products
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with className 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class="custom-breadcrumb"
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with complex nested navigation 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        <svg
+          data-testid="mock-icon"
+        />
+        🏠 Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/categories"
+      >
+        📁 Categories
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/categories/electronics"
+      >
+        💻 Electronics
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/categories/electronics/smartphones"
+      >
+        📱 Smartphones
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        📱 iPhone 15 Pro
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with custom aria-label 1`] = `
+<nav
+  aria-label="Navigation breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with default aria-label 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with empty items array 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  />
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having complex hrefs 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/search?q=test&category=all"
+      >
+        Search
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/product/123?ref=breadcrumb&utm_source=nav"
+      >
+        Product
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having empty labels 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      />
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/valid"
+      >
+        Valid Label
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/empty"
+      />
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having empty string href 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href=""
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href=""
+      >
+        Current Page
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having icons 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        <svg
+          data-testid="mock-icon"
+        />
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/products"
+      >
+        <svg
+          data-testid="mock-icon"
+        />
+        Products
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having long labels 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/long"
+      >
+        This is a very long breadcrumb item label that should be handled properly
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having null href 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having null icon 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having special characters 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home & Garden
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/products"
+      >
+        Products &gt; Electronics
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current "Page"
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having undefined href 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Home
+      </span>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having undefined icon 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items having unicode characters 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        首页
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/products"
+      >
+        产品
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        当前页面 🏠
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with items without href 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with many items 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/category"
+      >
+        Category
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/category/subcategory"
+      >
+        Subcategory
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/category/subcategory/product"
+      >
+        Product
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        Current Page
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with mixed item configurations 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        <svg
+          data-testid="mock-icon"
+        />
+        Home
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/category"
+      >
+        Category
+      </a>
+    </li>
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="flex items-center text-sm font-medium text-gray-500 dark:text-gray-400"
+        data-testid="flowbite-breadcrumb-item"
+      >
+        <svg
+          data-testid="mock-icon"
+        />
+        Current
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with no props 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  />
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with null items 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  />
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with single item 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  >
+    <li
+      class="group flex items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="mx-1 h-4 w-4 text-gray-400 group-first:hidden md:mx-2"
+        data-testid="flowbite-breadcrumb-separator"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 5l7 7-7 7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <a
+        class="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        data-testid="flowbite-breadcrumb-item"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb > Snapshot Tests > matches snapshot for breadcrumb with undefined items 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  class=""
+>
+  <ol
+    class="flex items-center"
+  />
+</nav>
+`;

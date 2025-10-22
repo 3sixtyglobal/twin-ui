@@ -2,14 +2,13 @@
 
 ## [0.0.2-next.1](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.2-next.0...ui-storybook-react-v0.0.2-next.1) (2025-09-24)
 
-
 ### ⚠ BREAKING CHANGES
 
 * Card component API has been simplified:
-    - Removed specialized card types (profile, eCommerce, list)
-    - Changed button interface (removed href, description)
-    - Removed Flowbite card props inheritance
-    - Changed icon prop to svg in buttons
+  * Removed specialized card types (profile, eCommerce, list)
+  * Changed button interface (removed href, description)
+  * Removed Flowbite card props inheritance
+  * Changed icon prop to svg in buttons
 
 ### Features
 
@@ -31,16 +30,13 @@
 * **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
 * **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
-
 ### Bug Fixes
 
 * add private flag for app repos ([418622b](https://github.com/twinfoundation/ui/commit/418622bacfd973c8e31467bd73801b81e3fbd582))
 
-
 ### Code Refactoring
 
 * modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
-
 
 ### Dependencies
 
@@ -50,14 +46,13 @@
 
 ## 0.0.1 (2025-07-11)
 
-
 ### ⚠ BREAKING CHANGES
 
 * Card component API has been simplified:
-    - Removed specialized card types (profile, eCommerce, list)
-    - Changed button interface (removed href, description)
-    - Removed Flowbite card props inheritance
-    - Changed icon prop to svg in buttons
+  * Removed specialized card types (profile, eCommerce, list)
+  * Changed button interface (removed href, description)
+  * Removed Flowbite card props inheritance
+  * Changed icon prop to svg in buttons
 
 ### Features
 
@@ -79,16 +74,13 @@
 * **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
 * **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
-
 ### Bug Fixes
 
 * add private flag for app repos ([418622b](https://github.com/twinfoundation/ui/commit/418622bacfd973c8e31467bd73801b81e3fbd582))
 
-
 ### Code Refactoring
 
 * modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
-
 
 ### Dependencies
 
@@ -98,11 +90,9 @@
 
 ## [0.0.1-next.52](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.51...ui-storybook-react-v0.0.1-next.52) (2025-06-23)
 
-
 ### Miscellaneous Chores
 
 * **ui-storybook-react:** Synchronize repo versions
-
 
 ### Dependencies
 
@@ -112,11 +102,9 @@
 
 ## [0.0.1-next.51](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.50...ui-storybook-react-v0.0.1-next.51) (2025-06-11)
 
-
 ### Miscellaneous Chores
 
 * **ui-storybook-react:** Synchronize repo versions
-
 
 ### Dependencies
 
@@ -126,11 +114,9 @@
 
 ## [0.0.1-next.50](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.49...ui-storybook-react-v0.0.1-next.50) (2025-06-05)
 
-
 ### Features
 
 * icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-
 
 ### Dependencies
 
@@ -140,11 +126,9 @@
 
 ## [0.0.1-next.49](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.48...ui-storybook-react-v0.0.1-next.49) (2025-05-29)
 
-
 ### Miscellaneous Chores
 
 * **ui-storybook-react:** Synchronize repo versions
-
 
 ### Dependencies
 
@@ -154,11 +138,9 @@
 
 ## [0.0.1-next.48](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.47...ui-storybook-react-v0.0.1-next.48) (2025-05-28)
 
-
 ### Features
 
 * migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-
 
 ### Dependencies
 
@@ -168,11 +150,9 @@
 
 ## [0.0.1-next.47](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.46...ui-storybook-react-v0.0.1-next.47) (2025-05-22)
 
-
 ### Features
 
 * button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-
 
 ### Dependencies
 
@@ -182,11 +162,9 @@
 
 ## [0.0.1-next.46](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.45...ui-storybook-react-v0.0.1-next.46) (2025-05-21)
 
-
 ### Miscellaneous Chores
 
 * **ui-storybook-react:** Synchronize repo versions
-
 
 ### Dependencies
 
@@ -196,11 +174,9 @@
 
 ## [0.0.1-next.45](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.44...ui-storybook-react-v0.0.1-next.45) (2025-04-30)
 
-
 ### Bug Fixes
 
 * add private flag for app repos ([418622b](https://github.com/twinfoundation/ui/commit/418622bacfd973c8e31467bd73801b81e3fbd582))
-
 
 ### Dependencies
 
@@ -210,14 +186,13 @@
 
 ## [0.0.1-next.44](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.1-next.43...ui-storybook-react-v0.0.1-next.44) (2025-04-29)
 
-
 ### ⚠ BREAKING CHANGES
 
 * Card component API has been simplified:
-    - Removed specialized card types (profile, eCommerce, list)
-    - Changed button interface (removed href, description)
-    - Removed Flowbite card props inheritance
-    - Changed icon prop to svg in buttons
+  * Removed specialized card types (profile, eCommerce, list)
+  * Changed button interface (removed href, description)
+  * Removed Flowbite card props inheritance
+  * Changed icon prop to svg in buttons
 
 ### Features
 
@@ -235,11 +210,9 @@
 * **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
 * **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
-
 ### Code Refactoring
 
 * modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
-
 
 ### Dependencies
 
@@ -249,4 +222,4 @@
 
 ## v0.0.1-next.43
 
-- Initial Release
+* Initial Release

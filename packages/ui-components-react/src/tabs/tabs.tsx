@@ -1,6 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { Tabs as FlowbiteTabs, type TabsRef } from "flowbite-react/components/Tabs";
+import { Tabs as FlowbiteTabs, type TabsRef } from "flowbite-react";
 import { memo, useRef, useCallback, type JSX } from "react";
 import type { TabsProps } from "./tabsProps";
 import { TABS_THEME_CONFIG } from "./tabsTheme";
@@ -26,7 +26,7 @@ export const Tabs = memo(
 			[onActiveTabChange]
 		);
 
-		if (!items.length) {
+		if (!items || !items.length) {
 			return <></>;
 		}
 

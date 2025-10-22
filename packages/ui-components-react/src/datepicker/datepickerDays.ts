@@ -4,7 +4,6 @@
 /**
  * Datepicker Days.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const DatepickerDays = {
 	/**
 	 * Sunday.
@@ -45,4 +44,4 @@ export const DatepickerDays = {
 /**
  * Datepicker Days.
  */
-export type DatepickerDays = (typeof DatepickerDays)[keyof typeof DatepickerDays];
+export type DatepickerDay = (typeof DatepickerDays)[keyof typeof DatepickerDays];

@@ -7,7 +7,15 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-	{ ignores: ['dist', 'node_modules', 'rollup.config.mjs', 'tailwind.config.ts'] },
+	{
+		ignores: [
+			'dist',
+			'node_modules',
+			'rollup.config.mjs',
+			'tailwind.config.ts',
+			'scripts/coverage.mjs'
+		]
+	},
 	{
 		extends: [js.configs.recommended, ...tseslint.configs.recommended],
 		files: ['**/*.{ts,tsx}'],
@@ -29,6 +37,23 @@ export default tseslint.config(
 					argsIgnorePattern: '^_',
 					varsIgnorePattern: '^_',
 					caughtErrorsIgnorePattern: '^_'
+				}
+			],
+			'@typescript-eslint/naming-convention': [
+				'error',
+				{
+					selector: 'variable',
+					format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+					leadingUnderscore: 'allow'
+				},
+				{
+					selector: 'function',
+					format: ['camelCase', 'PascalCase']
+				},
+				{
+					selector: 'typeLike',
+					format: ['PascalCase'],
+					leadingUnderscore: 'allow'
 				}
 			],
 			eqeqeq: ['error', 'always'],

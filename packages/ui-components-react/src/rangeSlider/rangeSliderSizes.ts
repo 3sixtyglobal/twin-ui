@@ -6,7 +6,6 @@ import { SMALL, MEDIUM, LARGE } from "../constants/sizes";
 /**
  * RangeSlider sizes.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const RangeSliderSizes = {
 	/**
 	 * Small.

@@ -6,11 +6,16 @@ import type { ReactNode } from "react";
 /**
  * Checkbox props.
  */
-export interface CheckboxProps extends Omit<FlowbiteCheckboxProps, "color" | "label"> {
+export interface CheckboxProps extends Omit<FlowbiteCheckboxProps, "color"> {
 	/**
 	 * Children elements
 	 */
 	children?: ReactNode;
+
+	/**
+	 * Label for the checkbox
+	 */
+	label?: ReactNode;
 
 	/**
 	 * The ID of the checkbox.

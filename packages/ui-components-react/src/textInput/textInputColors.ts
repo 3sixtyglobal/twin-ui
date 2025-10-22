@@ -6,7 +6,6 @@ import { FAILURE, WARNING, SUCCESS, INFO, GRAY } from "../constants/colors";
 /**
  * TextInput colors.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const TextInputColors = {
 	/**
 	 * None.

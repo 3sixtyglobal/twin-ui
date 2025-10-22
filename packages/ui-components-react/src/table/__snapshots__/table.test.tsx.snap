@@ -1,0 +1,2855 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Table > Snapshot Tests > matches snapshot for table with additional props 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+    data-custom="value"
+    data-testid="custom-table"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with all props combined 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black custom-table"
+  />
+  <table
+    aria-label="Complete table"
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400 custom-table"
+    role="table"
+    style="background-color: blue;"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 font-bold"
+        >
+          Name
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-center"
+        >
+          Age
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-right"
+        >
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          John Doe
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          30
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          john@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          Jane Smith
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          25
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          jane@example.com
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="group/body"
+    >
+      <tr
+        class="group/row bg-gray-100"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-bold"
+        >
+          Total
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium text-center"
+        >
+          2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium text-right"
+        >
+          2 emails
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with aria attributes 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    aria-describedby="table-description"
+    aria-label="User data table"
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+    role="table"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with array content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Item 1
+          Item 2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Normal content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with body cells having no className 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          John Doe
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          30
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          john@example.com
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with body only 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          John Doe
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          30
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          john@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          Jane Smith
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          25
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          jane@example.com
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with boolean content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        />
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        />
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Normal content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with complex content in cells 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          <span
+            data-testid="complex-content"
+          >
+            Complex JSX
+          </span>
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          42
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          String content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with custom className 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black custom-table"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400 custom-table"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with default props 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with empty body array 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with empty footer array 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with empty header array 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with empty string content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        />
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Normal content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with footer cells having no className 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="group/body"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          Total
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          2 emails
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with footer only 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="group/body"
+    >
+      <tr
+        class="group/row bg-gray-100"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-bold"
+        >
+          Total
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium text-center"
+        >
+          2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium text-right"
+        >
+          2 emails
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with footer row having no className 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="group/body"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          Total
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          2 emails
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with header and body 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 font-bold"
+        >
+          Name
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-center"
+        >
+          Age
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-right"
+        >
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          John Doe
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          30
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          john@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          Jane Smith
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          25
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          jane@example.com
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with header cells having no className 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          Name
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          Age
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with header only 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 font-bold"
+        >
+          Name
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-center"
+        >
+          Age
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-right"
+        >
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with header, body, and footer 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 font-bold"
+        >
+          Name
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-center"
+        >
+          Age
+        </th>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700 text-right"
+        >
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          John Doe
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          30
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          john@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          Jane Smith
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-center"
+        >
+          25
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg text-right"
+        >
+          jane@example.com
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="group/body"
+    >
+      <tr
+        class="group/row bg-gray-100"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-bold"
+        >
+          Total
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium text-center"
+        >
+          2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium text-right"
+        >
+          2 emails
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with long content in cells 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          This is a very long content that might wrap to multiple lines in the table cell
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Short
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with many columns 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 1
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 3
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 4
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 5
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 6
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 7
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 8
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 9
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 10
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 11
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 12
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 13
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 14
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 15
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 16
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 17
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 18
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 19
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Column 20
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with many rows 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 1
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          20
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email1@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 2
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          21
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email2@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 3
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          22
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email3@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 4
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          23
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email4@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 5
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          24
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email5@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 6
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          25
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email6@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 7
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          26
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email7@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 8
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          27
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email8@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 9
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          28
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email9@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 10
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          29
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email10@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 11
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          30
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email11@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 12
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          31
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email12@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 13
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          32
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email13@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 14
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          33
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email14@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 15
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          34
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email15@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 16
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          35
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email16@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 17
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          36
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email17@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 18
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          37
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email18@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 19
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          38
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email19@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 20
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          39
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email20@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 21
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          40
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email21@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 22
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          41
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email22@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 23
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          42
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email23@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 24
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          43
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email24@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 25
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          44
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email25@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 26
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          45
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email26@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 27
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          46
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email27@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 28
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          47
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email28@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 29
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          48
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email29@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 30
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          49
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email30@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 31
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          50
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email31@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 32
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          51
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email32@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 33
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          52
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email33@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 34
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          53
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email34@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 35
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          54
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email35@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 36
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          55
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email36@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 37
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          56
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email37@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 38
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          57
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email38@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 39
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          58
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email39@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 40
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          59
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email40@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 41
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          60
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email41@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 42
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          61
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email42@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 43
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          62
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email43@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 44
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          63
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email44@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 45
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          64
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email45@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 46
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          65
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email46@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 47
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          66
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email47@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 48
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          67
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email48@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 49
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          68
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email49@example.com
+        </td>
+      </tr>
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Name 50
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          69
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          email50@example.com
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with mixed content types 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          String
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          42
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        />
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          <span>
+            JSX
+          </span>
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Array
+          Content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with null content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        />
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Normal content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with number content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          42
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          3.14
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          -10
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with single body row 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Single Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with single footer row 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+    <tbody
+      class="group/body"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg font-medium"
+        >
+          Single Footer Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with single header cell 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          Single Header
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with special characters in content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Special & Characters: &lt;&gt;&"'
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Normal content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with style prop 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+    style="background-color: red; width: 100%;"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          No data available
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with undefined content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        />
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Normal content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table > Snapshot Tests > matches snapshot for table with unicode characters in content 1`] = `
+<div
+  class="relative"
+  data-testid="table-element"
+>
+  <div
+    class="absolute left-0 top-0 -z-10 h-full w-full rounded-lg bg-white drop-shadow-md dark:bg-black"
+  />
+  <table
+    class="w-full text-left text-sm text-gray-500 dark:text-gray-400"
+  >
+    <thead
+      class="group/head text-xs uppercase text-gray-700 dark:text-gray-400"
+    >
+      <tr>
+        <th
+          class="bg-gray-50 px-6 py-3 group-first/head:first:rounded-tl-lg group-first/head:last:rounded-tr-lg dark:bg-gray-700"
+        >
+          No header data
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="group/body divide-y"
+    >
+      <tr
+        class="group/row"
+        data-testid="table-row-element"
+      >
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Café
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Naïve
+        </td>
+        <td
+          class="px-6 py-4 group-first/body:group-first/row:first:rounded-tl-lg group-first/body:group-first/row:last:rounded-tr-lg group-last/body:group-last/row:first:rounded-bl-lg group-last/body:group-last/row:last:rounded-br-lg"
+        >
+          Zürich
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

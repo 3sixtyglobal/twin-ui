@@ -6,7 +6,6 @@ import { INFO, ERROR, WARNING, SUCCESS, GRAY } from "../constants/colors";
 /**
  * Alert colors.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AlertColors = {
 	/**
 	 * Info.

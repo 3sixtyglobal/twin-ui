@@ -10,7 +10,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: No setup
+    - name: Run tests
       shell: bash
-      run: |
-        echo "No setup required for this action. It is a placeholder for the testing environment setup."
+      run: npm run test

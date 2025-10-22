@@ -1,0 +1,1062 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with JSX helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with accept attribute 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      accept=".pdf,.doc,.docx"
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 0 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 1 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      disabled=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 2 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 3 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 4 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      required=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 5 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 6 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 7 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      multiple=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all boolean prop combinations > fileinput boolean 8 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all props provided 1`] = `
+<div
+  class="flex complete-class"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      accept=".pdf,.doc,.docx"
+      capture="user"
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 sm:text-base"
+      id="complete-file-input"
+      multiple=""
+      name="complete-upload"
+      required=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all sizes > fileinput size 0 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 sm:text-xs"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all sizes > fileinput size 1 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all sizes > fileinput size 2 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 sm:text-base"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 0 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 1 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      id="custom-id"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 2 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      id=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 3 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 4 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      name="custom-name"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 5 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      name=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 6 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 7 1`] = `
+<div
+  class="flex custom-class"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with all string prop combinations > fileinput string 8 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with array helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with boolean helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with capture attribute 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      capture="environment"
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with complex helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with custom className 1`] = `
+<div
+  class="flex custom-class"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with custom id 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      id="custom-file-input"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with custom name 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      name="file-upload"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with default props 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with disabled prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      disabled=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with empty string className 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with empty string helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with empty string id 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      id=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with empty string name 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      name=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with long helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with mixed content helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with multiple file selection 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      multiple=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null accept 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null capture 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null className 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null disabled 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null id 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null multiple 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null name 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null required 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with null sizing 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with number helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with required prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      required=""
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with special characters in helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with special characters in id 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      id="file-input-<script>alert("test")</script>"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with special characters in name 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      name="file-<script>alert("test")</script>"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined accept 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined capture 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined className 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined disabled 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined id 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined multiple 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined name 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined required 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with undefined sizing 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with unicode characters in helper text 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with unicode characters in id 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      id="文件输入-📁"
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`FileInput > Snapshot Tests > matches snapshot for fileinput with unicode characters in name 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="block w-full overflow-hidden rounded-lg border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 text-sm"
+      name="文件-📁"
+      type="file"
+    />
+  </div>
+</div>
+`;

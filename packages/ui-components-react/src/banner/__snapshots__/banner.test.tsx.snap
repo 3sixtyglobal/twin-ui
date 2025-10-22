@@ -1,0 +1,738 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with JSX children 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <div>
+      <h2>
+        Important Notice
+      </h2>
+      <p>
+        Please read this carefully.
+      </p>
+    </div>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with accessibility attributes in children 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <div
+      aria-live="polite"
+      role="alert"
+    >
+      Important announcement
+    </div>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with all bottom prop combinations > banner bottom false 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    Banner 
+    0
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with all bottom prop combinations > banner bottom true 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed bottom-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-t"
+  >
+    Banner 
+    1
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with array content 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    Hello
+     
+    World
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with boolean content 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with bottom prop false 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    Top banner
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with bottom prop true 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed bottom-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-t"
+  >
+    Bottom banner
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with buttons 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <button>
+      Action 1
+    </button>
+    <button>
+      Action 2
+    </button>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with className in children 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <div
+      class="custom-banner-content"
+    >
+      <p
+        class="text-lg font-bold"
+      >
+        Styled content
+      </p>
+    </div>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with complex nested content 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <div
+      class="flex items-center"
+    >
+      <span
+        class="mr-2"
+      >
+        🔔
+      </span>
+      <div>
+        <strong>
+          New Feature Available!
+        </strong>
+        <p
+          class="text-sm"
+        >
+          Check out our latest updates.
+        </p>
+      </div>
+    </div>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with data attributes in children 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <div
+      data-analytics="banner-click"
+      data-testid="banner-content"
+    >
+      Analytics content
+    </div>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with default props 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    Banner content
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with empty string children 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with form elements 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <form>
+      <input
+        placeholder="Enter email"
+        type="email"
+      />
+      <button
+        type="submit"
+      >
+        Subscribe
+      </button>
+    </form>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with links 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <a
+      href="/help"
+    >
+      Need help?
+    </a>
+    <a
+      href="/contact"
+    >
+      Contact us
+    </a>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with long text content 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    This is a very long banner text that should be handled properly by the banner component and should not break the layout or cause any rendering issues.
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with mixed content types 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <span>
+      Text content
+    </span>
+    42
+    <div>
+      JSX content
+    </div>
+    Array
+     
+    content
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with multiple elements 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <span>
+      First element
+    </span>
+    <span>
+      Second element
+    </span>
+    <div>
+      Third element
+    </div>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with null children 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with number content 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    42
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with special characters 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    Special & Characters: 
+    <script>
+      alert("test")
+    </script>
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with string content 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    Simple banner message
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with undefined children 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner > Snapshot Tests > matches snapshot for banner with unicode characters 1`] = `
+<div
+  data-testid="flowbite-banner"
+  role="banner"
+  tabindex="-1"
+>
+  <div
+    class="fixed top-0 left-0 z-50 flex w-full justify-between border-gray-200 bg-gray-50 p-4 dark:border-gray-600 dark:bg-gray-700 border-b"
+  >
+    Unicode: 你好世界 🚀✨🎉
+    <button
+      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none :ring-cyan-700 border-gray-200 focus:text-cyan-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 dark:border-gray-600 dark:bg-transparent dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white rounded-lg border-0 bg-transparent text-gray-500 dark:text-gray-400"
+      type="button"
+    >
+      <span
+        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+      >
+        <svg
+          data-testid="x-icon"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;

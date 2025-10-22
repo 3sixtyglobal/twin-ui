@@ -290,7 +290,7 @@ const tsRules = {
 	'@typescript-eslint/member-ordering': 'error',
 	'@typescript-eslint/naming-convention': [
 		'error',
-		{ selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
+		{ selector: 'variable', format: ['camelCase', 'UPPER_CASE', 'PascalCase'] },
 		{ selector: 'enumMember', format: ['PascalCase'] },
 		{
 			selector: 'property',

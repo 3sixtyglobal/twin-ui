@@ -6,7 +6,6 @@ import { EXTRA_SMALL, SMALL } from "../constants/sizes";
 /**
  * Badge sizes.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const BadgeSizes = {
 	/**
 	 * Extra small.

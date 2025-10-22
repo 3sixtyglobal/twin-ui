@@ -6,7 +6,6 @@ import { TOP, BOTTOM, LEFT, RIGHT } from "../constants/positions";
 /**
  * Drawer positions.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const DrawerPositions = {
 	/**
 	 * Top.

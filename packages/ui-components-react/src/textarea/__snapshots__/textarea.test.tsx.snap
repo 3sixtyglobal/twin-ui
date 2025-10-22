@@ -1,0 +1,334 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with JSX children 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  [object Object]
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with all props combined 1`] = `
+<textarea
+  aria-label="Combined Textarea"
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 combined-class"
+  cols="80"
+  data-test="combined"
+  disabled=""
+  id="combined-textarea"
+  name="combined-name"
+  placeholder="Combined placeholder"
+  readonly=""
+  required=""
+  rows="10"
+  style="border: 1px solid black;"
+>
+  Combined value
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with boolean children 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  true
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with children content 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  Default text content
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with cols prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  cols="50"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with custom className 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 custom-textarea-class"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with custom id 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  id="custom-textarea-id"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with default props 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with disabled prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  disabled=""
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with empty string className 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with empty string id 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  id=""
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with empty string name 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  name=""
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with empty string placeholder 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  placeholder=""
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with empty string value 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with large cols 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  cols="200"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with large rows 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  rows="100"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with long text value 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  This is a very long text value that should be rendered correctly within the textarea component. It contains multiple sentences and should test the component's ability to handle longer content.
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with name prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  name="textarea-name"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with negative cols 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with negative rows 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with null className 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with null id 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with null name 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with null placeholder 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with null value 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with number children 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  42
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with onBlur handler 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with onChange handler 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with onClick handler 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with onFocus handler 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with onMouseOver handler 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with placeholder prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  placeholder="Enter your text here"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with readOnly prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  readonly=""
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with required prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  required=""
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with rows prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  rows="5"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with special characters in name 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  name="special-name_123"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with special characters in placeholder 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  placeholder="Special & Characters: <>&"'\`"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with special characters in value 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  Special & Characters: &lt;&gt;&"'\`
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with undefined className 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with undefined id 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with undefined name 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with undefined placeholder 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with undefined value 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with unicode characters in placeholder 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+  placeholder="Unicode: éàçüö 你好世界 こんにちは世界"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with unicode characters in value 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  Unicode: éàçüö 你好世界 こんにちは世界
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with value prop 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+>
+  Initial text value
+</textarea>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with zero cols 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;
+
+exports[`Textarea > Snapshot Tests > matches snapshot for textarea with zero rows 1`] = `
+<textarea
+  class="block w-full rounded-lg border text-sm disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500"
+/>
+`;

@@ -1,0 +1,328 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with all props combined 1`] = `
+<input
+  checked=""
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600 complete-checkbox-class"
+  id="complete-checkbox-id"
+  label="[object Object]"
+  name="complete-checkbox"
+  required=""
+  type="checkbox"
+  value="complete-value"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with array children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="Label,Part,Two"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with checked prop 1`] = `
+<input
+  checked=""
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with custom className 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600 custom-checkbox-class"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with custom id 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  id="custom-checkbox-id"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with custom props 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  data-custom="test-value"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with disabled prop 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  disabled=""
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with empty className 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with empty id 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  id=""
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with empty name 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  name=""
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with empty string children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label=""
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with empty value 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+  value=""
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with fragment children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="[object Object]"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with long id 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  id="checkbox-with-very-long-id-that-contains-multiple-words-and-should-be-handled-properly-by-the-component"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with long text children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="This is a very long checkbox label that should be handled properly by the component and should not break the layout or functionality"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with multiple classes 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600 class1 class2 class3"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with multiple custom props 1`] = `
+<input
+  aria-label="Custom checkbox"
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  data-another="another-value"
+  data-custom="test-value"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with name prop 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  name="checkbox-name"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with null children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with null className 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with null id 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with null name 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with null value 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with number children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="42"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with required prop 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  required=""
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with special characters in children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="Checkbox with special chars: !@#$%^&*()"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with special characters in id 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  id="checkbox-with-special-chars-!@#$%^&*()"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with special characters in name 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  name="checkbox-name-with-special-chars-!@#$%^&*()"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with special characters in value 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+  value="checkbox-value-with-special-chars-!@#$%^&*()"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with string children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="Simple Label"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with unchecked prop 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with undefined children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with undefined className 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with undefined id 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with undefined name 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with undefined value 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with unicode characters in children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="Checkbox with unicode: ☑️ ✅"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with unicode characters in id 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  id="checkbox-with-unicode-☑️✅"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with value prop 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+  value="checkbox-value"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with whitespace children 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  label="   "
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for checkbox with whitespace in className 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600 spaced-class"
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox - Snapshot Tests > matches snapshot for default checkbox 1`] = `
+<input
+  class="h-4 w-4 rounded border border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 text-cyan-600 focus:ring-cyan-600 dark:ring-offset-gray-800 dark:focus:ring-cyan-600"
+  type="checkbox"
+/>
+`;

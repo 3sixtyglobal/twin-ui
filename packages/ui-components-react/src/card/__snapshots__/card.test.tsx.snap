@@ -1,0 +1,1593 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card - Snapshot Tests > matches snapshot for basic card 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Basic Card
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with JSX content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with JSX Content
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      <div>
+        <strong>
+          Bold content
+        </strong>
+         and 
+        <em>
+          italic content
+        </em>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all badge positions > card with bottom-left badge 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute left-2 bottom-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r22:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              bottom-left badge
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with bottom-left badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all badge positions > card with bottom-right badge 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute right-2 bottom-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r21:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              bottom-right badge
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with bottom-right badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all badge positions > card with inline badge 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with inline badge
+      <div
+        class="ml-2"
+      >
+        <div
+          class="flex flex-wrap gap-2"
+        >
+          <span
+            class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+            data-testid="flowbite-badge"
+            id="badge-:r23:"
+          >
+            <span>
+              <span
+                class="font-medium "
+              >
+                inline badge
+              </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all badge positions > card with top-left badge 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute left-2 top-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r20:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              top-left badge
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with top-left badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all badge positions > card with top-right badge 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute right-2 top-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r19:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              top-right badge
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with top-right badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all features 1`] = `
+<a
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col hover:bg-gray-100 dark:hover:bg-gray-700 relative max-w-sm"
+  data-testid="flowbite-card"
+  href="/complete-card"
+>
+  <img
+    alt="Complete card"
+    class="rounded-t-lg"
+    data-testid="flowbite-card-image"
+    src="complete.jpg"
+  />
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute right-2 top-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r18:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              Complete
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Complete Card
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      This is a complete card with all features
+    </div>
+    <div
+      class="flex flex-wrap gap-2"
+    >
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            Action
+          </div>
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all icon positions > card with left icon 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2 flex items-center gap-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+      <h5
+        class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+      >
+        Card with left icon
+      </h5>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all icon positions > card with top icon 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with top icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with all icon positions > card with top-absolute icon 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute left-2 top-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with top-absolute icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with array content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Array Content Card
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      Item 1
+      Item 2
+      Item 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with badge in bottom-left position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute left-2 bottom-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r16:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              Hot
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with badge in bottom-right position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute right-2 bottom-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r15:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              Sale
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with badge in inline position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Badge
+      <div
+        class="ml-2"
+      >
+        <div
+          class="flex flex-wrap gap-2"
+        >
+          <span
+            class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+            data-testid="flowbite-badge"
+            id="badge-:r17:"
+          >
+            <span>
+              <span
+                class="font-medium "
+              >
+                Inline Badge
+              </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with badge in top-left position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute left-2 top-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r14:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              Featured
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with badge in top-right position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute right-2 top-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r13:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              New
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with boolean content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Boolean Content Card
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    />
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with button click handlers 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Clickable Button
+    </h5>
+    <div
+      class="flex flex-wrap gap-2"
+    >
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            Clickable
+          </div>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with buttons 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Buttons
+    </h5>
+    <div
+      class="flex flex-wrap gap-2"
+    >
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            Primary
+          </div>
+        </span>
+      </button>
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            Secondary
+          </div>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with children as title 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card Title from Children
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with children as title when no title provided 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      This should be rendered as title
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with complex badge props 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute right-2 top-2"
+    >
+      <div
+        class="flex flex-wrap gap-2"
+      >
+        <span
+          class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1.5 text-sm border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
+          data-testid="flowbite-badge"
+          id="badge-:r24:"
+        >
+          <span>
+            <span
+              class="font-medium "
+            >
+              Complex Badge
+            </span>
+            <button
+              aria-label="Remove"
+              class="ms-2 inline-flex items-center bg-transparent align-middle sm"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-3 w-3"
+                fill="none"
+                viewBox="0 0 14 14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <span
+                class="sr-only"
+              >
+                Remove badge
+              </span>
+            </button>
+          </span>
+        </span>
+      </div>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Complex Badge
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with complex button props 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Complex Button
+    </h5>
+    <div
+      class="flex flex-wrap gap-2"
+    >
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 dark:focus:ring-green-800 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-success dark:bg-success hover:enabled:bg-system-success-tints-600 dark:hover:enabled:bg-system-success-tints-600 focus:ring-system-success-tints-200 rounded-lg"
+        type="button"
+      >
+        <span
+          class="items-stretch flex w-full justify-center bg-white text-gray-900 transition-all duration-75 ease-in group-enabled:group-hover:bg-opacity-0 group-enabled:group-hover:text-inherit dark:bg-gray-900 dark:text-white rounded-md px-3 py-1.5 text-sm border border-transparent"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            Complex Button
+          </div>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with complex content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Complex Content Card
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      <div>
+        <h3>
+          Subtitle
+        </h3>
+        <p>
+          This is a paragraph with 
+          <strong>
+            bold text
+          </strong>
+           and 
+          <em>
+            italic text
+          </em>
+          .
+        </p>
+        <ul>
+          <li>
+            List item 1
+          </li>
+          <li>
+            List item 2
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Content
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      This is the content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with different icon sizes > card with lg icon 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with lg icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with different icon sizes > card with md icon 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with md icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with different icon sizes > card with sm icon 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with sm icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with different icon sizes > card with xl icon 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with xl icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with empty content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Empty Content Card
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with empty title and children 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      Content with empty title
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with fragment content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Fragment Content Card
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      <span>
+        Fragment
+      </span>
+      <span>
+        Content
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with horizontal layout 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col md:max-w-xl md:flex-row relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <img
+    alt="Test"
+    class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+    data-testid="flowbite-card-image"
+    src="test.jpg"
+  />
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Horizontal Card
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with href 1`] = `
+<a
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col hover:bg-gray-100 dark:hover:bg-gray-700 relative max-w-sm"
+  data-testid="flowbite-card"
+  href="/test-link"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Clickable Card
+    </h5>
+  </div>
+</a>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with icon and custom className 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Custom Icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with icon in left position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2 flex items-center gap-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+      <h5
+        class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+      >
+        Card with Icon
+      </h5>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with icon in top position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with icon in top-absolute position 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="absolute left-2 top-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Icon
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with image 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <img
+    alt="Test image"
+    class="rounded-t-lg"
+    data-testid="flowbite-card-image"
+    src="test-image.jpg"
+  />
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Image
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with long text content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Long Text Card
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      This is a very long text content that should be handled properly by the card component and should not break the layout or cause any issues with rendering.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with multiple buttons 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Multi Button Card
+    </h5>
+    <div
+      class="flex flex-wrap gap-2"
+    >
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            Edit
+          </div>
+        </span>
+      </button>
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-error dark:bg-error hover:enabled:bg-system-error-tints-600 dark:hover:enabled:bg-system-error-tints-600 focus:ring-system-error-tints-200 rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            Delete
+          </div>
+        </span>
+      </button>
+      <button
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          <div
+            class="inline-flex items-center justify-center"
+          >
+            View
+          </div>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with multiple icons 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="mb-2"
+    >
+      <svg
+        data-testid="mock-icon"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <circle
+          cx="8"
+          cy="8"
+          fill="currentColor"
+          r="4"
+        />
+      </svg>
+    </div>
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Card with Multiple Icons
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with no title and no children 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      Only content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with null content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Null Content Card
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with number content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Number Content Card
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      42
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with title taking precedence over children 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Title Takes Precedence
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with undefined content 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      Undefined Content Card
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with whitespace children 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+       
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      Content with whitespace children
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card - Snapshot Tests > matches snapshot for card with whitespace title 1`] = `
+<div
+  class="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col relative max-w-sm"
+  data-testid="flowbite-card"
+>
+  <div
+    class="flex h-full flex-col justify-center gap-4 p-6"
+  >
+    <h5
+      class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+         
+    </h5>
+    <div
+      class="font-normal text-gray-700 dark:text-gray-400"
+    >
+      Content with whitespace title
+    </div>
+  </div>
+</div>
+`;

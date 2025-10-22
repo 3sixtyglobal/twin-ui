@@ -1,0 +1,1539 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«rq»-tabpanel-0"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«rq»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+    <button
+      aria-controls="«rq»-tabpanel-1"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«rq»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«rq»-tab-0"
+      class="py-3"
+      hidden=""
+      id="«rq»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«rq»-tab-1"
+      class="py-3"
+      id="«rq»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 2-1"
+        id="tab-panel-1"
+        role="tabpanel"
+      >
+        Content 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab content only 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r1c»-tabpanel-0"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r1c»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+    <button
+      aria-controls="«r1c»-tabpanel-1"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r1c»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+    <button
+      aria-controls="«r1c»-tabpanel-2"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r1c»-tab-2"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 3
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r1c»-tab-0"
+      class="py-3"
+      hidden=""
+      id="«r1c»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r1c»-tab-1"
+      class="py-3"
+      id="«r1c»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 2-1"
+        id="tab-panel-1"
+        role="tabpanel"
+      >
+        Content 2
+      </div>
+    </div>
+    <div
+      aria-labelledby="«r1c»-tab-2"
+      class="py-3"
+      hidden=""
+      id="«r1c»-tabpanel-2"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with all props combined 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Combined tabs"
+    class="flex w-full text-center flex-wrap space-x-2 text-sm font-medium text-gray-500 dark:text-gray-400"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r1b»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-lg bg-cyan-600 text-white"
+      id="«r1b»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        data-testid="mock-icon"
+      >
+        Icon
+      </div>
+      Tab 1
+    </button>
+    <button
+      aria-controls="«r1b»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark"
+      disabled=""
+      id="«r1b»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+    <button
+      aria-controls="«r1b»-tabpanel-2"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-lg hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-800 dark:hover:text-white"
+      id="«r1b»-tab-2"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 3
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r1b»-tab-0"
+      class="py-3"
+      id="«r1b»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+    <div
+      aria-labelledby="«r1b»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«r1b»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r1b»-tab-2"
+      class="py-3"
+      hidden=""
+      id="«r1b»-tabpanel-2"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with array content 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r18»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r18»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r18»-tab-0"
+      class="py-3"
+      id="«r18»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Item 1
+        Item 2
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with boolean content 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r16»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r16»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r16»-tab-0"
+      class="py-3"
+      id="«r16»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with complex content 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«ru»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«ru»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«ru»-tab-0"
+      class="py-3"
+      id="«ru»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        <div>
+          <h3>
+            Complex Content
+          </h3>
+          <p>
+            This is complex JSX content
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with content when not loading 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r1e»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r1e»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r1e»-tab-0"
+      class="py-3"
+      id="«r1e»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-busy="false"
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with custom aria-label 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Custom tabs"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«rp»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«rp»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«rp»-tab-0"
+      class="py-3"
+      id="«rp»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with custom variant 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center -mb-px flex-wrap border-b border-surface-primary dark:surface-primary-dark"
+    role="tablist"
+  >
+    <button
+      aria-controls="«ro»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark font-bold relative after:absolute after:bottom-[-2px] after:left-1/4 after:w-1/2 after:border-b-2 after:border-brand-primary text-brand-primary"
+      id="«ro»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«ro»-tab-0"
+      class="py-3"
+      id="«ro»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with default props 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«rn»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«rn»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+    <button
+      aria-controls="«rn»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«rn»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«rn»-tab-0"
+      class="py-3"
+      id="«rn»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+    <div
+      aria-labelledby="«rn»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«rn»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with disabled tab 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«rr»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«rr»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+    <button
+      aria-controls="«rr»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg"
+      disabled=""
+      id="«rr»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«rr»-tab-0"
+      class="py-3"
+      id="«rr»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+    <div
+      aria-labelledby="«rr»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«rr»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with empty items array 1`] = `null`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with empty string titles 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r13»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r13»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    />
+    <button
+      aria-controls="«r13»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r13»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r13»-tab-0"
+      class="py-3"
+      id="«r13»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab--0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+    <div
+      aria-labelledby="«r13»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«r13»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with icon 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«rs»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«rs»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        data-testid="mock-icon"
+      >
+        Icon
+      </div>
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«rs»-tab-0"
+      class="py-3"
+      id="«rs»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with loading placeholder when loading 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r1d»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r1d»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r1d»-tab-0"
+      class="py-3"
+      id="«r1d»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-busy="true"
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Loading content...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with loading state 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«rt»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«rt»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«rt»-tab-0"
+      class="py-3"
+      id="«rt»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-busy="true"
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with long titles 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r12»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r12»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      This is a very long tab title that should be rendered correctly within the tabs component
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r12»-tab-0"
+      class="py-3"
+      id="«r12»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-This is a very long tab title that should be rendered correctly within the tabs component-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r10»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r10»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-2"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-2"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 3
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-3"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-3"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 4
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-4"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-4"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 5
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-5"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-5"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 6
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-6"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-6"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 7
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-7"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-7"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 8
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-8"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-8"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 9
+    </button>
+    <button
+      aria-controls="«r10»-tabpanel-9"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r10»-tab-9"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 10
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r10»-tab-0"
+      class="py-3"
+      id="«r10»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+    <div
+      aria-labelledby="«r10»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-2"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-2"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-3"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-3"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-4"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-4"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-5"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-5"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-6"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-6"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-7"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-7"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-8"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-8"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r10»-tab-9"
+      class="py-3"
+      hidden=""
+      id="«r10»-tabpanel-9"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content types 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r19»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r19»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+    <button
+      aria-controls="«r19»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r19»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+    <button
+      aria-controls="«r19»-tabpanel-2"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r19»-tab-2"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 3
+    </button>
+    <button
+      aria-controls="«r19»-tabpanel-3"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r19»-tab-3"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 4
+    </button>
+    <button
+      aria-controls="«r19»-tabpanel-4"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r19»-tab-4"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 5
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r19»-tab-0"
+      class="py-3"
+      id="«r19»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Text content
+      </div>
+    </div>
+    <div
+      aria-labelledby="«r19»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«r19»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r19»-tab-2"
+      class="py-3"
+      hidden=""
+      id="«r19»-tabpanel-2"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r19»-tab-3"
+      class="py-3"
+      hidden=""
+      id="«r19»-tabpanel-3"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="«r19»-tab-4"
+      class="py-3"
+      hidden=""
+      id="«r19»-tabpanel-4"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with null content 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r14»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r14»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r14»-tab-0"
+      class="py-3"
+      id="«r14»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with null items 1`] = `null`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with number content 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r17»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r17»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r17»-tab-0"
+      class="py-3"
+      id="«r17»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        42
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with onActiveTabChange handler 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r1a»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r1a»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+    <button
+      aria-controls="«r1a»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r1a»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 2
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r1a»-tab-0"
+      class="py-3"
+      id="«r1a»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+    <div
+      aria-labelledby="«r1a»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«r1a»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with single item 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«rv»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«rv»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Single Tab
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«rv»-tab-0"
+      class="py-3"
+      id="«rv»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Single Tab-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Single Content
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with special characters in titles 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r11»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r11»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Special & Characters: &lt;&gt;&"'\`
+    </button>
+    <button
+      aria-controls="«r11»-tabpanel-1"
+      aria-selected="false"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+      id="«r11»-tab-1"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Unicode: éàçüö 你好世界
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r11»-tab-0"
+      class="py-3"
+      id="«r11»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Special & Characters: <>&"'\`-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      >
+        Content 1
+      </div>
+    </div>
+    <div
+      aria-labelledby="«r11»-tab-1"
+      class="py-3"
+      hidden=""
+      id="«r11»-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with undefined content 1`] = `
+<div
+  class="flex flex-col gap-2"
+>
+  <div
+    aria-label="Tabs navigation"
+    class="flex w-full text-center flex-wrap border-b border-gray-200 dark:border-gray-700"
+    role="tablist"
+  >
+    <button
+      aria-controls="«r15»-tabpanel-0"
+      aria-selected="true"
+      class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
+      id="«r15»-tab-0"
+      role="tab"
+      style="z-index: 1;"
+      tabindex="-1"
+      type="button"
+    >
+      Tab 1
+    </button>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      aria-labelledby="«r15»-tab-0"
+      class="py-3"
+      id="«r15»-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        aria-labelledby="tab-Tab 1-0"
+        id="tab-panel-0"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs > Snapshot Tests > matches snapshot for tabs with undefined items 1`] = `null`;

@@ -6,7 +6,6 @@ import { EXTRA_SMALL, SMALL, MEDIUM, LARGE, EXTRA_LARGE } from "../constants/siz
 /**
  * Spinner sizes.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const SpinnerSizes = {
 	/**
 	 * Extra Small.
@@ -35,6 +34,6 @@ export const SpinnerSizes = {
 } as const;
 
 /**
- * Spinner sizes.
+ * Spinner size type.
  */
 export type SpinnerSize = (typeof SpinnerSizes)[keyof typeof SpinnerSizes];

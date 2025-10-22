@@ -6,7 +6,6 @@ import { HOVER, CLICK } from "../constants/triggers";
 /**
  * Tooltip triggers.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const TooltipTriggers = {
 	/**
 	 * Hover.
@@ -22,4 +21,4 @@ export const TooltipTriggers = {
 /**
  * Tooltip triggers.
  */
-export type TooltipTriggers = (typeof TooltipTriggers)[keyof typeof TooltipTriggers];
+export type TooltipTrigger = (typeof TooltipTriggers)[keyof typeof TooltipTriggers];

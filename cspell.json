@@ -9,6 +9,10 @@
 		"**/docs/reference/**",
 		"**/docs/open-api/**",
 		"**/tests/**",
+		"**/__snapshots__/**",
+		"**/*.test.tsx",
+		"**/test/mocks/**",
+		"**/scripts/coverage.mjs",
 		"*.yaml",
 		"*.svg",
 		"package.json",
@@ -23,7 +27,9 @@
 		"figma.json"
 	],
 	"words": [
+		"AARRGGBB",
 		"abbrev",
+		"ARGB",
 		"autorelease",
 		"bech",
 		"bindable",
@@ -45,6 +51,7 @@
 		"Noto",
 		"openapi",
 		"Popover",
+		"RRGGBB",
 		"scylladb",
 		"secp",
 		"Segoe",

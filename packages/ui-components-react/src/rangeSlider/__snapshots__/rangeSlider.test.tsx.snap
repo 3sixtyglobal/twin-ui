@@ -1,0 +1,469 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with additional props 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      data-custom="value"
+      data-testid="custom-rangeslider"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with all props combined 1`] = `
+<div
+  class="flex custom-rangeslider"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-3"
+      disabled=""
+      id="volume-slider"
+      max="100"
+      min="0"
+      name="volume"
+      required=""
+      type="range"
+      value="75"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with aria attributes 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      aria-label="Volume control"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="50"
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      role="slider"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with boolean props 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      required=""
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with custom className 1`] = `
+<div
+  class="flex custom-rangeslider"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with decimal values 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      max="1"
+      min="0.1"
+      type="range"
+      value="0.5"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with default props 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with different sizing values 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-1"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with different sizing values 2`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with different sizing values 3`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-3"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with disabled prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      disabled=""
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with edge case values 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      max="100"
+      min="-100"
+      type="range"
+      value="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with empty string value 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with id prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      id="rangeslider-1"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with large values 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      max="10000"
+      min="0"
+      type="range"
+      value="5000"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with max prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      max="100"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with min and max props 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      max="90"
+      min="10"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with min prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      min="0"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with multiple event handlers 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with name prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      name="volume"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with null value 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with required prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      required=""
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with sizing prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-1"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with step prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      step="5"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with style prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      style="background-color: red; width: 200px;"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with undefined value 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+    />
+  </div>
+</div>
+`;
+
+exports[`RangeSlider > Snapshot Tests > matches snapshot for rangeslider with value prop 1`] = `
+<div
+  class="flex"
+  data-testid="flowbite-range-slider"
+>
+  <div
+    class="relative w-full"
+  >
+    <input
+      class="w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700 h-2"
+      type="range"
+      value="50"
+    />
+  </div>
+</div>
+`;

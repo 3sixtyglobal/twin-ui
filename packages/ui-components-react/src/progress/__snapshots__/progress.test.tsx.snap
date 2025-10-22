@@ -1,0 +1,1843 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > blue color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4o»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-information dark:bg-information h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > dark color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4n»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-primary dark:bg-primary h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > green color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4i»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-success dark:bg-success h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > indigo color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4m»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-indigo-600 dark:bg-indigo-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > orange color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4g»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-brand-primary dark:bg-brand-primary h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > pink color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4k»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-error dark:bg-error h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > primary color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4h»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > purple color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4l»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-purple-600 dark:bg-purple-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all color variants > yellow color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4j»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-warning dark:bg-warning h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all props combined 1`] = `
+<div
+  aria-label="Complete"
+  aria-valuenow="85"
+  id="«r3q»"
+  role="progressbar"
+>
+  <div
+    class="mb-1 flex justify-between font-medium dark:text-white"
+    data-testid="flowbite-progress-outer-label-container"
+  >
+    <span
+      data-testid="flowbite-progress-outer-text-label"
+    >
+      Complete
+    </span>
+  </div>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4 complete-progress-class"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-success dark:bg-success h-4"
+      style="width: 85%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-progress-label"
+      >
+        85
+        %
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg blue progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5j»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-information dark:bg-information h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg dark progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5i»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-primary dark:bg-primary h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg green progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5d»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-success dark:bg-success h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg indigo progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5h»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-indigo-600 dark:bg-indigo-600 h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg orange progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5b»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-brand-primary dark:bg-brand-primary h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg pink progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5f»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-error dark:bg-error h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg primary progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5c»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg purple progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5g»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-purple-600 dark:bg-purple-600 h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > lg yellow progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5e»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-warning dark:bg-warning h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md blue progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5a»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-information dark:bg-information h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md dark progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r59»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-primary dark:bg-primary h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md green progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r54»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-success dark:bg-success h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md indigo progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r58»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-indigo-600 dark:bg-indigo-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md orange progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r52»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-brand-primary dark:bg-brand-primary h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md pink progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r56»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-error dark:bg-error h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md primary progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r53»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md purple progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r57»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-purple-600 dark:bg-purple-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > md yellow progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r55»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-warning dark:bg-warning h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm blue progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r51»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-information dark:bg-information h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm dark progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r50»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-primary dark:bg-primary h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm green progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4r»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-success dark:bg-success h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm indigo progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4v»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-indigo-600 dark:bg-indigo-600 h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm orange progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4p»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-brand-primary dark:bg-brand-primary h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm pink progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4t»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-error dark:bg-error h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm primary progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4q»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm purple progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4u»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-purple-600 dark:bg-purple-600 h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > sm yellow progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4s»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-warning dark:bg-warning h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl blue progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5s»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-information dark:bg-information h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl dark progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5r»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-primary dark:bg-primary h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl green progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5m»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-success dark:bg-success h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl indigo progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5q»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-indigo-600 dark:bg-indigo-600 h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl orange progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5k»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-brand-primary dark:bg-brand-primary h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl pink progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5o»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-error dark:bg-error h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl primary progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5l»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl purple progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5p»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-purple-600 dark:bg-purple-600 h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size and color combinations > xl yellow progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5n»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-warning dark:bg-warning h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size variants > lg size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4e»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size variants > md size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4d»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size variants > sm size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4c»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with all size variants > xl size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r4f»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with both labels 1`] = `
+<div
+  aria-label="Processing..."
+  aria-valuenow="80"
+  id="«r3n»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 80%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-text-label"
+      >
+        Processing...
+      </span>
+      <span
+        data-testid="flowbite-progress-inner-progress-label"
+      >
+        80
+        %
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with custom className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="75"
+  id="«r32»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5 custom-progress-class"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 75%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with custom props 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  data-custom="test-value"
+  id="«r5t»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal progress values > 25.5 decimal progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="25.5"
+  id="«r42»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 25.5%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal progress values > 33.33 decimal progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="33.33"
+  id="«r43»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 33.33%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal progress values > 66.67 decimal progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="66.67"
+  id="«r44»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 66.67%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal progress values > 99.99 decimal progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="99.99"
+  id="«r45»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 99.99%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > blue color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3k»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-information dark:bg-information h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > dark color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3j»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-primary dark:bg-primary h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > green color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3e»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-success dark:bg-success h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > indigo color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3i»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-indigo-600 dark:bg-indigo-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > orange color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3c»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-brand-primary dark:bg-brand-primary h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > pink color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3g»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-error dark:bg-error h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > primary color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3d»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-surface-brand-secondary-1 dark:bg-surface-brand-secondary-1 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > purple color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3h»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-purple-600 dark:bg-purple-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different colors > yellow color progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3f»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-warning dark:bg-warning h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different label positions > inside label position progress 1`] = `
+<div
+  aria-label="Test"
+  aria-valuenow="50"
+  id="«r3o»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-text-label"
+      >
+        Test
+      </span>
+      <span
+        data-testid="flowbite-progress-inner-progress-label"
+      >
+        50
+        %
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different label positions > outside label position progress 1`] = `
+<div
+  aria-label="Test"
+  aria-valuenow="50"
+  id="«r3p»"
+  role="progressbar"
+>
+  <div
+    class="mb-1 flex justify-between font-medium dark:text-white"
+    data-testid="flowbite-progress-outer-label-container"
+  >
+    <span
+      data-testid="flowbite-progress-outer-text-label"
+    >
+      Test
+    </span>
+    <span
+      data-testid="flowbite-progress-outer-progress-label"
+    >
+      50
+      %
+    </span>
+  </div>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different progress values > 0 progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="0"
+  id="«r33»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 0%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different progress values > 25 progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="25"
+  id="«r34»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 25%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different progress values > 50 progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r35»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different progress values > 75 progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="75"
+  id="«r36»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 75%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different progress values > 100 progress value 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="100"
+  id="«r37»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 100%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different sizes > lg size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3a»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-4"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-4"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different sizes > md size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r39»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different sizes > sm size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r38»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-1.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-1.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with different sizes > xl size progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r3b»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-6"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-6"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with empty className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="20"
+  id="«r3t»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 20%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with empty text label 1`] = `
+<div
+  aria-label=""
+  aria-valuenow="50"
+  id="«r47»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with label progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="60"
+  id="«r3l»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 60%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-progress-label"
+      >
+        60
+        %
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with label text 1`] = `
+<div
+  aria-label="Loading..."
+  aria-valuenow="40"
+  id="«r3m»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 40%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-text-label"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with long className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r61»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5 progress-with-very-long-class-name-that-contains-multiple-words-and-should-be-handled-properly-by-the-component"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with long text label 1`] = `
+<div
+  aria-label="This is a very long text label that should be handled properly by the progress component and should not break the layout"
+  aria-valuenow="50"
+  id="«r46»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-text-label"
+      >
+        This is a very long text label that should be handled properly by the progress component and should not break the layout
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with maximum progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="100"
+  id="«r41»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 100%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with multiple classes 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="30"
+  id="«r3r»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5 class1 class2 class3"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 30%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with multiple custom props 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  data-another="another-value"
+  data-custom="test-value"
+  id="custom-progress-id"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with null className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="65"
+  id="«r3v»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 65%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with null text label 1`] = `
+<div
+  aria-valuenow="50"
+  id="«r49»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with required progress prop 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r31»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with special characters in className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r5v»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5 progress-with-special-chars-!@#$%^&*()"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with special characters in text label 1`] = `
+<div
+  aria-label="Progress: 50% (1/2)"
+  aria-valuenow="50"
+  id="«r4a»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-text-label"
+      >
+        Progress: 50% (1/2)
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with undefined className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="35"
+  id="«r3u»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 35%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with undefined text label 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r48»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-text-label"
+      >
+        progressbar
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with unicode characters in className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="50"
+  id="«r60»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5 progress-with-unicode-🚀✨🎉"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with unicode characters in text label 1`] = `
+<div
+  aria-label="Loading... ⏳"
+  aria-valuenow="50"
+  id="«r4b»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 50%;"
+    >
+      <span
+        data-testid="flowbite-progress-inner-text-label"
+      >
+        Loading... ⏳
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with whitespace in className 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="45"
+  id="«r3s»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5 spaced-class"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 45%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress - Snapshot Tests > matches snapshot for progress with zero progress 1`] = `
+<div
+  aria-label="progressbar"
+  aria-valuenow="0"
+  id="«r40»"
+  role="progressbar"
+>
+  <div
+    class="w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 h-2.5"
+  >
+    <div
+      class="flex items-center justify-center space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100 bg-cyan-600 h-2.5"
+      style="width: 0%;"
+    />
+  </div>
+</div>
+`;

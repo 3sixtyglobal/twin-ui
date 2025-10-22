@@ -1,0 +1,2151 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with CTA 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class="mt-6"
+          data-testid="sidebar-cta"
+        >
+          <div
+            data-testid="cta-content"
+          >
+            Call to Action
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with active items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1d»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 text-brand-primary"
+                  href="/home"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1d»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Home
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1e»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/about"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1e»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        About
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with additional props 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with all props combined 1`] = `
+<nav
+  aria-label="Complete Sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class="mb-2"
+          data-testid="sidebar-header"
+        >
+          <div
+            data-testid="header-content"
+          >
+            Header
+          </div>
+        </div>
+        <a
+          aria-labelledby="flowbite-sidebar-logo-«r24»"
+          class="mb-5 flex items-center pl-2.5"
+          href="/home"
+        >
+          <img
+            alt="Brand Logo"
+            class="mr-3 h-6 sm:h-7"
+            src="/logo.png"
+          />
+          <span
+            class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
+            id="flowbite-sidebar-logo-«r24»"
+          >
+            My Brand
+          </span>
+        </a>
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r25»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 text-brand-primary"
+                  href="/home"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r25»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Home
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r26»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/about"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r26»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        About
+                      </span>
+                      <span
+                        class="inline-flex h-6 min-w-[24px] items-center justify-center rounded-full px-2 text-xs font-medium bg-surface-gray-100 !text-gray-100 text-white"
+                      >
+                        5
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div
+          class="mt-6"
+          data-testid="sidebar-cta"
+        >
+          <div
+            data-testid="cta-content"
+          >
+            CTA
+          </div>
+        </div>
+        <div
+          data-testid="children-content"
+        >
+          Children
+        </div>
+      </div>
+      <div
+        class="flex-shrink-0"
+        data-testid="sidebar-footer"
+      >
+        <div
+          data-testid="footer-content"
+        >
+          Footer
+        </div>
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r27»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/help"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r27»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Help
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r28»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/contact"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r28»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Contact
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with basic items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r19»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/home"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r19»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Home
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1a»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/about"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1a»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        About
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with children 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          data-testid="children-content"
+        >
+          Children Content
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with complex nested structure 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r20»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 text-brand-primary"
+                  href="/dashboard"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r20»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Dashboard
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li>
+                <button
+                  class="group flex w-full items-center rounded-lg p-2 text-base font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  id="flowbite-sidebar-collapse-«r21»"
+                  title="Settings"
+                  type="button"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                  <span
+                    class="ml-3 flex-1 whitespace-nowrap text-left"
+                    data-testid="flowbite-sidebar-collapse-label"
+                  >
+                    Settings
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 transition delay-0 ease-in-out"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <ul
+                  aria-labelledby="flowbite-sidebar-collapse-«r21»"
+                  class="space-y-2 py-2"
+                  hidden=""
+                >
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r22»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        href="/profile"
+                      >
+                        <div
+                          data-testid="mock-icon"
+                        >
+                          Icon
+                        </div>
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r22»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Profile
+                            </span>
+                            <span
+                              class="inline-flex h-6 min-w-[24px] items-center justify-center rounded-full px-2 text-xs font-medium bg-surface-gray-100 !text-gray-100 text-white"
+                            >
+                              New
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r23»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        disabled=""
+                        href="/account"
+                      >
+                        <div
+                          data-testid="mock-icon"
+                        >
+                          Icon
+                        </div>
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r23»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Account
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with custom aria-label 1`] = `
+<nav
+  aria-label="Custom sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with default props 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with disabled items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1f»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  disabled=""
+                  href="/home"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1f»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Home
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1g»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/about"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1g»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        About
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with disabled nested items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li>
+                <button
+                  class="group flex w-full items-center rounded-lg p-2 text-base font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  disabled=""
+                  id="flowbite-sidebar-collapse-«r1p»"
+                  title="Settings"
+                  type="button"
+                >
+                  <span
+                    class="ml-3 flex-1 whitespace-nowrap text-left"
+                    data-testid="flowbite-sidebar-collapse-label"
+                  >
+                    Settings
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 transition delay-0 ease-in-out"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <ul
+                  aria-labelledby="flowbite-sidebar-collapse-«r1p»"
+                  class="space-y-2 py-2"
+                  hidden=""
+                >
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r1q»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        href="/profile"
+                      >
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r1q»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Profile
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r1r»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        href="/account"
+                      >
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r1r»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Account
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with empty footer items array 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+      <div
+        class="flex-shrink-0"
+        data-testid="sidebar-footer"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with empty items array 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with empty string hrefs 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2g»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href=""
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2g»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Home
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2h»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/about"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2h»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        About
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with empty string labels 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2e»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/empty"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2e»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span />
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2f»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/normal"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2f»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Normal
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with footer content 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+      <div
+        class="flex-shrink-0"
+        data-testid="sidebar-footer"
+      >
+        <div
+          data-testid="footer-content"
+        >
+          Footer Content
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with footer content and footer items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+      <div
+        class="flex-shrink-0"
+        data-testid="sidebar-footer"
+      >
+        <div
+          data-testid="footer-content"
+        >
+          Footer Content
+        </div>
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1u»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/help"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1u»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Help
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1v»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/contact"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1v»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Contact
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with footer items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+      <div
+        class="flex-shrink-0"
+        data-testid="sidebar-footer"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1s»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/help"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1s»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Help
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1t»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/contact"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1t»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Contact
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with header 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class="mb-2"
+          data-testid="sidebar-header"
+        >
+          <div
+            data-testid="header-content"
+          >
+            Header Content
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with items with badges 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1h»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/home"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1h»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Home
+                      </span>
+                      <span
+                        class="inline-flex h-6 min-w-[24px] items-center justify-center rounded-full px-2 text-xs font-medium bg-surface-gray-100 !text-gray-100 text-white"
+                      >
+                        5
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1i»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/about"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1i»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        About
+                      </span>
+                      <span
+                        class="inline-flex h-6 min-w-[24px] items-center justify-center rounded-full px-2 text-xs font-medium bg-surface-gray-100 !text-gray-100 text-white"
+                      >
+                        New
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with items with icons 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1b»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/home"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1b»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Home
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r1c»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/about"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r1c»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        About
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with logo 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <a
+          aria-labelledby="flowbite-sidebar-logo-«r16»"
+          class="mb-5 flex items-center pl-2.5"
+          href="/home"
+        >
+          <img
+            alt="Brand Logo"
+            class="mr-3 h-6 sm:h-7"
+            src="/logo.png"
+          />
+          <span
+            class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
+            id="flowbite-sidebar-logo-«r16»"
+          >
+            My Brand
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with logo without href 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <a
+          aria-labelledby="flowbite-sidebar-logo-«r17»"
+          class="mb-5 flex items-center pl-2.5"
+          href="#"
+        >
+          <img
+            alt="Brand Logo"
+            class="mr-3 h-6 sm:h-7"
+            src="/logo.png"
+          />
+          <span
+            class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
+            id="flowbite-sidebar-logo-«r17»"
+          >
+            My Brand
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with logo without imgAlt 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <a
+          aria-labelledby="flowbite-sidebar-logo-«r18»"
+          class="mb-5 flex items-center pl-2.5"
+          href="/home"
+        >
+          <img
+            alt=""
+            class="mr-3 h-6 sm:h-7"
+            src="/logo.png"
+          />
+          <span
+            class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
+            id="flowbite-sidebar-logo-«r18»"
+          >
+            My Brand
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with long labels 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2d»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/long"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2d»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        This is a very long label that should be rendered correctly
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with nested items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li>
+                <button
+                  class="group flex w-full items-center rounded-lg p-2 text-base font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  id="flowbite-sidebar-collapse-«r1j»"
+                  title="Settings"
+                  type="button"
+                >
+                  <span
+                    class="ml-3 flex-1 whitespace-nowrap text-left"
+                    data-testid="flowbite-sidebar-collapse-label"
+                  >
+                    Settings
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 transition delay-0 ease-in-out"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <ul
+                  aria-labelledby="flowbite-sidebar-collapse-«r1j»"
+                  class="space-y-2 py-2"
+                  hidden=""
+                >
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r1k»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        href="/profile"
+                      >
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r1k»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Profile
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r1l»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        href="/account"
+                      >
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r1l»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Account
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with nested items with icons 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li>
+                <button
+                  class="group flex w-full items-center rounded-lg p-2 text-base font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  id="flowbite-sidebar-collapse-«r1m»"
+                  title="Settings"
+                  type="button"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                  <span
+                    class="ml-3 flex-1 whitespace-nowrap text-left"
+                    data-testid="flowbite-sidebar-collapse-label"
+                  >
+                    Settings
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 transition delay-0 ease-in-out"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <ul
+                  aria-labelledby="flowbite-sidebar-collapse-«r1m»"
+                  class="space-y-2 py-2"
+                  hidden=""
+                >
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r1n»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        href="/profile"
+                      >
+                        <div
+                          data-testid="mock-icon"
+                        >
+                          Icon
+                        </div>
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r1n»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Profile
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                  <div>
+                    <li
+                      class=""
+                    >
+                      <a
+                        aria-labelledby="flowbite-sidebar-item-«r1o»"
+                        class="flex items-center justify-center rounded-lg p-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 group w-full pl-8 transition duration-75"
+                        href="/account"
+                      >
+                        <div
+                          data-testid="mock-icon"
+                        >
+                          Icon
+                        </div>
+                        <span
+                          class="flex-1 whitespace-nowrap px-3"
+                          data-testid="flowbite-sidebar-item-content"
+                          id="flowbite-sidebar-item-«r1o»"
+                        >
+                          <div
+                            class="flex w-full items-center justify-between"
+                          >
+                            <span>
+                              Account
+                            </span>
+                          </div>
+                        </span>
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with null footer items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with null items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with special characters in labels 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r29»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/special"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r29»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Special & Characters: &lt;&gt;&"'\`
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2a»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/unicode"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2a»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        Unicode: éàçüö
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with style prop 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with undefined footer items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with undefined items 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Sidebar > Snapshot Tests > matches snapshot for sidebar with unicode characters in labels 1`] = `
+<nav
+  aria-label="Navigation sidebar"
+  class="w-64 flex h-full flex-col"
+>
+  <div
+    class="h-full overflow-y-auto overflow-x-hidden rounded bg-surface-main px-3 py-4 dark:bg-secondary"
+  >
+    <div
+      class="flex h-full flex-col"
+    >
+      <div
+        class="flex-grow"
+      >
+        <div
+          class=""
+          data-testid="flowbite-sidebar-items"
+        >
+          <ul
+            class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
+            data-testid="flowbite-sidebar-item-group"
+          >
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2b»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/chinese"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2b»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        你好世界
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+            <div>
+              <li
+                class=""
+              >
+                <a
+                  aria-labelledby="flowbite-sidebar-item-«r2c»"
+                  class="flex items-center justify-center rounded-lg p-2 pl-2 text-base font-normal text-primary hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/japanese"
+                >
+                  <span
+                    class="flex-1 whitespace-nowrap px-3"
+                    data-testid="flowbite-sidebar-item-content"
+                    id="flowbite-sidebar-item-«r2c»"
+                  >
+                    <div
+                      class="flex w-full items-center justify-between"
+                    >
+                      <span>
+                        こんにちは世界
+                      </span>
+                    </div>
+                  </span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

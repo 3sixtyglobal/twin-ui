@@ -1,0 +1,664 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch as checked 1`] = `
+<button
+  aria-checked="true"
+  aria-labelledby="«r17»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r17»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all after:translate-x-full after:border-white rtl:after:-translate-x-full border-surface-button bg-surface-button h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch as enabled when disabled is false 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1f»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1f»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with additional props 1`] = `
+<button
+  aria-checked="false"
+  aria-label="Custom Toggle"
+  aria-labelledby="«r1q»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  data-custom="value"
+  id="«r1q»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with all props combined 1`] = `
+<input
+  checked=""
+  class="sr-only"
+  hidden=""
+  name="combined-toggle"
+  readonly=""
+  type="checkbox"
+/>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with color prop 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1c»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1c»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with custom className 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1a»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer custom-toggle-class"
+  id="«r1a»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with custom id 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r18»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="custom-toggle-id"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with default color when color is undefined 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1d»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1d»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with default id when id is undefined 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r19»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with default props 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r16»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r16»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1t»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1t»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 2`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1u»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1u»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 3`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1v»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1v»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 4`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r20»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r20»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 5`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r21»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r21»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different sizing values 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r22»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r22»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-5 w-9 min-w-9 after:left-px after:top-px after:h-4 after:w-4 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different sizing values 2`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r23»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r23»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different sizing values 3`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r24»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r24»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-7 w-14 min-w-14 after:left-1 after:top-0.5 after:h-6 after:w-6 rtl:after:right-1"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with disabled prop 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1e»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-not-allowed opacity-50"
+  disabled=""
+  id="«r1e»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with empty string label 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1l»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1l»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with empty string name 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r25»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r25»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with empty string value 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r26»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r26»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+  value=""
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with label 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1i»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1i»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+  <span
+    class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
+    data-testid="flowbite-toggleswitch-label"
+    id="«r1i»-flowbite-toggleswitch-label"
+  >
+    Toggle Label
+  </span>
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with label and custom id 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1j»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="custom-id"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+  <span
+    class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
+    data-testid="flowbite-toggleswitch-label"
+    id="«r1j»-flowbite-toggleswitch-label"
+  >
+    Custom Label
+  </span>
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with long label 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1o»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1o»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+  <span
+    class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
+    data-testid="flowbite-toggleswitch-label"
+    id="«r1o»-flowbite-toggleswitch-label"
+  >
+    This is a very long label that should be rendered correctly within the toggle switch component.
+  </span>
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with name prop 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1g»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1g»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with null name 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r27»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r27»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with null value 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r28»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r28»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with onChange callback 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1p»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1p»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with sizing prop 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1b»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1b»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-5 w-9 min-w-9 after:left-px after:top-px after:h-4 after:w-4 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with special characters in label 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1m»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1m»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+  <span
+    class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
+    data-testid="flowbite-toggleswitch-label"
+    id="«r1m»-flowbite-toggleswitch-label"
+  >
+    Special & Characters: &lt;&gt;&"'
+  </span>
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with style prop 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1r»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1r»-flowbite-toggleswitch"
+  role="switch"
+  style="background-color: red; color: blue;"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with undefined name 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r29»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r29»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with undefined value 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r2a»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r2a»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with unicode characters in label 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1n»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1n»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+  <span
+    class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
+    data-testid="flowbite-toggleswitch-label"
+    id="«r1n»-flowbite-toggleswitch-label"
+  >
+    你好世界
+  </span>
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with value prop 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1h»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1h»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+  value="toggle-value"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;
+
+exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch without label when label is not provided 1`] = `
+<button
+  aria-checked="false"
+  aria-labelledby="«r1k»-flowbite-toggleswitch-label"
+  class="group flex rounded-lg focus:outline-none cursor-pointer"
+  id="«r1k»-flowbite-toggleswitch"
+  role="switch"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="relative rounded-full border after:absolute after:rounded-full after:bg-white after:transition-all border-gray-200 bg-gray-200 dark:border-gray-600 dark:bg-gray-700 h-6 w-11 min-w-11 after:left-px after:top-px after:h-5 after:w-5 rtl:after:right-px"
+    data-testid="flowbite-toggleswitch-toggle"
+  />
+</button>
+`;

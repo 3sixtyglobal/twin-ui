@@ -1,0 +1,520 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with JSX children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        <div>
+          <strong>
+            Bold text
+          </strong>
+           and 
+          <em>
+            italic text
+          </em>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with array children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Item 1
+        Item 2
+        Item 3
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with boolean children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with combined props 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-system-success-tints-100 text-system-success-tints-700 dark:bg-system-success-tints-200 dark:text-system-success-tints-800 custom-class additional-class"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Combined props alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with complex nested content 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        <div>
+          <h3>
+            Alert Title
+          </h3>
+          <p>
+            This is a paragraph with 
+            <a
+              href="#"
+            >
+              a link
+            </a>
+             inside.
+          </p>
+          <ul>
+            <li>
+              List item 1
+            </li>
+            <li>
+              List item 2
+            </li>
+          </ul>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with custom className 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800 custom-alert-class"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Custom Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with empty children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with fragment children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        <span>
+          Fragment content 1
+        </span>
+        <span>
+          Fragment content 2
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with long text content 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        This is a very long alert message that contains multiple sentences and should be displayed properly within the alert component. It tests how the component handles lengthy content.
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with null children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with number children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        42
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with special characters 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Alert with special chars: !@#$%^&*()
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with string children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Simple string content
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with undefined children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with unicode characters 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Alert with unicode: 🚨 ⚠️ ✅ ❌
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for alert with whitespace children 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+           
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for all color variants > error color alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-red-100 text-red-700 dark:bg-red-200 dark:text-red-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        error
+         alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for all color variants > gray color alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        gray
+         alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for all color variants > info color alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        info
+         alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for all color variants > success color alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-system-success-tints-100 text-system-success-tints-700 dark:bg-system-success-tints-200 dark:text-system-success-tints-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        success
+         alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for all color variants > warning color alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm dark:text-yellow-800 rounded-lg border-current bg-system-warning-tints-50 dark:bg-system-warning-tints-50 text-warning"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        warning
+         alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for default alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Default Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for error alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-red-100 text-red-700 dark:bg-red-200 dark:text-red-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Error Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for gray alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Gray Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for info alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-blue-100 text-blue-700 dark:bg-blue-200 dark:text-blue-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Info Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for success alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm rounded-lg border-current bg-system-success-tints-100 text-system-success-tints-700 dark:bg-system-success-tints-200 dark:text-system-success-tints-800"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Success Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert - Snapshot Tests > matches snapshot for warning alert 1`] = `
+<div
+  class="flex flex-col gap-2 p-4 text-sm dark:text-yellow-800 rounded-lg border-current bg-system-warning-tints-50 dark:bg-system-warning-tints-50 text-warning"
+  role="alert"
+>
+  <div
+    class="flex items-center"
+    data-testid="flowbite-alert-wrapper"
+  >
+    <div>
+      <span>
+        Warning Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1626 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with JSX content 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r57:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        <div>
+          <span>
+            JSX
+          </span>
+          <strong>
+            Content
+          </strong>
+        </div>
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with all color variants > failure color badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r66:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        failure
+         Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with all color variants > gray color badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r65:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        gray
+         Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with all color variants > info color badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r69:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        info
+         Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with all color variants > success color badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r68:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        success
+         Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with all color variants > warning color badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r67:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        warning
+         Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with all size variants > sm size badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1.5 text-sm border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r71:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        sm
+         Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with all size variants > xs size badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r70:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        xs
+         Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with array content 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r58:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        First
+        Second
+        Third
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with boolean content 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r60:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with custom className 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information custom-badge-class rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r54:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Custom Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with empty content 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r61:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with icon 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r52:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        Badge with Icon
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with long text 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r64:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        This is a very long badge text that should be handled properly by the component and should not break the layout
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with null content 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r62:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with number content 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r59:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        42
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badge with undefined content 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r63:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classes and all colors > failure badge with custom class 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 custom-failure-class rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r90:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        failure
+         Custom
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classes and all colors > gray badge with custom class 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 custom-gray-class rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r89:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        gray
+         Custom
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classes and all colors > info badge with custom class 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information custom-info-class rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r93:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        info
+         Custom
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classes and all colors > success badge with custom class 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 custom-success-class rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r92:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        success
+         Custom
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classes and all colors > warning badge with custom class 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning custom-warning-class rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r91:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        warning
+         Custom
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all colors > failure badge with icon 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 text-xs p-1.5 border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r85:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        failure
+         with Icon
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all colors > gray badge with icon 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 text-xs p-1.5 border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r84:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        gray
+         with Icon
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all colors > info badge with icon 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r88:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        info
+         with Icon
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all colors > success badge with icon 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-xs p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r87:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        success
+         with Icon
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all colors > warning badge with icon 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r86:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        warning
+         with Icon
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for basic badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r43:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Basic Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinations > complete badge combo 0 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-sm p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 combo-0 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r94:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        Combo 0
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle sm"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinations > complete badge combo 1 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning combo-1 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r95:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinations > complete badge combo 2 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1.5 text-sm border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 combo-2 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r96:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Combo 2
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle sm"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinations > complete badge combo 3 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information combo-3 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r97:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        Combo 3
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinations > complete badge combo 4 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 text-sm p-1.5 border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 combo-4 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r98:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle sm"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for complex badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-sm p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 complex-badge rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r55:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <span
+        class="font-medium "
+      >
+        Complex Badge
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle sm"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for dismissible badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r51:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Dismissible Badge
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle xs"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with all colors > dismissible failure badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r80:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        failure
+         Dismissible
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle xs"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with all colors > dismissible gray badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r79:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        gray
+         Dismissible
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle xs"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with all colors > dismissible info badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r83:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        info
+         Dismissible
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle xs"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with all colors > dismissible success badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r82:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        success
+         Dismissible
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle xs"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with all colors > dismissible warning badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r81:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        warning
+         Dismissible
+      </span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle xs"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for extra small badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r49:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Extra Small Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for failure badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r45:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Failure Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for gray badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r44:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Gray Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r53:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all colors > icon-only failure badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 text-xs p-1.5 border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r73:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all colors > icon-only gray badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 text-xs p-1.5 border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r72:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all colors > icon-only info badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r76:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all colors > icon-only success badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-xs p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r75:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all colors > icon-only warning badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r74:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all sizes > icon-only sm badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-sm p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r78:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all sizes > icon-only xs badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r77:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span />
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for icon-only complex badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="h-fit font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning icon-complex rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
+    data-testid="flowbite-badge"
+    id="badge-:r56:"
+  >
+    <svg
+      data-testid="mock-icon"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <circle
+        cx="8"
+        cy="8"
+        fill="currentColor"
+        r="4"
+      />
+    </svg>
+    <span>
+      <button
+        aria-label="Remove"
+        class="ms-2 inline-flex items-center bg-transparent align-middle xs"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-3 w-3"
+          fill="none"
+          viewBox="0 0 14 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Remove badge
+        </span>
+      </button>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for info badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r48:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Info Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for small badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1.5 text-sm border-transparent bg-surface-information text-information rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r50:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Small Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for success badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r47:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Success Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Badge - Snapshot Tests > matches snapshot for warning badge 1`] = `
+<div
+  class="flex flex-wrap gap-2"
+>
+  <span
+    class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
+    data-testid="flowbite-badge"
+    id="badge-:r46:"
+  >
+    <span>
+      <span
+        class="font-medium "
+      >
+        Warning Badge
+      </span>
+    </span>
+  </span>
+</div>
+`;

@@ -1,0 +1,1739 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all boolean props combinations > accordion props combo 0 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all boolean props combinations > accordion props combo 1 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 border-b"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all boolean props combinations > accordion props combo 2 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all boolean props combinations > accordion props combo 3 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 border-b"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all boolean props combinations > accordion props combo 4 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all boolean props combinations > accordion props combo 5 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 border-b"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 bg-transparent dark:bg-transparent"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all boolean props combinations > accordion props combo 6 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 border-b"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 bg-transparent dark:bg-transparent"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with all props 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 border-b custom-accordion"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 bg-transparent dark:bg-transparent"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 1
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 bg-transparent dark:bg-transparent"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 2
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 2
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with alwaysOpen prop 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with collapseAll prop 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with complex nested content 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Complex Item
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    <div>
+      <h3>
+        Nested Title
+      </h3>
+      <p>
+        Nested paragraph
+      </p>
+      <ul>
+        <li>
+          List item 1
+        </li>
+        <li>
+          List item 2
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with empty items 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+/>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with flush prop 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 border-b"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content 1
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with icons 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item with Icon
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content with Icon
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with long text 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Long Content Item
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    This is a very long text content that should be handled properly by the accordion component and should not break the layout or cause any rendering issues.
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with many items 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content for item 1
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 2
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 2
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 3
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 3
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 4
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 4
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 5
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 5
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 6
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 6
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 7
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 7
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 8
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 8
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 9
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 9
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 10
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content for item 10
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with mixed content types 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        String Title
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    String Content
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        42
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    123
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span>
+          JSX Title
+        </span>
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    <div>
+      JSX Content
+    </div>
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Array
+        Title
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Array
+    Content
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with multiple items and icons 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content 1
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="mr-2 inline-flex items-center"
+        >
+          <svg
+            data-testid="mock-icon"
+          />
+        </span>
+        Item 2
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 2
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 3
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 3
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with null items 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+/>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with special characters 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Special & Characters
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content with &lt;script&gt;alert("test")&lt;/script&gt;
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with undefined items 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+/>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for accordion with unicode characters 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Unicode: 你好世界
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content: 🚀✨🎉
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for basic accordion 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 1
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Content 1
+  </div>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium text-gray-500 first:rounded-t-lg last:rounded-b-lg dark:text-gray-400 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Item 2
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+    hidden=""
+  >
+    Content 2
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshot Tests > matches snapshot for single item accordion 1`] = `
+<div
+  class="divide-y divide-gray-200 border-gray-200 dark:divide-gray-700 dark:border-gray-700 rounded-lg border"
+  data-testid="flowbite-accordion"
+>
+  <button
+    class="flex w-full items-center justify-between p-5 text-left font-medium first:rounded-t-lg last:rounded-b-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-800 dark:focus:ring-gray-800 bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
+    type="button"
+  >
+    <h2
+      class=""
+      data-testid="flowbite-accordion-heading"
+    >
+      <div
+        class="flex items-center"
+      >
+        Single Item
+      </div>
+    </h2>
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 shrink-0 rotate-180"
+      data-testid="flowbite-accordion-arrow"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="p-5 first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900"
+    data-testid="flowbite-accordion-content"
+  >
+    Single Content
+  </div>
+</div>
+`;

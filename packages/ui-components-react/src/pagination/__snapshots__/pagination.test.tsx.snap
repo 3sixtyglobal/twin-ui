@@ -1,0 +1,1647 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with additional props 1`] = `
+<nav
+  class=""
+  data-testid="custom-pagination"
+  id="pagination-1"
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with all props combined 1`] = `
+<nav
+  class="custom-pagination"
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300 inline-flex"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white inline-flex"
+        type="button"
+      >
+        Next
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with aria attributes 1`] = `
+<nav
+  aria-label="Pagination navigation"
+  class=""
+  role="navigation"
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with both previousLabel and nextLabel props 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        6
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        7
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with currentPage and totalPages 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with currentPage at first page 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with currentPage at last page 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        6
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        7
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        8
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        9
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        10
+      </button>
+    </li>
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        disabled=""
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with currentPage in middle 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        6
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        7
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with custom className 1`] = `
+<nav
+  class="custom-pagination"
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with default props 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with different layout values 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with different layout values 2`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with edge case values 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        disabled=""
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with empty string labels 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      />
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      />
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with large values 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        996
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        997
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        998
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        999
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1000
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with layout prop 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with long labels 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Go to the previous page
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Go to the next page
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with many pages 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        48
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        49
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        50
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        51
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        52
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with nextLabel prop 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with previousLabel prop 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with showIcons prop 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300 inline-flex"
+        disabled=""
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white inline-flex"
+        type="button"
+      >
+        Next
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with single page 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        disabled=""
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with special characters in labels 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        ← Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next →
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with style prop 1`] = `
+<nav
+  class=""
+  style="background-color: red;"
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination > Snapshot Tests > matches snapshot for pagination with unicode characters in labels 1`] = `
+<nav
+  class=""
+>
+  <ul
+    class="xs:mt-0 mt-2 inline-flex items-center -space-x-px"
+  >
+    <li>
+      <button
+        class="cursor-not-allowed opacity-50 px-3 py-2 leading-tight ml-0 rounded-l-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white disabled:dark:border-300"
+        disabled=""
+        type="button"
+      >
+        上一页
+      </button>
+    </li>
+    <li
+      aria-current="page"
+    >
+      <button
+        class="dark:border-gray-700 w-12 py-2 leading-tight border border-gray-300 dark:border-300 enabled:hover:bg-neutral-50 !border !border-gray-300 !dark:border-300 bg-brand-secondary-tints-50 dark:bg-brand-secondary-tints-50 text-brand-secondary dark:text-brand-secondary hover:bg-brand-secondary-tints-50 hover:text-brand-secondary font-medium enabled:dark:border-300 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li>
+      <button
+        class="w-12 py-2 leading-tight border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li>
+      <button
+        class="px-3 py-2 leading-tight rounded-r-lg border border-gray-300 dark:border-300 bg-white dark:bg-surface-main-dark text-secondary dark:text-secondary-dark enabled:hover:bg-neutral-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white"
+        type="button"
+      >
+        下一页
+      </button>
+    </li>
+  </ul>
+</nav>
+`;

@@ -1,0 +1,276 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Form - Snapshot Tests > matches snapshot for basic form 1`] = `
+<form
+  class=""
+>
+  Form content
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with JSX content 1`] = `
+<form
+  class=""
+>
+  <div>
+    <input
+      placeholder="Enter text"
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with array content 1`] = `
+<form
+  class=""
+>
+  Item 1
+  Item 2
+  Item 3
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with boolean content 1`] = `
+<form
+  class=""
+/>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with complex nested content 1`] = `
+<form
+  class=""
+>
+  <div>
+    <h2>
+      Form Title
+    </h2>
+    <div>
+      <label
+        for="name"
+      >
+        Name:
+      </label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+      />
+    </div>
+    <div>
+      <label
+        for="email"
+      >
+        Email:
+      </label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+      />
+    </div>
+    <div>
+      <label
+        for="message"
+      >
+        Message:
+      </label>
+      <textarea
+        id="message"
+        name="message"
+      />
+    </div>
+    <div>
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        type="reset"
+      >
+        Reset
+      </button>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with custom className 1`] = `
+<form
+  class="custom-form-class"
+>
+  Form content
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with empty className 1`] = `
+<form
+  class=""
+>
+  Form content
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with empty string content 1`] = `
+<form
+  class=""
+/>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with form elements 1`] = `
+<form
+  class=""
+>
+  <div>
+    <input
+      name="username"
+      placeholder="Username"
+      type="text"
+    />
+    <input
+      name="password"
+      placeholder="Password"
+      type="password"
+    />
+    <input
+      name="remember"
+      type="checkbox"
+    />
+    <label
+      for="remember"
+    >
+      Remember me
+    </label>
+    <select
+      name="country"
+    >
+      <option
+        value="us"
+      >
+        United States
+      </option>
+      <option
+        value="ca"
+      >
+        Canada
+      </option>
+    </select>
+    <button
+      type="submit"
+    >
+      Login
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with fragment content 1`] = `
+<form
+  class=""
+>
+  <span>
+    Fragment content 1
+  </span>
+  <span>
+    Fragment content 2
+  </span>
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with long text content 1`] = `
+<form
+  class=""
+>
+  This is a very long form content that contains multiple sentences and should be displayed properly within the form component. It tests how the component handles lengthy content.
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with multiple classes 1`] = `
+<form
+  class="class1 class2 class3"
+>
+  Form content
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with null className 1`] = `
+<form
+  class=""
+>
+  Form content
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with null content 1`] = `
+<form
+  class=""
+/>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with number content 1`] = `
+<form
+  class=""
+>
+  42
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with special characters in content 1`] = `
+<form
+  class=""
+>
+  Form with special chars: !@#$%^&*()
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with string content 1`] = `
+<form
+  class=""
+>
+  Simple string content
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with undefined className 1`] = `
+<form
+  class=""
+>
+  Form content
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with undefined content 1`] = `
+<form
+  class=""
+/>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with unicode characters in content 1`] = `
+<form
+  class=""
+>
+  Form with unicode: 🚀 ✨ 🎉
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with whitespace content 1`] = `
+<form
+  class=""
+>
+     
+</form>
+`;
+
+exports[`Form - Snapshot Tests > matches snapshot for form with whitespace in className 1`] = `
+<form
+  class="spaced-class"
+>
+  Form content
+</form>
+`;
