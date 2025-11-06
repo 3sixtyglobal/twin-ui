@@ -23,7 +23,8 @@
 		"baseUrl": ".",
 		"paths": {
 			"@twin.org/ui-components-react/icons/*": ["./src/icons/*"],
-			"@twin.org/ui-components-react/*": ["./src/*"]
+			"@twin.org/ui-components-react/*": ["./src/*"],
+			"@/*": ["./src/*"]
 		}
 	},
 	"include": ["src/**/*.ts*", "src/**/*.d.ts", "src/types/*.d.ts", "src/**/*.svg"]

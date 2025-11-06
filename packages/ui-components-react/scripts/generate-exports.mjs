@@ -102,9 +102,7 @@ function getComponentDirs(dirPath, excludeDirs = ['util', 'css']) {
 				const files = fs.readdirSync(fullPath);
 				// A component directory should have a file named exactly the same as the directory
 				// (e.g., button/button.tsx or button/button.ts)
-				return files.some(
-					file => file === `${dir}.tsx` || file === `${dir}.ts` || file === `${dir}.js`
-				);
+				return files.some(file => [`${dir}.tsx`, `${dir}.ts`, `${dir}.js`].includes(file));
 			} catch {
 				return false;
 			}
@@ -156,7 +154,7 @@ function scanStorybookComponents() {
 							// Extract the component name
 							const componentMatch = match.match(/import\s+{?\s*(\w+)/);
 							// Process the match if found
-							const hasComponent = componentMatch && componentMatch[1];
+							const hasComponent = componentMatch?.[1];
 							if (hasComponent) {
 								components.add(
 									componentMatch[1]
@@ -187,6 +185,8 @@ function generateExports() {
 	// Get components from src directory
 	const srcComponents = getComponentDirs(SRC_DIR);
 	process.stdout.write(`📦 Found ${srcComponents.length} components in src directory\n`);
+	const uiComponents = getComponentDirs(`${SRC_DIR}/ui`);
+	process.stdout.write(`📦 Found ${uiComponents.length} UI components in src/ui directory\n`);
 
 	// Get components from storybook
 	const storybookComponents = scanStorybookComponents();
@@ -195,7 +195,7 @@ function generateExports() {
 	);
 
 	// Combine both sets of components
-	const allComponents = new Set([...srcComponents, ...storybookComponents]);
+	const allComponents = new Set([...srcComponents, ...uiComponents, ...storybookComponents]);
 	process.stdout.write(`🔄 Total unique components: ${allComponents.size}\n`);
 
 	// Generate exports for each component
@@ -204,7 +204,8 @@ function generateExports() {
 	for (const component of Array.from(allComponents)) {
 		// Check if component directory exists
 		const componentDir = path.join(SRC_DIR, component);
-		if (!fs.existsSync(componentDir)) {
+		const uiComponentDir = path.join(`${SRC_DIR}/ui`, component);
+		if (!fs.existsSync(componentDir) && !fs.existsSync(uiComponentDir)) {
 			process.stdout.write(
 				`⚠️ Component "${component}" referenced in storybook but directory not found in src\n`
 			);

@@ -65,7 +65,8 @@
 		"Unrevoking",
 		"vars",
 		"whereis",
-		"WORKDIR"
+		"WORKDIR",
+		"shadcn"
 	],
 	"ignoreRegExpList": [
 		"/from\\s+(['\"]).*\\1/",

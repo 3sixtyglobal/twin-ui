@@ -47,4 +47,9 @@ export interface TableProps extends FlowbiteTableProps {
 	 * Configuration for table footer
 	 */
 	footer?: TableFooterRow[];
+
+	/**
+	 * Label to display when there is no data
+	 */
+	noDataLabel?: string;
 }

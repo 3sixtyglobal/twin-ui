@@ -1,15 +1,23 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 import js from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
 import reactHooks from 'eslint-plugin-react-hooks';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 export default tseslint.config(
 	{
 		ignores: [
+			'coverage',
 			'dist',
+			'storybook-static',
 			'node_modules',
 			'rollup.config.mjs',
 			'tailwind.config.ts',
@@ -21,11 +29,20 @@ export default tseslint.config(
 		files: ['**/*.{ts,tsx}'],
 		languageOptions: {
 			ecmaVersion: 2020,
-			globals: globals.browser
+			globals: globals.browser,
+			parserOptions: {
+				project: './tsconfig.eslint.json',
+				tsconfigRootDir: __dirname
+			}
 		},
 		plugins: {
 			'react-hooks': reactHooks,
 			import: importPlugin
+		},
+		settings: {
+			'import/resolver': {
+				typescript: {}
+			}
 		},
 		rules: {
 			'react-hooks/rules-of-hooks': 'error',

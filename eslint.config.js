@@ -561,7 +561,9 @@ const config = [
 			'**/dist/**',
 			'**/coverage/**',
 			'**/rollup.config.mjs',
-			'**/vitest.config.ts.timestamp*'
+			'**/vitest.config.ts.timestamp*',
+			'packages/**',
+			'apps/**'
 		]
 	},
 

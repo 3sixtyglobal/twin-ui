@@ -1,0 +1,1506 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for basic table 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Basic Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for complete table with all components 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <caption
+      class="text-muted-foreground mt-4 text-sm"
+      data-slot="table-caption"
+    >
+      Complete Table Example
+    </caption>
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Name
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Email
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Role
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          John Doe
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          john@example.com
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Admin
+        </td>
+      </tr>
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Jane Smith
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          jane@example.com
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          User
+        </td>
+      </tr>
+    </tbody>
+    <tfoot
+      class="bg-muted/50 border-t font-medium [&>tr]:last:border-b-0"
+      data-slot="table-footer"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Total Users
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          -
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for responsive table with many columns 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          ID
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Name
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Email
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Role
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Department
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Status
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          John Doe
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          john@example.com
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Admin
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          IT
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Active
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Edit | Delete
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with all variants applied 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Header
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with aria attributes 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    aria-describedby="table-description"
+    aria-label="User data table"
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <caption
+      class="text-muted-foreground mt-4 text-sm"
+      data-slot="table-caption"
+      id="table-description"
+    >
+      List of users and their roles
+    </caption>
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+          scope="col"
+        >
+          Name
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+          scope="col"
+        >
+          Role
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          John
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Admin
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with body variants 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell with default variant
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with caption 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <caption
+      class="text-muted-foreground mt-4 text-sm"
+      data-slot="table-caption"
+    >
+      This is a table caption
+    </caption>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with cell variants 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell with default variant
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with complex content 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          <div
+            class="flex items-center"
+          >
+            <span>
+              Complex Header
+            </span>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          <div
+            class="flex flex-col"
+          >
+            <span
+              class="font-bold"
+            >
+              Title
+            </span>
+            <span
+              class="text-sm text-gray-500"
+            >
+              Subtitle
+            </span>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with custom classNames 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible custom-table-class"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third custom-header-class"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors custom-row-class"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold custom-head-class"
+          data-slot="table-head"
+        >
+          Custom Header
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0 custom-body-class"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors custom-row-class"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2 custom-cell-class"
+          data-slot="table-cell"
+        >
+          Custom Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with data-state attribute 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+        data-state="selected"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Selected Row
+        </td>
+      </tr>
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Normal Row
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with default variant 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with empty cells 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        />
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Not Empty
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with footer 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell 1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell 2
+        </td>
+      </tr>
+    </tbody>
+    <tfoot
+      class="bg-muted/50 border-t font-medium [&>tr]:last:border-b-0"
+      data-slot="table-footer"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Footer 1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Footer 2
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with footer and totals 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Item
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Quantity
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Price
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Product A
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          10
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          $100
+        </td>
+      </tr>
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Product B
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          5
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          $50
+        </td>
+      </tr>
+    </tbody>
+    <tfoot
+      class="bg-muted/50 border-t font-medium [&>tr]:last:border-b-0"
+      data-slot="table-footer"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Total
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          15
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          $150
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with header 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Header 1
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Header 2
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Header 3
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell 1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell 2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell 3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with header variants 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Header with default variant
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with mixed content types 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Text
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          42
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          <button>
+            Action
+          </button>
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          <span
+            class="badge"
+          >
+            Badge
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with multiple columns 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Col 1
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Col 2
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Col 3
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Col 4
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Col 5
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Data 1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Data 2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Data 3
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Data 4
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Data 5
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with multiple header rows 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          colspan="2"
+          data-slot="table-head"
+        >
+          Group 1
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          colspan="2"
+          data-slot="table-head"
+        >
+          Group 2
+        </th>
+      </tr>
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          A
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          B
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          C
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          D
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          3
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          4
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with multiple rows 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Column 1
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Column 2
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Column 3
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 1 Cell 1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 1 Cell 2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 1 Cell 3
+        </td>
+      </tr>
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 2 Cell 1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 2 Cell 2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 2 Cell 3
+        </td>
+      </tr>
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 3 Cell 1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 3 Cell 2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row 3 Cell 3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with numeric data 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <thead
+      class="[&_tr]:border-b bg-surface-third"
+      data-slot="table-header"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          ID
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Count
+        </th>
+        <th
+          class="h-10 whitespace-nowrap text-left align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-4 text-secondary font-semibold"
+          data-slot="table-head"
+        >
+          Price
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          1
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          100
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          29.99
+        </td>
+      </tr>
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          2
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          250
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          49.99
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with role attributes 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          <input
+            role="checkbox"
+            type="checkbox"
+          />
+        </td>
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Data with checkbox
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`UI Table Component > Snapshot Tests > matches snapshot for table with row variants 1`] = `
+<div
+  class="relative w-full overflow-x-visible"
+  data-slot="table-container"
+>
+  <table
+    class="w-full caption-bottom text-sm overflow-visible"
+    data-slot="table"
+  >
+    <tbody
+      class="[&_tr:last-child]:border-0"
+      data-slot="table-body"
+    >
+      <tr
+        class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+        data-slot="table-row"
+      >
+        <td
+          class="whitespace-nowrap align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] p-2"
+          data-slot="table-cell"
+        >
+          Row with default variant
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

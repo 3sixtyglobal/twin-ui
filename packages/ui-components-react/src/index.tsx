@@ -66,7 +66,7 @@ export { Dropdown } from "./dropdown/dropdown";
 export { DropdownPositions } from "./dropdown/dropdownPositions";
 export { DropdownSizes } from "./dropdown/dropdownSizes";
 export type { DropdownSize } from "./dropdown/dropdownSizes";
-export type { DropdownProps } from "./dropdown/dropdownProps";
+export type { DropdownProps, DropdownItem } from "./dropdown/dropdownProps";
 
 // FileInput
 export { FileInput } from "./fileInput/fileInput";
@@ -197,6 +197,18 @@ export { TooltipTriggers } from "./tooltip/tooltipTriggers";
 export { TooltipAnimations } from "./tooltip/tooltipAnimations";
 export type { TooltipProps } from "./tooltip/tooltipProps";
 export type { TooltipPlacement } from "./tooltip/tooltipPlacements";
+
+// UI Table (shadcn-style)
+export {
+	Table as UITable,
+	TableHeader,
+	TableBody,
+	TableFooter,
+	TableHead,
+	TableRow,
+	TableCell,
+	TableCaption
+} from "./ui/ui-table/ui-table";
 
 // Constants
 export {
