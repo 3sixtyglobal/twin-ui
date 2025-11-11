@@ -64,7 +64,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all badge positi
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r22:"
+          id="badge-mocked-id-22"
         >
           <span>
             <span
@@ -102,7 +102,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all badge positi
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r21:"
+          id="badge-mocked-id-21"
         >
           <span>
             <span
@@ -144,7 +144,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all badge positi
           <span
             class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
             data-testid="flowbite-badge"
-            id="badge-:r23:"
+            id="badge-mocked-id-23"
           >
             <span>
               <span
@@ -178,7 +178,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all badge positi
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r20:"
+          id="badge-mocked-id-20"
         >
           <span>
             <span
@@ -216,7 +216,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all badge positi
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r19:"
+          id="badge-mocked-id-19"
         >
           <span>
             <span
@@ -261,7 +261,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all features 1`]
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r18:"
+          id="badge-mocked-id-18"
         >
           <span>
             <span
@@ -465,7 +465,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with badge in bottom-
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r16:"
+          id="badge-mocked-id-16"
         >
           <span>
             <span
@@ -503,7 +503,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with badge in bottom-
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r15:"
+          id="badge-mocked-id-15"
         >
           <span>
             <span
@@ -545,7 +545,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with badge in inline 
           <span
             class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
             data-testid="flowbite-badge"
-            id="badge-:r17:"
+            id="badge-mocked-id-17"
           >
             <span>
               <span
@@ -579,7 +579,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with badge in top-lef
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r14:"
+          id="badge-mocked-id-14"
         >
           <span>
             <span
@@ -617,7 +617,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with badge in top-rig
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r13:"
+          id="badge-mocked-id-13"
         >
           <span>
             <span
@@ -793,7 +793,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with complex badge pr
         <span
           class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1.5 text-sm border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
           data-testid="flowbite-badge"
-          id="badge-:r24:"
+          id="badge-mocked-id-24"
         >
           <span>
             <span

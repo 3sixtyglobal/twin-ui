@@ -9,11 +9,13 @@ import { vi } from "vitest";
 
 // Mock useId to return consistent values for snapshot tests
 let idCounter = 0;
-vi.mock("react", async () => {
-	const actual = await vi.importActual("react");
+
+vi.mock("react", async importOriginal => {
+	const actual = await importOriginal<typeof import("react")>();
 	return {
+		__esModule: true,
 		...actual,
-		useId: () => `:r${++idCounter}:`
+		useId: () => `mocked-id-${++idCounter}`
 	};
 });
 
@@ -34,20 +36,20 @@ global.IntersectionObserver = vi.fn().mockImplementation(() => ({
 // Mock window.matchMedia for responsive components
 Object.defineProperty(window, "matchMedia", {
 	writable: true,
-	value: vi.fn().mockImplementation(query => ({
+	value: (query: string) => ({
 		matches: false,
 		media: query,
 		onchange: null,
-		addListener: vi.fn(), // deprecated
-		removeListener: vi.fn(), // deprecated
-		addEventListener: vi.fn(),
-		removeEventListener: vi.fn(),
-		dispatchEvent: vi.fn()
-	}))
+		addListener: () => {}, // deprecated
+		removeListener: () => {}, // deprecated
+		addEventListener: () => {},
+		removeEventListener: () => {},
+		dispatchEvent: () => false
+	})
 });
 
 // Mock scrollTo for components that use it
 Object.defineProperty(window, "scrollTo", {
 	writable: true,
-	value: vi.fn()
+	value: () => {}
 });

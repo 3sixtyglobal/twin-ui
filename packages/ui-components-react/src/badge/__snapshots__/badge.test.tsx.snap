@@ -7,7 +7,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with JSX content 1`
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r57:"
+    id="badge-mocked-id-57"
   >
     <span>
       <span
@@ -34,7 +34,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with all color vari
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r66:"
+    id="badge-mocked-id-66"
   >
     <span>
       <span
@@ -55,7 +55,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with all color vari
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r65:"
+    id="badge-mocked-id-65"
   >
     <span>
       <span
@@ -76,7 +76,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with all color vari
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r69:"
+    id="badge-mocked-id-69"
   >
     <span>
       <span
@@ -97,7 +97,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with all color vari
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r68:"
+    id="badge-mocked-id-68"
   >
     <span>
       <span
@@ -118,7 +118,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with all color vari
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r67:"
+    id="badge-mocked-id-67"
   >
     <span>
       <span
@@ -139,7 +139,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with all size varia
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1.5 text-sm border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r71:"
+    id="badge-mocked-id-71"
   >
     <span>
       <span
@@ -160,7 +160,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with all size varia
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r70:"
+    id="badge-mocked-id-70"
   >
     <span>
       <span
@@ -181,7 +181,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with array content 
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r58:"
+    id="badge-mocked-id-58"
   >
     <span>
       <span
@@ -203,7 +203,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with boolean conten
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r60:"
+    id="badge-mocked-id-60"
   >
     <span>
       <span
@@ -221,7 +221,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with custom classNa
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information custom-badge-class rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r54:"
+    id="badge-mocked-id-54"
   >
     <span>
       <span
@@ -241,7 +241,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with empty content 
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r61:"
+    id="badge-mocked-id-61"
   >
     <span>
       <span
@@ -259,7 +259,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with icon 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r52:"
+    id="badge-mocked-id-52"
   >
     <svg
       data-testid="mock-icon"
@@ -292,7 +292,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with long text 1`] 
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r64:"
+    id="badge-mocked-id-64"
   >
     <span>
       <span
@@ -312,7 +312,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with null content 1
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r62:"
+    id="badge-mocked-id-62"
   >
     <span>
       <span
@@ -330,7 +330,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with number content
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r59:"
+    id="badge-mocked-id-59"
   >
     <span>
       <span
@@ -350,7 +350,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badge with undefined cont
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r63:"
+    id="badge-mocked-id-63"
   >
     <span>
       <span
@@ -368,7 +368,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classe
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 custom-failure-class rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r90:"
+    id="badge-mocked-id-90"
   >
     <span>
       <span
@@ -389,7 +389,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classe
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 custom-gray-class rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r89:"
+    id="badge-mocked-id-89"
   >
     <span>
       <span
@@ -410,7 +410,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classe
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information custom-info-class rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r93:"
+    id="badge-mocked-id-93"
   >
     <span>
       <span
@@ -431,7 +431,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classe
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 custom-success-class rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r92:"
+    id="badge-mocked-id-92"
   >
     <span>
       <span
@@ -452,7 +452,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with custom classe
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning custom-warning-class rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r91:"
+    id="badge-mocked-id-91"
   >
     <span>
       <span
@@ -473,7 +473,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 text-xs p-1.5 border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r85:"
+    id="badge-mocked-id-85"
   >
     <svg
       data-testid="mock-icon"
@@ -507,7 +507,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 text-xs p-1.5 border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r84:"
+    id="badge-mocked-id-84"
   >
     <svg
       data-testid="mock-icon"
@@ -541,7 +541,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r88:"
+    id="badge-mocked-id-88"
   >
     <svg
       data-testid="mock-icon"
@@ -575,7 +575,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-xs p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r87:"
+    id="badge-mocked-id-87"
   >
     <svg
       data-testid="mock-icon"
@@ -609,7 +609,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for badges with icons and all
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r86:"
+    id="badge-mocked-id-86"
   >
     <svg
       data-testid="mock-icon"
@@ -643,7 +643,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for basic badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r43:"
+    id="badge-mocked-id-43"
   >
     <span>
       <span
@@ -663,7 +663,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinatio
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-sm p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 combo-0 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r94:"
+    id="badge-mocked-id-94"
   >
     <svg
       data-testid="mock-icon"
@@ -722,7 +722,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinatio
   <span
     class="h-fit font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning combo-1 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r95:"
+    id="badge-mocked-id-95"
   >
     <svg
       data-testid="mock-icon"
@@ -749,7 +749,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinatio
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1.5 text-sm border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 combo-2 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r96:"
+    id="badge-mocked-id-96"
   >
     <span>
       <span
@@ -795,7 +795,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinatio
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information combo-3 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r97:"
+    id="badge-mocked-id-97"
   >
     <svg
       data-testid="mock-icon"
@@ -828,7 +828,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for complete badge combinatio
   <span
     class="h-fit font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 text-sm p-1.5 border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 combo-4 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r98:"
+    id="badge-mocked-id-98"
   >
     <svg
       data-testid="mock-icon"
@@ -882,7 +882,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for complex badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-sm p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 complex-badge rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r55:"
+    id="badge-mocked-id-55"
   >
     <svg
       data-testid="mock-icon"
@@ -941,7 +941,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for dismissible badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r51:"
+    id="badge-mocked-id-51"
   >
     <span>
       <span
@@ -987,7 +987,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with a
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r80:"
+    id="badge-mocked-id-80"
   >
     <span>
       <span
@@ -1034,7 +1034,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with a
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r79:"
+    id="badge-mocked-id-79"
   >
     <span>
       <span
@@ -1081,7 +1081,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with a
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r83:"
+    id="badge-mocked-id-83"
   >
     <span>
       <span
@@ -1128,7 +1128,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with a
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r82:"
+    id="badge-mocked-id-82"
   >
     <span>
       <span
@@ -1175,7 +1175,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for dismissible badges with a
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r81:"
+    id="badge-mocked-id-81"
   >
     <span>
       <span
@@ -1222,7 +1222,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for extra small badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r49:"
+    id="badge-mocked-id-49"
   >
     <span>
       <span
@@ -1242,7 +1242,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for failure badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 p-1 text-xs border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r45:"
+    id="badge-mocked-id-45"
   >
     <span>
       <span
@@ -1262,7 +1262,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for gray badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 p-1 text-xs border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r44:"
+    id="badge-mocked-id-44"
   >
     <span>
       <span
@@ -1282,7 +1282,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badge 1`] = `
   <span
     class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r53:"
+    id="badge-mocked-id-53"
   >
     <svg
       data-testid="mock-icon"
@@ -1309,7 +1309,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all
   <span
     class="h-fit font-semibold group-hover:bg-red-200 dark:group-hover:bg-red-300 text-xs p-1.5 border-current bg-surface-error text-error dark:bg-red-200 dark:text-red-800 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r73:"
+    id="badge-mocked-id-73"
   >
     <svg
       data-testid="mock-icon"
@@ -1336,7 +1336,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all
   <span
     class="h-fit font-semibold group-hover:bg-gray-200 dark:group-hover:bg-gray-600 text-xs p-1.5 border-current bg-neutral-200 text-primary dark:bg-gray-700 dark:text-gray-300 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r72:"
+    id="badge-mocked-id-72"
   >
     <svg
       data-testid="mock-icon"
@@ -1363,7 +1363,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all
   <span
     class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r76:"
+    id="badge-mocked-id-76"
   >
     <svg
       data-testid="mock-icon"
@@ -1390,7 +1390,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all
   <span
     class="h-fit font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 text-xs p-1.5 border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r75:"
+    id="badge-mocked-id-75"
   >
     <svg
       data-testid="mock-icon"
@@ -1417,7 +1417,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all
   <span
     class="h-fit font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r74:"
+    id="badge-mocked-id-74"
   >
     <svg
       data-testid="mock-icon"
@@ -1444,7 +1444,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all
   <span
     class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-sm p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r78:"
+    id="badge-mocked-id-78"
   >
     <svg
       data-testid="mock-icon"
@@ -1471,7 +1471,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only badges with all
   <span
     class="h-fit font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 text-xs p-1.5 border-transparent bg-surface-information text-information rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r77:"
+    id="badge-mocked-id-77"
   >
     <svg
       data-testid="mock-icon"
@@ -1498,7 +1498,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for icon-only complex badge 1
   <span
     class="h-fit font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 text-xs p-1.5 border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning icon-complex rounded-full flex aspect-square !h-8 items-center justify-center gap-0 [&>span:empty]:hidden [&>svg]:!h-5 [&>svg]:!w-5"
     data-testid="flowbite-badge"
-    id="badge-:r56:"
+    id="badge-mocked-id-56"
   >
     <svg
       data-testid="mock-icon"
@@ -1552,7 +1552,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for info badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1 text-xs border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r48:"
+    id="badge-mocked-id-48"
   >
     <span>
       <span
@@ -1572,7 +1572,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for small badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-cyan-200 dark:bg-cyan-200 dark:text-cyan-800 dark:group-hover:bg-cyan-300 p-1.5 text-sm border-transparent bg-surface-information text-information rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r50:"
+    id="badge-mocked-id-50"
   >
     <span>
       <span
@@ -1592,7 +1592,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for success badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-green-200 dark:group-hover:bg-green-300 p-1 text-xs border-current bg-surface-success text-success dark:bg-system-success-tints-200 dark:text-system-success-tints-800 rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r47:"
+    id="badge-mocked-id-47"
   >
     <span>
       <span
@@ -1612,7 +1612,7 @@ exports[`Badge - Snapshot Tests > matches snapshot for warning badge 1`] = `
   <span
     class="flex h-fit items-center gap-1 font-semibold group-hover:bg-yellow-200 dark:text-yellow-900 dark:group-hover:bg-yellow-300 p-1 text-xs border-current bg-surface-warning dark:bg-system-warning-tints-50 text-warning rounded-md px-4 py-1"
     data-testid="flowbite-badge"
-    id="badge-:r46:"
+    id="badge-mocked-id-46"
   >
     <span>
       <span
