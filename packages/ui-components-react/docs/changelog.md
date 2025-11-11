@@ -1,5 +1,25 @@
 # @twin.org/ui-components-react - Changelog
 
+## [0.0.2-next.2](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.2-next.1...ui-components-react-v0.0.2-next.2) (2025-11-11)
+
+
+### Features
+
+* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+
+
+### Bug Fixes
+
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.2-next.1 to 0.0.2-next.2
+
 ## [0.0.2-next.1](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.2-next.0...ui-components-react-v0.0.2-next.1) (2025-09-24)
 
 
