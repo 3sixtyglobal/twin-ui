@@ -10,6 +10,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: Run tests
+    - name: Setup tests
       shell: bash
-      run: npm run test
+      run: echo "no setup needed"
