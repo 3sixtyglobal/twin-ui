@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/ui-components-react",
-	"version": "0.0.2-next.4",
+	"version": "0.0.2-next.5",
 	"description": "UI components for react",
 	"repository": {
 		"type": "git",
@@ -33,7 +33,7 @@
 		"test:coverage": "vitest --coverage"
 	},
 	"dependencies": {
-		"@twin.org/ui-tailwind": "0.0.2-next.4",
+		"@twin.org/ui-tailwind": "0.0.2-next.5",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"lucide-react": "^0.547.0",
