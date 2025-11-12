@@ -19,7 +19,7 @@
 		"dev": "nodemon --watch src --ext ts --exec \"npm run build && npm run bundle:esm\"",
 		"test": "vitest --run --config ./vitest.config.ts --no-cache",
 		"test:build": "tsc -p ./tests/tsconfig.json --noEmit",
-		"coverage": "vitest --run --coverage --config ./vitest.config.ts --no-cache",
+		"test:coverage": "vitest --run --coverage --config ./vitest.config.ts --no-cache",
 		"bundle:esm": "rollup --config rollup.config.mjs --environment MODULE:esm",
 		"bundle:cjs": "rollup --config rollup.config.mjs --environment MODULE:cjs",
 		"bundle": "npm run bundle:esm && npm run bundle:cjs",

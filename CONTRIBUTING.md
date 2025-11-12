@@ -107,6 +107,9 @@ npm run docs
 # Run the tests
 npm run test
 
+# Run the tests with coverage
+npm run test:coverage
+
 # Complete build (build, package, test and docs)
 npm run dist
 ```
