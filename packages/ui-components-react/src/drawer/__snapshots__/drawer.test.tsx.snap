@@ -65,7 +65,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean 
 
 exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 2 1`] = `
 <div
-  aria-describedby="drawer-dialog-«r6c»"
+  aria-describedby="drawer-dialog-_r_6c_"
   aria-labelledby="drawer-title"
   aria-modal="true"
   class="fixed z-40 overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 left-0 top-0 h-screen w-80 -translate-x-full"
@@ -78,7 +78,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean 
   >
     <h5
       class="mb-4 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400"
-      id="«r6c»"
+      id="_r_6c_"
     >
       <svg
         aria-hidden="true"
@@ -126,7 +126,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean 
     </button>
     <span
       class="block"
-      id="flowbite-drawer-header-«r6d»"
+      id="flowbite-drawer-header-_r_6d_"
     />
   </div>
 </div>
@@ -1197,7 +1197,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null items 1
 
 exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null showButton 1`] = `
 <div
-  aria-describedby="drawer-dialog-«r5c»"
+  aria-describedby="drawer-dialog-_r_5c_"
   aria-labelledby="drawer-title"
   aria-modal="true"
   class="fixed z-40 overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 left-0 top-0 h-screen w-80 -translate-x-full"
@@ -1210,7 +1210,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null showBut
   >
     <h5
       class="mb-4 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400"
-      id="«r5c»"
+      id="_r_5c_"
     >
       <svg
         aria-hidden="true"
@@ -1258,7 +1258,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null showBut
     </button>
     <span
       class="block"
-      id="flowbite-drawer-header-«r5d»"
+      id="flowbite-drawer-header-_r_5d_"
     />
   </div>
 </div>
@@ -1560,7 +1560,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with unicode char
 
 exports[`Drawer > Snapshot Tests > matches snapshot for drawer without button 1`] = `
 <div
-  aria-describedby="drawer-dialog-«r3e»"
+  aria-describedby="drawer-dialog-_r_3e_"
   aria-labelledby="drawer-title"
   aria-modal="true"
   class="fixed z-40 overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 left-0 top-0 h-screen w-80 -translate-x-full"
@@ -1573,7 +1573,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer without button 1`
   >
     <h5
       class="mb-4 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400"
-      id="«r3e»"
+      id="_r_3e_"
     >
       <svg
         aria-hidden="true"
@@ -1621,7 +1621,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer without button 1`
     </button>
     <span
       class="block"
-      id="flowbite-drawer-header-«r3f»"
+      id="flowbite-drawer-header-_r_3f_"
     />
   </div>
 </div>

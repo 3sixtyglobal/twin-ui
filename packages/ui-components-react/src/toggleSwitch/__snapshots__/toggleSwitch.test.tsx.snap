@@ -3,9 +3,9 @@
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch as checked 1`] = `
 <button
   aria-checked="true"
-  aria-labelledby="«r17»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_17_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r17»-flowbite-toggleswitch"
+  id="_r_17_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -20,9 +20,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch as ch
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch as enabled when disabled is false 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1f»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1f_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1f»-flowbite-toggleswitch"
+  id="_r_1f_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -38,10 +38,10 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 <button
   aria-checked="false"
   aria-label="Custom Toggle"
-  aria-labelledby="«r1q»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1q_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
   data-custom="value"
-  id="«r1q»-flowbite-toggleswitch"
+  id="_r_1q_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -67,9 +67,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with color prop 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1c»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1c_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1c»-flowbite-toggleswitch"
+  id="_r_1c_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -84,9 +84,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with custom className 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1a»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1a_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer custom-toggle-class"
-  id="«r1a»-flowbite-toggleswitch"
+  id="_r_1a_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -101,7 +101,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with custom id 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r18»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_18_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
   id="custom-toggle-id"
   role="switch"
@@ -118,9 +118,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with default color when color is undefined 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1d»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1d_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1d»-flowbite-toggleswitch"
+  id="_r_1d_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -135,7 +135,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with default id when id is undefined 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r19»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_19_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
   role="switch"
   tabindex="0"
@@ -151,9 +151,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with default props 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r16»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_16_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r16»-flowbite-toggleswitch"
+  id="_r_16_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -168,9 +168,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1t»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1t_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1t»-flowbite-toggleswitch"
+  id="_r_1t_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -185,9 +185,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 2`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1u»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1u_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1u»-flowbite-toggleswitch"
+  id="_r_1u_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -202,9 +202,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 3`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1v»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1v_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1v»-flowbite-toggleswitch"
+  id="_r_1v_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -219,9 +219,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 4`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r20»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_20_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r20»-flowbite-toggleswitch"
+  id="_r_20_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -236,9 +236,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different color values 5`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r21»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_21_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r21»-flowbite-toggleswitch"
+  id="_r_21_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -253,9 +253,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different sizing values 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r22»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_22_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r22»-flowbite-toggleswitch"
+  id="_r_22_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -270,9 +270,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different sizing values 2`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r23»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_23_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r23»-flowbite-toggleswitch"
+  id="_r_23_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -287,9 +287,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with different sizing values 3`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r24»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_24_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r24»-flowbite-toggleswitch"
+  id="_r_24_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -304,10 +304,10 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with disabled prop 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1e»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1e_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-not-allowed opacity-50"
   disabled=""
-  id="«r1e»-flowbite-toggleswitch"
+  id="_r_1e_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -322,9 +322,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with empty string label 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1l»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1l_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1l»-flowbite-toggleswitch"
+  id="_r_1l_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -339,9 +339,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with empty string name 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r25»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_25_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r25»-flowbite-toggleswitch"
+  id="_r_25_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -356,9 +356,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with empty string value 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r26»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_26_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r26»-flowbite-toggleswitch"
+  id="_r_26_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -374,9 +374,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with label 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1i»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1i_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1i»-flowbite-toggleswitch"
+  id="_r_1i_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -388,7 +388,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
   <span
     class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
     data-testid="flowbite-toggleswitch-label"
-    id="«r1i»-flowbite-toggleswitch-label"
+    id="_r_1i_-flowbite-toggleswitch-label"
   >
     Toggle Label
   </span>
@@ -398,7 +398,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with label and custom id 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1j»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1j_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
   id="custom-id"
   role="switch"
@@ -412,7 +412,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
   <span
     class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
     data-testid="flowbite-toggleswitch-label"
-    id="«r1j»-flowbite-toggleswitch-label"
+    id="_r_1j_-flowbite-toggleswitch-label"
   >
     Custom Label
   </span>
@@ -422,9 +422,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with long label 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1o»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1o_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1o»-flowbite-toggleswitch"
+  id="_r_1o_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -436,7 +436,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
   <span
     class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
     data-testid="flowbite-toggleswitch-label"
-    id="«r1o»-flowbite-toggleswitch-label"
+    id="_r_1o_-flowbite-toggleswitch-label"
   >
     This is a very long label that should be rendered correctly within the toggle switch component.
   </span>
@@ -446,9 +446,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with name prop 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1g»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1g_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1g»-flowbite-toggleswitch"
+  id="_r_1g_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -463,9 +463,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with null name 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r27»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_27_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r27»-flowbite-toggleswitch"
+  id="_r_27_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -480,9 +480,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with null value 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r28»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_28_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r28»-flowbite-toggleswitch"
+  id="_r_28_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -497,9 +497,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with onChange callback 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1p»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1p_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1p»-flowbite-toggleswitch"
+  id="_r_1p_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -514,9 +514,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with sizing prop 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1b»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1b_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1b»-flowbite-toggleswitch"
+  id="_r_1b_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -531,9 +531,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with special characters in label 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1m»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1m_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1m»-flowbite-toggleswitch"
+  id="_r_1m_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -545,7 +545,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
   <span
     class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
     data-testid="flowbite-toggleswitch-label"
-    id="«r1m»-flowbite-toggleswitch-label"
+    id="_r_1m_-flowbite-toggleswitch-label"
   >
     Special & Characters: &lt;&gt;&"'
   </span>
@@ -555,9 +555,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with style prop 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1r»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1r_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1r»-flowbite-toggleswitch"
+  id="_r_1r_-flowbite-toggleswitch"
   role="switch"
   style="background-color: red; color: blue;"
   tabindex="0"
@@ -573,9 +573,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with undefined name 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r29»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_29_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r29»-flowbite-toggleswitch"
+  id="_r_29_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -590,9 +590,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with undefined value 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r2a»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_2a_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r2a»-flowbite-toggleswitch"
+  id="_r_2a_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -607,9 +607,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with unicode characters in label 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1n»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1n_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1n»-flowbite-toggleswitch"
+  id="_r_1n_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -621,7 +621,7 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
   <span
     class="ms-3 mt-0.5 text-start text-sm font-medium text-gray-900 dark:text-gray-300"
     data-testid="flowbite-toggleswitch-label"
-    id="«r1n»-flowbite-toggleswitch-label"
+    id="_r_1n_-flowbite-toggleswitch-label"
   >
     你好世界
   </span>
@@ -631,9 +631,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with value prop 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1h»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1h_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1h»-flowbite-toggleswitch"
+  id="_r_1h_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"
@@ -649,9 +649,9 @@ exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch with 
 exports[`ToggleSwitch > Snapshot Tests > matches snapshot for toggleswitch without label when label is not provided 1`] = `
 <button
   aria-checked="false"
-  aria-labelledby="«r1k»-flowbite-toggleswitch-label"
+  aria-labelledby="_r_1k_-flowbite-toggleswitch-label"
   class="group flex rounded-lg focus:outline-none cursor-pointer"
-  id="«r1k»-flowbite-toggleswitch"
+  id="_r_1k_-flowbite-toggleswitch"
   role="switch"
   tabindex="0"
   type="button"

@@ -4,7 +4,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4o»"
+  id="_r_4o_"
   role="progressbar"
 >
   <div
@@ -22,7 +22,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4n»"
+  id="_r_4n_"
   role="progressbar"
 >
   <div
@@ -40,7 +40,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4i»"
+  id="_r_4i_"
   role="progressbar"
 >
   <div
@@ -58,7 +58,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4m»"
+  id="_r_4m_"
   role="progressbar"
 >
   <div
@@ -76,7 +76,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4g»"
+  id="_r_4g_"
   role="progressbar"
 >
   <div
@@ -94,7 +94,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4k»"
+  id="_r_4k_"
   role="progressbar"
 >
   <div
@@ -112,7 +112,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4h»"
+  id="_r_4h_"
   role="progressbar"
 >
   <div
@@ -130,7 +130,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4l»"
+  id="_r_4l_"
   role="progressbar"
 >
   <div
@@ -148,7 +148,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all colo
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4j»"
+  id="_r_4j_"
   role="progressbar"
 >
   <div
@@ -166,7 +166,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all prop
 <div
   aria-label="Complete"
   aria-valuenow="85"
-  id="«r3q»"
+  id="_r_3q_"
   role="progressbar"
 >
   <div
@@ -201,7 +201,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5j»"
+  id="_r_5j_"
   role="progressbar"
 >
   <div
@@ -219,7 +219,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5i»"
+  id="_r_5i_"
   role="progressbar"
 >
   <div
@@ -237,7 +237,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5d»"
+  id="_r_5d_"
   role="progressbar"
 >
   <div
@@ -255,7 +255,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5h»"
+  id="_r_5h_"
   role="progressbar"
 >
   <div
@@ -273,7 +273,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5b»"
+  id="_r_5b_"
   role="progressbar"
 >
   <div
@@ -291,7 +291,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5f»"
+  id="_r_5f_"
   role="progressbar"
 >
   <div
@@ -309,7 +309,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5c»"
+  id="_r_5c_"
   role="progressbar"
 >
   <div
@@ -327,7 +327,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5g»"
+  id="_r_5g_"
   role="progressbar"
 >
   <div
@@ -345,7 +345,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5e»"
+  id="_r_5e_"
   role="progressbar"
 >
   <div
@@ -363,7 +363,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5a»"
+  id="_r_5a_"
   role="progressbar"
 >
   <div
@@ -381,7 +381,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r59»"
+  id="_r_59_"
   role="progressbar"
 >
   <div
@@ -399,7 +399,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r54»"
+  id="_r_54_"
   role="progressbar"
 >
   <div
@@ -417,7 +417,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r58»"
+  id="_r_58_"
   role="progressbar"
 >
   <div
@@ -435,7 +435,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r52»"
+  id="_r_52_"
   role="progressbar"
 >
   <div
@@ -453,7 +453,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r56»"
+  id="_r_56_"
   role="progressbar"
 >
   <div
@@ -471,7 +471,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r53»"
+  id="_r_53_"
   role="progressbar"
 >
   <div
@@ -489,7 +489,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r57»"
+  id="_r_57_"
   role="progressbar"
 >
   <div
@@ -507,7 +507,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r55»"
+  id="_r_55_"
   role="progressbar"
 >
   <div
@@ -525,7 +525,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r51»"
+  id="_r_51_"
   role="progressbar"
 >
   <div
@@ -543,7 +543,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r50»"
+  id="_r_50_"
   role="progressbar"
 >
   <div
@@ -561,7 +561,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4r»"
+  id="_r_4r_"
   role="progressbar"
 >
   <div
@@ -579,7 +579,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4v»"
+  id="_r_4v_"
   role="progressbar"
 >
   <div
@@ -597,7 +597,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4p»"
+  id="_r_4p_"
   role="progressbar"
 >
   <div
@@ -615,7 +615,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4t»"
+  id="_r_4t_"
   role="progressbar"
 >
   <div
@@ -633,7 +633,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4q»"
+  id="_r_4q_"
   role="progressbar"
 >
   <div
@@ -651,7 +651,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4u»"
+  id="_r_4u_"
   role="progressbar"
 >
   <div
@@ -669,7 +669,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4s»"
+  id="_r_4s_"
   role="progressbar"
 >
   <div
@@ -687,7 +687,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5s»"
+  id="_r_5s_"
   role="progressbar"
 >
   <div
@@ -705,7 +705,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5r»"
+  id="_r_5r_"
   role="progressbar"
 >
   <div
@@ -723,7 +723,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5m»"
+  id="_r_5m_"
   role="progressbar"
 >
   <div
@@ -741,7 +741,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5q»"
+  id="_r_5q_"
   role="progressbar"
 >
   <div
@@ -759,7 +759,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5k»"
+  id="_r_5k_"
   role="progressbar"
 >
   <div
@@ -777,7 +777,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5o»"
+  id="_r_5o_"
   role="progressbar"
 >
   <div
@@ -795,7 +795,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5l»"
+  id="_r_5l_"
   role="progressbar"
 >
   <div
@@ -813,7 +813,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5p»"
+  id="_r_5p_"
   role="progressbar"
 >
   <div
@@ -831,7 +831,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5n»"
+  id="_r_5n_"
   role="progressbar"
 >
   <div
@@ -849,7 +849,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4e»"
+  id="_r_4e_"
   role="progressbar"
 >
   <div
@@ -867,7 +867,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4d»"
+  id="_r_4d_"
   role="progressbar"
 >
   <div
@@ -885,7 +885,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4c»"
+  id="_r_4c_"
   role="progressbar"
 >
   <div
@@ -903,7 +903,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with all size
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r4f»"
+  id="_r_4f_"
   role="progressbar"
 >
   <div
@@ -921,7 +921,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with both lab
 <div
   aria-label="Processing..."
   aria-valuenow="80"
-  id="«r3n»"
+  id="_r_3n_"
   role="progressbar"
 >
   <div
@@ -951,7 +951,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with custom c
 <div
   aria-label="progressbar"
   aria-valuenow="75"
-  id="«r32»"
+  id="_r_32_"
   role="progressbar"
 >
   <div
@@ -970,7 +970,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with custom p
   aria-label="progressbar"
   aria-valuenow="50"
   data-custom="test-value"
-  id="«r5t»"
+  id="_r_5t_"
   role="progressbar"
 >
   <div
@@ -988,7 +988,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal 
 <div
   aria-label="progressbar"
   aria-valuenow="25.5"
-  id="«r42»"
+  id="_r_42_"
   role="progressbar"
 >
   <div
@@ -1006,7 +1006,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal 
 <div
   aria-label="progressbar"
   aria-valuenow="33.33"
-  id="«r43»"
+  id="_r_43_"
   role="progressbar"
 >
   <div
@@ -1024,7 +1024,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal 
 <div
   aria-label="progressbar"
   aria-valuenow="66.67"
-  id="«r44»"
+  id="_r_44_"
   role="progressbar"
 >
   <div
@@ -1042,7 +1042,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with decimal 
 <div
   aria-label="progressbar"
   aria-valuenow="99.99"
-  id="«r45»"
+  id="_r_45_"
   role="progressbar"
 >
   <div
@@ -1060,7 +1060,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3k»"
+  id="_r_3k_"
   role="progressbar"
 >
   <div
@@ -1078,7 +1078,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3j»"
+  id="_r_3j_"
   role="progressbar"
 >
   <div
@@ -1096,7 +1096,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3e»"
+  id="_r_3e_"
   role="progressbar"
 >
   <div
@@ -1114,7 +1114,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3i»"
+  id="_r_3i_"
   role="progressbar"
 >
   <div
@@ -1132,7 +1132,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3c»"
+  id="_r_3c_"
   role="progressbar"
 >
   <div
@@ -1150,7 +1150,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3g»"
+  id="_r_3g_"
   role="progressbar"
 >
   <div
@@ -1168,7 +1168,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3d»"
+  id="_r_3d_"
   role="progressbar"
 >
   <div
@@ -1186,7 +1186,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3h»"
+  id="_r_3h_"
   role="progressbar"
 >
   <div
@@ -1204,7 +1204,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3f»"
+  id="_r_3f_"
   role="progressbar"
 >
   <div
@@ -1222,7 +1222,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="Test"
   aria-valuenow="50"
-  id="«r3o»"
+  id="_r_3o_"
   role="progressbar"
 >
   <div
@@ -1252,7 +1252,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="Test"
   aria-valuenow="50"
-  id="«r3p»"
+  id="_r_3p_"
   role="progressbar"
 >
   <div
@@ -1286,7 +1286,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="0"
-  id="«r33»"
+  id="_r_33_"
   role="progressbar"
 >
   <div
@@ -1304,7 +1304,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="25"
-  id="«r34»"
+  id="_r_34_"
   role="progressbar"
 >
   <div
@@ -1322,7 +1322,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r35»"
+  id="_r_35_"
   role="progressbar"
 >
   <div
@@ -1340,7 +1340,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="75"
-  id="«r36»"
+  id="_r_36_"
   role="progressbar"
 >
   <div
@@ -1358,7 +1358,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="100"
-  id="«r37»"
+  id="_r_37_"
   role="progressbar"
 >
   <div
@@ -1376,7 +1376,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3a»"
+  id="_r_3a_"
   role="progressbar"
 >
   <div
@@ -1394,7 +1394,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r39»"
+  id="_r_39_"
   role="progressbar"
 >
   <div
@@ -1412,7 +1412,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r38»"
+  id="_r_38_"
   role="progressbar"
 >
   <div
@@ -1430,7 +1430,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with differen
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r3b»"
+  id="_r_3b_"
   role="progressbar"
 >
   <div
@@ -1448,7 +1448,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with empty cl
 <div
   aria-label="progressbar"
   aria-valuenow="20"
-  id="«r3t»"
+  id="_r_3t_"
   role="progressbar"
 >
   <div
@@ -1466,7 +1466,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with empty te
 <div
   aria-label=""
   aria-valuenow="50"
-  id="«r47»"
+  id="_r_47_"
   role="progressbar"
 >
   <div
@@ -1484,7 +1484,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with label pr
 <div
   aria-label="progressbar"
   aria-valuenow="60"
-  id="«r3l»"
+  id="_r_3l_"
   role="progressbar"
 >
   <div
@@ -1509,7 +1509,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with label te
 <div
   aria-label="Loading..."
   aria-valuenow="40"
-  id="«r3m»"
+  id="_r_3m_"
   role="progressbar"
 >
   <div
@@ -1533,7 +1533,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with long cla
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r61»"
+  id="_r_61_"
   role="progressbar"
 >
   <div
@@ -1551,7 +1551,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with long tex
 <div
   aria-label="This is a very long text label that should be handled properly by the progress component and should not break the layout"
   aria-valuenow="50"
-  id="«r46»"
+  id="_r_46_"
   role="progressbar"
 >
   <div
@@ -1575,7 +1575,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with maximum 
 <div
   aria-label="progressbar"
   aria-valuenow="100"
-  id="«r41»"
+  id="_r_41_"
   role="progressbar"
 >
   <div
@@ -1593,7 +1593,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with multiple
 <div
   aria-label="progressbar"
   aria-valuenow="30"
-  id="«r3r»"
+  id="_r_3r_"
   role="progressbar"
 >
   <div
@@ -1631,7 +1631,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with null cla
 <div
   aria-label="progressbar"
   aria-valuenow="65"
-  id="«r3v»"
+  id="_r_3v_"
   role="progressbar"
 >
   <div
@@ -1648,7 +1648,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with null cla
 exports[`Progress - Snapshot Tests > matches snapshot for progress with null text label 1`] = `
 <div
   aria-valuenow="50"
-  id="«r49»"
+  id="_r_49_"
   role="progressbar"
 >
   <div
@@ -1666,7 +1666,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with required
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r31»"
+  id="_r_31_"
   role="progressbar"
 >
   <div
@@ -1684,7 +1684,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with special 
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r5v»"
+  id="_r_5v_"
   role="progressbar"
 >
   <div
@@ -1702,7 +1702,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with special 
 <div
   aria-label="Progress: 50% (1/2)"
   aria-valuenow="50"
-  id="«r4a»"
+  id="_r_4a_"
   role="progressbar"
 >
   <div
@@ -1726,7 +1726,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with undefine
 <div
   aria-label="progressbar"
   aria-valuenow="35"
-  id="«r3u»"
+  id="_r_3u_"
   role="progressbar"
 >
   <div
@@ -1744,7 +1744,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with undefine
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r48»"
+  id="_r_48_"
   role="progressbar"
 >
   <div
@@ -1768,7 +1768,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with unicode 
 <div
   aria-label="progressbar"
   aria-valuenow="50"
-  id="«r60»"
+  id="_r_60_"
   role="progressbar"
 >
   <div
@@ -1786,7 +1786,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with unicode 
 <div
   aria-label="Loading... ⏳"
   aria-valuenow="50"
-  id="«r4b»"
+  id="_r_4b_"
   role="progressbar"
 >
   <div
@@ -1810,7 +1810,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with whitespa
 <div
   aria-label="progressbar"
   aria-valuenow="45"
-  id="«r3s»"
+  id="_r_3s_"
   role="progressbar"
 >
   <div
@@ -1828,7 +1828,7 @@ exports[`Progress - Snapshot Tests > matches snapshot for progress with zero pro
 <div
   aria-label="progressbar"
   aria-valuenow="0"
-  id="«r40»"
+  id="_r_40_"
   role="progressbar"
 >
   <div

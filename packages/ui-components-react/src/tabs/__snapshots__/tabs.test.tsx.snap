@@ -10,10 +10,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab 1`] =
     role="tablist"
   >
     <button
-      aria-controls="«rq»-tabpanel-0"
+      aria-controls="_r_q_-tabpanel-0"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«rq»-tab-0"
+      id="_r_q_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -22,10 +22,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab 1`] =
       Tab 1
     </button>
     <button
-      aria-controls="«rq»-tabpanel-1"
+      aria-controls="_r_q_-tabpanel-1"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«rq»-tab-1"
+      id="_r_q_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -38,17 +38,17 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab 1`] =
     class=""
   >
     <div
-      aria-labelledby="«rq»-tab-0"
+      aria-labelledby="_r_q_-tab-0"
       class="py-3"
       hidden=""
-      id="«rq»-tabpanel-0"
+      id="_r_q_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«rq»-tab-1"
+      aria-labelledby="_r_q_-tab-1"
       class="py-3"
-      id="«rq»-tabpanel-1"
+      id="_r_q_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     >
@@ -74,10 +74,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab conte
     role="tablist"
   >
     <button
-      aria-controls="«r1c»-tabpanel-0"
+      aria-controls="_r_1c_-tabpanel-0"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r1c»-tab-0"
+      id="_r_1c_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -86,10 +86,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab conte
       Tab 1
     </button>
     <button
-      aria-controls="«r1c»-tabpanel-1"
+      aria-controls="_r_1c_-tabpanel-1"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r1c»-tab-1"
+      id="_r_1c_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -98,10 +98,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab conte
       Tab 2
     </button>
     <button
-      aria-controls="«r1c»-tabpanel-2"
+      aria-controls="_r_1c_-tabpanel-2"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r1c»-tab-2"
+      id="_r_1c_-tab-2"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -114,17 +114,17 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab conte
     class=""
   >
     <div
-      aria-labelledby="«r1c»-tab-0"
+      aria-labelledby="_r_1c_-tab-0"
       class="py-3"
       hidden=""
-      id="«r1c»-tabpanel-0"
+      id="_r_1c_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r1c»-tab-1"
+      aria-labelledby="_r_1c_-tab-1"
       class="py-3"
-      id="«r1c»-tabpanel-1"
+      id="_r_1c_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     >
@@ -137,10 +137,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with active tab conte
       </div>
     </div>
     <div
-      aria-labelledby="«r1c»-tab-2"
+      aria-labelledby="_r_1c_-tab-2"
       class="py-3"
       hidden=""
-      id="«r1c»-tabpanel-2"
+      id="_r_1c_-tabpanel-2"
       role="tabpanel"
       tabindex="0"
     />
@@ -158,10 +158,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with all props combin
     role="tablist"
   >
     <button
-      aria-controls="«r1b»-tabpanel-0"
+      aria-controls="_r_1b_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-lg bg-cyan-600 text-white"
-      id="«r1b»-tab-0"
+      id="_r_1b_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -175,11 +175,11 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with all props combin
       Tab 1
     </button>
     <button
-      aria-controls="«r1b»-tabpanel-1"
+      aria-controls="_r_1b_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark"
       disabled=""
-      id="«r1b»-tab-1"
+      id="_r_1b_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -188,10 +188,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with all props combin
       Tab 2
     </button>
     <button
-      aria-controls="«r1b»-tabpanel-2"
+      aria-controls="_r_1b_-tabpanel-2"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-lg hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-800 dark:hover:text-white"
-      id="«r1b»-tab-2"
+      id="_r_1b_-tab-2"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -204,9 +204,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with all props combin
     class=""
   >
     <div
-      aria-labelledby="«r1b»-tab-0"
+      aria-labelledby="_r_1b_-tab-0"
       class="py-3"
-      id="«r1b»-tabpanel-0"
+      id="_r_1b_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -219,18 +219,18 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with all props combin
       </div>
     </div>
     <div
-      aria-labelledby="«r1b»-tab-1"
+      aria-labelledby="_r_1b_-tab-1"
       class="py-3"
       hidden=""
-      id="«r1b»-tabpanel-1"
+      id="_r_1b_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r1b»-tab-2"
+      aria-labelledby="_r_1b_-tab-2"
       class="py-3"
       hidden=""
-      id="«r1b»-tabpanel-2"
+      id="_r_1b_-tabpanel-2"
       role="tabpanel"
       tabindex="0"
     />
@@ -248,10 +248,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with array content 1`
     role="tablist"
   >
     <button
-      aria-controls="«r18»-tabpanel-0"
+      aria-controls="_r_18_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r18»-tab-0"
+      id="_r_18_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -264,9 +264,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with array content 1`
     class=""
   >
     <div
-      aria-labelledby="«r18»-tab-0"
+      aria-labelledby="_r_18_-tab-0"
       class="py-3"
-      id="«r18»-tabpanel-0"
+      id="_r_18_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -294,10 +294,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with boolean content 
     role="tablist"
   >
     <button
-      aria-controls="«r16»-tabpanel-0"
+      aria-controls="_r_16_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r16»-tab-0"
+      id="_r_16_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -310,9 +310,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with boolean content 
     class=""
   >
     <div
-      aria-labelledby="«r16»-tab-0"
+      aria-labelledby="_r_16_-tab-0"
       class="py-3"
-      id="«r16»-tabpanel-0"
+      id="_r_16_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -336,10 +336,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with complex content 
     role="tablist"
   >
     <button
-      aria-controls="«ru»-tabpanel-0"
+      aria-controls="_r_u_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«ru»-tab-0"
+      id="_r_u_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -352,9 +352,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with complex content 
     class=""
   >
     <div
-      aria-labelledby="«ru»-tab-0"
+      aria-labelledby="_r_u_-tab-0"
       class="py-3"
-      id="«ru»-tabpanel-0"
+      id="_r_u_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -387,10 +387,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with content when not
     role="tablist"
   >
     <button
-      aria-controls="«r1e»-tabpanel-0"
+      aria-controls="_r_1e_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r1e»-tab-0"
+      id="_r_1e_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -403,9 +403,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with content when not
     class=""
   >
     <div
-      aria-labelledby="«r1e»-tab-0"
+      aria-labelledby="_r_1e_-tab-0"
       class="py-3"
-      id="«r1e»-tabpanel-0"
+      id="_r_1e_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -432,10 +432,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with custom aria-labe
     role="tablist"
   >
     <button
-      aria-controls="«rp»-tabpanel-0"
+      aria-controls="_r_p_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«rp»-tab-0"
+      id="_r_p_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -448,9 +448,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with custom aria-labe
     class=""
   >
     <div
-      aria-labelledby="«rp»-tab-0"
+      aria-labelledby="_r_p_-tab-0"
       class="py-3"
-      id="«rp»-tabpanel-0"
+      id="_r_p_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -476,10 +476,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with custom variant 1
     role="tablist"
   >
     <button
-      aria-controls="«ro»-tabpanel-0"
+      aria-controls="_r_o_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark font-bold relative after:absolute after:bottom-[-2px] after:left-1/4 after:w-1/2 after:border-b-2 after:border-brand-primary text-brand-primary"
-      id="«ro»-tab-0"
+      id="_r_o_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -492,9 +492,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with custom variant 1
     class=""
   >
     <div
-      aria-labelledby="«ro»-tab-0"
+      aria-labelledby="_r_o_-tab-0"
       class="py-3"
-      id="«ro»-tabpanel-0"
+      id="_r_o_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -520,10 +520,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with default props 1`
     role="tablist"
   >
     <button
-      aria-controls="«rn»-tabpanel-0"
+      aria-controls="_r_n_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«rn»-tab-0"
+      id="_r_n_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -532,10 +532,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with default props 1`
       Tab 1
     </button>
     <button
-      aria-controls="«rn»-tabpanel-1"
+      aria-controls="_r_n_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«rn»-tab-1"
+      id="_r_n_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -548,9 +548,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with default props 1`
     class=""
   >
     <div
-      aria-labelledby="«rn»-tab-0"
+      aria-labelledby="_r_n_-tab-0"
       class="py-3"
-      id="«rn»-tabpanel-0"
+      id="_r_n_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -563,10 +563,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with default props 1`
       </div>
     </div>
     <div
-      aria-labelledby="«rn»-tab-1"
+      aria-labelledby="_r_n_-tab-1"
       class="py-3"
       hidden=""
-      id="«rn»-tabpanel-1"
+      id="_r_n_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
@@ -584,10 +584,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with disabled tab 1`]
     role="tablist"
   >
     <button
-      aria-controls="«rr»-tabpanel-0"
+      aria-controls="_r_r_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«rr»-tab-0"
+      id="_r_r_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -596,11 +596,11 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with disabled tab 1`]
       Tab 1
     </button>
     <button
-      aria-controls="«rr»-tabpanel-1"
+      aria-controls="_r_r_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg"
       disabled=""
-      id="«rr»-tab-1"
+      id="_r_r_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -613,9 +613,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with disabled tab 1`]
     class=""
   >
     <div
-      aria-labelledby="«rr»-tab-0"
+      aria-labelledby="_r_r_-tab-0"
       class="py-3"
-      id="«rr»-tabpanel-0"
+      id="_r_r_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -628,10 +628,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with disabled tab 1`]
       </div>
     </div>
     <div
-      aria-labelledby="«rr»-tab-1"
+      aria-labelledby="_r_r_-tab-1"
       class="py-3"
       hidden=""
-      id="«rr»-tabpanel-1"
+      id="_r_r_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
@@ -651,20 +651,20 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with empty string tit
     role="tablist"
   >
     <button
-      aria-controls="«r13»-tabpanel-0"
+      aria-controls="_r_13_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r13»-tab-0"
+      id="_r_13_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
       type="button"
     />
     <button
-      aria-controls="«r13»-tabpanel-1"
+      aria-controls="_r_13_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r13»-tab-1"
+      id="_r_13_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -677,9 +677,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with empty string tit
     class=""
   >
     <div
-      aria-labelledby="«r13»-tab-0"
+      aria-labelledby="_r_13_-tab-0"
       class="py-3"
-      id="«r13»-tabpanel-0"
+      id="_r_13_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -692,10 +692,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with empty string tit
       </div>
     </div>
     <div
-      aria-labelledby="«r13»-tab-1"
+      aria-labelledby="_r_13_-tab-1"
       class="py-3"
       hidden=""
-      id="«r13»-tabpanel-1"
+      id="_r_13_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
@@ -713,10 +713,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with icon 1`] = `
     role="tablist"
   >
     <button
-      aria-controls="«rs»-tabpanel-0"
+      aria-controls="_r_s_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«rs»-tab-0"
+      id="_r_s_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -734,9 +734,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with icon 1`] = `
     class=""
   >
     <div
-      aria-labelledby="«rs»-tab-0"
+      aria-labelledby="_r_s_-tab-0"
       class="py-3"
-      id="«rs»-tabpanel-0"
+      id="_r_s_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -762,10 +762,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with loading placehol
     role="tablist"
   >
     <button
-      aria-controls="«r1d»-tabpanel-0"
+      aria-controls="_r_1d_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r1d»-tab-0"
+      id="_r_1d_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -778,9 +778,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with loading placehol
     class=""
   >
     <div
-      aria-labelledby="«r1d»-tab-0"
+      aria-labelledby="_r_1d_-tab-0"
       class="py-3"
-      id="«r1d»-tabpanel-0"
+      id="_r_1d_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -807,10 +807,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with loading state 1`
     role="tablist"
   >
     <button
-      aria-controls="«rt»-tabpanel-0"
+      aria-controls="_r_t_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«rt»-tab-0"
+      id="_r_t_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -823,9 +823,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with loading state 1`
     class=""
   >
     <div
-      aria-labelledby="«rt»-tab-0"
+      aria-labelledby="_r_t_-tab-0"
       class="py-3"
-      id="«rt»-tabpanel-0"
+      id="_r_t_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -852,10 +852,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with long titles 1`] 
     role="tablist"
   >
     <button
-      aria-controls="«r12»-tabpanel-0"
+      aria-controls="_r_12_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r12»-tab-0"
+      id="_r_12_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -868,9 +868,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with long titles 1`] 
     class=""
   >
     <div
-      aria-labelledby="«r12»-tab-0"
+      aria-labelledby="_r_12_-tab-0"
       class="py-3"
-      id="«r12»-tabpanel-0"
+      id="_r_12_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -896,10 +896,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
     role="tablist"
   >
     <button
-      aria-controls="«r10»-tabpanel-0"
+      aria-controls="_r_10_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r10»-tab-0"
+      id="_r_10_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -908,10 +908,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 1
     </button>
     <button
-      aria-controls="«r10»-tabpanel-1"
+      aria-controls="_r_10_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-1"
+      id="_r_10_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -920,10 +920,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 2
     </button>
     <button
-      aria-controls="«r10»-tabpanel-2"
+      aria-controls="_r_10_-tabpanel-2"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-2"
+      id="_r_10_-tab-2"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -932,10 +932,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 3
     </button>
     <button
-      aria-controls="«r10»-tabpanel-3"
+      aria-controls="_r_10_-tabpanel-3"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-3"
+      id="_r_10_-tab-3"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -944,10 +944,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 4
     </button>
     <button
-      aria-controls="«r10»-tabpanel-4"
+      aria-controls="_r_10_-tabpanel-4"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-4"
+      id="_r_10_-tab-4"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -956,10 +956,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 5
     </button>
     <button
-      aria-controls="«r10»-tabpanel-5"
+      aria-controls="_r_10_-tabpanel-5"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-5"
+      id="_r_10_-tab-5"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -968,10 +968,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 6
     </button>
     <button
-      aria-controls="«r10»-tabpanel-6"
+      aria-controls="_r_10_-tabpanel-6"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-6"
+      id="_r_10_-tab-6"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -980,10 +980,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 7
     </button>
     <button
-      aria-controls="«r10»-tabpanel-7"
+      aria-controls="_r_10_-tabpanel-7"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-7"
+      id="_r_10_-tab-7"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -992,10 +992,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 8
     </button>
     <button
-      aria-controls="«r10»-tabpanel-8"
+      aria-controls="_r_10_-tabpanel-8"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-8"
+      id="_r_10_-tab-8"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1004,10 +1004,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       Tab 9
     </button>
     <button
-      aria-controls="«r10»-tabpanel-9"
+      aria-controls="_r_10_-tabpanel-9"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r10»-tab-9"
+      id="_r_10_-tab-9"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1020,9 +1020,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
     class=""
   >
     <div
-      aria-labelledby="«r10»-tab-0"
+      aria-labelledby="_r_10_-tab-0"
       class="py-3"
-      id="«r10»-tabpanel-0"
+      id="_r_10_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -1035,74 +1035,74 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with many items 1`] =
       </div>
     </div>
     <div
-      aria-labelledby="«r10»-tab-1"
+      aria-labelledby="_r_10_-tab-1"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-1"
+      id="_r_10_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-2"
+      aria-labelledby="_r_10_-tab-2"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-2"
+      id="_r_10_-tabpanel-2"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-3"
+      aria-labelledby="_r_10_-tab-3"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-3"
+      id="_r_10_-tabpanel-3"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-4"
+      aria-labelledby="_r_10_-tab-4"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-4"
+      id="_r_10_-tabpanel-4"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-5"
+      aria-labelledby="_r_10_-tab-5"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-5"
+      id="_r_10_-tabpanel-5"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-6"
+      aria-labelledby="_r_10_-tab-6"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-6"
+      id="_r_10_-tabpanel-6"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-7"
+      aria-labelledby="_r_10_-tab-7"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-7"
+      id="_r_10_-tabpanel-7"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-8"
+      aria-labelledby="_r_10_-tab-8"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-8"
+      id="_r_10_-tabpanel-8"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r10»-tab-9"
+      aria-labelledby="_r_10_-tab-9"
       class="py-3"
       hidden=""
-      id="«r10»-tabpanel-9"
+      id="_r_10_-tabpanel-9"
       role="tabpanel"
       tabindex="0"
     />
@@ -1120,10 +1120,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content ty
     role="tablist"
   >
     <button
-      aria-controls="«r19»-tabpanel-0"
+      aria-controls="_r_19_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r19»-tab-0"
+      id="_r_19_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1132,10 +1132,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content ty
       Tab 1
     </button>
     <button
-      aria-controls="«r19»-tabpanel-1"
+      aria-controls="_r_19_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r19»-tab-1"
+      id="_r_19_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1144,10 +1144,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content ty
       Tab 2
     </button>
     <button
-      aria-controls="«r19»-tabpanel-2"
+      aria-controls="_r_19_-tabpanel-2"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r19»-tab-2"
+      id="_r_19_-tab-2"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1156,10 +1156,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content ty
       Tab 3
     </button>
     <button
-      aria-controls="«r19»-tabpanel-3"
+      aria-controls="_r_19_-tabpanel-3"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r19»-tab-3"
+      id="_r_19_-tab-3"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1168,10 +1168,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content ty
       Tab 4
     </button>
     <button
-      aria-controls="«r19»-tabpanel-4"
+      aria-controls="_r_19_-tabpanel-4"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r19»-tab-4"
+      id="_r_19_-tab-4"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1184,9 +1184,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content ty
     class=""
   >
     <div
-      aria-labelledby="«r19»-tab-0"
+      aria-labelledby="_r_19_-tab-0"
       class="py-3"
-      id="«r19»-tabpanel-0"
+      id="_r_19_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -1199,34 +1199,34 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with mixed content ty
       </div>
     </div>
     <div
-      aria-labelledby="«r19»-tab-1"
+      aria-labelledby="_r_19_-tab-1"
       class="py-3"
       hidden=""
-      id="«r19»-tabpanel-1"
+      id="_r_19_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r19»-tab-2"
+      aria-labelledby="_r_19_-tab-2"
       class="py-3"
       hidden=""
-      id="«r19»-tabpanel-2"
+      id="_r_19_-tabpanel-2"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r19»-tab-3"
+      aria-labelledby="_r_19_-tab-3"
       class="py-3"
       hidden=""
-      id="«r19»-tabpanel-3"
+      id="_r_19_-tabpanel-3"
       role="tabpanel"
       tabindex="0"
     />
     <div
-      aria-labelledby="«r19»-tab-4"
+      aria-labelledby="_r_19_-tab-4"
       class="py-3"
       hidden=""
-      id="«r19»-tabpanel-4"
+      id="_r_19_-tabpanel-4"
       role="tabpanel"
       tabindex="0"
     />
@@ -1244,10 +1244,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with null content 1`]
     role="tablist"
   >
     <button
-      aria-controls="«r14»-tabpanel-0"
+      aria-controls="_r_14_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r14»-tab-0"
+      id="_r_14_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1260,9 +1260,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with null content 1`]
     class=""
   >
     <div
-      aria-labelledby="«r14»-tab-0"
+      aria-labelledby="_r_14_-tab-0"
       class="py-3"
-      id="«r14»-tabpanel-0"
+      id="_r_14_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -1288,10 +1288,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with number content 1
     role="tablist"
   >
     <button
-      aria-controls="«r17»-tabpanel-0"
+      aria-controls="_r_17_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r17»-tab-0"
+      id="_r_17_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1304,9 +1304,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with number content 1
     class=""
   >
     <div
-      aria-labelledby="«r17»-tab-0"
+      aria-labelledby="_r_17_-tab-0"
       class="py-3"
-      id="«r17»-tabpanel-0"
+      id="_r_17_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -1332,10 +1332,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with onActiveTabChang
     role="tablist"
   >
     <button
-      aria-controls="«r1a»-tabpanel-0"
+      aria-controls="_r_1a_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r1a»-tab-0"
+      id="_r_1a_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1344,10 +1344,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with onActiveTabChang
       Tab 1
     </button>
     <button
-      aria-controls="«r1a»-tabpanel-1"
+      aria-controls="_r_1a_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r1a»-tab-1"
+      id="_r_1a_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1360,9 +1360,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with onActiveTabChang
     class=""
   >
     <div
-      aria-labelledby="«r1a»-tab-0"
+      aria-labelledby="_r_1a_-tab-0"
       class="py-3"
-      id="«r1a»-tabpanel-0"
+      id="_r_1a_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -1375,10 +1375,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with onActiveTabChang
       </div>
     </div>
     <div
-      aria-labelledby="«r1a»-tab-1"
+      aria-labelledby="_r_1a_-tab-1"
       class="py-3"
       hidden=""
-      id="«r1a»-tabpanel-1"
+      id="_r_1a_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
@@ -1396,10 +1396,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with single item 1`] 
     role="tablist"
   >
     <button
-      aria-controls="«rv»-tabpanel-0"
+      aria-controls="_r_v_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«rv»-tab-0"
+      id="_r_v_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1412,9 +1412,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with single item 1`] 
     class=""
   >
     <div
-      aria-labelledby="«rv»-tab-0"
+      aria-labelledby="_r_v_-tab-0"
       class="py-3"
-      id="«rv»-tabpanel-0"
+      id="_r_v_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -1440,10 +1440,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with special characte
     role="tablist"
   >
     <button
-      aria-controls="«r11»-tabpanel-0"
+      aria-controls="_r_11_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r11»-tab-0"
+      id="_r_11_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1452,10 +1452,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with special characte
       Special & Characters: &lt;&gt;&"'\`
     </button>
     <button
-      aria-controls="«r11»-tabpanel-1"
+      aria-controls="_r_11_-tabpanel-1"
       aria-selected="false"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
-      id="«r11»-tab-1"
+      id="_r_11_-tab-1"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1468,9 +1468,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with special characte
     class=""
   >
     <div
-      aria-labelledby="«r11»-tab-0"
+      aria-labelledby="_r_11_-tab-0"
       class="py-3"
-      id="«r11»-tabpanel-0"
+      id="_r_11_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
@@ -1483,10 +1483,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with special characte
       </div>
     </div>
     <div
-      aria-labelledby="«r11»-tab-1"
+      aria-labelledby="_r_11_-tab-1"
       class="py-3"
       hidden=""
-      id="«r11»-tabpanel-1"
+      id="_r_11_-tabpanel-1"
       role="tabpanel"
       tabindex="0"
     />
@@ -1504,10 +1504,10 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with undefined conten
     role="tablist"
   >
     <button
-      aria-controls="«r15»-tabpanel-0"
+      aria-controls="_r_15_-tabpanel-0"
       aria-selected="true"
       class="flex flex-1 items-center justify-center text-sm p-4 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-tertiary disabled:dark:text-tertiary-dark rounded-t-lg bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500"
-      id="«r15»-tab-0"
+      id="_r_15_-tab-0"
       role="tab"
       style="z-index: 1;"
       tabindex="-1"
@@ -1520,9 +1520,9 @@ exports[`Tabs > Snapshot Tests > matches snapshot for tabs with undefined conten
     class=""
   >
     <div
-      aria-labelledby="«r15»-tab-0"
+      aria-labelledby="_r_15_-tab-0"
       class="py-3"
-      id="«r15»-tabpanel-0"
+      id="_r_15_-tabpanel-0"
       role="tabpanel"
       tabindex="0"
     >
