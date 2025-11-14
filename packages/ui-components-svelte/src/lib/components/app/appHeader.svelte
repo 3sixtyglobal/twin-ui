@@ -23,11 +23,11 @@
 		logoImage,
 		authenticated = false
 	}: Props = $props();
-</script>
 
-<svelte:head>
-	<title>{title}</title>
-</svelte:head>
+	$effect(() => {
+		document.title = title;
+	});
+</script>
 
 <Navbar
 	fluid={true}
