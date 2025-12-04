@@ -1,0 +1,319 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with Default variant 1`] = `
+<div
+  class="h-full w-full"
+>
+  <div
+    class="flex h-full w-full overflow-y-auto"
+  >
+    <div
+      class="relative hidden h-[600px] w-[450px] flex-shrink-0 overflow-hidden md:block"
+    >
+      <img
+        alt="Form Title"
+        class="h-full w-full object-cover object-left-top"
+        src="/test-image.jpg"
+      />
+    </div>
+    <div
+      class="flex-1 pb-8 pr-8 md:pl-24"
+    >
+      <div
+        class="w-full max-w-[670px]"
+      >
+        <div
+          class="w-full"
+        >
+          <div>
+            <div
+              class="mb-6"
+            >
+              <h1
+                class="text-brand-primary text-3xl font-semibold"
+              >
+                Form Title
+              </h1>
+            </div>
+          </div>
+          <div
+            class="max-w-[450px]"
+          >
+            <form
+              class="w-full space-y-8"
+            >
+              <div
+                class="space-y-4"
+              >
+                <div
+                  class="w-full"
+                >
+                  <div
+                    class="mb-1 flex w-full items-center justify-between"
+                  >
+                    <label
+                      class="text-secondary text-sm font-medium"
+                      for="field1"
+                    >
+                      Field 1
+                    </label>
+                  </div>
+                  <div
+                    class="[&_input]:!border-[#DFE4EB]"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="relative w-full"
+                      >
+                        <input
+                          class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 p-4 sm:text-base rounded-lg"
+                          data-testid="field1-input"
+                          id="field1"
+                          name="field1"
+                          placeholder="Enter value"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg"
+                data-testid="submit-button"
+                type="submit"
+              >
+                <span
+                  class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+                >
+                  <div
+                    class="inline-flex items-center justify-center"
+                  >
+                    Continue
+                    <svg
+                      class=""
+                      fill="currentColor"
+                      height="20"
+                      style="color: currentcolor; fill: currentColor;"
+                      viewBox="0 0 256 256"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+                      />
+                    </svg>
+                  </div>
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with Info variant 1`] = `
+<div
+  class="h-full w-full"
+>
+  <div
+    class="flex h-full w-full overflow-y-auto"
+  >
+    <div
+      class="relative hidden h-[600px] w-[450px] flex-shrink-0 overflow-hidden md:block"
+    >
+      <img
+        alt="Info Title"
+        class="h-full w-full object-cover object-left-top"
+        src="/test-image.jpg"
+      />
+    </div>
+    <div
+      class="flex-1 pb-8 pr-8 md:pl-24"
+    >
+      <div
+        class="w-full max-w-[670px]"
+      >
+        <div
+          class="w-full"
+        >
+          <div>
+            <div
+              class="mb-6"
+            >
+              <h1
+                class="text-brand-primary text-3xl font-semibold"
+              >
+                Info Title
+              </h1>
+            </div>
+            <div
+              class="mb-6"
+            >
+              <p
+                class="text-primary text-md"
+              >
+                Info Description
+              </p>
+            </div>
+          </div>
+          <div
+            class="max-w-[450px]"
+          >
+            <div
+              class="w-full space-y-6"
+            >
+              <div
+                class="mb-12 flex"
+              >
+                <div
+                  class="flex h-48 w-48 items-center justify-center rounded-full bg-neutral-50"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-tertiary space-y-2 text-left"
+              >
+                <div>
+                  Info text
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with Selection variant 1`] = `
+<div
+  class="h-full w-full"
+>
+  <div
+    class="flex h-full w-full overflow-y-auto"
+  >
+    <div
+      class="relative hidden h-[600px] w-[450px] flex-shrink-0 overflow-hidden md:block"
+    >
+      <img
+        alt="Selection Title"
+        class="h-full w-full object-cover object-left-top"
+        src="/test-image.jpg"
+      />
+    </div>
+    <div
+      class="flex-1 pb-8 pr-8 md:pl-24"
+    >
+      <div
+        class="w-full max-w-[670px]"
+      >
+        <div
+          class="w-full"
+        >
+          <div>
+            <div
+              class="mb-6"
+            >
+              <h1
+                class="text-brand-primary text-3xl font-semibold"
+              >
+                Selection Title
+              </h1>
+            </div>
+          </div>
+          <div
+            class="w-full"
+          >
+            <div
+              class="w-full space-y-6"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="grid gap-6 md:grid-cols-2"
+                >
+                  <div
+                    class="relative rounded-md border border-neutral-200 bg-white p-6 shadow-sm"
+                  >
+                    <div
+                      class="mb-6 flex"
+                    >
+                      <div
+                        data-testid="mock-icon"
+                      >
+                        Icon
+                      </div>
+                    </div>
+                    <h2
+                      class="text-brand-secondary mb-3 text-xl font-semibold"
+                    >
+                      Option 1
+                    </h2>
+                    <p
+                      class="text-secondary mb-6 text-xs font-semibold"
+                    >
+                      Description 1
+                    </p>
+                    <ul
+                      class="text-tertiary mb-8 list-inside list-disc space-y-2 text-xs"
+                    >
+                      <li
+                        class="ml-1"
+                      >
+                        <span>
+                          Feature 1
+                        </span>
+                      </li>
+                    </ul>
+                    <button
+                      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg shrink-0"
+                      data-testid="option-option1-button"
+                      type="button"
+                    >
+                      <span
+                        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+                      >
+                        <div
+                          class="inline-flex items-center justify-center"
+                        >
+                          Select
+                          <svg
+                            class="ml-2"
+                            fill="currentColor"
+                            height="20"
+                            style="color: currentcolor; fill: currentColor;"
+                            viewBox="0 0 256 256"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"
+                            />
+                          </svg>
+                        </div>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

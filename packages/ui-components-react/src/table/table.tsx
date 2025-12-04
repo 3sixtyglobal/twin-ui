@@ -42,7 +42,7 @@ export const Table = memo(
 					))}
 				</FlowbiteTable.Row>
 			));
-		}, [body]);
+		}, [body, noDataLabel]);
 
 		const renderFooterRow = useCallback(
 			(row: TableFooterRow, rowIndex: number) => (

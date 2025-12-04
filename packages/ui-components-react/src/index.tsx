@@ -249,3 +249,14 @@ export { HOVER, CLICK } from "./constants/triggers";
 
 // Configuration
 export { TailwindConfig } from "./config/tailwindConfig";
+
+// StepView
+export { StepView } from "./views/stepView/stepView";
+export { StepViewVariants } from "./views/stepView/stepViewVariants";
+export type {
+	StepViewProps,
+	StepViewField,
+	StepViewFieldSection,
+	StepViewCheckbox,
+	FieldValidationRule
+} from "./views/stepView/stepViewProps";
