@@ -1,5 +1,19 @@
 # @twin.org/ui-components-react - Changelog
 
+## [0.0.3-next.2](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.1...ui-components-react-v0.0.3-next.2) (2025-12-09)
+
+
+### Features
+
+* new stepview component ([#102](https://github.com/twinfoundation/ui/issues/102)) ([1d14ba4](https://github.com/twinfoundation/ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.1 to 0.0.3-next.2
+
 ## [0.0.3-next.1](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.0...ui-components-react-v0.0.3-next.1) (2025-11-14)
 
 
