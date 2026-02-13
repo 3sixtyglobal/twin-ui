@@ -17,7 +17,11 @@ export const StepViewVariants = {
 	/**
 	 * Selection variant - displays selection options with cards.
 	 */
-	Selection: "selection"
+	Selection: "selection",
+	/**
+	 * Kra variant - verification step with fields, optional error/success messages, and configurable buttons.
+	 */
+	Kra: "kra"
 } as const;
 
 /**

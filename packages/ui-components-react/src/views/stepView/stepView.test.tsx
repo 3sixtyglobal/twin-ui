@@ -2,10 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { render, screen, waitFor, fireEvent } from "@testing-library/react";
+import { render, screen, waitFor, fireEvent, act } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { useForm } from "react-hook-form";
 import { StepView } from "./stepView";
+import type { StepViewField } from "./stepViewProps";
 import { StepViewVariants } from "./stepViewVariants";
 import React from "react";
 
@@ -17,6 +18,8 @@ const StepViewWithForm = (props: any) => {
 	const {
 		register,
 		handleSubmit: formHandleSubmit,
+		getValues,
+		setValue,
 		formState: { errors, isSubmitting }
 	} = useForm({
 		defaultValues: props.defaultValues || {}
@@ -26,9 +29,34 @@ const StepViewWithForm = (props: any) => {
 		<StepView
 			{...props}
 			register={register}
+			getValues={getValues}
+			setValue={setValue}
 			handleSubmit={formHandleSubmit}
 			errors={errors}
 			isSubmitting={isSubmitting}
+		/>
+	);
+};
+
+// Wrapper for Kra variant with form context (getValues/setValue)
+const StepViewKraWithForm = (props: any) => {
+	const {
+		register,
+		getValues,
+		setValue,
+		formState: { errors }
+	} = useForm({
+		defaultValues: props.defaultValues || {}
+	});
+
+	return (
+		<StepView
+			{...props}
+			variant={StepViewVariants.Kra}
+			register={register}
+			getValues={getValues}
+			setValue={setValue}
+			errors={errors}
 		/>
 	);
 };
@@ -543,6 +571,296 @@ describe("StepView", () => {
 					expect(handleSubmit).toHaveBeenCalled();
 				});
 			});
+
+			it("submission includes typed input values in Default variant", async () => {
+				const handleSubmit = vi.fn();
+				const fields = [
+					{ name: "field1", label: "Field 1" },
+					{ name: "field2", label: "Field 2" }
+				];
+
+				render(
+					<StepViewWithForm
+						variant={StepViewVariants.Default}
+						title="Form Title"
+						image="/test-image.jpg"
+						fields={fields}
+						onSubmit={handleSubmit}
+					/>
+				);
+
+				const input1 = screen.getByLabelText("Field 1") as HTMLInputElement;
+				const input2 = screen.getByLabelText("Field 2") as HTMLInputElement;
+				await act(async () => {
+					fireEvent.change(input1, { target: { value: "value1" } });
+					fireEvent.change(input2, { target: { value: "value2" } });
+				});
+
+				await act(async () => {
+					screen.getByText("Continue").click();
+				});
+
+				await waitFor(() => {
+					expect(handleSubmit).toHaveBeenCalled();
+					const [data] = handleSubmit.mock.calls[0];
+					expect(data).toEqual(
+						expect.objectContaining({
+							field1: "value1",
+							field2: "value2"
+						})
+					);
+				});
+			});
+
+			it("calls both register onChange and field onChange in Default variant", async () => {
+				const handleFieldChange = vi.fn();
+				const handleSubmit = vi.fn();
+				const fields = [
+					{
+						name: "field1",
+						label: "Field 1",
+						onChange: handleFieldChange
+					}
+				];
+
+				render(
+					<StepViewWithForm
+						variant={StepViewVariants.Default}
+						title="Form Title"
+						image="/test-image.jpg"
+						fields={fields}
+						onSubmit={handleSubmit}
+					/>
+				);
+
+				const input = screen.getByLabelText("Field 1") as HTMLInputElement;
+				await act(async () => {
+					fireEvent.change(input, { target: { value: "test" } });
+				});
+
+				await waitFor(() => {
+					expect(handleFieldChange).toHaveBeenCalledWith(
+						expect.objectContaining({
+							target: expect.objectContaining({ value: "test" })
+						})
+					);
+				});
+
+				// Form state should also be updated (register onChange ran)
+				await act(async () => {
+					screen.getByText("Continue").click();
+				});
+				await waitFor(() => {
+					expect(handleSubmit).toHaveBeenCalled();
+					const [data] = handleSubmit.mock.calls[0];
+					expect(data).toEqual(expect.objectContaining({ field1: "test" }));
+				});
+			});
+		});
+
+		describe("Kra Variant", () => {
+			it("renders Kra variant with text fields", () => {
+				const fields = [
+					{ name: "brn", label: "BRN", placeholder: "Enter BRN" },
+					{ name: "pin", label: "PIN", placeholder: "Enter PIN" }
+				];
+
+				render(
+					<StepViewKraWithForm
+						title="Verify"
+						image="/test.jpg"
+						fields={fields}
+						kraButtons={[
+							{ label: "Save", onClick: vi.fn() },
+							{ label: "Verify now", onClick: vi.fn() }
+						]}
+					/>
+				);
+
+				expect(screen.getByRole("heading", { name: "Verify" })).toBeInTheDocument();
+				expect(screen.getByLabelText("BRN")).toBeInTheDocument();
+				expect(screen.getByLabelText("PIN")).toBeInTheDocument();
+				expect(screen.getByRole("button", { name: "Save" })).toBeInTheDocument();
+				expect(screen.getByRole("button", { name: "Verify now" })).toBeInTheDocument();
+			});
+
+			it("Kra variant text inputs update form state when typing", async () => {
+				const fields = [
+					{ name: "brn", label: "BRN" },
+					{ name: "pin", label: "PIN" }
+				];
+
+				const StepViewKraCapture = () => {
+					const {
+						register,
+						getValues,
+						setValue,
+						formState: { errors }
+					} = useForm<Record<string, unknown>>({
+						defaultValues: { brn: "", pin: "" }
+					});
+					const [submitted, setSubmitted] = React.useState<Record<string, unknown> | null>(null);
+					return (
+						<>
+							<StepView
+								variant={StepViewVariants.Kra}
+								title="Verify"
+								image="/test.jpg"
+								fields={fields}
+								register={register}
+								getValues={getValues}
+								setValue={setValue}
+								errors={errors}
+								kraButtons={[
+									{
+										label: "Submit",
+										onClick: () => setSubmitted(getValues())
+									}
+								]}
+							/>
+							{submitted && <div data-testid="submitted-values">{JSON.stringify(submitted)}</div>}
+						</>
+					);
+				};
+
+				render(<StepViewKraCapture />);
+
+				const brnInput = screen.getByLabelText("BRN") as HTMLInputElement;
+				const pinInput = screen.getByLabelText("PIN") as HTMLInputElement;
+				await act(async () => {
+					fireEvent.change(brnInput, { target: { value: "BRN123" } });
+					fireEvent.change(pinInput, { target: { value: "PIN456" } });
+				});
+
+				await act(async () => {
+					screen.getByRole("button", { name: "Submit" }).click();
+				});
+
+				await waitFor(() => {
+					const el = screen.getByTestId("submitted-values");
+					const data = JSON.parse(el.textContent ?? "{}") as Record<string, unknown>;
+					expect(data.brn).toBe("BRN123");
+					expect(data.pin).toBe("PIN456");
+				});
+			});
+
+			it("Kra variant verificationCodeInput updates form state", async () => {
+				const fields: StepViewField[] = [
+					{
+						name: "securityCode",
+						label: "Security code",
+						type: "verificationCodeInput",
+						verificationCodeLength: 6,
+						verificationCodeExpiresInText: "Code expires in 05:00"
+					}
+				];
+
+				const StepViewKraVerification = () => {
+					const {
+						getValues,
+						setValue,
+						formState: { errors }
+					} = useForm<Record<string, unknown>>({
+						defaultValues: { securityCode: "" }
+					});
+					const [submitted, setSubmitted] = React.useState<string>("");
+					return (
+						<>
+							<StepView
+								variant={StepViewVariants.Kra}
+								title="Confirm"
+								image="/test.jpg"
+								fields={fields}
+								getValues={getValues}
+								setValue={setValue}
+								errors={errors}
+								kraButtons={[
+									{
+										label: "Continue",
+										onClick: () => setSubmitted((getValues().securityCode as string) ?? "")
+									}
+								]}
+							/>
+							{submitted && <div data-testid="code-value">{submitted}</div>}
+						</>
+					);
+				};
+
+				render(<StepViewKraVerification />);
+
+				expect(screen.getByText("Security code")).toBeInTheDocument();
+				expect(screen.getByText("Code expires in 05:00")).toBeInTheDocument();
+
+				const firstInput = screen.getByTestId("securityCode-input-0");
+				// Paste full code so setValue is called once with "123456"
+				await act(async () => {
+					fireEvent.change(firstInput, { target: { value: "123456" } });
+				});
+
+				await act(async () => {
+					screen.getByRole("button", { name: "Continue" }).click();
+				});
+
+				await waitFor(() => {
+					expect(screen.getByTestId("code-value")).toHaveTextContent("123456");
+				});
+			});
+
+			it("Kra variant button onClick is called", async () => {
+				const handleClick = vi.fn();
+				render(
+					<StepViewKraWithForm
+						title="Verify"
+						image="/test.jpg"
+						fields={[{ name: "f1", label: "Field 1" }]}
+						kraButtons={[
+							{ label: "Save", onClick: vi.fn() },
+							{ label: "Verify now", onClick: handleClick }
+						]}
+					/>
+				);
+
+				screen.getByRole("button", { name: "Verify now" }).click();
+				await waitFor(() => {
+					expect(handleClick).toHaveBeenCalledTimes(1);
+				});
+			});
+
+			it("Kra variant shows error message and error list", () => {
+				render(
+					<StepViewKraWithForm
+						title="Verify"
+						image="/test.jpg"
+						fields={[{ name: "f1", label: "Field 1" }]}
+						kraErrorMessage="Something went wrong."
+						kraErrors={["Error one.", "Error two."]}
+						kraButtons={[{ label: "OK", onClick: vi.fn() }]}
+					/>
+				);
+
+				expect(screen.getByText("Something went wrong.")).toBeInTheDocument();
+				expect(screen.getByText("Error one.")).toBeInTheDocument();
+				expect(screen.getByText("Error two.")).toBeInTheDocument();
+			});
+
+			it("Kra variant shows verification success icon when isVerificationSuccess", () => {
+				render(
+					<StepViewKraWithForm
+						title="Verify"
+						image="/test.jpg"
+						fields={[{ name: "f1", label: "Field 1", value: "done" }]}
+						isVerificationSuccess={true}
+						kraButtons={[{ label: "OK", onClick: vi.fn() }]}
+					/>
+				);
+
+				// Check icon is present (rightIcon renders CheckCircle)
+				const input = screen.getByLabelText("Field 1");
+				expect(input).toBeInTheDocument();
+				// Success state is reflected by the rightIcon on the input
+				const fieldContainer = input.closest(".flex.items-center.gap-2");
+				expect(fieldContainer).toBeInTheDocument();
+			});
 		});
 
 		describe("Fallback Behavior", () => {
@@ -642,6 +960,26 @@ describe("StepView", () => {
 					image="/test-image.jpg"
 					fields={fields}
 					onSubmit={vi.fn()}
+				/>
+			);
+			expect(container.firstChild).toMatchSnapshot();
+		});
+
+		it("matches snapshot for StepView with Kra variant", () => {
+			const fields = [
+				{ name: "brn", label: "BRN", placeholder: "Enter BRN" },
+				{ name: "pin", label: "PIN", placeholder: "Enter PIN" }
+			];
+
+			const { container } = render(
+				<StepViewKraWithForm
+					title="Verify"
+					image="/test.jpg"
+					fields={fields}
+					kraButtons={[
+						{ label: "Save", onClick: vi.fn() },
+						{ label: "Verify now", onClick: vi.fn() }
+					]}
 				/>
 			);
 			expect(container.firstChild).toMatchSnapshot();

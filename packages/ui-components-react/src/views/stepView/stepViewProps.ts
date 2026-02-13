@@ -2,7 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 import type { ReactNode } from "react";
-import type { FieldErrors, RegisterOptions, UseFormRegister } from "react-hook-form";
+import type {
+	FieldErrors,
+	RegisterOptions,
+	UseFormGetValues,
+	UseFormRegister,
+	UseFormSetValue
+} from "react-hook-form";
+import type { ButtonProps } from "../../button/buttonProps";
 import type { IconFC } from "../../types/iconTypes";
 import type { StepViewVariant } from "./stepViewVariants";
 
@@ -37,7 +44,9 @@ export type FieldType =
 	| "radio"
 	| "submit"
 	| "reset"
-	| "button";
+	| "button"
+	| "inputButton"
+	| "verificationCodeInput";
 
 /**
  * Select option for StepView fields.
@@ -113,6 +122,36 @@ export interface StepViewField {
 	 * Field value (for pre-filled fields).
 	 */
 	value?: string;
+	/**
+	 * Button label text (for inputButton type).
+	 */
+	buttonLabel?: string;
+	/**
+	 * Button click handler (for inputButton type). Receives the current input value.
+	 */
+	onButtonClick?: (value: string) => void | Promise<void>;
+	/**
+	 * Whether the button is disabled (for inputButton type).
+	 */
+	buttonDisabled?: boolean;
+	/**
+	 * Whether the button is in loading state (for inputButton type).
+	 */
+	buttonLoading?: boolean;
+	/**
+	 * Loading text to show when button is loading (for inputButton type).
+	 * @default "Loading..."
+	 */
+	buttonLoadingText?: string;
+	/**
+	 * Number of digits/boxes (for verificationCodeInput type).
+	 * @default 6
+	 */
+	verificationCodeLength?: number;
+	/**
+	 * Optional text shown below the code inputs (e.g. "Code expires in 05:00 minutes").
+	 */
+	verificationCodeExpiresInText?: string;
 }
 
 /**
@@ -127,6 +166,10 @@ export interface StepViewFieldSection {
 	 * Fields in this section.
 	 */
 	fields: StepViewField[];
+	/**
+	 * Optional content to render on the right side of the section (e.g., avatar, badge, etc.).
+	 */
+	rightContent?: ReactNode;
 }
 
 /**
@@ -241,6 +284,14 @@ export interface StepViewProps {
 	 */
 	register?: UseFormRegister<Record<string, unknown>>;
 	/**
+	 * React Hook Form getValues function (e.g. for verificationCodeInput in Kra).
+	 */
+	getValues?: UseFormGetValues<Record<string, unknown>>;
+	/**
+	 * React Hook Form setValue function (e.g. for verificationCodeInput in Kra).
+	 */
+	setValue?: UseFormSetValue<Record<string, unknown>>;
+	/**
 	 * React Hook Form handleSubmit function.
 	 * This is the handleSubmit function returned from useForm().
 	 */
@@ -263,6 +314,32 @@ export interface StepViewProps {
 	 * Loading text to show when submitting.
 	 */
 	loadingText?: string;
+	/**
+	 * Kra variant: optional error message (displayed when provided).
+	 */
+	kraErrorMessage?: string | ReactNode;
+	/**
+	 * Kra variant: list of error strings, each rendered in its own styled block below kraErrorMessage.
+	 */
+	kraErrors?: string[];
+	/**
+	 * Kra variant: when true, shows a success tick icon on each input.
+	 */
+	isVerificationSuccess?: boolean;
+	/**
+	 * Kra variant: buttons. Uses Button component props (color, size, outline, leftIcon, rightIcon, etc.) plus required onClick and optional loading/loadingText. Use "label" as shorthand for children when not using children.
+	 */
+	kraButtons?: Array<
+		Omit<ButtonProps, "onClick"> & {
+			onClick: () => void | Promise<void>;
+			loading?: boolean;
+			loadingText?: string;
+			/** Shorthand for button text when not using children */
+			label?: string;
+			/** For testing */
+			"data-testid"?: string;
+		}
+	>;
 	/**
 	 * Additional CSS class name.
 	 */

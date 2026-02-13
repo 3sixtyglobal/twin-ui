@@ -2,7 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 import type { JSX } from "react";
-import type { FieldErrors, UseFormRegister } from "react-hook-form";
+import type {
+	FieldErrors,
+	UseFormGetValues,
+	UseFormRegister,
+	UseFormSetValue
+} from "react-hook-form";
 import { Button } from "../../../button/button";
 import { ButtonColors } from "../../../button/buttonColors";
 import { Checkbox } from "../../../checkbox/checkbox";
@@ -11,6 +16,8 @@ import { TextInputColors } from "../../../textInput/textInputColors";
 import { TextInputSizes } from "../../../textInput/textInputSizes";
 import { Select } from "../../../select/select";
 import { SelectSizes } from "../../../select/selectSizes";
+import { InputButton } from "../../../inputButton/inputButton";
+import { InputPhone } from "../../../inputPhone/inputPhone";
 import { ArrowRight } from "../../../icons/arrowRight";
 import type { StepViewField, StepViewFieldSection, StepViewCheckbox } from "../stepViewProps";
 
@@ -19,6 +26,8 @@ interface DefaultVariantProps {
 	checkbox?: StepViewCheckbox;
 	onSubmit?: (data: Record<string, unknown>) => void | Promise<void>;
 	register?: UseFormRegister<Record<string, unknown>>;
+	getValues?: UseFormGetValues<Record<string, unknown>>;
+	setValue?: UseFormSetValue<Record<string, unknown>>;
 	handleSubmit?: (
 		onSubmit: (data: Record<string, unknown>) => void | Promise<void>
 	) => (e?: React.BaseSyntheticEvent) => Promise<void>;
@@ -33,6 +42,8 @@ export const DefaultVariant = ({
 	checkbox,
 	onSubmit,
 	register,
+	getValues,
+	setValue,
 	handleSubmit,
 	errors,
 	isSubmitting = false,
@@ -80,6 +91,71 @@ export const DefaultVariant = ({
 			);
 		}
 
+		// If field type is inputButton, render as InputButton
+		if (field.type === "inputButton") {
+			return (
+				<div key={field.name} className="w-full">
+					<div className="mb-1 flex w-full items-center justify-between">
+						<label className="text-secondary text-sm font-medium" htmlFor={field.name}>
+							{field.label}
+						</label>
+						{field.requiredLabel && (
+							<span className="text-secondary text-sm font-normal">{field.requiredLabel}</span>
+						)}
+					</div>
+					<InputButton
+						id={field.name}
+						name={field.name}
+						placeholder={field.placeholder}
+						defaultValue={(getValues?.()?.[field.name] ?? field.value) as string | undefined}
+						disabled={field.disabled}
+						readOnly={field.readOnly}
+						icon={field.icon}
+						className={field.className}
+						color={fieldError ? TextInputColors.Failure : TextInputColors.None}
+						buttonLabel={field.buttonLabel ?? "Submit"}
+						buttonDisabled={field.buttonDisabled}
+						buttonLoading={field.buttonLoading}
+						buttonLoadingText={field.buttonLoadingText}
+						onButtonClick={field.onButtonClick}
+						onChange={e => {
+							setValue?.(field.name, e.target.value);
+							field.onChange?.(e);
+						}}
+						dataTestId={field.dataTestId}
+					/>
+					{fieldError && (
+						<p className="mt-1 text-sm text-red-600">{fieldError.message as string}</p>
+					)}
+				</div>
+			);
+		}
+
+		// If field type is tel, render as InputPhone
+		if (field.type === "tel") {
+			const phoneValue = (getValues?.()?.[field.name] ?? field.value) as string | undefined;
+			return (
+				<div key={field.name} className="w-full">
+					<InputPhone
+						id={field.name}
+						name={field.name}
+						label={field.label}
+						placeholder={field.placeholder}
+						value={phoneValue}
+						requiredLabel={field.requiredLabel !== undefined && field.requiredLabel !== null}
+						requiredLabelText={field.requiredLabel}
+						helperText={fieldError?.message as string | undefined}
+						color={fieldError ? "failure" : ""}
+						sizing={TextInputSizes.Large}
+						onChange={phone => {
+							setValue?.(field.name, phone);
+							field.onChange?.({ target: { value: phone } } as React.ChangeEvent<HTMLInputElement>);
+						}}
+					/>
+				</div>
+			);
+		}
+
 		// Otherwise render as TextInput
 		return (
 			<div key={field.name} className="w-full">
@@ -91,7 +167,6 @@ export const DefaultVariant = ({
 						<span className="text-secondary text-sm font-normal">{field.requiredLabel}</span>
 					)}
 				</div>
-				{/* This makes the input border color properly defined */}
 				<div className="[&_input]:!border-[#DFE4EB]">
 					<TextInput
 						id={field.name}
@@ -103,7 +178,12 @@ export const DefaultVariant = ({
 						sizing={TextInputSizes.Large}
 						helperText={fieldError?.message as string | undefined}
 						icon={field.icon}
-						onChange={field.onChange}
+						onChange={e => {
+							(
+								registeredProps as { onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void }
+							).onChange?.(e);
+							field.onChange?.(e);
+						}}
 						className={field.className}
 						data-testid={field.dataTestId || `${field.name}-input`}
 						readOnly={field.readOnly}
@@ -145,11 +225,15 @@ export const DefaultVariant = ({
 										{section.heading}
 									</h2>
 								)}
-								<div className="space-y-4">{section.fields.map(renderField)}</div>
+								<div className="flex items-start gap-4">
+									<div className="flex-1 space-y-4">{section.fields.map(renderField)}</div>
+									{section.rightContent && (
+										<div className="flex-shrink-0">{section.rightContent}</div>
+									)}
+								</div>
 							</div>
 						))
 					) : (
-						// Render as flat fields
 						<div className="space-y-4">{(fields as StepViewField[]).map(renderField)}</div>
 					)}
 				</>
@@ -177,6 +261,7 @@ export const DefaultVariant = ({
 				disabled={isSubmitting}
 				color={ButtonColors.Secondary}
 				data-testid="submit-button"
+				className="w-full md:w-fit"
 			>
 				{isSubmitting ? loadingText : submitButtonLabel}
 				<ArrowRight type="light" width={20} height={20} />

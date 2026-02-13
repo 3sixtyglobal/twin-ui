@@ -65,6 +65,8 @@ const globals = {
 };
 
 // Common external dependencies that should not be bundled
+// cmdk and @radix-ui/react-dialog contain "use client" and must be externalized
+// so the consumer's bundler handles them (Rollup errors on that directive when bundling)
 const externalDeps = [
 	/^node:.*/,
 	'react/jsx-runtime',
@@ -75,7 +77,9 @@ const externalDeps = [
 	'intl-messageformat',
 	'@twin.org/core',
 	'@twin.org/ui-tailwind',
-	'tailwindcss'
+	'tailwindcss',
+	'cmdk',
+	'@radix-ui/react-dialog'
 ];
 
 // Common plugins used for all bundles

@@ -173,6 +173,14 @@ export type { TextInputProps } from "./textInput/textInputProps";
 export type { TextInputColor } from "./textInput/textInputColors";
 export type { TextInputSize } from "./textInput/textInputSizes";
 
+// InputButton
+export { InputButton } from "./inputButton/inputButton";
+export type { InputButtonProps } from "./inputButton/inputButtonProps";
+
+// InputPhone
+export { InputPhone } from "./inputPhone/inputPhone";
+export type { InputPhoneProps } from "./inputPhone/inputPhoneProps";
+
 // Textarea
 export { Textarea } from "./textarea/textarea";
 export type { TextareaProps } from "./textarea/textareaProps";

@@ -22,7 +22,7 @@ export const InfoVariant = ({ icon, text, action }: InfoVariantProps): JSX.Eleme
 	return (
 		<div className="w-full space-y-6">
 			{icon && (
-				<div className="mb-12 flex">
+				<div className="mx-auto mb-12 w-fit md:mx-0">
 					<div className="flex h-48 w-48 items-center justify-center rounded-full bg-neutral-50">
 						{icon}
 					</div>
@@ -39,6 +39,7 @@ export const InfoVariant = ({ icon, text, action }: InfoVariantProps): JSX.Eleme
 						disabled={action.disabled || action.loading}
 						color={ButtonColors.Secondary}
 						data-testid="action-button"
+						className="w-full md:w-fit"
 					>
 						{action.loading ? action.loadingText || "Loading..." : action.label}
 						<ArrowRight type="light" width={20} height={20} />

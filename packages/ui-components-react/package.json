@@ -37,6 +37,8 @@
 		"react-hook-form": "^7.53.2",
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",
+		"cmdk": "^1.1.1",
+		"@radix-ui/react-dialog": "^1.1.15",
 		"lucide-react": "0.547.0",
 		"prop-types": "15.8.1",
 		"tailwind-merge": "3.3.1",
@@ -83,7 +85,17 @@
 		"flowbite-react": "0.10.2",
 		"react": "19.2.0",
 		"react-dom": "19.2.0",
-		"tailwindcss": "3"
+		"tailwindcss": "3",
+		"cmdk": "^1.0.0",
+		"@radix-ui/react-dialog": "^1.0.0"
+	},
+	"peerDependenciesMeta": {
+		"cmdk": {
+			"optional": true
+		},
+		"@radix-ui/react-dialog": {
+			"optional": true
+		}
 	},
 	"exports": {
 		".": {
@@ -482,6 +494,16 @@
 			"types": "./dist/types/form/form.d.ts",
 			"import": "./dist/es/form/form.mjs",
 			"require": "./dist/cjs/form/form.js"
+		},
+		"./inputButton": {
+			"types": "./dist/types/inputButton/inputButton.d.ts",
+			"import": "./dist/es/inputButton/inputButton.mjs",
+			"require": "./dist/cjs/inputButton/inputButton.js"
+		},
+		"./inputPhone": {
+			"types": "./dist/types/inputPhone/inputPhone.d.ts",
+			"import": "./dist/es/inputPhone/inputPhone.mjs",
+			"require": "./dist/cjs/inputPhone/inputPhone.js"
 		},
 		"./label": {
 			"types": "./dist/types/label/label.d.ts",

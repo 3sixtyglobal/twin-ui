@@ -4,19 +4,14 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import {
+	ButtonColors,
 	StepView,
 	StepViewVariants,
 	type StepViewField,
 	type StepViewFieldSection,
 	type StepViewProps
 } from "@twin.org/ui-components-react";
-import {
-	Envelope,
-	UserCircle,
-	Building,
-	Lock,
-	UsersThree
-} from "@twin.org/ui-components-react/icons";
+import { ArrowRight, Building, Lock, UsersThree } from "@twin.org/ui-components-react/icons";
 
 // Wrapper component to provide react-hook-form context
 const StepViewWrapper = (
@@ -30,14 +25,18 @@ const StepViewWrapper = (
 				if ("fields" in fieldOrSection) {
 					// It's a section
 					fieldOrSection.fields.forEach((field: StepViewField) => {
-						if ("value" in field && field.value !== undefined) {
+						if (field.type === "verificationCodeInput") {
+							defaults[field.name] = field.value ?? "";
+						} else if ("value" in field && field.value !== undefined) {
 							defaults[field.name] = field.value;
 						}
 					});
 				} else {
 					// It's a direct field
 					const field = fieldOrSection as StepViewField;
-					if ("value" in field && field.value !== undefined) {
+					if (field.type === "verificationCodeInput") {
+						defaults[field.name] = field.value ?? "";
+					} else if ("value" in field && field.value !== undefined) {
 						defaults[field.name] = field.value;
 					}
 				}
@@ -49,10 +48,16 @@ const StepViewWrapper = (
 	const {
 		register,
 		handleSubmit,
+		getValues,
+		setValue,
+		watch,
 		formState: { errors, isSubmitting }
 	} = useForm({
 		defaultValues: getDefaultValues()
 	});
+
+	// Subscribe to form values so Kra variant (e.g. verificationCodeInput) re-renders when setValue is called
+	watch();
 
 	const onSubmit = async (data: Record<string, unknown>) => {
 		console.log("Form submitted:", data);
@@ -61,6 +66,7 @@ const StepViewWrapper = (
 
 	// Only pass form props if fields are provided and variant is default (form variant)
 	const isFormVariant = args.variant === StepViewVariants.Default;
+	const isKraVariant = args.variant === StepViewVariants.Kra;
 	const hasFields = args.fields != null && Array.isArray(args.fields) && args.fields.length > 0;
 
 	if (isFormVariant && hasFields) {
@@ -76,6 +82,18 @@ const StepViewWrapper = (
 		);
 	}
 
+	if (isKraVariant && hasFields) {
+		return (
+			<StepView
+				{...args}
+				register={register}
+				getValues={getValues}
+				setValue={setValue}
+				errors={errors}
+			/>
+		);
+	}
+
 	// Info/Introduction variant - no form props needed
 	return <StepView {...args} />;
 };
@@ -85,7 +103,12 @@ const meta = {
 	component: StepViewWrapper,
 	argTypes: {
 		variant: {
-			options: [StepViewVariants.Default, StepViewVariants.Info, StepViewVariants.Selection],
+			options: [
+				StepViewVariants.Default,
+				StepViewVariants.Info,
+				StepViewVariants.Selection,
+				StepViewVariants.Kra
+			],
 			control: { type: "inline-radio" }
 		},
 		title: {
@@ -156,7 +179,7 @@ export const EmailConfirmation: Story = {
 		progress: 50,
 		image: "/images/email-confirmation.webp",
 		icon: (
-			<img src="/images/emailVerification.svg" alt="Email verification" width={120} height={120} />
+			<img src="/images/emailConfirmation.svg" alt="Email verification" width={120} height={120} />
 		),
 		text: (
 			<div className="text-brand-secondary text-lg font-semibold">Next: Setup your account</div>
@@ -211,8 +234,7 @@ export const PersonalDetails: Story = {
 						type: "email",
 						value: "jim.stevenson@asda.com",
 						readOnly: true,
-						disabled: true,
-						icon: Envelope
+						disabled: true
 					}
 				]
 			},
@@ -223,8 +245,7 @@ export const PersonalDetails: Story = {
 						name: "firstName",
 						label: "First name",
 						placeholder: "Enter first name",
-						requiredLabel: "Required",
-						icon: UserCircle,
+						requiredLabel: "*",
 						validation: {
 							required: "First name is required"
 						}
@@ -233,8 +254,7 @@ export const PersonalDetails: Story = {
 						name: "surname",
 						label: "Surname",
 						placeholder: "Enter surname",
-						requiredLabel: "Required",
-						icon: UserCircle,
+						requiredLabel: "*",
 						validation: {
 							required: "Surname is required"
 						}
@@ -242,8 +262,7 @@ export const PersonalDetails: Story = {
 					{
 						name: "jobTitle",
 						label: "Job title",
-						placeholder: "e.g. Manager",
-						icon: UserCircle
+						placeholder: "e.g. Manager"
 					}
 				]
 			}
@@ -316,125 +335,98 @@ export const WelcomeToTwinId: Story = {
 	}
 };
 
-// Organization Details variant
-const OrganizationDetailsComponent = (args: typeof OrganizationDetails.args) => {
-	const [termsChecked, setTermsChecked] = useState(args.checkbox?.checked ?? false);
-	return (
-		<StepViewWrapper
-			{...args}
-			checkbox={
-				args.checkbox
-					? {
-							...args.checkbox,
-							checked: termsChecked,
-							onChange: setTermsChecked
-						}
-					: undefined
-			}
-		/>
-	);
-};
-
+// Organization Details variant - matches "Register your organisation" design
 export const OrganizationDetails: Story = {
-	render: OrganizationDetailsComponent,
 	args: {
 		variant: StepViewVariants.Default,
-		title: "Set up organisation profile",
-		description:
-			"Tell other TWIN users about your Organisation. The information you will provide here will be displayed on your profile.",
+		title: "Register your organisation",
+		description: (
+			<>
+				If you are a listed organisation in the LEI registry, we recommend using an LEI to find your
+				organisation&apos;s verified details.
+				<br />
+				<a href="#" className="text-brand-primary font-semibold hover:underline">
+					Learn more about the LEI registry
+				</a>
+			</>
+		),
 		progress: 75,
 		image: "/images/organization-details.webp",
 		fields: [
 			{
-				heading: "About your company",
+				heading: "Search",
 				fields: [
 					{
-						name: "organizationName",
-						label: "Organisation name",
-						placeholder: "Add your organisation name",
-						requiredLabel: "Required",
-						validation: {
-							required: "Organisation name is required"
-						}
-					},
-					{
-						name: "industry",
-						label: "Industry",
-						placeholder: "Add your organisation industry",
-						requiredLabel: "Required",
-						validation: {
-							required: "Industry is required"
+						name: "leiNumber",
+						label: "Find your company by LEI",
+						placeholder: "Enter your LEI number",
+						type: "inputButton",
+						buttonLabel: "Find",
+						onButtonClick: async (value: string) => {
+							console.log("Searching for LEI:", value);
+							await new Promise(resolve => setTimeout(resolve, 1000));
 						}
 					}
 				]
 			},
 			{
-				heading: "Contact Details",
+				heading: "About your company",
 				fields: [
 					{
-						name: "contactEmail",
-						label: "Public email address",
-						placeholder: "Add a public email contact",
-						type: "email",
-						requiredLabel: "Required",
-						icon: UserCircle,
-						validation: {
-							required: "Public email address is required",
-							pattern: {
-								value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-								message: "Please enter a valid email address"
-							}
-						}
+						name: "organisationLegalName",
+						label: "Organisation Legal Name",
+						placeholder: "e.g. Your Company Ltd.",
+						requiredLabel: "*",
+						validation: { required: "Organisation legal name is required" }
+					}
+				]
+			},
+			{
+				heading: "Registered legal address",
+				fields: [
+					{
+						name: "addressLine1",
+						label: "Address line 1",
+						placeholder: "e.g., The Business Hub",
+						requiredLabel: "*",
+						validation: { required: "Address line 1 is required" }
 					},
 					{
-						name: "website",
-						label: "Website address",
-						placeholder: "Add your organisation website",
-						type: "url",
-						requiredLabel: "Required",
-						validation: {
-							required: "Website address is required",
-							pattern: {
-								value: /^(https?):\/\/[^\s/$.?#].[^\s]*$/,
-								message: "Please enter a valid website URL"
-							}
-						}
+						name: "addressLine2",
+						label: "Address line 2",
+						placeholder: "e.g., Business Road"
 					},
 					{
-						name: "telephone",
-						label: "Contact telephone",
-						placeholder: "Add a public tel number",
-						type: "tel",
-						requiredLabel: "Required",
-						validation: {
-							required: "Contact telephone is required",
-							pattern: {
-								value: /^[+]?[(]?[0-9]{3}[)]?[-\s.]?[0-9]{3}[-\s.]?[0-9]{4,6}$/,
-								message: "Please enter a valid telephone number"
-							}
-						}
+						name: "city",
+						label: "City",
+						placeholder: "Add your city location",
+						requiredLabel: "*",
+						validation: { required: "City is required" }
+					},
+					{
+						name: "region",
+						label: "Region",
+						placeholder: "Add your state, province or county",
+						requiredLabel: "*",
+						validation: { required: "Region is required" }
+					},
+					{
+						name: "postCode",
+						label: "Post Code",
+						placeholder: "Add your postal or zip code",
+						requiredLabel: "*",
+						validation: { required: "Post code is required" }
+					},
+					{
+						name: "country",
+						label: "Country",
+						placeholder: "Add your country",
+						requiredLabel: "*",
+						validation: { required: "Country is required" }
 					}
 				]
 			}
 		] as StepViewFieldSection[],
-		checkbox: {
-			id: "termsAgreement",
-			label: (
-				<>
-					My business agrees to adhere to the{" "}
-					<a href="#" className="text-brand-primary hover:underline">
-						Terms and Conditions
-					</a>{" "}
-					and{" "}
-					<a href="#" className="text-brand-primary hover:underline">
-						Privacy Policy
-					</a>{" "}
-					of TWIN ID Platform.
-				</>
-			),
-			checked: false,
-			onChange: () => {}
-		},
 		submitButtonLabel: "Continue",
 		loadingText: "Loading..."
 	}
@@ -458,7 +450,6 @@ export const BuildYourBusinessProfile: Story = {
 						label: "Public email address",
 						placeholder: "e.g. contact@your-company.com",
 						type: "email",
-						icon: UserCircle,
 						validation: {
 							pattern: {
 								value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -562,7 +553,7 @@ export const SetPassword: Story = {
 						label: "Enter a password",
 						placeholder: "Enter a password",
 						type: "password",
-						requiredLabel: "Required",
+						requiredLabel: "*",
 						icon: Lock,
 						validation: {
 							required: "Password is required",
@@ -577,7 +568,7 @@ export const SetPassword: Story = {
 						label: "Repeat password",
 						placeholder: "Repeat your password",
 						type: "password",
-						requiredLabel: "Required",
+						requiredLabel: "*",
 						icon: Lock,
 						validation: {
 							required: "Repeat password is required",
@@ -610,5 +601,204 @@ export const SetPassword: Story = {
 		},
 		submitButtonLabel: "Finish",
 		loadingText: "Loading..."
+	}
+};
+
+// Verification Loading (Kra variant) - Verify your business with BRN and PIN, two actions
+export const KRAVerificationLoading: Story = {
+	args: {
+		variant: StepViewVariants.Kra,
+		title: "Verify your business",
+		description:
+			"We collect this information to verify your business identity and keep your account safe.",
+		progress: 25,
+		image: "/images/kra.png",
+		fields: [
+			{
+				name: "brn",
+				label: "Business registration number (BRN)",
+				placeholder: "ABC-1234567"
+			},
+			{
+				name: "businessPin",
+				label: "Business PIN Number",
+				placeholder: "A123456789B"
+			}
+		] as StepViewField[],
+		kraButtons: [
+			{
+				label: "Save and verify later",
+				color: ButtonColors.Plain,
+				disabled: false,
+				onClick: async () => {
+					console.log("Save and verify later");
+					await new Promise(resolve => setTimeout(resolve, 500));
+				},
+				"data-testid": "save-and-verify-later"
+			},
+			{
+				label: "Verify now",
+				color: ButtonColors.Secondary,
+				rightIcon: ArrowRight,
+				showRightIcon: true,
+				disabled: false,
+				onClick: async () => {
+					console.log("Verify now");
+					await new Promise(resolve => setTimeout(resolve, 1000));
+				},
+				"data-testid": "verify-now"
+			}
+		]
+	}
+};
+
+// Kra variant with optional error message
+export const KRAVerificationLoadingWithError: Story = {
+	args: {
+		variant: StepViewVariants.Kra,
+		title: "Verify your business",
+		description:
+			"We collect this information to verify your business identity and keep your account safe.",
+		progress: 25,
+		image: "/images/kra.png",
+		fields: [
+			{ name: "brn", label: "Business registration number (BRN)", placeholder: "ABC-1234567" },
+			{ name: "businessPin", label: "Business PIN Number", placeholder: "A123456789B" }
+		] as StepViewField[],
+		kraErrorMessage: "Verification failed due to technical issue, save or try again.",
+		kraButtons: [
+			{
+				label: "Save and verify later",
+				color: ButtonColors.Plain,
+				onClick: async () => {},
+				"data-testid": "save-and-verify-later"
+			},
+			{
+				label: "Verify now",
+				color: ButtonColors.Secondary,
+				rightIcon: ArrowRight,
+				showRightIcon: true,
+				onClick: async () => {},
+				"data-testid": "verify-now"
+			}
+		]
+	}
+};
+
+// Kra variant with verification success (tick icon on each input)
+export const KRAVerificationSuccess: Story = {
+	args: {
+		variant: StepViewVariants.Kra,
+		title: "Verify your business",
+		description:
+			"We collect this information to verify your business identity and keep your account safe.",
+		progress: 25,
+		image: "/images/kra.png",
+		fields: [
+			{
+				name: "brn",
+				label: "Business registration number (BRN)",
+				placeholder: "ABC-1234567",
+				value: "ABC-1234567"
+			},
+			{
+				name: "businessPin",
+				label: "Business PIN Number",
+				placeholder: "A123456789B",
+				value: "A123456789B"
+			}
+		] as StepViewField[],
+		isVerificationSuccess: true,
+		kraButtons: [
+			{
+				label: "Save and verify later",
+				color: ButtonColors.Plain,
+				onClick: async () => {},
+				"data-testid": "save-and-verify-later"
+			},
+			{
+				label: "Verify now",
+				color: ButtonColors.Secondary,
+				rightIcon: ArrowRight,
+				showRightIcon: true,
+				onClick: async () => {},
+				"data-testid": "verify-now"
+			}
+		]
+	}
+};
+
+// Kra variant with list of errors (kraErrors array)
+export const KRAVerificationLoadingWithErrorsList: Story = {
+	args: {
+		variant: StepViewVariants.Kra,
+		title: "Verify your business",
+		description:
+			"We collect this information to verify your business identity and keep your account safe.",
+		progress: 25,
+		image: "/images/kra.png",
+		fields: [
+			{ name: "brn", label: "Business registration number (BRN)", placeholder: "ABC-1234567" },
+			{ name: "businessPin", label: "Business PIN Number", placeholder: "A123456789B" }
+		] as StepViewField[],
+		kraErrorMessage: "Please fix the following issues:",
+		kraErrors: [
+			"Business registration number is invalid or not found.",
+			"Business PIN does not match our records.",
+			"Verification service is temporarily unavailable."
+		],
+		kraButtons: [
+			{
+				label: "Save and verify later",
+				color: ButtonColors.Plain,
+				onClick: async () => {},
+				"data-testid": "save-and-verify-later"
+			},
+			{
+				label: "Verify now",
+				color: ButtonColors.Secondary,
+				rightIcon: ArrowRight,
+				showRightIcon: true,
+				onClick: async () => {},
+				"data-testid": "verify-now"
+			}
+		]
+	}
+};
+
+// Kra variant – Confirm Your Authorization with security code input (verificationCodeInput)
+export const KRAConfirmAuthorization: Story = {
+	args: {
+		variant: StepViewVariants.Kra,
+		title: "Confirm Your Authorization",
+		description:
+			"Enter the security code sent to the email linked to the verified PIN. This confirms you're authorized to create this account.",
+		progress: 50,
+		image: "/images/kra.png",
+		fields: [
+			{
+				name: "securityCode",
+				label: "Security code",
+				type: "verificationCodeInput",
+				verificationCodeLength: 6,
+				verificationCodeExpiresInText: "Code expires in 05:00 minutes"
+			}
+		] as StepViewField[],
+		kraButtons: [
+			{
+				label: "Save and verify later",
+				color: ButtonColors.Plain,
+				onClick: async () => {},
+				"data-testid": "save-and-verify-later"
+			},
+			{
+				label: "Continue",
+				color: ButtonColors.Secondary,
+				rightIcon: ArrowRight,
+				showRightIcon: true,
+				onClick: async () => {},
+				"data-testid": "continue"
+			}
+		]
 	}
 };

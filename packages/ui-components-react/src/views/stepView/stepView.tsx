@@ -9,6 +9,7 @@ import type { StepViewProps } from "./stepViewProps";
 import { StepViewVariants } from "./stepViewVariants";
 import { DefaultVariant } from "./variants/default";
 import { InfoVariant } from "./variants/info";
+import { KraVariant } from "./variants/kra";
 import { SelectionVariant } from "./variants/selection";
 import { cn } from "../../lib/utils";
 
@@ -47,11 +48,17 @@ export const StepView = ({
 	checkbox,
 	onSubmit,
 	register,
+	getValues,
+	setValue,
 	handleSubmit,
 	errors,
 	isSubmitting = false,
 	submitButtonLabel = "Continue",
 	loadingText = "Loading...",
+	kraErrorMessage,
+	kraErrors,
+	isVerificationSuccess,
+	kraButtons,
 	className
 }: StepViewProps): JSX.Element => {
 	// Determine which variant to render
@@ -64,6 +71,22 @@ export const StepView = ({
 	// Info variant (explicit)
 	else if (variant === StepViewVariants.Info) {
 		renderVariant = <InfoVariant icon={icon} text={text} action={action} />;
+	}
+	// Kra variant - verification step with fields, error/success messages, and buttons
+	else if (variant === StepViewVariants.Kra) {
+		renderVariant = (
+			<KraVariant
+				fields={fields ?? []}
+				register={register}
+				getValues={getValues}
+				setValue={setValue}
+				errors={errors}
+				errorMessage={kraErrorMessage}
+				errorList={kraErrors}
+				isVerificationSuccess={isVerificationSuccess}
+				buttons={kraButtons ?? []}
+			/>
+		);
 	}
 	// Default form variant
 	else {
@@ -79,6 +102,8 @@ export const StepView = ({
 					checkbox={checkbox}
 					onSubmit={onSubmit}
 					register={register}
+					getValues={getValues}
+					setValue={setValue}
 					handleSubmit={handleSubmit}
 					errors={errors}
 					isSubmitting={isSubmitting}
@@ -96,7 +121,7 @@ export const StepView = ({
 	return (
 		<div className={cn("h-full w-full", className)}>
 			<div className="flex h-full w-full overflow-y-auto">
-				<div className="relative hidden h-[600px] w-[450px] flex-shrink-0 overflow-hidden md:block">
+				<div className="relative hidden flex-shrink-0 overflow-hidden md:block md:h-[400px] md:w-[300px] lg:h-[600px] lg:w-[450px]">
 					{typeof image === "string" ? (
 						<img src={image} alt={title} className="h-full w-full object-cover object-left-top" />
 					) : (
@@ -104,11 +129,10 @@ export const StepView = ({
 					)}
 				</div>
 
-				{/* Content column */}
 				<div className="flex-1 pb-8 pr-8 md:pl-24">
-					<div className="w-full max-w-[670px]">
+					<div className="w-full md:max-w-[670px]">
 						{typeof progress === "number" && (
-							<div className="mb-6 w-1/2">
+							<div className="mb-6 w-full md:w-1/2">
 								<Progress
 									progressLabelPosition="outside"
 									progress={progress}
@@ -122,25 +146,24 @@ export const StepView = ({
 							</div>
 						)}
 
-						{/* Content */}
 						<div className="w-full">
-							<div>
-								<div className="mb-6">
-									<h1 className="text-brand-primary text-3xl font-semibold">{title}</h1>
-								</div>
-
-								{description && (
-									<div className="mb-6">
-										{typeof description === "string" ? (
-											<p className="text-primary text-md">{description}</p>
-										) : (
-											<div className="text-primary text-md">{description}</div>
-										)}
-									</div>
-								)}
+							<div className="mb-6">
+								<h1 className="text-brand-primary text-3xl font-semibold">{title}</h1>
 							</div>
 
-							<div className={variant === StepViewVariants.Selection ? "w-full" : "max-w-[450px]"}>
+							{description && (
+								<div className="mb-6">
+									{typeof description === "string" ? (
+										<p className="text-primary text-md">{description}</p>
+									) : (
+										<div className="text-primary text-md">{description}</div>
+									)}
+								</div>
+							)}
+
+							<div
+								className={variant === StepViewVariants.Selection ? "w-full" : "md:max-w-[450px]"}
+							>
 								{renderVariant}
 							</div>
 						</div>

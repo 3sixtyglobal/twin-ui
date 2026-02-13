@@ -1,3 +1,4 @@
+import path from "path";
 import type { StorybookConfig } from "@storybook/react-vite";
 
 const config: StorybookConfig = {
@@ -11,6 +12,20 @@ const config: StorybookConfig = {
 	framework: {
 		name: "@storybook/react-vite",
 		options: {}
+	},
+	async viteFinal(config) {
+		const { mergeConfig } = await import("vite");
+		return mergeConfig(config, {
+			resolve: {
+				alias: {
+					// Resolve package from source so Storybook sees package changes without rebuilding
+					"@twin.org/ui-components-react": path.resolve(
+						__dirname,
+						"../../../packages/ui-components-react/src"
+					)
+				}
+			}
+		});
 	}
 };
 export default config;

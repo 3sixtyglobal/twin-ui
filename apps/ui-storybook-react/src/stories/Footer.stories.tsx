@@ -40,37 +40,99 @@ export const Default: Story = {
 							name="TWIN"
 						/>
 					</div>
-					<div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
+					<div className="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-6">
 						<div>
-							<Footer.Title title="About" />
-							<Footer.LinkGroup col>
-								<Footer.Link href="#">About TWIN</Footer.Link>
-								<Footer.Link href="#">Documentation</Footer.Link>
-								<Footer.Link href="#">Resources</Footer.Link>
-							</Footer.LinkGroup>
+							{/* Mobile */}
+							<div className="my-4 sm:hidden">
+								<h2 className="text-sm font-semibold uppercase tracking-wide text-gray-900">
+									Documentation
+								</h2>
+							</div>
+							<div className="sm:hidden [&_a]:text-gray-600">
+								<Footer.LinkGroup col>
+									<Footer.Link href="#">Introduction</Footer.Link>
+									<Footer.Link href="#">Application</Footer.Link>
+									<Footer.Link href="#">Quick Start</Footer.Link>
+								</Footer.LinkGroup>
+							</div>
+
+							{/* Desktop (original) */}
+							<div className="hidden sm:block">
+								<Footer.Title title="About" />
+							</div>
+							<div className="hidden sm:block">
+								<Footer.LinkGroup col>
+									<Footer.Link href="#">About TWIN</Footer.Link>
+									<Footer.Link href="#">Documentation</Footer.Link>
+									<Footer.Link href="#">Resources</Footer.Link>
+								</Footer.LinkGroup>
+							</div>
 						</div>
 						<div>
-							<Footer.Title title="Follow us" />
-							<Footer.LinkGroup col>
-								<Footer.Link href="#">Github</Footer.Link>
-								<Footer.Link href="#">Discord</Footer.Link>
-								<Footer.Link href="#">Twitter</Footer.Link>
-							</Footer.LinkGroup>
+							{/* Mobile */}
+							<div className="mb-4 mt-4 sm:hidden">
+								<h2 className="text-sm font-semibold uppercase tracking-wide text-gray-900">
+									Resources
+								</h2>
+							</div>
+							<div className="sm:hidden [&_a]:text-gray-600">
+								<Footer.LinkGroup col>
+									<Footer.Link href="#">Trade Guidelines</Footer.Link>
+									<Footer.Link href="#">Commodity Lookup</Footer.Link>
+								</Footer.LinkGroup>
+							</div>
+
+							{/* Desktop (original) */}
+							<div className="hidden sm:block">
+								<Footer.Title title="Follow us" />
+							</div>
+							<div className="hidden sm:block">
+								<Footer.LinkGroup col>
+									<Footer.Link href="#">Github</Footer.Link>
+									<Footer.Link href="#">Discord</Footer.Link>
+									<Footer.Link href="#">Twitter</Footer.Link>
+								</Footer.LinkGroup>
+							</div>
 						</div>
 						<div>
-							<Footer.Title title="Legal" />
-							<Footer.LinkGroup col>
-								<Footer.Link href="#">Privacy Policy</Footer.Link>
-								<Footer.Link href="#">Terms & Conditions</Footer.Link>
-								<Footer.Link href="#">Cookie Policy</Footer.Link>
-							</Footer.LinkGroup>
+							{/* Mobile */}
+							<div className="mb-4 sm:hidden">
+								<h2 className="text-sm font-semibold uppercase tracking-wide text-gray-900">
+									Help
+								</h2>
+							</div>
+							<div className="sm:hidden [&_a]:text-gray-600">
+								<Footer.LinkGroup col>
+									<Footer.Link href="#">FAQs</Footer.Link>
+									<Footer.Link href="#">Support</Footer.Link>
+								</Footer.LinkGroup>
+							</div>
+
+							{/* Desktop (original) */}
+							<div className="hidden sm:block">
+								<Footer.Title title="Legal" />
+							</div>
+							<div className="hidden sm:block">
+								<Footer.LinkGroup col>
+									<Footer.Link href="#">Privacy Policy</Footer.Link>
+									<Footer.Link href="#">Terms & Conditions</Footer.Link>
+									<Footer.Link href="#">Cookie Policy</Footer.Link>
+								</Footer.LinkGroup>
+							</div>
 						</div>
 					</div>
 				</div>
 				<Footer.Divider />
 				<div className="sm:flex sm:items-center sm:justify-between">
-					<Footer.Copyright href="https://www.twin.org" by="TWIN™" year={2025} />
-					<div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+					{/* Mobile */}
+					<div className="text-sm text-gray-600 sm:hidden">
+						© 2025 3rd Chain Ltd. All rights reserved.
+					</div>
+					{/* Desktop (original) */}
+					<div className="hidden sm:block">
+						<Footer.Copyright href="https://www.twin.org" by="TWIN™" year={2025} />
+					</div>
+					<div className="mt-4 hidden space-x-6 sm:mt-0 sm:flex sm:justify-center">
 						<Footer.Icon href="#" icon={House} ariaLabel="Visit our homepage" />
 						<Footer.Icon href="#" icon={Envelope} ariaLabel="Contact us" />
 						<Footer.Icon href="#" icon={PlayStop} ariaLabel="Listen to updates" />
