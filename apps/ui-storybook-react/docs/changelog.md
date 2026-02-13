@@ -1,5 +1,19 @@
 # @twin.org/ui-components-react - Changelog
 
+## [0.0.3-next.3](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.3-next.2...ui-storybook-react-v0.0.3-next.3) (2026-02-13)
+
+
+### Features
+
+* update stepview ([#104](https://github.com/twinfoundation/ui/issues/104)) ([ed15000](https://github.com/twinfoundation/ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-components-react bumped from 0.0.3-next.2 to 0.0.3-next.3
+
 ## [0.0.3-next.2](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.3-next.1...ui-storybook-react-v0.0.3-next.2) (2025-12-09)
 
 
