@@ -285,7 +285,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all features 1`]
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -342,7 +342,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all icon positio
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -376,7 +376,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all icon positio
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -410,7 +410,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with all icon positio
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -815,7 +815,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with complex badge pr
               >
                 <path
                   d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-                  stroke="currentColor"
+                  stroke="currentcolor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
@@ -962,7 +962,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with different icon s
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -996,7 +996,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with different icon s
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -1030,7 +1030,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with different icon s
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -1064,7 +1064,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with different icon s
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -1200,7 +1200,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with icon and custom 
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -1234,7 +1234,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with icon in left pos
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -1268,7 +1268,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with icon in top posi
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -1302,7 +1302,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with icon in top-abso
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>
@@ -1444,7 +1444,7 @@ exports[`Card - Snapshot Tests > matches snapshot for card with multiple icons 1
         <circle
           cx="8"
           cy="8"
-          fill="currentColor"
+          fill="currentcolor"
           r="4"
         />
       </svg>

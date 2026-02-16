@@ -14,7 +14,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > lg s
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -43,7 +43,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > md s
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -72,7 +72,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > sm s
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -101,7 +101,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > xl s
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -130,7 +130,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > xs s
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -159,7 +159,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status position vari
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -192,7 +192,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status position vari
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -225,7 +225,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status position vari
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -258,7 +258,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status position vari
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -291,7 +291,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > aw
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -324,7 +324,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > bu
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -357,7 +357,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > of
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -390,7 +390,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > on
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -423,7 +423,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with JSX children
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -504,7 +504,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with array childr
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -537,7 +537,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with boolean chil
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -567,7 +567,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with bordered pro
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -596,7 +596,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with children con
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -628,7 +628,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with custom class
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -657,7 +657,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different si
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -686,7 +686,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different si
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -715,7 +715,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different si
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -744,7 +744,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different si
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -773,7 +773,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different si
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -802,7 +802,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different st
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -835,7 +835,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different st
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -868,7 +868,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different st
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -901,7 +901,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different st
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -952,7 +952,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with empty string
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -981,7 +981,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with fragment chi
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1036,7 +1036,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with invalid imag
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1083,7 +1083,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with long text ch
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1115,7 +1115,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with multiple cla
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1162,7 +1162,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with null childre
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1191,7 +1191,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with number child
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1223,7 +1223,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with rounded prop
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1252,7 +1252,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with special char
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1284,7 +1284,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with stacked prop
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1313,7 +1313,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > awa
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1346,7 +1346,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > bus
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1379,7 +1379,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > off
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1412,7 +1412,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > onl
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1445,7 +1445,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with string child
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1495,7 +1495,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with undefined ch
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1524,7 +1524,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with unicode char
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1574,7 +1574,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with whitespace c
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1606,7 +1606,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for avatar with whitespace i
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1635,7 +1635,7 @@ exports[`Avatar - Snapshot Tests > matches snapshot for default avatar 1`] = `
     >
       <svg
         class="absolute -bottom-1 h-auto w-auto text-gray-400"
-        fill="currentColor"
+        fill="currentcolor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >

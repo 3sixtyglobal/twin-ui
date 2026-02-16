@@ -92,9 +92,9 @@ exports[`StepView > Snapshot Tests > matches snapshot for StepView with Default 
                     Continue
                     <svg
                       class=""
-                      fill="currentColor"
+                      fill="currentcolor"
                       height="20"
-                      style="color: currentcolor; fill: currentColor;"
+                      style="color: currentcolor; fill: currentcolor;"
                       viewBox="0 0 256 256"
                       width="20"
                       xmlns="http://www.w3.org/2000/svg"
@@ -447,9 +447,9 @@ exports[`StepView > Snapshot Tests > matches snapshot for StepView with Selectio
                           Select
                           <svg
                             class="ml-2"
-                            fill="currentColor"
+                            fill="currentcolor"
                             height="20"
-                            style="color: currentcolor; fill: currentColor;"
+                            style="color: currentcolor; fill: currentcolor;"
                             viewBox="0 0 256 256"
                             width="20"
                             xmlns="http://www.w3.org/2000/svg"

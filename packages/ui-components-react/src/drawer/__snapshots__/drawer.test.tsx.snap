@@ -83,9 +83,9 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean 
       <svg
         aria-hidden="true"
         class="me-2.5 h-4 w-4"
-        fill="currentColor"
+        fill="currentcolor"
         height="1em"
-        stroke="currentColor"
+        stroke="currentcolor"
         stroke-width="0"
         viewBox="0 0 24 24"
         width="1em"
@@ -107,9 +107,9 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean 
     >
       <svg
         class="h-4 w-4"
-        fill="currentColor"
+        fill="currentcolor"
         height="24"
-        style="color: currentcolor; fill: currentColor;"
+        style="color: currentcolor; fill: currentcolor;"
         viewBox="0 0 256 256"
         width="24"
         xmlns="http://www.w3.org/2000/svg"
@@ -1215,9 +1215,9 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null showBut
       <svg
         aria-hidden="true"
         class="me-2.5 h-4 w-4"
-        fill="currentColor"
+        fill="currentcolor"
         height="1em"
-        stroke="currentColor"
+        stroke="currentcolor"
         stroke-width="0"
         viewBox="0 0 24 24"
         width="1em"
@@ -1239,9 +1239,9 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null showBut
     >
       <svg
         class="h-4 w-4"
-        fill="currentColor"
+        fill="currentcolor"
         height="24"
-        style="color: currentcolor; fill: currentColor;"
+        style="color: currentcolor; fill: currentcolor;"
         viewBox="0 0 256 256"
         width="24"
         xmlns="http://www.w3.org/2000/svg"
@@ -1578,9 +1578,9 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer without button 1`
       <svg
         aria-hidden="true"
         class="me-2.5 h-4 w-4"
-        fill="currentColor"
+        fill="currentcolor"
         height="1em"
-        stroke="currentColor"
+        stroke="currentcolor"
         stroke-width="0"
         viewBox="0 0 24 24"
         width="1em"
@@ -1602,9 +1602,9 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer without button 1`
     >
       <svg
         class="h-4 w-4"
-        fill="currentColor"
+        fill="currentcolor"
         height="24"
-        style="color: currentcolor; fill: currentColor;"
+        style="color: currentcolor; fill: currentcolor;"
         viewBox="0 0 256 256"
         width="24"
         xmlns="http://www.w3.org/2000/svg"

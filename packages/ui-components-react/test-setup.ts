@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 import "@testing-library/jest-dom";
-import { vi } from "vitest";
+import { expect, vi } from "vitest";
 // Individual mocks are now handled by the vitest alias to flowbite-react
 
 // All flowbite-react components are now mocked via vitest alias
@@ -52,4 +52,22 @@ Object.defineProperty(window, "matchMedia", {
 Object.defineProperty(window, "scrollTo", {
 	writable: true,
 	value: () => {}
+});
+
+// Custom snapshot serializer to normalize CSS values for cross-platform consistency
+// Only match strings containing camelCase "currentColor" (not already-lowercase "currentcolor")
+// to avoid infinite recursion when the printer calls the serializer again
+expect.addSnapshotSerializer({
+	serialize(val, config, indentation, depth, refs, printer) {
+		// Normalize currentColor to lowercase for consistent snapshots
+		if (typeof val === "string") {
+			const normalized = val.replace(/currentColor/g, "currentcolor");
+			return printer(normalized, config, indentation, depth, refs);
+		}
+		return printer(val, config, indentation, depth, refs);
+	},
+	test(val) {
+		// Only match camelCase "currentColor", not lowercase "currentcolor"
+		return typeof val === "string" && val.includes("currentColor");
+	}
 });
