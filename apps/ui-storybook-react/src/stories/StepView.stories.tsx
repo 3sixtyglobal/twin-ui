@@ -9,19 +9,44 @@ import {
 	StepViewVariants,
 	type StepViewField,
 	type StepViewFieldSection,
-	type StepViewProps
+	type StepViewProps,
+	type StepViewBaseProps,
+	type StepViewDefaultProps,
+	type StepViewInfoProps,
+	type StepViewSelectionProps,
+	type StepViewKYBProps,
+	type StepViewCheckbox
 } from "@twin.org/ui-components-react";
 import { ArrowRight, Building, Lock, UsersThree } from "@twin.org/ui-components-react/icons";
 
+/**
+ * Flattened props type for storybook compatibility.
+ * Storybook's `Meta` / `StoryObj` types use `Partial<Props>` which collapses
+ * discriminated unions, so we merge all variant props into a single interface.
+ *
+ * We exclude `variant` from each member before intersecting to avoid collapsing
+ * the literal types (`'default' | undefined` & `'info'` → `never`), then add
+ * `variant` back as a simple optional union string.
+ */
+type VariantSpecificKeys = keyof StepViewBaseProps | "variant";
+
+type StepViewStoryProps = StepViewBaseProps &
+	Partial<
+		Omit<StepViewDefaultProps, VariantSpecificKeys> &
+			Omit<StepViewInfoProps, VariantSpecificKeys> &
+			Omit<StepViewSelectionProps, VariantSpecificKeys> &
+			Omit<StepViewKYBProps, VariantSpecificKeys>
+	> & {
+		variant?: "default" | "info" | "selection" | "kyb";
+	};
+
 // Wrapper component to provide react-hook-form context
-const StepViewWrapper = (
-	args: Omit<StepViewProps, "register" | "handleSubmit" | "errors" | "onSubmit">
-) => {
+const StepViewWrapper = (args: StepViewStoryProps) => {
 	// Extract default values from fields
 	const getDefaultValues = (): Record<string, unknown> => {
 		const defaults: Record<string, unknown> = {};
 		if (args.fields && Array.isArray(args.fields)) {
-			args.fields.forEach(fieldOrSection => {
+			args.fields.forEach((fieldOrSection: StepViewField | StepViewFieldSection) => {
 				if ("fields" in fieldOrSection) {
 					// It's a section
 					fieldOrSection.fields.forEach((field: StepViewField) => {
@@ -56,7 +81,7 @@ const StepViewWrapper = (
 		defaultValues: getDefaultValues()
 	});
 
-	// Subscribe to form values so Kra variant (e.g. verificationCodeInput) re-renders when setValue is called
+	// Subscribe to form values so KYB variant (e.g. verificationCodeInput) re-renders when setValue is called
 	watch();
 
 	const onSubmit = async (data: Record<string, unknown>) => {
@@ -65,8 +90,8 @@ const StepViewWrapper = (
 	};
 
 	// Only pass form props if fields are provided and variant is default (form variant)
-	const isFormVariant = args.variant === StepViewVariants.Default;
-	const isKraVariant = args.variant === StepViewVariants.Kra;
+	const isFormVariant = args.variant === StepViewVariants.Default || args.variant === undefined;
+	const isKYBVariant = args.variant === StepViewVariants.KYB;
 	const hasFields = args.fields != null && Array.isArray(args.fields) && args.fields.length > 0;
 
 	if (isFormVariant && hasFields) {
@@ -82,7 +107,7 @@ const StepViewWrapper = (
 		);
 	}
 
-	if (isKraVariant && hasFields) {
+	if (isKYBVariant && hasFields) {
 		return (
 			<StepView
 				{...args}
@@ -98,7 +123,7 @@ const StepViewWrapper = (
 	return <StepView {...args} />;
 };
 
-const meta = {
+const meta: Meta<typeof StepViewWrapper> = {
 	title: "Views/StepView",
 	component: StepViewWrapper,
 	argTypes: {
@@ -107,7 +132,7 @@ const meta = {
 				StepViewVariants.Default,
 				StepViewVariants.Info,
 				StepViewVariants.Selection,
-				StepViewVariants.Kra
+				StepViewVariants.KYB
 			],
 			control: { type: "inline-radio" }
 		},
@@ -137,7 +162,7 @@ const meta = {
 			</div>
 		)
 	]
-} satisfies Meta<typeof StepViewWrapper>;
+};
 
 export default meta;
 type Story = StoryObj<typeof meta>;
@@ -196,15 +221,17 @@ export const EmailConfirmation: Story = {
 };
 
 // Personal Details variant (Default form)
-const PersonalDetailsComponent = (args: typeof PersonalDetails.args) => {
-	const [agreementChecked, setAgreementChecked] = useState(args.checkbox?.checked ?? true);
+const PersonalDetailsComponent: Story["render"] = storyArgs => {
+	const args = storyArgs as StepViewStoryProps;
+	const checkbox = args.checkbox;
+	const [agreementChecked, setAgreementChecked] = useState(checkbox?.checked ?? true);
 	return (
 		<StepViewWrapper
 			{...args}
 			checkbox={
-				args.checkbox
+				checkbox
 					? {
-							...args.checkbox,
+							...checkbox,
 							checked: agreementChecked,
 							onChange: setAgreementChecked
 						}
@@ -309,7 +336,7 @@ export const WelcomeToTwinId: Story = {
 				features: [],
 				button: {
 					label: "Create Organisation",
-					onClick: async value => {
+					onClick: async (value: any) => {
 						console.log("Selected:", value);
 						await new Promise(resolve => setTimeout(resolve, 1000));
 					},
@@ -324,7 +351,7 @@ export const WelcomeToTwinId: Story = {
 				features: [],
 				button: {
 					label: "More information",
-					onClick: async value => {
+					onClick: async (value: any) => {
 						console.log("Selected:", value);
 						await new Promise(resolve => setTimeout(resolve, 1000));
 					},
@@ -517,15 +544,17 @@ export const BuildYourBusinessProfile: Story = {
 };
 
 // Set Password variant
-const SetPasswordComponent = (args: typeof SetPassword.args) => {
-	const [termsChecked, setTermsChecked] = useState(args.checkbox?.checked ?? true);
+const SetPasswordComponent: Story["render"] = storyArgs => {
+	const args = storyArgs as StepViewStoryProps;
+	const checkbox = args.checkbox as StepViewCheckbox | undefined;
+	const [termsChecked, setTermsChecked] = useState(checkbox?.checked ?? true);
 	return (
 		<StepViewWrapper
 			{...args}
 			checkbox={
-				args.checkbox
+				checkbox
 					? {
-							...args.checkbox,
+							...checkbox,
 							checked: termsChecked,
 							onChange: setTermsChecked
 						}
@@ -604,15 +633,15 @@ export const SetPassword: Story = {
 	}
 };
 
-// Verification Loading (Kra variant) - Verify your business with BRN and PIN, two actions
-export const KRAVerificationLoading: Story = {
+// Verification Loading (KYB variant) - Verify your business with BRN and PIN, two actions
+export const KYBVerificationLoading: Story = {
 	args: {
-		variant: StepViewVariants.Kra,
+		variant: StepViewVariants.KYB,
 		title: "Verify your business",
 		description:
 			"We collect this information to verify your business identity and keep your account safe.",
 		progress: 25,
-		image: "/images/kra.png",
+		image: "/images/kyb.webp",
 		fields: [
 			{
 				name: "brn",
@@ -625,7 +654,7 @@ export const KRAVerificationLoading: Story = {
 				placeholder: "A123456789B"
 			}
 		] as StepViewField[],
-		kraButtons: [
+		kybButtons: [
 			{
 				label: "Save and verify later",
 				color: ButtonColors.Plain,
@@ -652,21 +681,21 @@ export const KRAVerificationLoading: Story = {
 	}
 };
 
-// Kra variant with optional error message
-export const KRAVerificationLoadingWithError: Story = {
+// KYB variant with optional error message
+export const KYBVerificationLoadingWithError: Story = {
 	args: {
-		variant: StepViewVariants.Kra,
+		variant: StepViewVariants.KYB,
 		title: "Verify your business",
 		description:
 			"We collect this information to verify your business identity and keep your account safe.",
 		progress: 25,
-		image: "/images/kra.png",
+		image: "/images/kyb.webp",
 		fields: [
 			{ name: "brn", label: "Business registration number (BRN)", placeholder: "ABC-1234567" },
 			{ name: "businessPin", label: "Business PIN Number", placeholder: "A123456789B" }
 		] as StepViewField[],
-		kraErrorMessage: "Verification failed due to technical issue, save or try again.",
-		kraButtons: [
+		kybErrorMessage: "Verification failed due to technical issue, save or try again.",
+		kybButtons: [
 			{
 				label: "Save and verify later",
 				color: ButtonColors.Plain,
@@ -685,15 +714,15 @@ export const KRAVerificationLoadingWithError: Story = {
 	}
 };
 
-// Kra variant with verification success (tick icon on each input)
-export const KRAVerificationSuccess: Story = {
+// KYB variant with verification success (tick icon on each input)
+export const KYBVerificationSuccess: Story = {
 	args: {
-		variant: StepViewVariants.Kra,
+		variant: StepViewVariants.KYB,
 		title: "Verify your business",
 		description:
 			"We collect this information to verify your business identity and keep your account safe.",
 		progress: 25,
-		image: "/images/kra.png",
+		image: "/images/kyb.webp",
 		fields: [
 			{
 				name: "brn",
@@ -709,7 +738,7 @@ export const KRAVerificationSuccess: Story = {
 			}
 		] as StepViewField[],
 		isVerificationSuccess: true,
-		kraButtons: [
+		kybButtons: [
 			{
 				label: "Save and verify later",
 				color: ButtonColors.Plain,
@@ -728,26 +757,26 @@ export const KRAVerificationSuccess: Story = {
 	}
 };
 
-// Kra variant with list of errors (kraErrors array)
-export const KRAVerificationLoadingWithErrorsList: Story = {
+// KYB variant with list of errors (kybErrors array)
+export const KYBVerificationLoadingWithErrorsList: Story = {
 	args: {
-		variant: StepViewVariants.Kra,
+		variant: StepViewVariants.KYB,
 		title: "Verify your business",
 		description:
 			"We collect this information to verify your business identity and keep your account safe.",
 		progress: 25,
-		image: "/images/kra.png",
+		image: "/images/kyb.webp",
 		fields: [
 			{ name: "brn", label: "Business registration number (BRN)", placeholder: "ABC-1234567" },
 			{ name: "businessPin", label: "Business PIN Number", placeholder: "A123456789B" }
 		] as StepViewField[],
-		kraErrorMessage: "Please fix the following issues:",
-		kraErrors: [
+		kybErrorMessage: "Please fix the following issues:",
+		kybErrors: [
 			"Business registration number is invalid or not found.",
 			"Business PIN does not match our records.",
 			"Verification service is temporarily unavailable."
 		],
-		kraButtons: [
+		kybButtons: [
 			{
 				label: "Save and verify later",
 				color: ButtonColors.Plain,
@@ -766,15 +795,15 @@ export const KRAVerificationLoadingWithErrorsList: Story = {
 	}
 };
 
-// Kra variant – Confirm Your Authorization with security code input (verificationCodeInput)
-export const KRAConfirmAuthorization: Story = {
+// KYB variant – Confirm Your Authorization with security code input (verificationCodeInput)
+export const KYBConfirmAuthorization: Story = {
 	args: {
-		variant: StepViewVariants.Kra,
+		variant: StepViewVariants.KYB,
 		title: "Confirm Your Authorization",
 		description:
 			"Enter the security code sent to the email linked to the verified PIN. This confirms you're authorized to create this account.",
 		progress: 50,
-		image: "/images/kra.png",
+		image: "/images/kyb.webp",
 		fields: [
 			{
 				name: "securityCode",
@@ -784,7 +813,7 @@ export const KRAConfirmAuthorization: Story = {
 				verificationCodeExpiresInText: "Code expires in 05:00 minutes"
 			}
 		] as StepViewField[],
-		kraButtons: [
+		kybButtons: [
 			{
 				label: "Save and verify later",
 				color: ButtonColors.Plain,

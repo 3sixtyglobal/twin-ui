@@ -19,9 +19,9 @@ export const StepViewVariants = {
 	 */
 	Selection: "selection",
 	/**
-	 * Kra variant - verification step with fields, optional error/success messages, and configurable buttons.
+	 * KYB (Know Your Business) variant - verification step with fields, optional error/success messages, and configurable buttons.
 	 */
-	Kra: "kra"
+	KYB: "kyb"
 } as const;
 
 /**

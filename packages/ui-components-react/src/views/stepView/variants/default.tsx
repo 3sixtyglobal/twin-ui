@@ -2,7 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 import type { JSX } from "react";
+import { useRef } from "react";
 import type {
+	FieldError,
 	FieldErrors,
 	UseFormGetValues,
 	UseFormRegister,
@@ -34,6 +36,7 @@ interface DefaultVariantProps {
 	errors?: FieldErrors<Record<string, unknown>>;
 	isSubmitting?: boolean;
 	submitButtonLabel?: string;
+	submitButtonDataTestId?: string;
 	loadingText?: string;
 }
 
@@ -48,8 +51,12 @@ export const DefaultVariant = ({
 	errors,
 	isSubmitting = false,
 	submitButtonLabel = "Continue",
+	submitButtonDataTestId = "submit-button",
 	loadingText = "Loading..."
 }: DefaultVariantProps): JSX.Element => {
+	// Ref used as a fallback for the custom render function
+	const noopRef = useRef<unknown>(null);
+
 	// Render a single field
 	const renderField = (field: StepViewField): JSX.Element => {
 		const fieldError = errors?.[field.name];
@@ -61,6 +68,35 @@ export const DefaultVariant = ({
 		// Get registered props if register is available
 		const registeredProps =
 			register && registerOptions ? register(field.name, registerOptions) : {};
+
+		// -----------------------------------------------------------
+		// Custom render function — replaces all default input rendering
+		// -----------------------------------------------------------
+		if (field.render) {
+			const currentValue = getValues?.()?.[field.name] ?? field.value;
+			return (
+				<div key={field.name} className="w-full">
+					{field.render({
+						field: {
+							name: field.name,
+							value: currentValue,
+							onChange: (value: unknown) => {
+								setValue?.(field.name, value);
+							},
+							onBlur: () => {
+								// Trigger validation on blur if register is available
+								const registered = registeredProps as {
+									onBlur?: (e?: React.FocusEvent) => void;
+								};
+								registered.onBlur?.();
+							},
+							ref: noopRef
+						},
+						error: fieldError as FieldError | undefined
+					})}
+				</div>
+			);
+		}
 
 		// If field has selectOptions, render as Select
 		if (field.selectOptions && field.selectOptions.length > 0) {
@@ -214,30 +250,29 @@ export const DefaultVariant = ({
 
 	return (
 		<form onSubmit={handleFormSubmit} className="w-full space-y-8">
-			{fields && Array.isArray(fields) && fields.length > 0 && (
-				<>
-					{fields[0] && "heading" in fields[0] ? (
-						// Render as sections
-						(fields as StepViewFieldSection[]).map((section, sectionIndex) => (
-							<div key={sectionIndex}>
-								{section.heading && (
-									<h2 className="text-brand-secondary mb-4 text-xl font-semibold">
-										{section.heading}
-									</h2>
+			{fields &&
+				Array.isArray(fields) &&
+				fields.length > 0 &&
+				(fields[0] && "heading" in fields[0] ? (
+					// Render as sections
+					(fields as StepViewFieldSection[]).map((section, sectionIndex) => (
+						<div key={sectionIndex}>
+							{section.heading && (
+								<h2 className="text-brand-secondary mb-4 text-xl font-semibold">
+									{section.heading}
+								</h2>
+							)}
+							<div className="flex items-start gap-4">
+								<div className="flex-1 space-y-4">{section.fields.map(renderField)}</div>
+								{section.rightContent && (
+									<div className="flex-shrink-0">{section.rightContent}</div>
 								)}
-								<div className="flex items-start gap-4">
-									<div className="flex-1 space-y-4">{section.fields.map(renderField)}</div>
-									{section.rightContent && (
-										<div className="flex-shrink-0">{section.rightContent}</div>
-									)}
-								</div>
 							</div>
-						))
-					) : (
-						<div className="space-y-4">{(fields as StepViewField[]).map(renderField)}</div>
-					)}
-				</>
-			)}
+						</div>
+					))
+				) : (
+					<div className="space-y-4">{(fields as StepViewField[]).map(renderField)}</div>
+				))}
 
 			{checkbox && (
 				<div className="flex items-start gap-2">
@@ -260,7 +295,7 @@ export const DefaultVariant = ({
 				type="submit"
 				disabled={isSubmitting}
 				color={ButtonColors.Secondary}
-				data-testid="submit-button"
+				data-testid={submitButtonDataTestId}
 				className="w-full md:w-fit"
 			>
 				{isSubmitting ? loadingText : submitButtonLabel}

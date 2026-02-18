@@ -6,7 +6,7 @@ import { render, screen, waitFor, fireEvent, act } from "@testing-library/react"
 import { describe, it, expect, vi } from "vitest";
 import { useForm } from "react-hook-form";
 import { StepView } from "./stepView";
-import type { StepViewField } from "./stepViewProps";
+import type { StepViewField, StepViewFieldRenderProps } from "./stepViewProps";
 import { StepViewVariants } from "./stepViewVariants";
 import React from "react";
 
@@ -38,8 +38,8 @@ const StepViewWithForm = (props: any) => {
 	);
 };
 
-// Wrapper for Kra variant with form context (getValues/setValue)
-const StepViewKraWithForm = (props: any) => {
+// Wrapper for KYB variant with form context (getValues/setValue)
+const StepViewKYBWithForm = (props: any) => {
 	const {
 		register,
 		getValues,
@@ -52,7 +52,7 @@ const StepViewKraWithForm = (props: any) => {
 	return (
 		<StepView
 			{...props}
-			variant={StepViewVariants.Kra}
+			variant={StepViewVariants.KYB}
 			register={register}
 			getValues={getValues}
 			setValue={setValue}
@@ -658,19 +658,19 @@ describe("StepView", () => {
 			});
 		});
 
-		describe("Kra Variant", () => {
-			it("renders Kra variant with text fields", () => {
+		describe("KYB Variant", () => {
+			it("renders KYB variant with text fields", () => {
 				const fields = [
 					{ name: "brn", label: "BRN", placeholder: "Enter BRN" },
 					{ name: "pin", label: "PIN", placeholder: "Enter PIN" }
 				];
 
 				render(
-					<StepViewKraWithForm
+					<StepViewKYBWithForm
 						title="Verify"
 						image="/test.jpg"
 						fields={fields}
-						kraButtons={[
+						kybButtons={[
 							{ label: "Save", onClick: vi.fn() },
 							{ label: "Verify now", onClick: vi.fn() }
 						]}
@@ -684,13 +684,13 @@ describe("StepView", () => {
 				expect(screen.getByRole("button", { name: "Verify now" })).toBeInTheDocument();
 			});
 
-			it("Kra variant text inputs update form state when typing", async () => {
+			it("KYB variant text inputs update form state when typing", async () => {
 				const fields = [
 					{ name: "brn", label: "BRN" },
 					{ name: "pin", label: "PIN" }
 				];
 
-				const StepViewKraCapture = () => {
+				const StepViewKYBCapture = () => {
 					const {
 						register,
 						getValues,
@@ -703,7 +703,7 @@ describe("StepView", () => {
 					return (
 						<>
 							<StepView
-								variant={StepViewVariants.Kra}
+								variant={StepViewVariants.KYB}
 								title="Verify"
 								image="/test.jpg"
 								fields={fields}
@@ -711,7 +711,7 @@ describe("StepView", () => {
 								getValues={getValues}
 								setValue={setValue}
 								errors={errors}
-								kraButtons={[
+								kybButtons={[
 									{
 										label: "Submit",
 										onClick: () => setSubmitted(getValues())
@@ -723,7 +723,7 @@ describe("StepView", () => {
 					);
 				};
 
-				render(<StepViewKraCapture />);
+				render(<StepViewKYBCapture />);
 
 				const brnInput = screen.getByLabelText("BRN") as HTMLInputElement;
 				const pinInput = screen.getByLabelText("PIN") as HTMLInputElement;
@@ -744,7 +744,7 @@ describe("StepView", () => {
 				});
 			});
 
-			it("Kra variant verificationCodeInput updates form state", async () => {
+			it("KYB variant verificationCodeInput updates form state", async () => {
 				const fields: StepViewField[] = [
 					{
 						name: "securityCode",
@@ -755,7 +755,7 @@ describe("StepView", () => {
 					}
 				];
 
-				const StepViewKraVerification = () => {
+				const StepViewKYBVerification = () => {
 					const {
 						getValues,
 						setValue,
@@ -767,14 +767,14 @@ describe("StepView", () => {
 					return (
 						<>
 							<StepView
-								variant={StepViewVariants.Kra}
+								variant={StepViewVariants.KYB}
 								title="Confirm"
 								image="/test.jpg"
 								fields={fields}
 								getValues={getValues}
 								setValue={setValue}
 								errors={errors}
-								kraButtons={[
+								kybButtons={[
 									{
 										label: "Continue",
 										onClick: () => setSubmitted((getValues().securityCode as string) ?? "")
@@ -786,7 +786,7 @@ describe("StepView", () => {
 					);
 				};
 
-				render(<StepViewKraVerification />);
+				render(<StepViewKYBVerification />);
 
 				expect(screen.getByText("Security code")).toBeInTheDocument();
 				expect(screen.getByText("Code expires in 05:00")).toBeInTheDocument();
@@ -806,14 +806,14 @@ describe("StepView", () => {
 				});
 			});
 
-			it("Kra variant button onClick is called", async () => {
+			it("KYB variant button onClick is called", async () => {
 				const handleClick = vi.fn();
 				render(
-					<StepViewKraWithForm
+					<StepViewKYBWithForm
 						title="Verify"
 						image="/test.jpg"
 						fields={[{ name: "f1", label: "Field 1" }]}
-						kraButtons={[
+						kybButtons={[
 							{ label: "Save", onClick: vi.fn() },
 							{ label: "Verify now", onClick: handleClick }
 						]}
@@ -826,15 +826,15 @@ describe("StepView", () => {
 				});
 			});
 
-			it("Kra variant shows error message and error list", () => {
+			it("KYB variant shows error message and error list", () => {
 				render(
-					<StepViewKraWithForm
+					<StepViewKYBWithForm
 						title="Verify"
 						image="/test.jpg"
 						fields={[{ name: "f1", label: "Field 1" }]}
-						kraErrorMessage="Something went wrong."
-						kraErrors={["Error one.", "Error two."]}
-						kraButtons={[{ label: "OK", onClick: vi.fn() }]}
+						kybErrorMessage="Something went wrong."
+						kybErrors={["Error one.", "Error two."]}
+						kybButtons={[{ label: "OK", onClick: vi.fn() }]}
 					/>
 				);
 
@@ -843,14 +843,14 @@ describe("StepView", () => {
 				expect(screen.getByText("Error two.")).toBeInTheDocument();
 			});
 
-			it("Kra variant shows verification success icon when isVerificationSuccess", () => {
+			it("KYB variant shows verification success icon when isVerificationSuccess", () => {
 				render(
-					<StepViewKraWithForm
+					<StepViewKYBWithForm
 						title="Verify"
 						image="/test.jpg"
 						fields={[{ name: "f1", label: "Field 1", value: "done" }]}
 						isVerificationSuccess={true}
-						kraButtons={[{ label: "OK", onClick: vi.fn() }]}
+						kybButtons={[{ label: "OK", onClick: vi.fn() }]}
 					/>
 				);
 
@@ -864,20 +864,31 @@ describe("StepView", () => {
 		});
 
 		describe("Fallback Behavior", () => {
-			it("falls back to Info variant when Default variant has no fields", () => {
+			it("falls back to empty Info variant when Default variant has no fields", () => {
+				render(
+					<StepView variant={StepViewVariants.Default} title="Test Title" image="/test-image.jpg" />
+				);
+
+				// Should render the layout shell (title) without crashing
+				expect(screen.getByText("Test Title")).toBeInTheDocument();
+				// Should NOT render a form or submit button
+				expect(screen.queryByTestId("submit-button")).not.toBeInTheDocument();
+			});
+
+			it("renders Info variant with icon and text when variant is info", () => {
 				render(
 					<StepView
-						variant={StepViewVariants.Default}
+						variant={StepViewVariants.Info}
 						title="Test Title"
 						image="/test-image.jpg"
 						icon={<MockIcon />}
-						text={<div>Fallback text</div>}
+						text={<div>Info text</div>}
 					/>
 				);
 
 				expect(screen.getByText("Test Title")).toBeInTheDocument();
 				expect(screen.getByTestId("mock-icon")).toBeInTheDocument();
-				expect(screen.getByText("Fallback text")).toBeInTheDocument();
+				expect(screen.getByText("Info text")).toBeInTheDocument();
 			});
 
 			it("renders Default variant with fields even when form props are missing", () => {
@@ -965,18 +976,18 @@ describe("StepView", () => {
 			expect(container.firstChild).toMatchSnapshot();
 		});
 
-		it("matches snapshot for StepView with Kra variant", () => {
+		it("matches snapshot for StepView with KYB variant", () => {
 			const fields = [
 				{ name: "brn", label: "BRN", placeholder: "Enter BRN" },
 				{ name: "pin", label: "PIN", placeholder: "Enter PIN" }
 			];
 
 			const { container } = render(
-				<StepViewKraWithForm
+				<StepViewKYBWithForm
 					title="Verify"
 					image="/test.jpg"
 					fields={fields}
-					kraButtons={[
+					kybButtons={[
 						{ label: "Save", onClick: vi.fn() },
 						{ label: "Verify now", onClick: vi.fn() }
 					]}
@@ -987,36 +998,34 @@ describe("StepView", () => {
 	});
 
 	describe("Additional Edge Cases", () => {
-		it("renders StepView with empty fields array", () => {
+		it("renders StepView with empty fields array (falls back to empty info)", () => {
 			render(
 				<StepView
 					variant={StepViewVariants.Default}
 					title="Test Title"
 					image="/test-image.jpg"
 					fields={[]}
-					icon={<MockIcon />}
-					text={<div>Fallback text</div>}
 				/>
 			);
 
 			expect(screen.getByText("Test Title")).toBeInTheDocument();
-			expect(screen.getByTestId("mock-icon")).toBeInTheDocument();
+			// No form or submit button when fields are empty
+			expect(screen.queryByTestId("submit-button")).not.toBeInTheDocument();
 		});
 
-		it("renders StepView with undefined fields", () => {
+		it("renders StepView with undefined fields (falls back to empty info)", () => {
 			render(
 				<StepView
 					variant={StepViewVariants.Default}
 					title="Test Title"
 					image="/test-image.jpg"
 					fields={undefined}
-					icon={<MockIcon />}
-					text={<div>Fallback text</div>}
 				/>
 			);
 
 			expect(screen.getByText("Test Title")).toBeInTheDocument();
-			expect(screen.getByTestId("mock-icon")).toBeInTheDocument();
+			// No form or submit button when fields are undefined
+			expect(screen.queryByTestId("submit-button")).not.toBeInTheDocument();
 		});
 
 		it("renders Default variant with field icons", () => {
@@ -1579,6 +1588,194 @@ describe("StepView", () => {
 			);
 
 			expect(screen.getByTestId("custom-checkbox-test-id")).toBeInTheDocument();
+		});
+
+		it("renders Default variant with children instead of built-in form", () => {
+			render(
+				<StepView
+					variant={StepViewVariants.Default}
+					title="Custom Form Title"
+					description="Fill in the details"
+					image="/test-image.jpg"
+					progress={50}
+				>
+					<div data-testid="custom-form-content">
+						<input data-testid="custom-input" />
+						<button type="button" data-testid="custom-submit">
+							Submit
+						</button>
+					</div>
+				</StepView>
+			);
+
+			// Layout shell is preserved
+			expect(screen.getByText("Custom Form Title")).toBeInTheDocument();
+			expect(screen.getByText("Fill in the details")).toBeInTheDocument();
+			// Custom children are rendered
+			expect(screen.getByTestId("custom-form-content")).toBeInTheDocument();
+			expect(screen.getByTestId("custom-input")).toBeInTheDocument();
+			expect(screen.getByTestId("custom-submit")).toBeInTheDocument();
+			// Built-in form elements should NOT be rendered
+			expect(screen.queryByTestId("submit-button")).not.toBeInTheDocument();
+		});
+
+		it("renders Default variant children and ignores fields when both are provided", () => {
+			const fields = [
+				{
+					name: "field1",
+					label: "Field 1"
+				}
+			];
+
+			render(
+				<StepView
+					variant={StepViewVariants.Default}
+					title="Test Title"
+					image="/test-image.jpg"
+					fields={fields}
+				>
+					<div data-testid="custom-children">Custom content wins</div>
+				</StepView>
+			);
+
+			// Children take priority over fields
+			expect(screen.getByTestId("custom-children")).toBeInTheDocument();
+			expect(screen.getByText("Custom content wins")).toBeInTheDocument();
+			// Built-in field rendering is skipped
+			expect(screen.queryByText("Field 1")).not.toBeInTheDocument();
+			expect(screen.queryByTestId("submit-button")).not.toBeInTheDocument();
+		});
+
+		it("renders Default variant with custom render function on a field", () => {
+			const fields = [
+				{
+					name: "customField",
+					label: "Custom Field",
+					render: ({ field, error }: StepViewFieldRenderProps) => (
+						<div data-testid="custom-rendered-field">
+							<label htmlFor={field.name}>Custom Rendered</label>
+							<input
+								id={field.name}
+								data-testid="custom-rendered-input"
+								value={(field.value as string) || ""}
+								onChange={e => field.onChange(e.target.value)}
+							/>
+							{error && <span data-testid="custom-field-error">{error.message}</span>}
+						</div>
+					)
+				},
+				{
+					name: "normalField",
+					label: "Normal Field",
+					placeholder: "Normal placeholder"
+				}
+			];
+
+			render(
+				<StepViewWithForm
+					variant={StepViewVariants.Default}
+					title="Form with Custom Render"
+					image="/test-image.jpg"
+					fields={fields}
+					onSubmit={vi.fn()}
+				/>
+			);
+
+			// Custom rendered field is present
+			expect(screen.getByTestId("custom-rendered-field")).toBeInTheDocument();
+			expect(screen.getByTestId("custom-rendered-input")).toBeInTheDocument();
+			expect(screen.getByText("Custom Rendered")).toBeInTheDocument();
+			// Normal field is also rendered with default rendering
+			expect(screen.getByText("Normal Field")).toBeInTheDocument();
+			expect(screen.getByTestId("normalField-input")).toBeInTheDocument();
+			// Submit button is still present
+			expect(screen.getByTestId("submit-button")).toBeInTheDocument();
+		});
+
+		it("renders Info variant action button with custom dataTestId", () => {
+			const handleClick = vi.fn();
+
+			render(
+				<StepView
+					variant={StepViewVariants.Info}
+					title="Info Title"
+					image="/test-image.jpg"
+					icon={<MockIcon />}
+					action={{
+						label: "Continue",
+						onClick: handleClick,
+						dataTestId: "continue-button"
+					}}
+				/>
+			);
+
+			// Custom dataTestId is used instead of the default "action-button"
+			expect(screen.getByTestId("continue-button")).toBeInTheDocument();
+			expect(screen.queryByTestId("action-button")).not.toBeInTheDocument();
+			expect(screen.getByTestId("continue-button")).toHaveTextContent("Continue");
+		});
+
+		it("renders Info variant action button with default dataTestId when not specified", () => {
+			render(
+				<StepView
+					variant={StepViewVariants.Info}
+					title="Info Title"
+					image="/test-image.jpg"
+					action={{
+						label: "Go",
+						onClick: vi.fn()
+					}}
+				/>
+			);
+
+			// Falls back to default "action-button" testId
+			expect(screen.getByTestId("action-button")).toBeInTheDocument();
+		});
+
+		it("renders Default variant submit button with custom dataTestId", () => {
+			const fields = [
+				{
+					name: "field1",
+					label: "Field 1"
+				}
+			];
+
+			render(
+				<StepViewWithForm
+					variant={StepViewVariants.Default}
+					title="Form Title"
+					image="/test-image.jpg"
+					fields={fields}
+					submitButtonDataTestId="custom-submit-id"
+					onSubmit={vi.fn()}
+				/>
+			);
+
+			// Custom dataTestId is used on the submit button
+			expect(screen.getByTestId("custom-submit-id")).toBeInTheDocument();
+			expect(screen.queryByTestId("submit-button")).not.toBeInTheDocument();
+		});
+
+		it("renders Default variant submit button with default dataTestId when not specified", () => {
+			const fields = [
+				{
+					name: "field1",
+					label: "Field 1"
+				}
+			];
+
+			render(
+				<StepViewWithForm
+					variant={StepViewVariants.Default}
+					title="Form Title"
+					image="/test-image.jpg"
+					fields={fields}
+					onSubmit={vi.fn()}
+				/>
+			);
+
+			// Falls back to default "submit-button" testId
+			expect(screen.getByTestId("submit-button")).toBeInTheDocument();
 		});
 	});
 });

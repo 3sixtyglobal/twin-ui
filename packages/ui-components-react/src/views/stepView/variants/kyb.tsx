@@ -110,14 +110,14 @@ const VerificationSuccessIcon: React.FC<IconsProps> = props => (
 	<CheckCircle {...props} type="bold" width={20} height={20} color="#23BD12" />
 );
 
-type KraButtonItem = ButtonProps & {
+type KYBButtonItem = ButtonProps & {
 	onClick: () => void | Promise<void>;
 	loading?: boolean;
 	loadingText?: string;
 	label?: string;
 };
 
-interface KraVariantProps {
+interface KYBVariantProps {
 	fields: StepViewField[] | StepViewFieldSection[];
 	register?: UseFormRegister<Record<string, unknown>>;
 	getValues?: UseFormGetValues<Record<string, unknown>>;
@@ -126,10 +126,10 @@ interface KraVariantProps {
 	errorMessage?: string | React.ReactNode;
 	errorList?: string[];
 	isVerificationSuccess?: boolean;
-	buttons: KraButtonItem[];
+	buttons: KYBButtonItem[];
 }
 
-export const KraVariant = ({
+export const KYBVariant = ({
 	fields,
 	register,
 	getValues,
@@ -139,7 +139,7 @@ export const KraVariant = ({
 	errorList,
 	isVerificationSuccess = false,
 	buttons
-}: KraVariantProps): JSX.Element => {
+}: KYBVariantProps): JSX.Element => {
 	const renderField = (field: StepViewField): JSX.Element => {
 		const fieldError = errors?.[field.name];
 		const validationRules = field.validation || {};

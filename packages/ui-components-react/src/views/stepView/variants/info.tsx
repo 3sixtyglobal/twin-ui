@@ -15,6 +15,7 @@ interface InfoVariantProps {
 		disabled?: boolean;
 		loading?: boolean;
 		loadingText?: string;
+		dataTestId?: string;
 	};
 }
 
@@ -38,7 +39,7 @@ export const InfoVariant = ({ icon, text, action }: InfoVariantProps): JSX.Eleme
 						onClick={action.onClick}
 						disabled={action.disabled || action.loading}
 						color={ButtonColors.Secondary}
-						data-testid="action-button"
+						data-testid={action.dataTestId || "action-button"}
 						className="w-full md:w-fit"
 					>
 						{action.loading ? action.loadingText || "Loading..." : action.label}

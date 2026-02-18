@@ -21,7 +21,7 @@
 		"bundle:esm": "rollup --config rollup.config.mjs --environment MODULE:esm",
 		"bundle:cjs": "rollup --config rollup.config.mjs --environment MODULE:cjs",
 		"bundle": "npm run bundle:esm && npm run bundle:cjs",
-		"dist": "npm run clean && npm run build && npm run bundle && npm run test",
+		"dist": "npm run clean && npm run build && npm run bundle && npm run test:run",
 		"dist:no-test": "npm run clean && npm run build && npm run bundle",
 		"dev:watch": "concurrently \"npm run build -- --watch\" \"nodemon --watch src --ext ts,tsx --ignore dist/ --exec \\\"npm run bundle\\\"\"",
 		"dev": "npm run clean && npm run build && npm run dev:watch",
@@ -29,6 +29,7 @@
 		"lint:fix": "eslint . --fix",
 		"postbundle": "node scripts/copy-compatibility.mjs",
 		"test": "vitest",
+		"test:run": "vitest run",
 		"test:ui": "vitest --ui",
 		"test:coverage": "vitest --coverage"
 	},

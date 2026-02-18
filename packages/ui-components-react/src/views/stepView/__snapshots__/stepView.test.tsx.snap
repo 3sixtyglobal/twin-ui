@@ -193,7 +193,7 @@ exports[`StepView > Snapshot Tests > matches snapshot for StepView with Info var
 </div>
 `;
 
-exports[`StepView > Snapshot Tests > matches snapshot for StepView with Kra variant 1`] = `
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with KYB variant 1`] = `
 <div
   class="h-full w-full"
 >

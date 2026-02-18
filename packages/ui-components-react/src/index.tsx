@@ -263,8 +263,17 @@ export { StepView } from "./views/stepView/stepView";
 export { StepViewVariants } from "./views/stepView/stepViewVariants";
 export type {
 	StepViewProps,
+	StepViewFormProps,
+	StepViewBaseProps,
+	StepViewDefaultProps,
+	StepViewInfoProps,
+	StepViewSelectionProps,
+	StepViewKYBProps,
+	StepViewAction,
 	StepViewField,
 	StepViewFieldSection,
+	StepViewFieldRenderProps,
 	StepViewCheckbox,
+	StepViewSelectOption,
 	FieldValidationRule
 } from "./views/stepView/stepViewProps";
