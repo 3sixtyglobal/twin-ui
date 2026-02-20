@@ -346,6 +346,12 @@ export interface StepViewDefaultProps<T extends FieldValues = Record<string, unk
 	 * Loading text to show when submitting.
 	 */
 	loadingText?: string;
+	/**
+	 * Whether the submit button should be disabled independently of isSubmitting.
+	 * Use this to disable the button without showing the loading text.
+	 * @default false
+	 */
+	submitButtonDisabled?: boolean;
 }
 
 /**

@@ -1777,5 +1777,96 @@ describe("StepView", () => {
 			// Falls back to default "submit-button" testId
 			expect(screen.getByTestId("submit-button")).toBeInTheDocument();
 		});
+
+		it("renders Default variant with submitButtonDisabled prop", () => {
+			const fields = [
+				{
+					name: "field1",
+					label: "Field 1"
+				}
+			];
+
+			render(
+				<StepViewWithForm
+					variant={StepViewVariants.Default}
+					title="Form Title"
+					image="/test-image.jpg"
+					fields={fields}
+					onSubmit={vi.fn()}
+					submitButtonDisabled={true}
+				/>
+			);
+
+			const submitButton = screen.getByTestId("submit-button");
+			expect(submitButton).toBeDisabled();
+			// Should still show "Continue" label, not loading text
+			expect(screen.getByText("Continue")).toBeInTheDocument();
+		});
+
+		it("renders Default variant with submitButtonDisabled false", () => {
+			const fields = [
+				{
+					name: "field1",
+					label: "Field 1"
+				}
+			];
+
+			render(
+				<StepViewWithForm
+					variant={StepViewVariants.Default}
+					title="Form Title"
+					image="/test-image.jpg"
+					fields={fields}
+					onSubmit={vi.fn()}
+					submitButtonDisabled={false} // default is false
+				/>
+			);
+
+			const submitButton = screen.getByTestId("submit-button");
+			expect(submitButton).not.toBeDisabled();
+			expect(screen.getByText("Continue")).toBeInTheDocument();
+		});
+
+		it("renders Default variant with both isSubmitting and submitButtonDisabled true", async () => {
+			const handleSubmit = vi.fn();
+			const fields = [
+				{
+					name: "field1",
+					label: "Field 1"
+				}
+			];
+
+			const StepViewBothDisabled = () => {
+				const {
+					register,
+					handleSubmit: formHandleSubmit,
+					formState: { errors }
+				} = useForm();
+
+				return (
+					<StepView
+						variant={StepViewVariants.Default}
+						title="Form Title"
+						image="/test-image.jpg"
+						fields={fields}
+						register={register}
+						handleSubmit={formHandleSubmit}
+						errors={errors}
+						isSubmitting={true}
+						submitButtonDisabled={true}
+						loadingText="Submitting..."
+						onSubmit={handleSubmit}
+					/>
+				);
+			};
+
+			render(<StepViewBothDisabled />);
+
+			const submitButton = screen.getByTestId("submit-button");
+			// Button should be disabled (due to OR logic: isSubmitting || submitButtonDisabled)
+			expect(submitButton).toBeDisabled();
+			// Should show loading text since isSubmitting is true
+			expect(screen.getByText("Submitting...")).toBeInTheDocument();
+		});
 	});
 });

@@ -38,6 +38,7 @@ interface DefaultVariantProps {
 	submitButtonLabel?: string;
 	submitButtonDataTestId?: string;
 	loadingText?: string;
+	submitButtonDisabled?: boolean;
 }
 
 export const DefaultVariant = ({
@@ -52,7 +53,8 @@ export const DefaultVariant = ({
 	isSubmitting = false,
 	submitButtonLabel = "Continue",
 	submitButtonDataTestId = "submit-button",
-	loadingText = "Loading..."
+	loadingText = "Loading...",
+	submitButtonDisabled = false
 }: DefaultVariantProps): JSX.Element => {
 	// Ref used as a fallback for the custom render function
 	const noopRef = useRef<unknown>(null);
@@ -293,7 +295,7 @@ export const DefaultVariant = ({
 
 			<Button
 				type="submit"
-				disabled={isSubmitting}
+				disabled={isSubmitting || submitButtonDisabled}
 				color={ButtonColors.Secondary}
 				data-testid={submitButtonDataTestId}
 				className="w-full md:w-fit"
