@@ -1,5 +1,19 @@
 # @twin.org/ui-components-react - Changelog
 
+## [0.0.3-next.6](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.5...ui-components-react-v0.0.3-next.6) (2026-02-20)
+
+
+### Features
+
+* **ui-components-react:** add submitButtonDisabled prop to StepView ([#112](https://github.com/twinfoundation/ui/issues/112)) ([5661c7d](https://github.com/twinfoundation/ui/commit/5661c7d072c7a60e72e499d897ebf93871e4d5d2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.5 to 0.0.3-next.6
+
 ## [0.0.3-next.5](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.4...ui-components-react-v0.0.3-next.5) (2026-02-18)
 
 
