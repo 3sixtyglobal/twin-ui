@@ -53,6 +53,6 @@
 	{autocomplete}
 	{spellcheck}
 	color={flowbiteMap[color]}
-	class="{`focus:ring ${colorMap[color]} focus:ring-surface-button-pressed focus:border-surface-brand-primary-1 dark:focus:ring-surface-button-pressed-dark dark:focus:border-surface-brand-primary-1-dark ${rest.class ?? ''}`}}"
+	class="{`focus:ring ${colorMap[color]} focus:border-surface-brand-primary-1 focus:ring-surface-button-pressed dark:focus:border-surface-brand-primary-1-dark dark:focus:ring-surface-button-pressed-dark ${rest.class ?? ''}`}}"
 	bind:value
 ></Input>

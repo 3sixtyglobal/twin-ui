@@ -152,15 +152,15 @@ export const StepView = <T extends FieldValues = Record<string, unknown>>(
 
 						<div className="w-full">
 							<div className="mb-6">
-								<h1 className="text-brand-primary text-3xl font-semibold">{title}</h1>
+								<h1 className="text-3xl font-semibold text-brand-primary">{title}</h1>
 							</div>
 
 							{description && (
 								<div className="mb-6">
 									{typeof description === "string" ? (
-										<p className="text-primary text-md">{description}</p>
+										<p className="text-md text-primary">{description}</p>
 									) : (
-										<div className="text-primary text-md">{description}</div>
+										<div className="text-md text-primary">{description}</div>
 									)}
 								</div>
 							)}

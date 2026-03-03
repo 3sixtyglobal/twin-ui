@@ -14,7 +14,7 @@
 
 <Span
 	{...props}
-	class={`text-primary dark:text-primary-dark break-all font-normal ${props.class ?? ''}`}
+	class={`break-all font-normal text-primary dark:text-primary-dark ${props.class ?? ''}`}
 >
 	{@render props.children?.()}
 </Span>

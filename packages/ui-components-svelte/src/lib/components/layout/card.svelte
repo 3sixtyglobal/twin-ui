@@ -14,7 +14,7 @@
 
 <Card
 	{...props}
-	class={`bg-surface-main border-surface-primary dark:bg-surface-main-dark dark:border-surface-primary-dark ${props.class ?? ''}`}
+	class={`border-surface-primary bg-surface-main dark:border-surface-primary-dark dark:bg-surface-main-dark ${props.class ?? ''}`}
 	shadow={false}
 >
 	{@render props.children?.()}

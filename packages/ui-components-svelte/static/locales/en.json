@@ -69,7 +69,9 @@
 			"function": "Property \"{property}\" must be a function, it is \"{value}\"",
 			"urn": "Property \"{property}\" must be a Urn formatted string, it is \"{value}\"",
 			"url": "Property \"{property}\" must be a Url formatted string, it is \"{value}\"",
-			"email": "Property \"{property}\" must be string in e-mail format, it is \"{value}\""
+			"email": "Property \"{property}\" must be string in e-mail format, it is \"{value}\"",
+			"uuidV7": "Property \"{property}\" must be a UUIDv7 formatted string, it is \"{value}\"",
+			"uuidV7Compact": "Property \"{property}\" must be a UUIDv7 formatted string in compact mode, it is \"{value}\""
 		},
 		"objectHelper": {
 			"failedBytesToJSON": "Failed converting bytes to JSON",
@@ -82,7 +84,8 @@
 		},
 		"factory": {
 			"noUnregister": "There is no {typeName} registered with the name \"{name}\"",
-			"noGet": "The requested {typeName} \"{name}\" does not exist in the factory"
+			"noGet": "The requested {typeName} \"{name}\" does not exist in the factory",
+			"noCreate": "The requested {typeName} \"{name}\" cannot be created by the factory, with params \"{params}\""
 		},
 		"bitString": {
 			"outOfRange": "The index should be >= 0 and less than the length of the bit string, the index is \"{index}\" and the number of bit is \"{numberBits}\""

@@ -14,7 +14,7 @@
 
 <Label
 	{...props}
-	class={`text-primary dark:text-primary-dark flex flex-col gap-1 text-sm font-medium ${props.class ?? ''}`}
+	class={`flex flex-col gap-1 text-sm font-medium text-primary dark:text-primary-dark ${props.class ?? ''}`}
 >
 	{@render props.children?.()}
 </Label>

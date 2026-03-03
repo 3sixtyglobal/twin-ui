@@ -125,11 +125,11 @@ export function InputPhone({
 		<div className={cn("space-y-2", containerClassName)}>
 			{label && (
 				<div className="mb-1 flex justify-between">
-					<label htmlFor={rest.id} className="text-secondary block text-sm font-medium">
+					<label htmlFor={rest.id} className="block text-sm font-medium text-secondary">
 						{label}
 					</label>
 					{requiredLabel && (
-						<span className="text-tertiary text-sm font-medium">{requiredLabelText}</span>
+						<span className="text-sm font-medium text-tertiary">{requiredLabelText}</span>
 					)}
 				</div>
 			)}
@@ -180,7 +180,7 @@ export function InputPhone({
 							data-testid="country-select-button"
 							className={cn(
 								"flex items-center gap-1 rounded-lg border border-gray-300 bg-gray-50 px-3",
-								"focus:ring-brand-primary hover:bg-gray-100 focus:outline-none focus:ring-2",
+								"hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-brand-primary",
 								"min-w-[120px] justify-between text-sm font-medium",
 								{ lg: "h-14", md: "h-12", sm: "h-10" }[sizing ?? "sm"] ?? "h-10",
 								color === "failure" && "border-red-500"

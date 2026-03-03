@@ -6,8 +6,10 @@ import type { TextInputProps } from "../textInput/textInputProps";
 /**
  * InputPhone component props.
  */
-export interface InputPhoneProps
-	extends Omit<TextInputProps, "onChange" | "value" | "helperText" | "color"> {
+export interface InputPhoneProps extends Omit<
+	TextInputProps,
+	"onChange" | "value" | "helperText" | "color"
+> {
 	/**
 	 * Field label.
 	 */

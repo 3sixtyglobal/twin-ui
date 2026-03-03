@@ -30,7 +30,7 @@ export const InfoVariant = ({ icon, text, action }: InfoVariantProps): JSX.Eleme
 				</div>
 			)}
 
-			{text && <div className="text-tertiary space-y-2 text-left">{text}</div>}
+			{text && <div className="space-y-2 text-left text-tertiary">{text}</div>}
 
 			{action && (
 				<div className="mt-6">

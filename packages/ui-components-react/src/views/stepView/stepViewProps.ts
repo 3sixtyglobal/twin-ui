@@ -281,8 +281,9 @@ export interface StepViewBaseProps {
  * When `children` is provided the built-in field/form rendering is skipped,
  * but the layout shell (image, progress, title, description) is preserved.
  */
-export interface StepViewDefaultProps<T extends FieldValues = Record<string, unknown>>
-	extends StepViewBaseProps {
+export interface StepViewDefaultProps<
+	T extends FieldValues = Record<string, unknown>
+> extends StepViewBaseProps {
 	/**
 	 * Visual variant of the step view.
 	 * @default "default"
@@ -442,8 +443,9 @@ export interface StepViewSelectionProps extends StepViewBaseProps {
 /**
  * Props for the KYB (Know Your Business) e.g. KRA variant of StepView.
  */
-export interface StepViewKYBProps<T extends FieldValues = Record<string, unknown>>
-	extends StepViewBaseProps {
+export interface StepViewKYBProps<
+	T extends FieldValues = Record<string, unknown>
+> extends StepViewBaseProps {
 	/**
 	 * Visual variant of the step view.
 	 */

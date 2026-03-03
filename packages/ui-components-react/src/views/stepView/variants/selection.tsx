@@ -46,7 +46,7 @@ export const SelectionVariant = ({ options }: SelectionVariantProps): JSX.Elemen
 								<div className="absolute right-6 top-6">
 									<div
 										className={`rounded-lg px-2 py-1 text-xs ${
-											option.badge.className || "text-primary bg-neutral-200"
+											option.badge.className || "bg-neutral-200 text-primary"
 										}`}
 									>
 										{option.badge.label}
@@ -56,12 +56,12 @@ export const SelectionVariant = ({ options }: SelectionVariantProps): JSX.Elemen
 
 							<div className="mb-6 flex">{option.icon}</div>
 
-							<h2 className="text-brand-secondary mb-3 text-xl font-semibold">{option.title}</h2>
+							<h2 className="mb-3 text-xl font-semibold text-brand-secondary">{option.title}</h2>
 
-							<p className="text-secondary mb-6 text-xs font-semibold">{option.description}</p>
+							<p className="mb-6 text-xs font-semibold text-secondary">{option.description}</p>
 
 							{option.features && option.features.length > 0 && (
-								<ul className="text-tertiary mb-8 list-inside list-disc space-y-2 text-xs">
+								<ul className="mb-8 list-inside list-disc space-y-2 text-xs text-tertiary">
 									{option.features.map((feature, index) => (
 										<li key={index} className="ml-1">
 											<span>{feature}</span>

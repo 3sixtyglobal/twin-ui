@@ -20,7 +20,7 @@
 	{target}
 	aria-disabled={disabled}
 	tabindex={disabled ? -1 : 0}
-	class={`text-primary dark:text-primary-dark outline-none ${rest.class ?? ''} ${disabled ? 'cursor-not-allowed opacity-50 hover:no-underline' : 'hover:decoration-surface-button-pressed focus:decoration-surface-button-pressed cursor-pointer hover:underline hover:decoration-2 focus:underline focus:decoration-2'}`}
+	class={`text-primary outline-none dark:text-primary-dark ${rest.class ?? ''} ${disabled ? 'cursor-not-allowed opacity-50 hover:no-underline' : 'cursor-pointer hover:underline hover:decoration-surface-button-pressed hover:decoration-2 focus:underline focus:decoration-surface-button-pressed focus:decoration-2'}`}
 >
 	{@render children?.()}
 </a>

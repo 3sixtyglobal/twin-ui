@@ -101,7 +101,7 @@ function VerificationCodeInput({
 					/>
 				))}
 			</div>
-			{expiresInText && <p className="text-secondary mt-2 text-sm">{expiresInText}</p>}
+			{expiresInText && <p className="mt-2 text-sm text-secondary">{expiresInText}</p>}
 		</div>
 	);
 }
@@ -153,11 +153,11 @@ export const KYBVariant = ({
 			return (
 				<div key={field.name} className="w-full">
 					<div className="mb-1 flex w-full items-center justify-between">
-						<label className="text-secondary text-sm font-medium" htmlFor={field.name}>
+						<label className="text-sm font-medium text-secondary" htmlFor={field.name}>
 							{field.label}
 						</label>
 						{field.requiredLabel && (
-							<span className="text-secondary text-sm font-normal">{field.requiredLabel}</span>
+							<span className="text-sm font-normal text-secondary">{field.requiredLabel}</span>
 						)}
 					</div>
 					<VerificationCodeInput
@@ -170,7 +170,7 @@ export const KYBVariant = ({
 						dataTestId={field.dataTestId ?? `${field.name}-input`}
 					/>
 					{fieldError?.message && (
-						<p className="text-error mt-1 text-sm">{fieldError.message as string}</p>
+						<p className="mt-1 text-sm text-error">{fieldError.message as string}</p>
 					)}
 				</div>
 			);
@@ -179,11 +179,11 @@ export const KYBVariant = ({
 		return (
 			<div key={field.name} className="w-full">
 				<div className="mb-1 flex w-full items-center justify-between">
-					<label className="text-secondary text-sm font-medium" htmlFor={field.name}>
+					<label className="text-sm font-medium text-secondary" htmlFor={field.name}>
 						{field.label}
 					</label>
 					{field.requiredLabel && (
-						<span className="text-secondary text-sm font-normal">{field.requiredLabel}</span>
+						<span className="text-sm font-normal text-secondary">{field.requiredLabel}</span>
 					)}
 				</div>
 				<div className="flex items-center gap-2 [&_input]:!border-[#DFE4EB]">
@@ -225,7 +225,7 @@ export const KYBVariant = ({
 						(fields as StepViewFieldSection[]).map((section, sectionIndex) => (
 							<div key={sectionIndex}>
 								{section.heading && (
-									<h2 className="text-brand-secondary mb-4 text-xl font-semibold">
+									<h2 className="mb-4 text-xl font-semibold text-brand-secondary">
 										{section.heading}
 									</h2>
 								)}
@@ -246,7 +246,7 @@ export const KYBVariant = ({
 			{(errorMessage || (errorList && errorList.length > 0)) && (
 				<div className="space-y-3">
 					{errorMessage && (
-						<div className="border-system-alerts-system-error bg-system-error-tints-50 flex items-center gap-2 rounded-lg border-2 p-4">
+						<div className="flex items-center gap-2 rounded-lg border-2 border-system-alerts-system-error bg-system-error-tints-50 p-4">
 							<Info
 								type="fill"
 								width={16}
@@ -254,7 +254,7 @@ export const KYBVariant = ({
 								color="black"
 								className="text-system-alerts-system-error"
 							/>
-							<p className="text-system-error-tints-900 text-xs">{errorMessage}</p>
+							<p className="text-xs text-system-error-tints-900">{errorMessage}</p>
 						</div>
 					)}
 					{errorList && errorList.length > 0 && (

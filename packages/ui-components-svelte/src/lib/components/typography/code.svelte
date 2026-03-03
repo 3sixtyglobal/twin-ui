@@ -12,7 +12,7 @@
 </script>
 
 <div
-	class="text-primary dark:text-primary-dark border-surface-primary dark:border-surface-primary-dark mt-2 w-full rounded-md border"
+	class="mt-2 w-full rounded-md border border-surface-primary text-primary dark:border-surface-primary-dark dark:text-primary-dark"
 >
 	<pre class={`w-full overflow-auto p-2 text-xs ${rest.class ?? ''}`}>{@render children?.()}</pre>
 </div>

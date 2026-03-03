@@ -105,11 +105,11 @@ export const DefaultVariant = ({
 			return (
 				<div key={field.name} className="w-full">
 					<div className="mb-1 flex w-full items-center justify-between">
-						<label className="text-secondary text-sm font-medium" htmlFor={field.name}>
+						<label className="text-sm font-medium text-secondary" htmlFor={field.name}>
 							{field.label}
 						</label>
 						{field.requiredLabel && (
-							<span className="text-secondary text-sm font-normal">{field.requiredLabel}</span>
+							<span className="text-sm font-normal text-secondary">{field.requiredLabel}</span>
 						)}
 					</div>
 					<Select
@@ -134,11 +134,11 @@ export const DefaultVariant = ({
 			return (
 				<div key={field.name} className="w-full">
 					<div className="mb-1 flex w-full items-center justify-between">
-						<label className="text-secondary text-sm font-medium" htmlFor={field.name}>
+						<label className="text-sm font-medium text-secondary" htmlFor={field.name}>
 							{field.label}
 						</label>
 						{field.requiredLabel && (
-							<span className="text-secondary text-sm font-normal">{field.requiredLabel}</span>
+							<span className="text-sm font-normal text-secondary">{field.requiredLabel}</span>
 						)}
 					</div>
 					<InputButton
@@ -198,11 +198,11 @@ export const DefaultVariant = ({
 		return (
 			<div key={field.name} className="w-full">
 				<div className="mb-1 flex w-full items-center justify-between">
-					<label className="text-secondary text-sm font-medium" htmlFor={field.name}>
+					<label className="text-sm font-medium text-secondary" htmlFor={field.name}>
 						{field.label}
 					</label>
 					{field.requiredLabel && (
-						<span className="text-secondary text-sm font-normal">{field.requiredLabel}</span>
+						<span className="text-sm font-normal text-secondary">{field.requiredLabel}</span>
 					)}
 				</div>
 				<div className="[&_input]:!border-[#DFE4EB]">
@@ -260,7 +260,7 @@ export const DefaultVariant = ({
 					(fields as StepViewFieldSection[]).map((section, sectionIndex) => (
 						<div key={sectionIndex}>
 							{section.heading && (
-								<h2 className="text-brand-secondary mb-4 text-xl font-semibold">
+								<h2 className="mb-4 text-xl font-semibold text-brand-secondary">
 									{section.heading}
 								</h2>
 							)}

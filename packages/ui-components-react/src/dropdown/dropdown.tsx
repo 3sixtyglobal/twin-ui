@@ -63,7 +63,7 @@ export const Dropdown = memo(
 												e.stopPropagation();
 												item.onClick?.();
 											}}
-											className="text-primary focus:ring-primary h-4 w-4 rounded border-gray-300 disabled:opacity-50"
+											className="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary disabled:opacity-50"
 											aria-label={item.label ?? ""}
 										/>
 										{item.label}

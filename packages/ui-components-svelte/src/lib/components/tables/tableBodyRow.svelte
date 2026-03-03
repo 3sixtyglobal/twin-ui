@@ -13,7 +13,7 @@
 
 <TableBodyRow
 	{...props}
-	class="bg-surface-main border-surface-primary dark:bg-surface-main-dark dark:border-surface-primary-dark"
+	class="border-surface-primary bg-surface-main dark:border-surface-primary-dark dark:bg-surface-main-dark"
 >
 	{@render props.children?.()}
 </TableBodyRow>

@@ -21,7 +21,7 @@
 	classBody="text-primary dark:text-primary-dark bg-transparent dark:bg-transparent"
 	classFooter="text-primary dark:text-primary-dark bg-transparent dark:bg-transparent"
 	dismissable={false}
-	class="bg-surface-main border-surface-primary dark:bg-surface-main-dark dark:border-surface-primary-dark text-primary min-w-96"
+	class="min-w-96 border-surface-primary bg-surface-main text-primary dark:border-surface-primary-dark dark:bg-surface-main-dark"
 >
 	{@render children?.()}
 	<svelte:fragment slot="footer">

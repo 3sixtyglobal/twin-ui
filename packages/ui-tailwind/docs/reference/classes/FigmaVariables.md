@@ -30,7 +30,7 @@ The default figma variables.
 
 ### getVariableCollection()
 
-> `static` **getVariableCollection**(`figmaVariables`, `collectionName`): `undefined` \| [`IFigmaVariableCollection`](../interfaces/IFigmaVariableCollection.md)
+> `static` **getVariableCollection**(`figmaVariables`, `collectionName`): [`IFigmaVariableCollection`](../interfaces/IFigmaVariableCollection.md) \| `undefined`
 
 Get the specified figma variables collection.
 
@@ -50,7 +50,7 @@ The name of the collection to get.
 
 #### Returns
 
-`undefined` \| [`IFigmaVariableCollection`](../interfaces/IFigmaVariableCollection.md)
+[`IFigmaVariableCollection`](../interfaces/IFigmaVariableCollection.md) \| `undefined`
 
 The tailwind config theme.
 
@@ -58,7 +58,7 @@ The tailwind config theme.
 
 ### getVariableFromCollection()
 
-> `static` **getVariableFromCollection**(`collections`, `collectionName`, `variableName`): `undefined` \| `string` \| `number`
+> `static` **getVariableFromCollection**(`collections`, `collectionName`, `variableName`): `string` \| `number` \| `undefined`
 
 Get the specified variable from the collection.
 
@@ -82,6 +82,6 @@ The name of the variable to get.
 
 #### Returns
 
-`undefined` \| `string` \| `number`
+`string` \| `number` \| `undefined`
 
 The variable if it exists.
