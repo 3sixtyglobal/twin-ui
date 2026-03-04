@@ -36,7 +36,7 @@
 		"flowbite-svelte-icons": "2.1.1",
 		"flowbite-typography": "1.0.5",
 		"@sveltejs/kit": "2.53.4",
-		"svelte": "5.53.6"
+		"svelte": "5.53.7"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "7.0.1",
