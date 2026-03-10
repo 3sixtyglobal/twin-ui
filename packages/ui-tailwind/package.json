@@ -25,7 +25,7 @@
 		"bundle:cjs": "rollup --config rollup.config.mjs --environment MODULE:cjs",
 		"bundle": "npm run bundle:esm && npm run bundle:cjs",
 		"docs:clean": "rimraf docs/reference",
-		"docs:generate": "typedoc",
+		"docs:generate": "typedoc --options typedoc.config.mjs",
 		"docs": "npm run docs:clean && npm run docs:generate",
 		"dist": "npm run clean && npm run build && npm run test:build && npm run test:run && npm run bundle",
 		"dist:no-test": "npm run clean && npm run build && npm run bundle"

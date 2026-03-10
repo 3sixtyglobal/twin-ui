@@ -464,6 +464,7 @@ const jsDocRules = {
 		'error',
 		{
 			definedTags: [
+				'json-ld',
 				'title',
 				'description',
 				'id',
