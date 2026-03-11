@@ -1,4 +1,4 @@
-# @twin.org/ui-components-svelte - Changelog
+# Changelog
 
 ## [0.0.3-next.6](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.3-next.5...ui-components-svelte-v0.0.3-next.6) (2026-02-20)
 

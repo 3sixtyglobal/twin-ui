@@ -1,4 +1,4 @@
-# @twin.org/ui-tailwind - Changelog
+# Changelog
 
 ## [0.0.3-next.6](https://github.com/twinfoundation/ui/compare/ui-tailwind-v0.0.3-next.5...ui-tailwind-v0.0.3-next.6) (2026-02-20)
 

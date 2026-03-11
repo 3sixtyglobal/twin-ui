@@ -1,4 +1,4 @@
-# @twin.org/ui-components-react - Examples
+# Examples
 
 Install the package:
 

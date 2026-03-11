@@ -1,4 +1,4 @@
-# @twin.org/ui-components-react - Changelog
+# Changelog
 
 ## [0.0.3-next.6](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.3-next.5...ui-storybook-react-v0.0.3-next.6) (2026-02-20)
 
