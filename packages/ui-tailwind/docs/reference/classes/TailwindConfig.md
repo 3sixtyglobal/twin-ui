@@ -14,7 +14,7 @@ The tailwind config.
 
 ## Methods
 
-### generateTheme()
+### generateTheme() {#generatetheme}
 
 > `static` **generateTheme**(`figmaVariablesCollections`, `replacements?`, `flattenSections?`, `removeSections?`): `Partial`\<`CustomThemeConfig` & `object`\> \| `undefined`
 
@@ -54,7 +54,7 @@ The tailwind config theme.
 
 ***
 
-### buildContentPath()
+### buildContentPath() {#buildcontentpath}
 
 > `static` **buildContentPath**(`npmRoot`, `pkg`, `extensions`): `string`
 
@@ -88,7 +88,7 @@ The content path.
 
 ***
 
-### getPlugins()
+### getPlugins() {#getplugins}
 
 > `static` **getPlugins**(): (`PluginCreator` \| \{ \} \| (`options`) => `object` \| `undefined`)[] \| `undefined`
 
@@ -102,7 +102,7 @@ The plugins.
 
 ***
 
-### getDefaultThemeReplacements()
+### getDefaultThemeReplacements() {#getdefaultthemereplacements}
 
 > `static` **getDefaultThemeReplacements**(): `object`[]
 
@@ -116,7 +116,7 @@ The default theme replacements.
 
 ***
 
-### getDefaultFlattenSections()
+### getDefaultFlattenSections() {#getdefaultflattensections}
 
 > `static` **getDefaultFlattenSections**(): `string`[]
 
@@ -130,7 +130,7 @@ The sections to strip from variables.
 
 ***
 
-### getDefaultRemoveSections()
+### getDefaultRemoveSections() {#getdefaultremovesections}
 
 > `static` **getDefaultRemoveSections**(): `string`[]
 

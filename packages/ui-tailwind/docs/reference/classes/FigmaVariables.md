@@ -14,7 +14,7 @@ The figma variable processing.
 
 ## Methods
 
-### loadDefaultVariables()
+### loadDefaultVariables() {#loaddefaultvariables}
 
 > `static` **loadDefaultVariables**(): [`IFigmaVariableCollections`](../interfaces/IFigmaVariableCollections.md)
 
@@ -28,7 +28,7 @@ The default figma variables.
 
 ***
 
-### getVariableCollection()
+### getVariableCollection() {#getvariablecollection}
 
 > `static` **getVariableCollection**(`figmaVariables`, `collectionName`): [`IFigmaVariableCollection`](../interfaces/IFigmaVariableCollection.md) \| `undefined`
 
@@ -56,7 +56,7 @@ The tailwind config theme.
 
 ***
 
-### getVariableFromCollection()
+### getVariableFromCollection() {#getvariablefromcollection}
 
 > `static` **getVariableFromCollection**(`collections`, `collectionName`, `variableName`): `string` \| `number` \| `undefined`
 

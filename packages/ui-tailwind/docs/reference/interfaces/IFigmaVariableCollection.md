@@ -4,7 +4,7 @@ Figma variable collection.
 
 ## Properties
 
-### name
+### name {#name}
 
 > **name**: `string`
 
@@ -12,7 +12,7 @@ The name of the collection.
 
 ***
 
-### modes
+### modes {#modes}
 
 > **modes**: [`IFigmaVariableCollectionMode`](IFigmaVariableCollectionMode.md)[]
 

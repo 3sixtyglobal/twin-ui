@@ -4,7 +4,7 @@ Figma variable alias.
 
 ## Properties
 
-### collection
+### collection {#collection}
 
 > **collection**: `string`
 
@@ -12,7 +12,7 @@ If this is an alias which collection is the real value in.
 
 ***
 
-### name
+### name {#name}
 
 > **name**: `string`
 
