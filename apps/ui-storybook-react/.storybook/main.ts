@@ -13,21 +13,20 @@ const config: StorybookConfig = {
 		name: "@storybook/react-vite",
 		options: {}
 	},
-	async viteFinal(config, { configType }) {
+	async viteFinal(config) {
 		const { mergeConfig } = await import("vite");
 
-		// Only use source alias in development mode
-		// Production builds (CI) should use the published npm package
-		const alias =
-			configType === "DEVELOPMENT"
-				? {
-						// Resolve package from source so Storybook sees package changes without rebuilding
-						"@twin.org/ui-components-react": path.resolve(
-							__dirname,
-							"../../../packages/ui-components-react/src"
-						)
-					}
-				: {};
+		const alias = {
+			// Resolve package from source so Storybook sees package changes without rebuilding
+			"@twin.org/ui-components-react": path.resolve(
+				__dirname,
+				"../../../packages/ui-components-react/src"
+			),
+			"@twin.org/ui-components-react/icons": path.resolve(
+				__dirname,
+				"../../../packages/ui-components-react/src/icons"
+			)
+		};
 
 		return mergeConfig(config, {
 			resolve: {

@@ -163,7 +163,7 @@ const baseConfig = {
 // Main bundle configuration (exports everything)
 const mainBundle = {
 	...baseConfig,
-	input: './dist/es/index.js',
+	input: './dist/es/ui-components-react/src/index.js',
 	output: isEsm
 		? {
 				format,
@@ -172,7 +172,7 @@ const mainBundle = {
 				globals,
 				sourcemap: process.env.NODE_ENV !== 'production',
 				preserveModules: true,
-				preserveModulesRoot: 'dist/es',
+				preserveModulesRoot: 'dist/es/ui-components-react/src',
 				dir: `dist/${format}`,
 				entryFileNames: chunkInfo => {
 					if (chunkInfo.name.includes('icons/')) {
@@ -182,12 +182,21 @@ const mainBundle = {
 				}
 			}
 		: {
-				file: `dist/${format}/index.${extension}`,
+				dir: `dist/${format}`,
 				format,
 				name: 'TwinUIComponents',
 				exports: 'named',
 				globals,
-				sourcemap: process.env.NODE_ENV !== 'production'
+				sourcemap: process.env.NODE_ENV !== 'production',
+				preserveModules: true,
+				preserveModulesRoot: 'dist/es/ui-components-react/src',
+				entryFileNames: chunkInfo => {
+					if (chunkInfo.name === 'index') {
+						return 'index.cjs';
+					}
+					return '[name].js';
+				},
+				chunkFileNames: '[name].js'
 			},
 	// Prevent watching the output directory to avoid infinite build loops
 	watch: {

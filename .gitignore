@@ -13,3 +13,5 @@ vitest.config.ts.timestamp*
 .env
 **/storybook-static
 *storybook.log
+packages/ui-tailwind/src/*.d.ts
+packages/ui-tailwind/src/models/*.d.ts

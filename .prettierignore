@@ -9,3 +9,5 @@ release/**
 **/dist
 **/storybook-static
 *.otf
+
+packages/ui-components-react/src/icons/*.tsx

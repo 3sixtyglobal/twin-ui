@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { execSync } from "node:child_process";
-import { TailwindConfig } from "@twin.org/ui-components-svelte/config/tailwindConfig.mjs";
+import { TailwindConfig } from "../../packages/ui-components-svelte/src/lib/config/tailwindConfig";
 
 const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
 

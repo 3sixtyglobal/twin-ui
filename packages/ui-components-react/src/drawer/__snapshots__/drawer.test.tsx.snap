@@ -106,6 +106,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean 
       data-testid="close-drawer"
     >
       <svg
+        aria-hidden="true"
         class="h-4 w-4"
         fill="currentcolor"
         height="24"
@@ -1238,6 +1239,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null showBut
       data-testid="close-drawer"
     >
       <svg
+        aria-hidden="true"
         class="h-4 w-4"
         fill="currentcolor"
         height="24"
@@ -1601,6 +1603,7 @@ exports[`Drawer > Snapshot Tests > matches snapshot for drawer without button 1`
       data-testid="close-drawer"
     >
       <svg
+        aria-hidden="true"
         class="h-4 w-4"
         fill="currentcolor"
         height="24"

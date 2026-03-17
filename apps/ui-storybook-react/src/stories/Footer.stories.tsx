@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { Meta, StoryObj } from "@storybook/react";
 import { Footer } from "@twin.org/ui-components-react";
-import { House, Envelope, PlayStop, File } from "@twin.org/ui-components-react/icons";
+import { House, Envelope, File } from "@twin.org/ui-components-react/icons";
 
 /**
  * Storybook metadata for Footer component
@@ -135,7 +135,7 @@ export const Default: Story = {
 					<div className="mt-4 hidden space-x-6 sm:mt-0 sm:flex sm:justify-center">
 						<Footer.Icon href="#" icon={House} ariaLabel="Visit our homepage" />
 						<Footer.Icon href="#" icon={Envelope} ariaLabel="Contact us" />
-						<Footer.Icon href="#" icon={PlayStop} ariaLabel="Listen to updates" />
+						<Footer.Icon href="#" icon={File} ariaLabel="View updates" />
 						<Footer.Icon href="#" icon={File} ariaLabel="View documentation" />
 					</div>
 				</div>

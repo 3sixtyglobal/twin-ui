@@ -40,7 +40,7 @@ const baseExports = {
 	},
 	'./icons': {
 		types: './dist/types/icons/index.d.ts',
-		import: './dist/es/icons/index.mjs',
+		import: './dist/es/icons/index.js',
 		require: './dist/cjs/icons/index.js'
 	},
 	'./css/*.css': './dist/css/*.css',
@@ -51,7 +51,14 @@ const baseExports = {
 const ICONS_DIR = path.resolve(__dirname, '../src/icons');
 const iconFiles = fs
 	.readdirSync(ICONS_DIR)
-	.filter(file => file.endsWith('.tsx') && file !== 'index.ts' && file !== 'iconsProps.ts')
+	.filter(
+		file =>
+			file.endsWith('.tsx') &&
+			file !== 'index.ts' &&
+			file !== 'iconsProps.ts' &&
+			file !== 'createPhosphorIcon.tsx' &&
+			file !== 'iconManifest.ts'
+	)
 	.map(file => path.basename(file, '.tsx'));
 
 // Add exports for individual icons
@@ -213,7 +220,7 @@ function generateExports() {
 			exports[`./${component}`] = {
 				types: `./dist/types/${component}/${component}.d.ts`,
 				import: `./dist/es/${component}/${component}.mjs`,
-				require: `./dist/cjs/${component}/${component}.js`
+				require: './dist/cjs/index.cjs'
 			};
 		}
 	}
@@ -238,31 +245,30 @@ function updatePackageJson() {
 		const currentExports = originalPackageJson.exports || {};
 
 		// Compare the component paths (ignoring directory differences)
-		const currentComponents = Object.keys(currentExports).filter(
-			key => key !== '.' && !key.includes('*')
-		);
-		const newComponents = Object.keys(newExports).filter(key => key !== '.' && !key.includes('*'));
+		// const currentComponents = Object.keys(currentExports).filter(
+		// 	key => key !== '.' && !key.includes('*')
+		// );
+		// const newComponents = Object.keys(newExports).filter(key => key !== '.' && !key.includes('*'));
 
-		// Check if the components list has changed
-		const componentsChanged =
-			currentComponents.length !== newComponents.length ||
-			!currentComponents.every(comp => newComponents.includes(comp));
+		// Always rewrite the exports field so path changes are persisted even when the
+		// exported component keys remain the same.
+		packageJson.exports = newExports;
 
-		if (componentsChanged) {
-			// Only modify the exports field and keep everything else intact
-			packageJson.exports = newExports;
+		// Use tabs as the default indentation
+		fs.writeFileSync(PACKAGE_JSON_PATH, `${JSON.stringify(packageJson, null, '\t')}\n`, 'utf8');
 
-			// Use tabs as the default indentation
-			fs.writeFileSync(PACKAGE_JSON_PATH, `${JSON.stringify(packageJson, null, '\t')}\n`, 'utf8');
+		const currentExportsJson = JSON.stringify(currentExports);
+		const newExportsJson = JSON.stringify(newExports);
+		const exportsChanged = currentExportsJson !== newExportsJson;
+		const componentsCount = Object.keys(newExports).length - 5;
 
-			const componentsCount = Object.keys(newExports).length - 5;
+		if (exportsChanged) {
 			process.stdout.write(
 				`✅ Updated "exports" field in package.json with ${componentsCount} components\n`
 			);
 		} else {
-			// No changes needed
 			process.stdout.write(
-				`✅ "exports" field in package.json is already up-to-date with ${Object.keys(newExports).length - 5} components\n`
+				`✅ Rewrote "exports" field in package.json with ${componentsCount} components (no path changes detected)\n`
 			);
 		}
 	} catch (error) {

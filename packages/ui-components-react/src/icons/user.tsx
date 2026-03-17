@@ -5,7 +5,7 @@
 // Do not edit it manually.
 
 /* eslint-disable */
-import { CaretLeft as PhosphorCaretLeft } from "@phosphor-icons/react";
+import { User as PhosphorUser } from "@phosphor-icons/react";
 import { createPhosphorIcon } from "./createPhosphorIcon";
 
-export const CaretLeft = createPhosphorIcon("CaretLeft", PhosphorCaretLeft);
+export const User = createPhosphorIcon("User", PhosphorUser);
