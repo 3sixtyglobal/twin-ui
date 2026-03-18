@@ -15,7 +15,7 @@
 	},
 	"scripts": {
 		"clean": "rimraf dist coverage",
-		"build": "tsc",
+		"build": "tsc && cpx \"src/css/**/*\" dist/css",
 		"dev": "nodemon --watch src --ext ts --exec \"npm run build && npm run bundle:esm\"",
 		"test": "vitest --config ./vitest.config.ts --no-cache",
 		"test:run": "vitest run --config ./vitest.config.ts --no-cache",
@@ -45,7 +45,8 @@
 		"typedoc": "0.28.17",
 		"typedoc-plugin-markdown": "4.10.0",
 		"typescript": "5.9.3",
-		"vitest": "4.0.18"
+		"vitest": "4.0.18",
+		"cpx": "1.5.0"
 	},
 	"optionalDependencies": {
 		"@rollup/rollup-linux-x64-gnu": "4.59.0"
