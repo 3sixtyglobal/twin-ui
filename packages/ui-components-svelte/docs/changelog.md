@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.0.3-next.8](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.3-next.7...ui-components-svelte-v0.0.3-next.8) (2026-03-18)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* phosphor icons wrapper ([#114](https://github.com/twinfoundation/ui/issues/114)) ([7c677d0](https://github.com/twinfoundation/ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
+* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/twinfoundation/ui/issues/4)) ([d336bcf](https://github.com/twinfoundation/ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+* update svelte to v5 ([760678a](https://github.com/twinfoundation/ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/twinfoundation/ui/issues/48)) ([0708d2a](https://github.com/twinfoundation/ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* package build and publish workflow compatibility ([#118](https://github.com/twinfoundation/ui/issues/118)) ([f7d0fa7](https://github.com/twinfoundation/ui/commit/f7d0fa7ba9204ffccd54cb423b45b0a54ffb44fb))
+* svelte file upload font-size and padding ([af532d9](https://github.com/twinfoundation/ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.7 to 0.0.3-next.8
+
 ## [0.0.3-next.7](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.3-next.6...ui-components-svelte-v0.0.3-next.7) (2026-03-18)
 
 
