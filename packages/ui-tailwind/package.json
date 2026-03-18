@@ -15,8 +15,9 @@
 	},
 	"scripts": {
 		"clean": "rimraf dist coverage",
-		"build": "tsc && cpx \"src/css/**/*\" dist/css",
-		"dev": "nodemon --watch src --ext ts --exec \"npm run build && npm run bundle:esm\"",
+		"build:types": "tsc && cpx \"src/css/**/*\" dist/css",
+		"build": "npm run build:types && npm run bundle",
+		"dev": "nodemon --watch src --ext ts --exec \"npm run build\"",
 		"test": "vitest --config ./vitest.config.ts --no-cache",
 		"test:run": "vitest run --config ./vitest.config.ts --no-cache",
 		"test:build": "tsc -p ./tests/tsconfig.json --noEmit",
@@ -27,8 +28,8 @@
 		"docs:clean": "rimraf docs/reference",
 		"docs:generate": "typedoc --options typedoc.config.mjs",
 		"docs": "npm run docs:clean && npm run docs:generate",
-		"dist": "npm run clean && npm run build && npm run test:build && npm run test:run && npm run bundle",
-		"dist:no-test": "npm run clean && npm run build && npm run bundle"
+		"dist": "npm run clean && npm run build && npm run test:build && npm run test:run",
+		"dist:no-test": "npm run clean && npm run build"
 	},
 	"dependencies": {
 		"@twin.org/core": "next"
