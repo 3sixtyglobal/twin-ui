@@ -186,7 +186,7 @@ export const EmailReceived: Story = {
 		text: (
 			<>
 				If required, you can{" "}
-				<a href="#" className="font-semibold text-brand-primary hover:underline">
+				<a href="#" className="text-brand-primary font-semibold hover:underline">
 					resend the email
 				</a>
 				.
@@ -207,7 +207,7 @@ export const EmailConfirmation: Story = {
 			<img src="/images/emailConfirmation.svg" alt="Email verification" width={120} height={120} />
 		),
 		text: (
-			<div className="text-lg font-semibold text-brand-secondary">Next: Setup your account</div>
+			<div className="text-brand-secondary text-lg font-semibold">Next: Setup your account</div>
 		),
 		action: {
 			label: "Continue",
@@ -372,7 +372,7 @@ export const OrganizationDetails: Story = {
 				If you are a listed organisation in the LEI registry, we recommend using an LEI to find your
 				organisation&apos;s verified details.
 				<br />
-				<a href="#" className="font-semibold text-brand-primary hover:underline">
+				<a href="#" className="text-brand-primary font-semibold hover:underline">
 					Learn more about the LEI registry
 				</a>
 			</>

@@ -29,7 +29,7 @@ const defaultItems: TabItem[] = [
 const LoginForm = (): JSX.Element => (
 	<div className="flex flex-col gap-8">
 		<div>
-			<h1 className="mb-4 text-6xl font-normal text-brand-primary">Empowering</h1>
+			<h1 className="text-brand-primary mb-4 text-6xl font-normal">Empowering</h1>
 			<h1 className="mb-8 text-6xl font-normal text-gray-700">Global Trade.</h1>
 			<h2 className="text-2xl font-normal text-gray-500">Welcome to TWIN.</h2>
 		</div>
@@ -40,7 +40,7 @@ const LoginForm = (): JSX.Element => (
 					<input
 						type="email"
 						placeholder="Your email"
-						className="w-full rounded-lg border border-gray-300 p-4 pl-12 text-lg outline-none focus:border-brand-primary"
+						className="focus:border-brand-primary w-full rounded-lg border border-gray-300 p-4 pl-12 text-lg outline-none"
 					/>
 					<span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500">👤</span>
 				</div>
@@ -48,14 +48,14 @@ const LoginForm = (): JSX.Element => (
 					<input
 						type="password"
 						placeholder="Your password"
-						className="w-full rounded-lg border border-gray-300 p-4 pl-12 text-lg outline-none focus:border-brand-primary"
+						className="focus:border-brand-primary w-full rounded-lg border border-gray-300 p-4 pl-12 text-lg outline-none"
 					/>
 					<span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500">🔒</span>
 				</div>
 				<button className="mt-4 rounded-lg bg-blue-600 px-8 py-4 text-lg font-normal text-white hover:bg-blue-700">
 					Continue →
 				</button>
-				<a href="#" className="mt-4 text-lg font-normal text-brand-primary hover:underline">
+				<a href="#" className="text-brand-primary mt-4 text-lg font-normal hover:underline">
 					Reset password
 				</a>
 			</form>

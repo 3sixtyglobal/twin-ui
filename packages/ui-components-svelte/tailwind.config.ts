@@ -4,12 +4,22 @@ import { execSync } from "node:child_process";
 import { TailwindConfig } from "./src/lib/config/tailwindConfig.js";
 
 const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
+const isMinimalMode = process.env.CI_TAILWIND_MINIMAL === "true";
 
-export default {
-	content: ["./src/**/*.{html,js,svelte,ts}", ...TailwindConfig.getContentPaths(npmRoot, false)],
-	plugins: TailwindConfig.getPlugins(),
-	darkMode: "class",
-	theme: {
-		extend: TailwindConfig.getTheme()
-	}
-};
+export default isMinimalMode
+	? {
+			content: ["./src/**/*.{html,js,svelte,ts}"],
+			plugins: [],
+			darkMode: "class",
+			theme: {
+				extend: {}
+			}
+		}
+	: {
+			content: ["./src/**/*.{html,js,svelte,ts}", ...TailwindConfig.getContentPaths(npmRoot, false)],
+			plugins: TailwindConfig.getPlugins(),
+			darkMode: "class",
+			theme: {
+				extend: TailwindConfig.getTheme()
+			}
+		};

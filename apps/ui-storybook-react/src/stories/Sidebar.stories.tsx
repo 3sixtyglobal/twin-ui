@@ -242,11 +242,11 @@ export const WithFooterContent: Story = {
 const FullHeightDecorator: Decorator = Story => (
 	<div className="flex h-screen">
 		<div className="sticky left-0 top-0 h-screen" style={{ width: "280px" }}>
-			<div className="flex h-full flex-col bg-surface-main">
+			<div className="bg-surface-main flex h-full flex-col">
 				<Story />
 			</div>
 		</div>
-		<div className="flex-1 bg-surface-main p-4">
+		<div className="bg-surface-main flex-1 p-4">
 			<h2 className="text-xl font-bold">Content Area</h2>
 			<p>This demonstrates how the sidebar would look in a full-height layout.</p>
 		</div>
@@ -265,7 +265,7 @@ export const WithFullHeightParent: Story = {
 		footerItems: [{ label: "Help", icon: Question, href: "#" }],
 		footerContent: (
 			<div className="p-4 text-sm text-gray-500">
-				<div className="mb-2 text-base font-bold text-primary">Kate Johnson</div>
+				<div className="text-primary mb-2 text-base font-bold">Kate Johnson</div>
 				<div className="text-tertiary">Admin</div>
 			</div>
 		),

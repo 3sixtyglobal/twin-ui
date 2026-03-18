@@ -10,4 +10,5 @@ release/**
 **/storybook-static
 *.otf
 
-packages/ui-components-react/src/icons/*.tsx
+packages/ui-components-react/**
+packages/ui-components-svelte/**

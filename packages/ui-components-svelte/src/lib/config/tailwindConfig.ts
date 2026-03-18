@@ -1,8 +1,10 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { FigmaVariables } from "../../../../ui-tailwind/src/figmaVariables";
-import type { IFigmaVariableCollection } from "../../../../ui-tailwind/src/models/IFigmaVariableCollection";
-import { TailwindConfig as TailwindConfigTwinOrg } from "../../../../ui-tailwind/src/tailwindConfig";
+import {
+	TailwindConfig as TailwindConfigTwinOrg,
+	FigmaVariables,
+	type IFigmaVariableCollection
+} from "@twin.org/ui-tailwind";
 import flowbite from "flowbite/plugin";
 import flowbiteTypography from "flowbite-typography";
 import type { Config } from "tailwindcss";

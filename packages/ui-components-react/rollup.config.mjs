@@ -163,7 +163,7 @@ const baseConfig = {
 // Main bundle configuration (exports everything)
 const mainBundle = {
 	...baseConfig,
-	input: './dist/es/ui-components-react/src/index.js',
+	input: './dist/es/index.js',
 	output: isEsm
 		? {
 				format,
@@ -172,7 +172,7 @@ const mainBundle = {
 				globals,
 				sourcemap: process.env.NODE_ENV !== 'production',
 				preserveModules: true,
-				preserveModulesRoot: 'dist/es/ui-components-react/src',
+				preserveModulesRoot: 'dist/es',
 				dir: `dist/${format}`,
 				entryFileNames: chunkInfo => {
 					if (chunkInfo.name.includes('icons/')) {
@@ -189,7 +189,7 @@ const mainBundle = {
 				globals,
 				sourcemap: process.env.NODE_ENV !== 'production',
 				preserveModules: true,
-				preserveModulesRoot: 'dist/es/ui-components-react/src',
+				preserveModulesRoot: 'dist/es',
 				entryFileNames: chunkInfo => {
 					if (chunkInfo.name === 'index') {
 						return 'index.cjs';
