@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.3-next.7](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.3-next.6...ui-components-svelte-v0.0.3-next.7) (2026-03-18)
+
+
+### Features
+
+* phosphor icons wrapper ([#114](https://github.com/twinfoundation/ui/issues/114)) ([7c677d0](https://github.com/twinfoundation/ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.6 to 0.0.3-next.7
+
 ## [0.0.3-next.6](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.3-next.5...ui-components-svelte-v0.0.3-next.6) (2026-02-20)
 
 

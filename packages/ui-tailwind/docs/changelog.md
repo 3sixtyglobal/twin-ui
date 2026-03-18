@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.7](https://github.com/twinfoundation/ui/compare/ui-tailwind-v0.0.3-next.6...ui-tailwind-v0.0.3-next.7) (2026-03-18)
+
+
+### Bug Fixes
+
+* **ui-tailwind:** emit css assets during build ([#115](https://github.com/twinfoundation/ui/issues/115)) ([bdcfa2c](https://github.com/twinfoundation/ui/commit/bdcfa2c88f0fc45019c8296922fe6a1f10c5c401))
+
 ## [0.0.3-next.6](https://github.com/twinfoundation/ui/compare/ui-tailwind-v0.0.3-next.5...ui-tailwind-v0.0.3-next.6) (2026-02-20)
 
 
