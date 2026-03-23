@@ -577,14 +577,14 @@
 			"import": "./dist/es/tabs/tabs.mjs",
 			"require": "./dist/cjs/index.cjs"
 		},
-		"./textInput": {
-			"types": "./dist/types/textInput/textInput.d.ts",
-			"import": "./dist/es/textInput/textInput.mjs",
-			"require": "./dist/cjs/index.cjs"
-		},
 		"./textarea": {
 			"types": "./dist/types/textarea/textarea.d.ts",
 			"import": "./dist/es/textarea/textarea.mjs",
+			"require": "./dist/cjs/index.cjs"
+		},
+		"./textInput": {
+			"types": "./dist/types/textInput/textInput.d.ts",
+			"import": "./dist/es/textInput/textInput.mjs",
 			"require": "./dist/cjs/index.cjs"
 		},
 		"./toast": {
