@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.9](https://github.com/twinfoundation/ui/compare/ui-tailwind-v0.0.3-next.8...ui-tailwind-v0.0.3-next.9) (2026-03-24)
+
+
+### Miscellaneous Chores
+
+* **ui-tailwind:** Synchronize repo versions
+
 ## [0.0.3-next.8](https://github.com/twinfoundation/ui/compare/ui-tailwind-v0.0.3-next.7...ui-tailwind-v0.0.3-next.8) (2026-03-18)
 
 

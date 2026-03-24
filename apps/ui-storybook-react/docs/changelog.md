@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.3-next.9](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.3-next.8...ui-storybook-react-v0.0.3-next.9) (2026-03-24)
+
+
+### Miscellaneous Chores
+
+* **ui-storybook-react:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-components-react bumped from 0.0.3-next.8 to 0.0.3-next.9
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.8 to 0.0.3-next.9
+
 ## [0.0.3-next.8](https://github.com/twinfoundation/ui/compare/ui-storybook-react-v0.0.3-next.7...ui-storybook-react-v0.0.3-next.8) (2026-03-18)
 
 

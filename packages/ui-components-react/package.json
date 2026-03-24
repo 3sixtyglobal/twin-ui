@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/ui-components-react",
-	"version": "0.0.3-next.8",
+	"version": "0.0.3-next.9",
 	"description": "UI components for react",
 	"repository": {
 		"type": "git",
@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@phosphor-icons/react": "^2.1.10",
 		"@radix-ui/react-dialog": "^1.1.15",
-		"@twin.org/ui-tailwind": "0.0.3-next.8",
+		"@twin.org/ui-tailwind": "0.0.3-next.9",
 		"react-hook-form": "^7.71.2",
 		"class-variance-authority": "0.7.1",
 		"clsx": "2.1.1",

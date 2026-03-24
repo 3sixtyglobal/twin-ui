@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.3-next.9](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.8...ui-components-react-v0.0.3-next.9) (2026-03-24)
+
+
+### Bug Fixes
+
+* try fixed version for the svelte plugin ([#121](https://github.com/twinfoundation/ui/issues/121)) ([96c6755](https://github.com/twinfoundation/ui/commit/96c6755097891698e94972203d8c48442e6a2899))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.8 to 0.0.3-next.9
+
 ## [0.0.3-next.8](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.7...ui-components-react-v0.0.3-next.8) (2026-03-18)
 
 
