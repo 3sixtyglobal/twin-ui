@@ -8,16 +8,7 @@ const isCi = process.env.CI === "true";
 
 console.log("SvelteTailwind config - is CI:", isCi);
 
-export default isCi
-	? {
-			content: ["./src/**/*.{html,js,svelte,ts}"],
-			plugins: [],
-			darkMode: "class",
-			theme: {
-				extend: {}
-			}
-		}
-	: {
+export default {
 			content: ["./src/**/*.{html,js,svelte,ts}", ...TailwindConfig.getContentPaths(npmRoot, false)],
 			plugins: TailwindConfig.getPlugins(),
 			darkMode: "class",
