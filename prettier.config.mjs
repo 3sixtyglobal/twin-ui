@@ -5,7 +5,7 @@ const isCI = process.env.CI === 'true';
 
 /** @type {import("prettier").Config} */
 export default {
-	plugins: isCI ? [] : ['prettier-plugin-svelte', 'prettier-plugin-tailwindcss'],
+	plugins: isCI ? ['prettier-plugin-svelte'] : ['prettier-plugin-svelte', 'prettier-plugin-tailwindcss'],
 	arrowParens: 'avoid',
 	bracketSpacing: true,
 	endOfLine: 'lf',
