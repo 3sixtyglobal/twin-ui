@@ -6,9 +6,6 @@ import * as flowbite from "flowbite-react/tailwind";
 
 const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
 const require = createRequire(import.meta.url);
-const isCi = process.env.CI === "true";
-
-console.log("Tailwind config - is CI:", isCi);
 
 function getBuildConfig() {
 	const {
@@ -44,14 +41,4 @@ function getBuildConfig() {
 	};
 }
 
-export default isCi
-	? {
-			content: [
-				"./src/**/*.{js,ts,jsx,tsx}",
-				"./.storybook/**/*.html",
-				flowbite.content({ base: npmRoot.replace("node_modules", "") })
-			],
-			plugins: [flowbite.plugin()],
-			darkMode: "class"
-		}
-	: getBuildConfig();
+export default getBuildConfig();

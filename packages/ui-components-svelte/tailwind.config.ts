@@ -4,9 +4,6 @@ import { execSync } from "node:child_process";
 import { TailwindConfig } from "./src/lib/config/tailwindConfig.js";
 
 const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
-const isCi = process.env.CI === "true";
-
-console.log("SvelteTailwind config - is CI:", isCi);
 
 export default {
 			content: ["./src/**/*.{html,js,svelte,ts}", ...TailwindConfig.getContentPaths(npmRoot, false)],
