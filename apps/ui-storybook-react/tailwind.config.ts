@@ -8,6 +8,8 @@ const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
 const require = createRequire(import.meta.url);
 const isCi = process.env.CI === "true";
 
+console.log("Tailwind config - is CI:", isCi);
+
 function getBuildConfig() {
 	const {
 		TailwindConfig: TailwindConfigTwinOrg,

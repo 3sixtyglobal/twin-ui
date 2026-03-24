@@ -4,6 +4,8 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 const isCi = process.env.CI === "true";
 
+console.log("Storybook config - is CI:", isCi);
+
 const config: StorybookConfig = {
 	stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
 	addons: [

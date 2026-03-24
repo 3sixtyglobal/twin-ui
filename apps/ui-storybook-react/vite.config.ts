@@ -6,6 +6,8 @@ import { defineConfig } from "vite";
 
 const isCi = process.env.CI === "true";
 
+console.log("Vite config - is CI:", isCi);
+
 export default defineConfig(() => ({
 	plugins: [react()],
 	resolve: isCi
