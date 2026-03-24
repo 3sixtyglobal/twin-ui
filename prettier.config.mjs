@@ -1,11 +1,12 @@
-// Copyright 2024 IOTA Stiftung.
+// Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 const isCI = process.env.CI === 'true';
 
 /** @type {import("prettier").Config} */
 export default {
-	plugins: isCI ? ['prettier-plugin-svelte'] : ['prettier-plugin-svelte', 'prettier-plugin-tailwindcss'],
+	plugins: isCI
+		? ['prettier-plugin-svelte']
+		: ['prettier-plugin-svelte', 'prettier-plugin-tailwindcss'],
 	arrowParens: 'avoid',
 	bracketSpacing: true,
 	endOfLine: 'lf',
