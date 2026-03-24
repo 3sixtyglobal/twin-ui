@@ -4,9 +4,9 @@ import { execSync } from "node:child_process";
 import { TailwindConfig } from "./src/lib/config/tailwindConfig.js";
 
 const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
-const isMinimalMode = process.env.CI_TAILWIND_MINIMAL === "true";
+const isCi = process.env.CI === "true";
 
-export default isMinimalMode
+export default isCi
 	? {
 			content: ["./src/**/*.{html,js,svelte,ts}"],
 			plugins: [],

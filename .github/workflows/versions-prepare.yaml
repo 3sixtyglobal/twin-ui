@@ -121,6 +121,7 @@ jobs:
             }
           done
 
+      # Setup any services required for tests here
       - name: Setup Test Environment
         uses: ./.github/workflows/setup-test-env
 
@@ -130,7 +131,7 @@ jobs:
         run: |
           npm run format
           npm run lint
-          node ./scripts/workspaces.mjs dist
+          npm run dist
 
       # Stage all changes for commit
       - name: Commit Changes

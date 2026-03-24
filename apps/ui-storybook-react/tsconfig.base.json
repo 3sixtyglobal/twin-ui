@@ -15,12 +15,6 @@
 		"noEmit": true,
 		"jsx": "react-jsx",
 
-		/* Paths: resolve UI package from source so types and code stay in sync without rebuilding */
-		"paths": {
-			"@twin.org/ui-components-react": ["../../packages/ui-components-react/src"],
-			"@twin.org/ui-components-react/*": ["../../packages/ui-components-react/src/*"]
-		},
-
 		/* Linting */
 		"strict": true,
 		"noUnusedLocals": true,

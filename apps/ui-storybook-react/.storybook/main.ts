@@ -1,5 +1,8 @@
 import path from "path";
 import type { StorybookConfig } from "@storybook/react-vite";
+import tsconfigPaths from "vite-tsconfig-paths";
+
+const isCi = process.env.CI === "true";
 
 const config: StorybookConfig = {
 	stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
@@ -16,22 +19,36 @@ const config: StorybookConfig = {
 	async viteFinal(config) {
 		const { mergeConfig } = await import("vite");
 
-		const alias = {
-			// Resolve package from source so Storybook sees package changes without rebuilding
-			"@twin.org/ui-components-react": path.resolve(
-				__dirname,
-				"../../../packages/ui-components-react/src"
-			),
-			"@twin.org/ui-components-react/icons": path.resolve(
-				__dirname,
-				"../../../packages/ui-components-react/src/icons"
-			)
-		};
+		if (isCi) {
+			// In CI mode use simple configuration without aliases to avoid potential issues with path resolution
+			return mergeConfig(config, {
+				plugins: [
+					tsconfigPaths({
+						projects: ["./tsconfig.base.json"]
+					})
+				]
+			});
+		}
 
 		return mergeConfig(config, {
 			resolve: {
-				alias
-			}
+				alias: {
+					// Resolve package from source so Storybook sees package changes without rebuilding
+					"@twin.org/ui-components-react": path.resolve(
+						__dirname,
+						"../../../packages/ui-components-react/src"
+					),
+					"@twin.org/ui-components-react/icons": path.resolve(
+						__dirname,
+						"../../../packages/ui-components-react/src/icons"
+					)
+				}
+			},
+			plugins: [
+				tsconfigPaths({
+					projects: ["./tsconfig.dev.json"]
+				})
+			]
 		});
 	}
 };

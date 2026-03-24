@@ -24,8 +24,10 @@
 	},
 	"dependencies": {
 		"@twin.org/ui-components-react": "0.0.3-next.8",
+		"@twin.org/ui-tailwind": "0.0.3-next.8",
 		"react": "19.2.4",
-		"react-dom": "19.2.4"
+		"react-dom": "19.2.4",
+		"vite-tsconfig-paths": "^6.1.1"
 	},
 	"devDependencies": {
 		"@eslint/js": "9.39.1",

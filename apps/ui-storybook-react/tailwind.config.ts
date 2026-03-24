@@ -6,7 +6,7 @@ import * as flowbite from "flowbite-react/tailwind";
 
 const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
 const require = createRequire(import.meta.url);
-const isMinimalMode = process.env.CI_TAILWIND_MINIMAL === "true";
+const isCi = process.env.CI === "true";
 
 function getBuildConfig() {
 	const {
@@ -42,7 +42,7 @@ function getBuildConfig() {
 	};
 }
 
-export default isMinimalMode
+export default isCi
 	? {
 			content: [
 				"./src/**/*.{js,ts,jsx,tsx}",
