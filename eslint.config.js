@@ -539,6 +539,7 @@ const jsDocRules = {
 				'FunctionDeclaration',
 				'FunctionExpression',
 				'MethodDefinition',
+				'ExportNamedDeclaration > VariableDeclaration > VariableDeclarator > TSAsExpression[typeAnnotation.type="TSTypeReference"][typeAnnotation.typeName.name="const"] > ObjectExpression > Property',
 				'TSDeclareFunction',
 				'TSEnumDeclaration',
 				'TSInterfaceDeclaration',
