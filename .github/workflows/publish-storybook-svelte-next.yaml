@@ -37,10 +37,10 @@ jobs:
         uses: BetaHuhn/deploy-to-vercel-action@v1.10.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          TWIN_VERCEL_TOKEN: ${{ secrets.TWIN_VERCEL_TOKEN }}
+          TWIN_VERCEL_ORG_ID: ${{ secrets.TWIN_VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_STORYBOOK_SVELTE }}
-          VERCEL_SCOPE: ${{ secrets.VERCEL_SCOPE }}
+          TWIN_VERCEL_SCOPE: ${{ secrets.TWIN_VERCEL_SCOPE }}
           ALIAS_DOMAINS: ${{ env.gha-domain }}
           PRODUCTION: ${{ env.gha-production }}
           WORKING_DIRECTORY: packages/ui-components-svelte
