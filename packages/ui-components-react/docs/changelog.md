@@ -1,11 +1,11 @@
 # Changelog
 
-## [0.0.3-next.9](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.8...ui-components-react-v0.0.3-next.9) (2026-03-24)
+## [0.0.3-next.9](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.8...ui-components-react-v0.0.3-next.9) (2026-03-24)
 
 
 ### Bug Fixes
 
-* try fixed version for the svelte plugin ([#121](https://github.com/twinfoundation/ui/issues/121)) ([96c6755](https://github.com/twinfoundation/ui/commit/96c6755097891698e94972203d8c48442e6a2899))
+* try fixed version for the svelte plugin ([#121](https://github.com/iotaledger/twin-ui/issues/121)) ([96c6755](https://github.com/iotaledger/twin-ui/commit/96c6755097891698e94972203d8c48442e6a2899))
 
 
 ### Dependencies
@@ -14,7 +14,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.8 to 0.0.3-next.9
 
-## [0.0.3-next.8](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.7...ui-components-react-v0.0.3-next.8) (2026-03-18)
+## [0.0.3-next.8](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.7...ui-components-react-v0.0.3-next.8) (2026-03-18)
 
 
 ### ⚠ BREAKING CHANGES
@@ -28,53 +28,53 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* new stepview component ([#102](https://github.com/twinfoundation/ui/issues/102)) ([1d14ba4](https://github.com/twinfoundation/ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* phosphor icons wrapper ([#114](https://github.com/twinfoundation/ui/issues/114)) ([7c677d0](https://github.com/twinfoundation/ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui-components-react:** add submitButtonDisabled prop to StepView ([#112](https://github.com/twinfoundation/ui/issues/112)) ([5661c7d](https://github.com/twinfoundation/ui/commit/5661c7d072c7a60e72e499d897ebf93871e4d5d2))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
-* update stepview ([#104](https://github.com/twinfoundation/ui/issues/104)) ([ed15000](https://github.com/twinfoundation/ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
-* update svelte to v5 ([760678a](https://github.com/twinfoundation/ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* new stepview component ([#102](https://github.com/iotaledger/twin-ui/issues/102)) ([1d14ba4](https://github.com/iotaledger/twin-ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* phosphor icons wrapper ([#114](https://github.com/iotaledger/twin-ui/issues/114)) ([7c677d0](https://github.com/iotaledger/twin-ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui-components-react:** add submitButtonDisabled prop to StepView ([#112](https://github.com/iotaledger/twin-ui/issues/112)) ([5661c7d](https://github.com/iotaledger/twin-ui/commit/5661c7d072c7a60e72e499d897ebf93871e4d5d2))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* update stepview ([#104](https://github.com/iotaledger/twin-ui/issues/104)) ([ed15000](https://github.com/iotaledger/twin-ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* errors in CI about component ids ([#92](https://github.com/twinfoundation/ui/issues/92)) ([f9ea695](https://github.com/twinfoundation/ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
-* package build and publish workflow compatibility ([#118](https://github.com/twinfoundation/ui/issues/118)) ([f7d0fa7](https://github.com/twinfoundation/ui/commit/f7d0fa7ba9204ffccd54cb423b45b0a54ffb44fb))
-* package versions de-pinning issue ([#97](https://github.com/twinfoundation/ui/issues/97)) ([0eba5aa](https://github.com/twinfoundation/ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
-* peer dependency issue with MVP repo ([#105](https://github.com/twinfoundation/ui/issues/105)) ([bf31a16](https://github.com/twinfoundation/ui/commit/bf31a165e64c33a7d0e595de4e7946e9858058d0))
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
-* refactor StepView with discriminated unions and custom rendering ([#110](https://github.com/twinfoundation/ui/issues/110)) ([22366f8](https://github.com/twinfoundation/ui/commit/22366f8ebdabed3b2d00f913ac9663f83881f63b))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* errors in CI about component ids ([#92](https://github.com/iotaledger/twin-ui/issues/92)) ([f9ea695](https://github.com/iotaledger/twin-ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* package build and publish workflow compatibility ([#118](https://github.com/iotaledger/twin-ui/issues/118)) ([f7d0fa7](https://github.com/iotaledger/twin-ui/commit/f7d0fa7ba9204ffccd54cb423b45b0a54ffb44fb))
+* package versions de-pinning issue ([#97](https://github.com/iotaledger/twin-ui/issues/97)) ([0eba5aa](https://github.com/iotaledger/twin-ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
+* peer dependency issue with MVP repo ([#105](https://github.com/iotaledger/twin-ui/issues/105)) ([bf31a16](https://github.com/iotaledger/twin-ui/commit/bf31a165e64c33a7d0e595de4e7946e9858058d0))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* refactor StepView with discriminated unions and custom rendering ([#110](https://github.com/iotaledger/twin-ui/issues/110)) ([22366f8](https://github.com/iotaledger/twin-ui/commit/22366f8ebdabed3b2d00f913ac9663f83881f63b))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -83,12 +83,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.7 to 0.0.3-next.8
 
-## [0.0.3-next.7](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.6...ui-components-react-v0.0.3-next.7) (2026-03-18)
+## [0.0.3-next.7](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.6...ui-components-react-v0.0.3-next.7) (2026-03-18)
 
 
 ### Features
 
-* phosphor icons wrapper ([#114](https://github.com/twinfoundation/ui/issues/114)) ([7c677d0](https://github.com/twinfoundation/ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
+* phosphor icons wrapper ([#114](https://github.com/iotaledger/twin-ui/issues/114)) ([7c677d0](https://github.com/iotaledger/twin-ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
 
 
 ### Dependencies
@@ -97,12 +97,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.6 to 0.0.3-next.7
 
-## [0.0.3-next.6](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.5...ui-components-react-v0.0.3-next.6) (2026-02-20)
+## [0.0.3-next.6](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.5...ui-components-react-v0.0.3-next.6) (2026-02-20)
 
 
 ### Features
 
-* **ui-components-react:** add submitButtonDisabled prop to StepView ([#112](https://github.com/twinfoundation/ui/issues/112)) ([5661c7d](https://github.com/twinfoundation/ui/commit/5661c7d072c7a60e72e499d897ebf93871e4d5d2))
+* **ui-components-react:** add submitButtonDisabled prop to StepView ([#112](https://github.com/iotaledger/twin-ui/issues/112)) ([5661c7d](https://github.com/iotaledger/twin-ui/commit/5661c7d072c7a60e72e499d897ebf93871e4d5d2))
 
 
 ### Dependencies
@@ -111,7 +111,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.5 to 0.0.3-next.6
 
-## [0.0.3-next.5](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.4...ui-components-react-v0.0.3-next.5) (2026-02-18)
+## [0.0.3-next.5](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.4...ui-components-react-v0.0.3-next.5) (2026-02-18)
 
 
 ### ⚠ BREAKING CHANGES
@@ -125,50 +125,50 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* new stepview component ([#102](https://github.com/twinfoundation/ui/issues/102)) ([1d14ba4](https://github.com/twinfoundation/ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
-* update stepview ([#104](https://github.com/twinfoundation/ui/issues/104)) ([ed15000](https://github.com/twinfoundation/ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
-* update svelte to v5 ([760678a](https://github.com/twinfoundation/ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* new stepview component ([#102](https://github.com/iotaledger/twin-ui/issues/102)) ([1d14ba4](https://github.com/iotaledger/twin-ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* update stepview ([#104](https://github.com/iotaledger/twin-ui/issues/104)) ([ed15000](https://github.com/iotaledger/twin-ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* errors in CI about component ids ([#92](https://github.com/twinfoundation/ui/issues/92)) ([f9ea695](https://github.com/twinfoundation/ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
-* package versions de-pinning issue ([#97](https://github.com/twinfoundation/ui/issues/97)) ([0eba5aa](https://github.com/twinfoundation/ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
-* peer dependency issue with MVP repo ([#105](https://github.com/twinfoundation/ui/issues/105)) ([bf31a16](https://github.com/twinfoundation/ui/commit/bf31a165e64c33a7d0e595de4e7946e9858058d0))
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
-* refactor StepView with discriminated unions and custom rendering ([#110](https://github.com/twinfoundation/ui/issues/110)) ([22366f8](https://github.com/twinfoundation/ui/commit/22366f8ebdabed3b2d00f913ac9663f83881f63b))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* errors in CI about component ids ([#92](https://github.com/iotaledger/twin-ui/issues/92)) ([f9ea695](https://github.com/iotaledger/twin-ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* package versions de-pinning issue ([#97](https://github.com/iotaledger/twin-ui/issues/97)) ([0eba5aa](https://github.com/iotaledger/twin-ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
+* peer dependency issue with MVP repo ([#105](https://github.com/iotaledger/twin-ui/issues/105)) ([bf31a16](https://github.com/iotaledger/twin-ui/commit/bf31a165e64c33a7d0e595de4e7946e9858058d0))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* refactor StepView with discriminated unions and custom rendering ([#110](https://github.com/iotaledger/twin-ui/issues/110)) ([22366f8](https://github.com/iotaledger/twin-ui/commit/22366f8ebdabed3b2d00f913ac9663f83881f63b))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -177,7 +177,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.4 to 0.0.3-next.5
 
-## [0.0.3-next.4](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.3...ui-components-react-v0.0.3-next.4) (2026-02-16)
+## [0.0.3-next.4](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.3...ui-components-react-v0.0.3-next.4) (2026-02-16)
 
 
 ### ⚠ BREAKING CHANGES
@@ -190,49 +190,49 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* new stepview component ([#102](https://github.com/twinfoundation/ui/issues/102)) ([1d14ba4](https://github.com/twinfoundation/ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
-* update stepview ([#104](https://github.com/twinfoundation/ui/issues/104)) ([ed15000](https://github.com/twinfoundation/ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
-* update svelte to v5 ([760678a](https://github.com/twinfoundation/ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* new stepview component ([#102](https://github.com/iotaledger/twin-ui/issues/102)) ([1d14ba4](https://github.com/iotaledger/twin-ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* update stepview ([#104](https://github.com/iotaledger/twin-ui/issues/104)) ([ed15000](https://github.com/iotaledger/twin-ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* errors in CI about component ids ([#92](https://github.com/twinfoundation/ui/issues/92)) ([f9ea695](https://github.com/twinfoundation/ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
-* package versions de-pinning issue ([#97](https://github.com/twinfoundation/ui/issues/97)) ([0eba5aa](https://github.com/twinfoundation/ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
-* peer dependency issue with MVP repo ([#105](https://github.com/twinfoundation/ui/issues/105)) ([bf31a16](https://github.com/twinfoundation/ui/commit/bf31a165e64c33a7d0e595de4e7946e9858058d0))
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* errors in CI about component ids ([#92](https://github.com/iotaledger/twin-ui/issues/92)) ([f9ea695](https://github.com/iotaledger/twin-ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* package versions de-pinning issue ([#97](https://github.com/iotaledger/twin-ui/issues/97)) ([0eba5aa](https://github.com/iotaledger/twin-ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
+* peer dependency issue with MVP repo ([#105](https://github.com/iotaledger/twin-ui/issues/105)) ([bf31a16](https://github.com/iotaledger/twin-ui/commit/bf31a165e64c33a7d0e595de4e7946e9858058d0))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -241,12 +241,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.2 to 0.0.3-next.4
 
-## [0.0.3-next.3](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.2...ui-components-react-v0.0.3-next.3) (2026-02-13)
+## [0.0.3-next.3](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.2...ui-components-react-v0.0.3-next.3) (2026-02-13)
 
 
 ### Features
 
-* update stepview ([#104](https://github.com/twinfoundation/ui/issues/104)) ([ed15000](https://github.com/twinfoundation/ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
+* update stepview ([#104](https://github.com/iotaledger/twin-ui/issues/104)) ([ed15000](https://github.com/iotaledger/twin-ui/commit/ed15000471b918b11c2ac49ec835bf7bc82d1a10))
 
 
 ### Dependencies
@@ -255,12 +255,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.2 to 0.0.3-next.3
 
-## [0.0.3-next.2](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.1...ui-components-react-v0.0.3-next.2) (2025-12-09)
+## [0.0.3-next.2](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.1...ui-components-react-v0.0.3-next.2) (2025-12-09)
 
 
 ### Features
 
-* new stepview component ([#102](https://github.com/twinfoundation/ui/issues/102)) ([1d14ba4](https://github.com/twinfoundation/ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
+* new stepview component ([#102](https://github.com/iotaledger/twin-ui/issues/102)) ([1d14ba4](https://github.com/iotaledger/twin-ui/commit/1d14ba417d9c405ff4f1a793583bd9ca4bffd7df))
 
 
 ### Dependencies
@@ -269,7 +269,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.1 to 0.0.3-next.2
 
-## [0.0.3-next.1](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.3-next.0...ui-components-react-v0.0.3-next.1) (2025-11-14)
+## [0.0.3-next.1](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.3-next.0...ui-components-react-v0.0.3-next.1) (2025-11-14)
 
 
 ### ⚠ BREAKING CHANGES
@@ -282,46 +282,46 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
-* update svelte to v5 ([760678a](https://github.com/twinfoundation/ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* errors in CI about component ids ([#92](https://github.com/twinfoundation/ui/issues/92)) ([f9ea695](https://github.com/twinfoundation/ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
-* package versions de-pinning issue ([#97](https://github.com/twinfoundation/ui/issues/97)) ([0eba5aa](https://github.com/twinfoundation/ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* errors in CI about component ids ([#92](https://github.com/iotaledger/twin-ui/issues/92)) ([f9ea695](https://github.com/iotaledger/twin-ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* package versions de-pinning issue ([#97](https://github.com/iotaledger/twin-ui/issues/97)) ([0eba5aa](https://github.com/iotaledger/twin-ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -330,7 +330,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.3-next.0 to 0.0.3-next.1
 
-## [0.0.2-next.5](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.2-next.4...ui-components-react-v0.0.2-next.5) (2025-11-12)
+## [0.0.2-next.5](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.2-next.4...ui-components-react-v0.0.2-next.5) (2025-11-12)
 
 
 ### ⚠ BREAKING CHANGES
@@ -343,45 +343,45 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* errors in CI about component ids ([#92](https://github.com/twinfoundation/ui/issues/92)) ([f9ea695](https://github.com/twinfoundation/ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
-* package versions de-pinning issue ([#97](https://github.com/twinfoundation/ui/issues/97)) ([0eba5aa](https://github.com/twinfoundation/ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* errors in CI about component ids ([#92](https://github.com/iotaledger/twin-ui/issues/92)) ([f9ea695](https://github.com/iotaledger/twin-ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* package versions de-pinning issue ([#97](https://github.com/iotaledger/twin-ui/issues/97)) ([0eba5aa](https://github.com/iotaledger/twin-ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -390,7 +390,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.2-next.4 to 0.0.2-next.5
 
-## [0.0.2-next.4](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.2-next.3...ui-components-react-v0.0.2-next.4) (2025-11-12)
+## [0.0.2-next.4](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.2-next.3...ui-components-react-v0.0.2-next.4) (2025-11-12)
 
 
 ### ⚠ BREAKING CHANGES
@@ -403,45 +403,45 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* errors in CI about component ids ([#92](https://github.com/twinfoundation/ui/issues/92)) ([f9ea695](https://github.com/twinfoundation/ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
-* package versions de-pinning issue ([#97](https://github.com/twinfoundation/ui/issues/97)) ([0eba5aa](https://github.com/twinfoundation/ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* errors in CI about component ids ([#92](https://github.com/iotaledger/twin-ui/issues/92)) ([f9ea695](https://github.com/iotaledger/twin-ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* package versions de-pinning issue ([#97](https://github.com/iotaledger/twin-ui/issues/97)) ([0eba5aa](https://github.com/iotaledger/twin-ui/commit/0eba5aab39b79dd7833adbed461eff6aca0535ce))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -450,7 +450,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.2-next.3 to 0.0.2-next.4
 
-## [0.0.2-next.3](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.2-next.2...ui-components-react-v0.0.2-next.3) (2025-11-12)
+## [0.0.2-next.3](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.2-next.2...ui-components-react-v0.0.2-next.3) (2025-11-12)
 
 
 ### ⚠ BREAKING CHANGES
@@ -463,44 +463,44 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* errors in CI about component ids ([#92](https://github.com/twinfoundation/ui/issues/92)) ([f9ea695](https://github.com/twinfoundation/ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* errors in CI about component ids ([#92](https://github.com/iotaledger/twin-ui/issues/92)) ([f9ea695](https://github.com/iotaledger/twin-ui/commit/f9ea6953956aaf851b148410807610ac0144473a))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -509,18 +509,18 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.2-next.2 to 0.0.2-next.3
 
-## [0.0.2-next.2](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.2-next.1...ui-components-react-v0.0.2-next.2) (2025-11-11)
+## [0.0.2-next.2](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.2-next.1...ui-components-react-v0.0.2-next.2) (2025-11-11)
 
 
 ### Features
 
-* add UI table ([#87](https://github.com/twinfoundation/ui/issues/87)) ([be8718d](https://github.com/twinfoundation/ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
-* adding snapshot tests ([#86](https://github.com/twinfoundation/ui/issues/86)) ([7cfa9b6](https://github.com/twinfoundation/ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
+* add UI table ([#87](https://github.com/iotaledger/twin-ui/issues/87)) ([be8718d](https://github.com/iotaledger/twin-ui/commit/be8718de3ff9e83250566939d07cc61cbf163e6b))
+* adding snapshot tests ([#86](https://github.com/iotaledger/twin-ui/issues/86)) ([7cfa9b6](https://github.com/iotaledger/twin-ui/commit/7cfa9b653f21878e4e0fd984331a04bf971af432))
 
 
 ### Bug Fixes
 
-* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/twinfoundation/ui/issues/89)) ([977b9f0](https://github.com/twinfoundation/ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
+* **publish-release CI:** install packages before running npm run test ([#89](https://github.com/iotaledger/twin-ui/issues/89)) ([977b9f0](https://github.com/iotaledger/twin-ui/commit/977b9f0552dd27e0aba43e5faa34c70baef882de))
 
 
 ### Dependencies
@@ -529,7 +529,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.2-next.1 to 0.0.2-next.2
 
-## [0.0.2-next.1](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.2-next.0...ui-components-react-v0.0.2-next.1) (2025-09-24)
+## [0.0.2-next.1](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.2-next.0...ui-components-react-v0.0.2-next.1) (2025-09-24)
 
 
 ### ⚠ BREAKING CHANGES
@@ -542,40 +542,40 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* eslint migration to flat config ([9e8c4e3](https://github.com/twinfoundation/ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -597,40 +597,40 @@
 
 ### Features
 
-* **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
-* **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-* button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
-* **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-* **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
-* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
-* release to production ([5f2fd01](https://github.com/twinfoundation/ui/commit/5f2fd01318b3982a4ce097e0a32b0ed0c34e7dc9))
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
-* **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
-* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-* **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+* **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+* button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+* **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+* **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+* pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+* release to production ([5f2fd01](https://github.com/iotaledger/twin-ui/commit/5f2fd01318b3982a4ce097e0a32b0ed0c34e7dc9))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+* **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+* **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+* **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
 
 ### Bug Fixes
 
-* **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+* **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+* **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
 
 
 ### Code Refactoring
 
-* modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+* modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 
 ### Dependencies
@@ -639,12 +639,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from ^0.0.0 to ^0.0.1
 
-## [0.0.1-next.52](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.51...ui-components-react-v0.0.1-next.52) (2025-06-23)
+## [0.0.1-next.52](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.51...ui-components-react-v0.0.1-next.52) (2025-06-23)
 
 
 ### Features
 
-* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/twinfoundation/ui/issues/73)) ([8a7f649](https://github.com/twinfoundation/ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
+* add all ButtonProps to Modal footerButtons array prop ([#73](https://github.com/iotaledger/twin-ui/issues/73)) ([8a7f649](https://github.com/iotaledger/twin-ui/commit/8a7f6495c64e4207d04c49f0bc6f026e6ff7202f))
 
 
 ### Dependencies
@@ -653,12 +653,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.51 to 0.0.1-next.52
 
-## [0.0.1-next.51](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.50...ui-components-react-v0.0.1-next.51) (2025-06-11)
+## [0.0.1-next.51](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.50...ui-components-react-v0.0.1-next.51) (2025-06-11)
 
 
 ### Features
 
-* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/twinfoundation/ui/issues/71)) ([b6c7746](https://github.com/twinfoundation/ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
+* select color prop type, Table overflow fix and fix Button ghost outline ([#71](https://github.com/iotaledger/twin-ui/issues/71)) ([b6c7746](https://github.com/iotaledger/twin-ui/commit/b6c7746c281892ea10f235046362f97dabfa20d5))
 
 
 ### Dependencies
@@ -667,13 +667,13 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.50 to 0.0.1-next.51
 
-## [0.0.1-next.50](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.49...ui-components-react-v0.0.1-next.50) (2025-06-05)
+## [0.0.1-next.50](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.49...ui-components-react-v0.0.1-next.50) (2025-06-05)
 
 
 ### Features
 
-* icons migration svg flat ([#68](https://github.com/twinfoundation/ui/issues/68)) ([1d4b707](https://github.com/twinfoundation/ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
-* new icons flat hotfix ([#69](https://github.com/twinfoundation/ui/issues/69)) ([6253fac](https://github.com/twinfoundation/ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
+* icons migration svg flat ([#68](https://github.com/iotaledger/twin-ui/issues/68)) ([1d4b707](https://github.com/iotaledger/twin-ui/commit/1d4b7073afe736a0d1b203d0fc079d2d3848760c))
+* new icons flat hotfix ([#69](https://github.com/iotaledger/twin-ui/issues/69)) ([6253fac](https://github.com/iotaledger/twin-ui/commit/6253fac4e327947c4337103e05ad870ec91d5cf4))
 
 
 ### Dependencies
@@ -682,12 +682,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.49 to 0.0.1-next.50
 
-## [0.0.1-next.49](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.48...ui-components-react-v0.0.1-next.49) (2025-05-29)
+## [0.0.1-next.49](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.48...ui-components-react-v0.0.1-next.49) (2025-05-29)
 
 
 ### Features
 
-* svg properties in camelCase ([#64](https://github.com/twinfoundation/ui/issues/64)) ([4183cbe](https://github.com/twinfoundation/ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
+* svg properties in camelCase ([#64](https://github.com/iotaledger/twin-ui/issues/64)) ([4183cbe](https://github.com/iotaledger/twin-ui/commit/4183cbebb5c1a09e04571fc6368c8808ee844ef0))
 
 
 ### Dependencies
@@ -696,12 +696,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.48 to 0.0.1-next.49
 
-## [0.0.1-next.48](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.47...ui-components-react-v0.0.1-next.48) (2025-05-28)
+## [0.0.1-next.48](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.47...ui-components-react-v0.0.1-next.48) (2025-05-28)
 
 
 ### Features
 
-* migrate icon system and update types ([#62](https://github.com/twinfoundation/ui/issues/62)) ([ab81824](https://github.com/twinfoundation/ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
 
 
 ### Dependencies
@@ -710,11 +710,11 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.47 to 0.0.1-next.48
 
-## [0.0.1-next.47](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.46...ui-components-react-v0.0.1-next.47) (2025-05-22)
+## [0.0.1-next.47](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.46...ui-components-react-v0.0.1-next.47) (2025-05-22)
 
 ### Features
 
-- button - add ghost color/variant to the component ([#58](https://github.com/twinfoundation/ui/issues/58)) ([ed2ad38](https://github.com/twinfoundation/ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
+- button - add ghost color/variant to the component ([#58](https://github.com/iotaledger/twin-ui/issues/58)) ([ed2ad38](https://github.com/iotaledger/twin-ui/commit/ed2ad38fac00617004be5c7b15dab73cf818ecc5))
 
 ### Dependencies
 
@@ -722,11 +722,11 @@
   - dependencies
     - @twin.org/ui-tailwind bumped from 0.0.1-next.46 to 0.0.1-next.47
 
-## [0.0.1-next.46](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.45...ui-components-react-v0.0.1-next.46) (2025-05-21)
+## [0.0.1-next.46](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.45...ui-components-react-v0.0.1-next.46) (2025-05-21)
 
 ### Features
 
-- pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/twinfoundation/ui/issues/56)) ([adf96de](https://github.com/twinfoundation/ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
+- pass all props for Modal footerButtons array to be able to pass `data-testid` to them ([#56](https://github.com/iotaledger/twin-ui/issues/56)) ([adf96de](https://github.com/iotaledger/twin-ui/commit/adf96de722bd0a1f6613808296e1bad5d9581e9a))
 
 ### Dependencies
 
@@ -734,7 +734,7 @@
   - dependencies
     - @twin.org/ui-tailwind bumped from 0.0.1-next.45 to 0.0.1-next.46
 
-## [0.0.1-next.45](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.44...ui-components-react-v0.0.1-next.45) (2025-04-30)
+## [0.0.1-next.45](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.44...ui-components-react-v0.0.1-next.45) (2025-04-30)
 
 ### Miscellaneous Chores
 
@@ -746,7 +746,7 @@
   - dependencies
     - @twin.org/ui-tailwind bumped from 0.0.1-next.44 to 0.0.1-next.45
 
-## [0.0.1-next.44](https://github.com/twinfoundation/ui/compare/ui-components-react-v0.0.1-next.43...ui-components-react-v0.0.1-next.44) (2025-04-29)
+## [0.0.1-next.44](https://github.com/iotaledger/twin-ui/compare/ui-components-react-v0.0.1-next.43...ui-components-react-v0.0.1-next.44) (2025-04-29)
 
 ### ⚠ BREAKING CHANGES
 
@@ -758,29 +758,29 @@
 
 ### Features
 
-- **accordion:** add icons support to Accordion component ([#33](https://github.com/twinfoundation/ui/issues/33)) ([5be554a](https://github.com/twinfoundation/ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
-- **avatar:** implement Avatar component ([#8](https://github.com/twinfoundation/ui/issues/8)) ([9448ff5](https://github.com/twinfoundation/ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
-- **components:** add barrel exports for component directories ([#40](https://github.com/twinfoundation/ui/issues/40)) ([8037480](https://github.com/twinfoundation/ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
-- **drawer:** enhance button customization options ([#34](https://github.com/twinfoundation/ui/issues/34)) ([dc2d8af](https://github.com/twinfoundation/ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
-- **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/twinfoundation/ui/issues/52)) ([3a5e8de](https://github.com/twinfoundation/ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
-- **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/twinfoundation/ui/issues/13)) ([9c3466c](https://github.com/twinfoundation/ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
-- improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/twinfoundation/ui/issues/5)) ([e6df649](https://github.com/twinfoundation/ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
-- **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/twinfoundation/ui/issues/21)) ([fa6adb8](https://github.com/twinfoundation/ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
-- **sidebar:** add footer, header, and full height support ([#45](https://github.com/twinfoundation/ui/issues/45)) ([38f371f](https://github.com/twinfoundation/ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
-- svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-- **tabs:** add controlled state and improve accessibility ([#46](https://github.com/twinfoundation/ui/issues/46)) ([3cacadb](https://github.com/twinfoundation/ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
-- **tabs:** Add loading states to Tabs component ([#47](https://github.com/twinfoundation/ui/issues/47)) ([6580e27](https://github.com/twinfoundation/ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
-- **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/twinfoundation/ui/issues/26)) ([d74813a](https://github.com/twinfoundation/ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
-- **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/twinfoundation/ui/issues/22)) ([b96b923](https://github.com/twinfoundation/ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
+- **accordion:** add icons support to Accordion component ([#33](https://github.com/iotaledger/twin-ui/issues/33)) ([5be554a](https://github.com/iotaledger/twin-ui/commit/5be554a2712896811d467e5b479795a0c76530f5))
+- **avatar:** implement Avatar component ([#8](https://github.com/iotaledger/twin-ui/issues/8)) ([9448ff5](https://github.com/iotaledger/twin-ui/commit/9448ff58e110f95f3bae49f4e10f7d83752667c5))
+- **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+- **drawer:** enhance button customization options ([#34](https://github.com/iotaledger/twin-ui/issues/34)) ([dc2d8af](https://github.com/iotaledger/twin-ui/commit/dc2d8af73ce148329d05efa63d44e1bb38a40ad2))
+- **Dropdown and Button:** add `color` to Dropdown component and use `iconOnly` props from Button ([#52](https://github.com/iotaledger/twin-ui/issues/52)) ([3a5e8de](https://github.com/iotaledger/twin-ui/commit/3a5e8de6622b5df97a2cc19939283562aa3544e1))
+- **dropdown:** add checkbox support and improve accessibility ([#13](https://github.com/iotaledger/twin-ui/issues/13)) ([9c3466c](https://github.com/iotaledger/twin-ui/commit/9c3466caa98794cec566864cbcba46298e8ca02b))
+- improve hot reloading for React components in Storybook and other improvements ([#5](https://github.com/iotaledger/twin-ui/issues/5)) ([e6df649](https://github.com/iotaledger/twin-ui/commit/e6df649c2b471f9fe23d015475220f135ef791bb))
+- **pagination:** Enhance styles per figma and add icons-only variant ([#21](https://github.com/iotaledger/twin-ui/issues/21)) ([fa6adb8](https://github.com/iotaledger/twin-ui/commit/fa6adb833dd720a00d1179c734ad2a00d87f61cd))
+- **sidebar:** add footer, header, and full height support ([#45](https://github.com/iotaledger/twin-ui/issues/45)) ([38f371f](https://github.com/iotaledger/twin-ui/commit/38f371ffba864cb29108390d9affb08deb6b8acc))
+- svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+- **tabs:** add controlled state and improve accessibility ([#46](https://github.com/iotaledger/twin-ui/issues/46)) ([3cacadb](https://github.com/iotaledger/twin-ui/commit/3cacadb4153efbbc9757cbf1284d670146dd4645))
+- **tabs:** Add loading states to Tabs component ([#47](https://github.com/iotaledger/twin-ui/issues/47)) ([6580e27](https://github.com/iotaledger/twin-ui/commit/6580e27150c8ba291d40c56b1b901611d229aa9d))
+- **tabs:** add tabs story with icons and improved performance ([#26](https://github.com/iotaledger/twin-ui/issues/26)) ([d74813a](https://github.com/iotaledger/twin-ui/commit/d74813a06699ef2f50328d75cee81207311d98ba))
+- **ui:** enhance Progress component with custom colors and centered text ([#22](https://github.com/iotaledger/twin-ui/issues/22)) ([b96b923](https://github.com/iotaledger/twin-ui/commit/b96b9234ed99e2ac51dbecc85353ea0d850529c1))
 
 ### Bug Fixes
 
-- **card:** Improved colors ([#11](https://github.com/twinfoundation/ui/issues/11)) ([652f4cc](https://github.com/twinfoundation/ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
-- **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/twinfoundation/ui/issues/32)) ([0882a2d](https://github.com/twinfoundation/ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
+- **card:** Improved colors ([#11](https://github.com/iotaledger/twin-ui/issues/11)) ([652f4cc](https://github.com/iotaledger/twin-ui/commit/652f4cc68d1116fd6f62cfd643d8ec288d5e9a30))
+- **eslint:** add React hooks linting and fix component issues ([#32](https://github.com/iotaledger/twin-ui/issues/32)) ([0882a2d](https://github.com/iotaledger/twin-ui/commit/0882a2df28bbca89f3d7a85bed2655cb1e17e6cf))
 
 ### Code Refactoring
 
-- modernize components with TypeScript and React best practices ([#30](https://github.com/twinfoundation/ui/issues/30)) ([fbd9ee5](https://github.com/twinfoundation/ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
+- modernize components with TypeScript and React best practices ([#30](https://github.com/iotaledger/twin-ui/issues/30)) ([fbd9ee5](https://github.com/iotaledger/twin-ui/commit/fbd9ee53732faa0ca1b4f5df2155e6789097deb6))
 
 ### Dependencies
 
