@@ -4,7 +4,7 @@
 	"description": "UI components for react",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/ui.git",
+		"url": "git+https://github.com/iotaledger/twin-ui.git",
 		"directory": "packages/ui-components-react"
 	},
 	"author": "martyn.janes@iota.org",
@@ -625,7 +625,7 @@
 		"frontend"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/ui/issues"
+		"url": "git+https://github.com/iotaledger/twin-ui/issues"
 	},
 	"homepage": "https://twindev.org"
 }
