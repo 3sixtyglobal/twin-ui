@@ -20,7 +20,8 @@
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
 		"serve-storybook": "serve storybook-static",
-		"dist": "npm run build-storybook"
+		"dist": "npm run build-storybook",
+		"dist:no-test": "echo no-op"
 	},
 	"dependencies": {
 		"@twin.org/ui-components-react": "0.0.3-next.9",
