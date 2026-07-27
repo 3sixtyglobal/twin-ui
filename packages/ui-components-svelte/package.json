@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/ui-components-svelte",
-	"version": "0.0.3-next.9",
+	"version": "0.0.3",
 	"description": "UI components for svelte",
 	"repository": {
 		"type": "git",
@@ -28,9 +28,9 @@
 		"dist:no-test": "npm run clean && npm run build && npm run check && npm run merge-locales && npm run package"
 	},
 	"dependencies": {
-		"@twin.org/core": "next",
-		"@twin.org/qr": "next",
-		"@twin.org/ui-tailwind": "0.0.3-next.9",
+		"@twin.org/core": "^0.9.1",
+		"@twin.org/qr": "^0.9.1",
+		"@twin.org/ui-tailwind": "^0.0.3",
 		"flowbite-svelte": "0.48.6",
 		"flowbite-svelte-blocks": "1.1.4",
 		"flowbite-svelte-icons": "2.1.1",
@@ -43,7 +43,7 @@
 		"@sveltejs/package": "2.5.7",
 		"@sveltejs/vite-plugin-svelte": "6.2.4",
 		"@tailwindcss/typography": "0.5.19",
-		"@twin.org/merge-locales": "next",
+		"@twin.org/merge-locales": "^0.9.1",
 		"autoprefixer": "10.4.27",
 		"globals": "17.4.0",
 		"postcss": "8.5.8",
