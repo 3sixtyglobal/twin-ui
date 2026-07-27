@@ -90,13 +90,13 @@ The content path.
 
 ### getPlugins() {#getplugins}
 
-> `static` **getPlugins**(): (`PluginCreator` \| \{ \} \| (`options`) => `object` \| `undefined`)[] \| `undefined`
+> `static` **getPlugins**(): (`PluginCreator` \| \{ \} \| ((`options`) => `object`) \| `undefined`)[] \| `undefined`
 
 Get the plugins.
 
 #### Returns
 
-(`PluginCreator` \| \{ \} \| (`options`) => `object` \| `undefined`)[] \| `undefined`
+(`PluginCreator` \| \{ \} \| ((`options`) => `object`) \| `undefined`)[] \| `undefined`
 
 The plugins.
 
