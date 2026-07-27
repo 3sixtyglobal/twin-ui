@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.0.3](https://github.com/iotaledger/twin-ui/compare/ui-tailwind-v0.0.3...ui-tailwind-v0.0.3) (2026-07-27)
+
+
+### Features
+
+* **components:** add barrel exports for component directories ([#40](https://github.com/iotaledger/twin-ui/issues/40)) ([8037480](https://github.com/iotaledger/twin-ui/commit/8037480358ca7d71da7c8fadd70915496cc402ff))
+* migrate icon system and update types ([#62](https://github.com/iotaledger/twin-ui/issues/62)) ([ab81824](https://github.com/iotaledger/twin-ui/commit/ab81824e06cf0f03ed1d888f2db9b642574d8b42))
+* release to production ([5f2fd01](https://github.com/iotaledger/twin-ui/commit/5f2fd01318b3982a4ce097e0a32b0ed0c34e7dc9))
+* release to production ([#132](https://github.com/iotaledger/twin-ui/issues/132)) ([e288428](https://github.com/iotaledger/twin-ui/commit/e28842852761e9ed35df5e17998ba9f39635a896))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+
+
+### Bug Fixes
+
+* **fileInput:** Changed colors ([#36](https://github.com/iotaledger/twin-ui/issues/36)) ([0d06873](https://github.com/iotaledger/twin-ui/commit/0d06873ba08dc3d9d481fb909bbe69a1a9df0f6d))
+
 ## [0.0.3-next.9](https://github.com/iotaledger/twin-ui/compare/ui-tailwind-v0.0.3-next.8...ui-tailwind-v0.0.3-next.9) (2026-03-24)
 
 
