@@ -25,7 +25,6 @@ import {
 /**
  * ToggleSwitch colors.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const ToggleSwitchColors = {
 	/**
 	 * Primary.

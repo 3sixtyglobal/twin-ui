@@ -1,0 +1,1631 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with JSX items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 0 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 1 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 2 1`] = `
+<div
+  aria-describedby="drawer-dialog-_r_6c_"
+  aria-labelledby="drawer-title"
+  aria-modal="true"
+  class="fixed z-40 overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 left-0 top-0 h-screen w-80 -translate-x-full"
+  data-testid="flowbite-drawer"
+  role="dialog"
+  tabindex="-1"
+>
+  <div
+    id="drawer-title"
+  >
+    <h5
+      class="mb-4 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400"
+      id="_r_6c_"
+    >
+      <svg
+        aria-hidden="true"
+        class="me-2.5 h-4 w-4"
+        fill="currentcolor"
+        height="1em"
+        stroke="currentcolor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+        />
+      </svg>
+      Test Drawer
+    </h5>
+    <button
+      class="absolute end-2.5 top-2.5 flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
+      data-testid="close-drawer"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-4 w-4"
+        fill="currentcolor"
+        height="24"
+        style="color: currentcolor; fill: currentcolor;"
+        viewBox="0 0 256 256"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+        />
+      </svg>
+      <span
+        class="sr-only"
+      >
+        Close menu
+      </span>
+    </button>
+    <span
+      class="block"
+      id="flowbite-drawer-header-_r_6d_"
+    />
+  </div>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 3 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 4 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 5 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 6 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 7 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 8 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 9 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 10 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 11 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 12 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 13 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all boolean prop combinations > drawer boolean 14 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all positions > drawer position 0 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all positions > drawer position 1 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all positions > drawer position 2 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all positions > drawer position 3 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all props provided 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 dark:focus:ring-green-800 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-success dark:bg-success hover:enabled:bg-system-success-tints-600 dark:hover:enabled:bg-system-success-tints-600 focus:ring-system-success-tints-200 rounded-lg custom-class"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        <div
+          class="flex items-center"
+        >
+          <span
+            data-testid="mock-icon"
+          >
+            Icon
+          </span>
+        </div>
+        Open Complete Drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all string prop combinations > drawer string 0 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all string prop combinations > drawer string 1 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Custom Text
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all string prop combinations > drawer string 2 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      />
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all string prop combinations > drawer string 3 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all string prop combinations > drawer string 4 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with all string prop combinations > drawer string 5 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with array content in items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with backdrop prop 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with bodyScrolling prop 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with boolean content in items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with button icon 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        <div
+          class="flex items-center"
+        >
+          <span
+            data-testid="mock-icon"
+          >
+            Icon
+          </span>
+        </div>
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with button props 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 cursor-not-allowed opacity-50 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg custom-button-class"
+    disabled=""
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with complex button props 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg complex-button-class"
+    type="button"
+  >
+    <span
+      class="items-stretch flex w-full justify-center bg-white text-gray-900 transition-all duration-75 ease-in group-enabled:group-hover:bg-opacity-0 group-enabled:group-hover:text-inherit dark:bg-gray-900 dark:text-white rounded-md px-5 py-2.5 text-base border border-transparent"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with controlled open state 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with custom button color 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with custom button text 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Open Drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with custom title 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with default props 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with defaultOpen prop 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with edge prop 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with empty items array 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with empty string button text 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      />
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with empty string title 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with long title 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with many items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with mixed content items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with mixed type items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with nested JSX items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null button color 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none undefined rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null button text 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      />
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null defaultOpen 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with null showButton 1`] = `
+<div
+  aria-describedby="drawer-dialog-_r_5c_"
+  aria-labelledby="drawer-title"
+  aria-modal="true"
+  class="fixed z-40 overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 left-0 top-0 h-screen w-80 -translate-x-full"
+  data-testid="flowbite-drawer"
+  role="dialog"
+  tabindex="-1"
+>
+  <div
+    id="drawer-title"
+  >
+    <h5
+      class="mb-4 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400"
+      id="_r_5c_"
+    >
+      <svg
+        aria-hidden="true"
+        class="me-2.5 h-4 w-4"
+        fill="currentcolor"
+        height="1em"
+        stroke="currentcolor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+        />
+      </svg>
+      Test Drawer
+    </h5>
+    <button
+      class="absolute end-2.5 top-2.5 flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
+      data-testid="close-drawer"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-4 w-4"
+        fill="currentcolor"
+        height="24"
+        style="color: currentcolor; fill: currentcolor;"
+        viewBox="0 0 256 256"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+        />
+      </svg>
+      <span
+        class="sr-only"
+      >
+        Close menu
+      </span>
+    </button>
+    <span
+      class="block"
+      id="flowbite-drawer-header-_r_5d_"
+    />
+  </div>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with number content in items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with special characters in button text 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Open & Close &lt;script&gt;alert("test")&lt;/script&gt;
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with special characters in title 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined backdrop 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined bodyScrolling 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined button color 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined button text 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined defaultOpen 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined edge 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined items 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined position 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with undefined showButton 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with unicode characters in button text 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        打开抽屉 🗂️
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer with unicode characters in title 1`] = `
+<div
+  class="block text-center"
+>
+  <button
+    class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+    type="button"
+  >
+    <span
+      class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+    >
+      <div
+        class="inline-flex items-center justify-center"
+      >
+        Show drawer
+      </div>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Drawer > Snapshot Tests > matches snapshot for drawer without button 1`] = `
+<div
+  aria-describedby="drawer-dialog-_r_3e_"
+  aria-labelledby="drawer-title"
+  aria-modal="true"
+  class="fixed z-40 overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 left-0 top-0 h-screen w-80 -translate-x-full"
+  data-testid="flowbite-drawer"
+  role="dialog"
+  tabindex="-1"
+>
+  <div
+    id="drawer-title"
+  >
+    <h5
+      class="mb-4 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400"
+      id="_r_3e_"
+    >
+      <svg
+        aria-hidden="true"
+        class="me-2.5 h-4 w-4"
+        fill="currentcolor"
+        height="1em"
+        stroke="currentcolor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+        />
+      </svg>
+      Test Drawer
+    </h5>
+    <button
+      class="absolute end-2.5 top-2.5 flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
+      data-testid="close-drawer"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-4 w-4"
+        fill="currentcolor"
+        height="24"
+        style="color: currentcolor; fill: currentcolor;"
+        viewBox="0 0 256 256"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+        />
+      </svg>
+      <span
+        class="sr-only"
+      >
+        Close menu
+      </span>
+    </button>
+    <span
+      class="block"
+      id="flowbite-drawer-header-_r_3f_"
+    />
+  </div>
+</div>
+`;

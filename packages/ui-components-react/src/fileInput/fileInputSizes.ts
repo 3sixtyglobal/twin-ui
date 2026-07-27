@@ -6,7 +6,6 @@ import { SMALL, MEDIUM, LARGE } from "../constants/sizes";
 /**
  * FileInput sizes.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const FileInputSizes = {
 	/**
 	 * Small.

@@ -1,4 +1,4 @@
-# @twin.org/ui-tailwind - Examples
+# Examples
 
 Install the package:
 

@@ -17,7 +17,7 @@
 {#if Is.stringValue(href)}
 	<NavBrand
 		{href}
-		class={`focus:ring-surface-button-pressed focus:border-primary-500 dark:focus:ring-surface-button-pressed rounded outline-none focus:ring ${rest.class ?? ''}`}
+		class={`focus:border-primary-500 rounded outline-none focus:ring focus:ring-surface-button-pressed dark:focus:ring-surface-button-pressed ${rest.class ?? ''}`}
 	>
 		{@render children?.()}
 	</NavBrand>

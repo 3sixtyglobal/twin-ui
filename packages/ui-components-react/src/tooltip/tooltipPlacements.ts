@@ -6,7 +6,6 @@ import { TOP, RIGHT, BOTTOM, LEFT } from "../constants/positions";
 /**
  * Tooltip placements.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const TooltipPlacements = {
 	/**
 	 * Top.

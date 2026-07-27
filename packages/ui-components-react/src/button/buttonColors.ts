@@ -16,7 +16,6 @@ import {
 /**
  * Button colors.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const ButtonColors = {
 	/**
 	 * Primary.

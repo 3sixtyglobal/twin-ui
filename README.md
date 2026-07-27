@@ -33,7 +33,7 @@ This mono-repository contains the UI components for building TWIN apps.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/twinfoundation/ui.git
+git clone https://github.com/iotaledger/twin-ui.git
 cd ui
 ```
 

@@ -47,7 +47,7 @@
 			</div>
 		{/if}
 		<div
-			class="bg-surface-main border-surface-primary dark:bg-surface-main-dark dark:border-surface-primary-dark flex h-full flex-1 flex-col overflow-auto p-6"
+			class="flex h-full flex-1 flex-col overflow-auto border-surface-primary bg-surface-main p-6 dark:border-surface-primary-dark dark:bg-surface-main-dark"
 		>
 			{@render children?.()}
 		</div>

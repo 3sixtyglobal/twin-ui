@@ -1,0 +1,379 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Label - Snapshot Tests > matches snapshot for label with JSX children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  <div>
+    <span>
+      Complex Label
+    </span>
+  </div>
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with all props combined 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white complete-label-class"
+  data-testid="flowbite-label"
+  for="complete-input-id"
+>
+  Complete Label
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with array children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label
+  Part
+  Two
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with boolean children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+/>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with children and no value 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Only Children
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with children content 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with custom className 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white custom-label-class"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with custom props 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-custom="test-value"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with empty className 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with empty htmlFor 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+  for=""
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with empty string children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+/>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with empty value 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+/>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with fragment children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  <span>
+    First
+  </span>
+  <span>
+    Second
+  </span>
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with htmlFor prop 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+  for="input-id"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with long htmlFor 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+  for="input-with-very-long-id-that-contains-multiple-words-and-should-be-handled-properly-by-the-component"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with long text children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  This is a very long label text that should be handled properly by the component and should not break the layout or functionality
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with long value 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  This is a very long label value that should be handled properly by the component and should not break the layout or functionality
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with multiple classes 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white class1 class2 class3"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with multiple custom props 1`] = `
+<label
+  aria-label="Custom label"
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-another="another-value"
+  data-custom="test-value"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with neither value nor children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+/>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with null children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+/>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with null className 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with null htmlFor 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with null value 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with number children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  42
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with special characters in children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label with special chars: !@#$%^&*()
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with special characters in htmlFor 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+  for="input-with-special-chars-!@#$%^&*()"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with special characters in value 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label value with special chars: !@#$%^&*()
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with string children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Simple Label
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with undefined children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+/>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with undefined className 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with undefined htmlFor 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with undefined value 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with unicode characters in children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label with unicode: 🏷️ 📝
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with unicode characters in htmlFor 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+  for="input-with-unicode-🏷️📝"
+>
+  Label Text
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with unicode characters in value 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label value with unicode: 🏷️ 📝
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with value and no children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Only Value
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with value prop 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Value
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with value prop overriding children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+  Label Value
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with whitespace children 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white"
+  data-testid="flowbite-label"
+>
+     
+</label>
+`;
+
+exports[`Label - Snapshot Tests > matches snapshot for label with whitespace in className 1`] = `
+<label
+  class="text-sm font-medium text-gray-900 dark:text-white spaced-class"
+  data-testid="flowbite-label"
+>
+  Label Text
+</label>
+`;

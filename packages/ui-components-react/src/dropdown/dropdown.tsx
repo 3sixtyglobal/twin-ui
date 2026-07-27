@@ -41,18 +41,18 @@ export const Dropdown = memo(
 			{header && <FlowbiteDropdown.Header>{header}</FlowbiteDropdown.Header>}
 			{items.length > 0
 				? items.map((item, index) => {
-						if (item?.divider) {
+						if (item.divider) {
 							return <FlowbiteDropdown.Divider key={`divider-${index}`} />;
 						}
 						return (
 							<FlowbiteDropdown.Item
 								key={`item-${index}`}
-								className={item?.className}
-								onClick={item?.onClick}
-								icon={item?.icon}
-								disabled={item?.disabled ?? false}
+								className={item.className}
+								onClick={item.onClick}
+								icon={item.icon}
+								disabled={item.disabled ?? false}
 							>
-								{item?.checkbox ? (
+								{item.checkbox ? (
 									<div className="flex items-center gap-2">
 										<input
 											type="checkbox"
@@ -63,13 +63,13 @@ export const Dropdown = memo(
 												e.stopPropagation();
 												item.onClick?.();
 											}}
-											className="text-primary focus:ring-primary h-4 w-4 rounded border-gray-300 disabled:opacity-50"
+											className="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary disabled:opacity-50"
 											aria-label={item.label ?? ""}
 										/>
-										{item?.label}
+										{item.label}
 									</div>
 								) : (
-									item?.label
+									item.label
 								)}
 							</FlowbiteDropdown.Item>
 						);

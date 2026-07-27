@@ -6,7 +6,6 @@ import { GRAY, WARNING, SUCCESS, INFO, FAILURE } from "../constants/colors";
 /**
  * Badge colors.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const BadgeColors = {
 	/**
 	 * Gray.

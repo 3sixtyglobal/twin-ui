@@ -6,7 +6,6 @@ import { DEFAULT, UNDERLINE, PILLS, FULL_WIDTH } from "../constants/variants";
 /**
  * Tabs variants.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const TabsVariants = {
 	/**
 	 * Default.

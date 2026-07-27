@@ -6,7 +6,6 @@ import { DARK, LIGHT } from "../constants/colors";
 /**
  * Tooltip styles.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const TooltipStyles = {
 	/**
 	 * Dark.

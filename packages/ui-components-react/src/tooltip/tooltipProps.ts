@@ -11,8 +11,10 @@ import type { TooltipTriggers } from "./tooltipTriggers";
 /**
  * Tooltip props.
  */
-export interface TooltipProps
-	extends Omit<FlowbiteTooltipProps, "color" | "style" | "animation" | "placement" | "trigger"> {
+export interface TooltipProps extends Omit<
+	FlowbiteTooltipProps,
+	"color" | "style" | "animation" | "placement" | "trigger"
+> {
 	/**
 	 * The style of the tooltip.
 	 */

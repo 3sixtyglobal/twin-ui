@@ -38,9 +38,7 @@
 			"beUrn": "{fieldName} must be a correctly formatted urn",
 			"beUrl": "{fieldName} must be a correctly formatted url",
 			"beJSON": "{fieldName} must be correctly formatted JSON",
-			"beEmail": "{fieldName} must be a correctly formatted e-mail address",
-			"failed": "Validation failed",
-			"failedObject": "Validation of \"{objectName}\" failed"
+			"beEmail": "{fieldName} must be a correctly formatted e-mail address"
 		},
 		"guard": {
 			"undefined": "Property \"{property}\" must be defined, it is \"{value}\"",
@@ -71,7 +69,9 @@
 			"function": "Property \"{property}\" must be a function, it is \"{value}\"",
 			"urn": "Property \"{property}\" must be a Urn formatted string, it is \"{value}\"",
 			"url": "Property \"{property}\" must be a Url formatted string, it is \"{value}\"",
-			"email": "Property \"{property}\" must be string in e-mail format, it is \"{value}\""
+			"email": "Property \"{property}\" must be string in e-mail format, it is \"{value}\"",
+			"uuidV7": "Property \"{property}\" must be a UUIDv7 formatted string, it is \"{value}\"",
+			"uuidV7Compact": "Property \"{property}\" must be a UUIDv7 formatted string in compact mode, it is \"{value}\""
 		},
 		"objectHelper": {
 			"failedBytesToJSON": "Failed converting bytes to JSON",
@@ -84,10 +84,11 @@
 		},
 		"factory": {
 			"noUnregister": "There is no {typeName} registered with the name \"{name}\"",
-			"noGet": "The requested {typeName} \"{name}\" does not exist in the factory"
+			"noGet": "The requested {typeName} \"{name}\" does not exist in the factory",
+			"noCreate": "The requested {typeName} \"{name}\" cannot be created by the factory, with params \"{params}\""
 		},
 		"bitString": {
-			"outOfRange": "The index should be >= 0 and less than the length of the bit string"
+			"outOfRange": "The index should be >= 0 and less than the length of the bit string, the index is \"{index}\" and the number of bit is \"{numberBits}\""
 		},
 		"base32": {
 			"invalidCharacter": "Data contains a character \"{invalidCharacter}\" which is not in the charset"
@@ -101,7 +102,7 @@
 		"jsonHelper": {
 			"failedPatch": "Failed to patch the JSON object, patch index \"{index}\" failed"
 		},
-		"qr": {
+		"qR": {
 			"typeNumberRange": "The typeNumber parameter should be a number >= 0 and <= 40, it is {typeNumber}",
 			"dataOverflow": "There is not enough space in the QR code to store the data, {lengthInBits} > {totalDataCount}, try increasing the typeNumber from {typeNumber}, or use 0 for auto detect",
 			"typeNumberOverflow": "There is not enough space in the QR code to store the data, {lengthInBits} > {totalDataCount}, typeNumber cannot be greater than 40"
@@ -111,21 +112,21 @@
 			"marginSizeZero": "The marginSize must be a number >= 0, it is \"{marginSize}\""
 		},
 		"qRAlphaNumeric": {
-			"illegalCharacter ": "Illegal character in string \"{value}\""
+			"illegalCharacter": "Illegal character in string \"{value}\""
 		},
 		"qRNumber": {
-			"illegalCharacter ": "Illegal character in string \"{value}\""
+			"illegalCharacter": "Illegal character in string \"{value}\""
 		},
 		"mathHelper": {
-			"lessThanOne ": "The value can not be less than 1, it is \"{value}\""
+			"lessThanOne": "The value can not be less than 1, it is \"{value}\""
 		},
-		"qrHelper": {
-			"correctionLevelRange ": "The errorCorrectLevel parameter should be one of the following: \"L\", \"M\", \"Q\", \"H\", it is \"{errorCorrectLevel}\"",
-			"modeRange ": "The mode parameter should be one of the following: \"Byte\", \"Numeric\", \"Alphanumeric\", it is \"{mode}\"",
-			"maskPatternRange ": "The maskPattern parameter should be a number >= 0 and <= 7, it is \"{maskPattern}\""
+		"qRHelper": {
+			"correctionLevelRange": "The errorCorrectLevel parameter should be one of the following: \"L\", \"M\", \"Q\", \"H\", it is \"{errorCorrectLevel}\"",
+			"modeRange": "The mode parameter should be one of the following: \"Byte\", \"Numeric\", \"Alphanumeric\", it is \"{mode}\"",
+			"maskPatternRange": "The maskPattern parameter should be a number >= 0 and <= 7, it is \"{maskPattern}\""
 		},
 		"rSBlock": {
-			"correctionLevelRange ": "The errorCorrectLevel parameter should be one of the following: \"L\", \"M\", \"Q\", \"H\", it is \"{errorCorrectLevel}\""
+			"correctionLevelRange": "The errorCorrectLevel parameter should be one of the following: \"L\", \"M\", \"Q\", \"H\", it is \"{errorCorrectLevel}\""
 		},
 		"qRDataBase": {
 			"invalidMode": "Invalid mode {mode} for typeNumber {typeNumber}",
@@ -133,6 +134,10 @@
 		},
 		"jpegEncoder": {
 			"invalidQuality": "Quality must be between 1 and 100, it is \"{value}\""
+		},
+		"color": {
+			"range": "Value must be between 0 and 355, it is \"{value}\"",
+			"hex": "Value must be a valid hex color in one of the forms #RGB/#ARGB/#RRGGBB/#AARRGGBB, it is \"{hex}\""
 		}
 	},
 	"errorNames": {
@@ -145,7 +150,8 @@
 		"alreadyExistsError": "Already Exists",
 		"notImplementedError": "Not Implemented",
 		"validationError": "Validation",
-		"unprocessableError": "Unprocessable"
+		"unprocessableError": "Unprocessable",
+		"unauthorizedError": "Unauthorized"
 	},
 	"validation": {
 		"defaultFieldName": "The field"

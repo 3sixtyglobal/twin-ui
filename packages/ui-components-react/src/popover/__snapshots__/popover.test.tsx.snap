@@ -1,0 +1,570 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with JSX content 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with additional props 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with all props combined 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  data-testid="combined-trigger"
+>
+  Combined Trigger
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with ariaDescription prop 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with ariaLabel prop 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with arrow prop 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with both ariaLabel and ariaDescription props 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with children as trigger text 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Custom Trigger Text
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with complex JSX content 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with content containing form elements 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with content containing multiple elements 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with custom className 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with custom trigger 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  data-testid="custom-trigger"
+>
+  Custom Trigger
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with custom trigger containing icon 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  data-testid="icon-trigger"
+>
+  <svg
+    data-testid="mock-icon"
+  >
+    Icon
+  </svg>
+  Icon Button
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with default props 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with different placement values 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with different placement values 2`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with different placement values 3`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with different placement values 4`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with different trigger values 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with different trigger values 2`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with empty children 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    />
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with empty string content 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with long content 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with null children 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    />
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with special characters in content 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with string content 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with style prop 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with undefined children 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    />
+  </span>
+</button>
+`;
+
+exports[`Popover > Snapshot Tests > matches snapshot for popover with unicode characters in content 1`] = `
+<button
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  data-testid="flowbite-popover-target"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Trigger Button
+    </div>
+  </span>
+</button>
+`;

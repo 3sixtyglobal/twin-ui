@@ -1,0 +1,474 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with Default variant 1`] = `
+<div
+  class="h-full w-full"
+>
+  <div
+    class="flex h-full w-full overflow-y-auto"
+  >
+    <div
+      class="relative hidden flex-shrink-0 overflow-hidden md:block md:h-[400px] md:w-[300px] lg:h-[600px] lg:w-[450px]"
+    >
+      <img
+        alt="Form Title"
+        class="h-full w-full object-cover object-left-top"
+        src="/test-image.jpg"
+      />
+    </div>
+    <div
+      class="flex-1 pb-8 pr-8 md:pl-24"
+    >
+      <div
+        class="w-full md:max-w-[670px]"
+      >
+        <div
+          class="w-full"
+        >
+          <div
+            class="mb-6"
+          >
+            <h1
+              class="text-3xl font-semibold text-brand-primary"
+            >
+              Form Title
+            </h1>
+          </div>
+          <div
+            class="md:max-w-[450px]"
+          >
+            <form
+              class="w-full space-y-8"
+            >
+              <div
+                class="space-y-4"
+              >
+                <div
+                  class="w-full"
+                >
+                  <div
+                    class="mb-1 flex w-full items-center justify-between"
+                  >
+                    <label
+                      class="text-sm font-medium text-secondary"
+                      for="field1"
+                    >
+                      Field 1
+                    </label>
+                  </div>
+                  <div
+                    class="[&_input]:!border-[#DFE4EB]"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="relative w-full"
+                      >
+                        <input
+                          class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 p-4 sm:text-base rounded-lg"
+                          data-testid="field1-input"
+                          id="field1"
+                          name="field1"
+                          placeholder="Enter value"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg w-full md:w-fit"
+                data-testid="submit-button"
+                type="submit"
+              >
+                <span
+                  class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+                >
+                  <div
+                    class="inline-flex items-center justify-center"
+                  >
+                    Continue
+                    <svg
+                      class=""
+                      fill="currentcolor"
+                      height="20"
+                      style="color: currentcolor; fill: currentcolor;"
+                      viewBox="0 0 256 256"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z"
+                      />
+                    </svg>
+                  </div>
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with Info variant 1`] = `
+<div
+  class="h-full w-full"
+>
+  <div
+    class="flex h-full w-full overflow-y-auto"
+  >
+    <div
+      class="relative hidden flex-shrink-0 overflow-hidden md:block md:h-[400px] md:w-[300px] lg:h-[600px] lg:w-[450px]"
+    >
+      <img
+        alt="Info Title"
+        class="h-full w-full object-cover object-left-top"
+        src="/test-image.jpg"
+      />
+    </div>
+    <div
+      class="flex-1 pb-8 pr-8 md:pl-24"
+    >
+      <div
+        class="w-full md:max-w-[670px]"
+      >
+        <div
+          class="w-full"
+        >
+          <div
+            class="mb-6"
+          >
+            <h1
+              class="text-3xl font-semibold text-brand-primary"
+            >
+              Info Title
+            </h1>
+          </div>
+          <div
+            class="mb-6"
+          >
+            <p
+              class="text-md text-primary"
+            >
+              Info Description
+            </p>
+          </div>
+          <div
+            class="md:max-w-[450px]"
+          >
+            <div
+              class="w-full space-y-6"
+            >
+              <div
+                class="mx-auto mb-12 w-fit md:mx-0"
+              >
+                <div
+                  class="flex h-48 w-48 items-center justify-center rounded-full bg-neutral-50"
+                >
+                  <div
+                    data-testid="mock-icon"
+                  >
+                    Icon
+                  </div>
+                </div>
+              </div>
+              <div
+                class="space-y-2 text-left text-tertiary"
+              >
+                <div>
+                  Info text
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with KYB variant 1`] = `
+<div
+  class="h-full w-full"
+>
+  <div
+    class="flex h-full w-full overflow-y-auto"
+  >
+    <div
+      class="relative hidden flex-shrink-0 overflow-hidden md:block md:h-[400px] md:w-[300px] lg:h-[600px] lg:w-[450px]"
+    >
+      <img
+        alt="Verify"
+        class="h-full w-full object-cover object-left-top"
+        src="/test.jpg"
+      />
+    </div>
+    <div
+      class="flex-1 pb-8 pr-8 md:pl-24"
+    >
+      <div
+        class="w-full md:max-w-[670px]"
+      >
+        <div
+          class="w-full"
+        >
+          <div
+            class="mb-6"
+          >
+            <h1
+              class="text-3xl font-semibold text-brand-primary"
+            >
+              Verify
+            </h1>
+          </div>
+          <div
+            class="md:max-w-[450px]"
+          >
+            <div
+              class="w-full space-y-8"
+            >
+              <div
+                class="space-y-4"
+              >
+                <div
+                  class="w-full"
+                >
+                  <div
+                    class="mb-1 flex w-full items-center justify-between"
+                  >
+                    <label
+                      class="text-sm font-medium text-secondary"
+                      for="brn"
+                    >
+                      BRN
+                    </label>
+                  </div>
+                  <div
+                    class="flex items-center gap-2 [&_input]:!border-[#DFE4EB]"
+                  >
+                    <div
+                      class="min-w-0 flex-1"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="relative w-full"
+                        >
+                          <input
+                            class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 p-4 sm:text-base rounded-lg"
+                            data-testid="brn-input"
+                            id="brn"
+                            name="brn"
+                            placeholder="Enter BRN"
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="w-full"
+                >
+                  <div
+                    class="mb-1 flex w-full items-center justify-between"
+                  >
+                    <label
+                      class="text-sm font-medium text-secondary"
+                      for="pin"
+                    >
+                      PIN
+                    </label>
+                  </div>
+                  <div
+                    class="flex items-center gap-2 [&_input]:!border-[#DFE4EB]"
+                  >
+                    <div
+                      class="min-w-0 flex-1"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="relative w-full"
+                        >
+                          <input
+                            class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 p-4 sm:text-base rounded-lg"
+                            data-testid="pin-input"
+                            id="pin"
+                            name="pin"
+                            placeholder="Enter PIN"
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-wrap gap-3"
+              >
+                <button
+                  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg w-full md:w-fit"
+                  type="button"
+                >
+                  <span
+                    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+                  >
+                    <div
+                      class="inline-flex items-center justify-center"
+                    >
+                      Save
+                    </div>
+                  </span>
+                </button>
+                <button
+                  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg w-full md:w-fit"
+                  type="button"
+                >
+                  <span
+                    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+                  >
+                    <div
+                      class="inline-flex items-center justify-center"
+                    >
+                      Verify now
+                    </div>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StepView > Snapshot Tests > matches snapshot for StepView with Selection variant 1`] = `
+<div
+  class="h-full w-full"
+>
+  <div
+    class="flex h-full w-full overflow-y-auto"
+  >
+    <div
+      class="relative hidden flex-shrink-0 overflow-hidden md:block md:h-[400px] md:w-[300px] lg:h-[600px] lg:w-[450px]"
+    >
+      <img
+        alt="Selection Title"
+        class="h-full w-full object-cover object-left-top"
+        src="/test-image.jpg"
+      />
+    </div>
+    <div
+      class="flex-1 pb-8 pr-8 md:pl-24"
+    >
+      <div
+        class="w-full md:max-w-[670px]"
+      >
+        <div
+          class="w-full"
+        >
+          <div
+            class="mb-6"
+          >
+            <h1
+              class="text-3xl font-semibold text-brand-primary"
+            >
+              Selection Title
+            </h1>
+          </div>
+          <div
+            class="w-full"
+          >
+            <div
+              class="w-full space-y-6"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="grid gap-6 md:grid-cols-2"
+                >
+                  <div
+                    class="relative rounded-md border border-neutral-200 bg-white p-6 shadow-sm"
+                  >
+                    <div
+                      class="mb-6 flex"
+                    >
+                      <div
+                        data-testid="mock-icon"
+                      >
+                        Icon
+                      </div>
+                    </div>
+                    <h2
+                      class="mb-3 text-xl font-semibold text-brand-secondary"
+                    >
+                      Option 1
+                    </h2>
+                    <p
+                      class="mb-6 text-xs font-semibold text-secondary"
+                    >
+                      Description 1
+                    </p>
+                    <ul
+                      class="mb-8 list-inside list-disc space-y-2 text-xs text-tertiary"
+                    >
+                      <li
+                        class="ml-1"
+                      >
+                        <span>
+                          Feature 1
+                        </span>
+                      </li>
+                    </ul>
+                    <button
+                      class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg shrink-0"
+                      data-testid="option-option1-button"
+                      type="button"
+                    >
+                      <span
+                        class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+                      >
+                        <div
+                          class="inline-flex items-center justify-center"
+                        >
+                          Select
+                          <svg
+                            class="ml-2"
+                            fill="currentcolor"
+                            height="20"
+                            style="color: currentcolor; fill: currentcolor;"
+                            viewBox="0 0 256 256"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"
+                            />
+                          </svg>
+                        </div>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

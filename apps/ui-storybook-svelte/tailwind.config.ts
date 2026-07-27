@@ -1,19 +1,18 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { execSync } from "node:child_process";
-import { TailwindConfig } from "@twin.org/ui-components-svelte/config/tailwindConfig.mjs";
-
-const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
+import flowbite from "flowbite/plugin";
+import flowbiteTypography from "flowbite-typography";
 
 export default {
-	content: [
-		"./src/**/*.{js,ts,svelte}",
-		"./.storybook/**/*.html",
-		...TailwindConfig.getContentPaths(npmRoot)
-	],
-	plugins: TailwindConfig.getPlugins(),
+	content: ["./src/**/*.{js,ts,svelte}", "./.storybook/**/*.html"],
+	plugins: [flowbite, flowbiteTypography],
 	darkMode: "class",
 	theme: {
-		extend: TailwindConfig.getTheme()
+		extend: {}
 	}
 };
+
+// Note: this Storybook config intentionally avoids importing ui-tailwind runtime helpers.
+// That keeps Tailwind config loading CI-safe during formatting/lint steps before package build
+// artifacts exist. For local theme parity testing, prefer building and consuming the package
+// outputs rather than wiring ui-tailwind generation directly into this config.

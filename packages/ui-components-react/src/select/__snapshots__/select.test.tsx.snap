@@ -1,0 +1,1132 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Select > Snapshot Tests > matches snapshot for select with additional props 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      data-custom="value"
+      data-testid="custom-select"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with all props combined 1`] = `
+<div
+  class="flex custom-select"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-4 sm:text-base rounded-lg"
+      disabled=""
+      id="country-select"
+      name="country"
+      required=""
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with aria attributes 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      aria-describedby="country-help"
+      aria-label="Country selection"
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      role="combobox"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with boolean props 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      required=""
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with custom className 1`] = `
+<div
+  class="flex custom-select"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with default props 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with defaultValue prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        selected=""
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with different sizing values 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2 sm:text-xs rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with different sizing values 2`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with different sizing values 3`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-4 sm:text-base rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with disabled prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      disabled=""
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with empty options array 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with id prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      id="select-1"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with long option labels 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        This is a very long option label that might wrap to multiple lines
+      </option>
+      <option
+        value="option2"
+      >
+        Short
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with many options 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+      <option
+        value="option4"
+      >
+        Option 4
+      </option>
+      <option
+        value="option5"
+      >
+        Option 5
+      </option>
+      <option
+        value="option6"
+      >
+        Option 6
+      </option>
+      <option
+        value="option7"
+      >
+        Option 7
+      </option>
+      <option
+        value="option8"
+      >
+        Option 8
+      </option>
+      <option
+        value="option9"
+      >
+        Option 9
+      </option>
+      <option
+        value="option10"
+      >
+        Option 10
+      </option>
+      <option
+        value="option11"
+      >
+        Option 11
+      </option>
+      <option
+        value="option12"
+      >
+        Option 12
+      </option>
+      <option
+        value="option13"
+      >
+        Option 13
+      </option>
+      <option
+        value="option14"
+      >
+        Option 14
+      </option>
+      <option
+        value="option15"
+      >
+        Option 15
+      </option>
+      <option
+        value="option16"
+      >
+        Option 16
+      </option>
+      <option
+        value="option17"
+      >
+        Option 17
+      </option>
+      <option
+        value="option18"
+      >
+        Option 18
+      </option>
+      <option
+        value="option19"
+      >
+        Option 19
+      </option>
+      <option
+        value="option20"
+      >
+        Option 20
+      </option>
+      <option
+        value="option21"
+      >
+        Option 21
+      </option>
+      <option
+        value="option22"
+      >
+        Option 22
+      </option>
+      <option
+        value="option23"
+      >
+        Option 23
+      </option>
+      <option
+        value="option24"
+      >
+        Option 24
+      </option>
+      <option
+        value="option25"
+      >
+        Option 25
+      </option>
+      <option
+        value="option26"
+      >
+        Option 26
+      </option>
+      <option
+        value="option27"
+      >
+        Option 27
+      </option>
+      <option
+        value="option28"
+      >
+        Option 28
+      </option>
+      <option
+        value="option29"
+      >
+        Option 29
+      </option>
+      <option
+        value="option30"
+      >
+        Option 30
+      </option>
+      <option
+        value="option31"
+      >
+        Option 31
+      </option>
+      <option
+        value="option32"
+      >
+        Option 32
+      </option>
+      <option
+        value="option33"
+      >
+        Option 33
+      </option>
+      <option
+        value="option34"
+      >
+        Option 34
+      </option>
+      <option
+        value="option35"
+      >
+        Option 35
+      </option>
+      <option
+        value="option36"
+      >
+        Option 36
+      </option>
+      <option
+        value="option37"
+      >
+        Option 37
+      </option>
+      <option
+        value="option38"
+      >
+        Option 38
+      </option>
+      <option
+        value="option39"
+      >
+        Option 39
+      </option>
+      <option
+        value="option40"
+      >
+        Option 40
+      </option>
+      <option
+        value="option41"
+      >
+        Option 41
+      </option>
+      <option
+        value="option42"
+      >
+        Option 42
+      </option>
+      <option
+        value="option43"
+      >
+        Option 43
+      </option>
+      <option
+        value="option44"
+      >
+        Option 44
+      </option>
+      <option
+        value="option45"
+      >
+        Option 45
+      </option>
+      <option
+        value="option46"
+      >
+        Option 46
+      </option>
+      <option
+        value="option47"
+      >
+        Option 47
+      </option>
+      <option
+        value="option48"
+      >
+        Option 48
+      </option>
+      <option
+        value="option49"
+      >
+        Option 49
+      </option>
+      <option
+        value="option50"
+      >
+        Option 50
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with multiple event handlers 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with multiple prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      multiple=""
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with name prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      name="country"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with options having empty string labels 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      />
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with options having empty string values 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value=""
+      >
+        Empty Value
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with options having null labels 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      />
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with options having null values 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option>
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with options having undefined labels 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      />
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with options having undefined values 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option>
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with required prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      required=""
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with single option 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="only"
+      >
+        Only Option
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with sizing prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2 sm:text-xs rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with special characters in option labels 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Special & Characters: &lt;&gt;&"'
+      </option>
+      <option
+        value="option2"
+      >
+        Normal Option
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with special characters in option values 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option&<>"'"
+      >
+        Special Characters
+      </option>
+      <option
+        value="option2"
+      >
+        Normal Option
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with style prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+      style="background-color: red; width: 200px;"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with unicode characters in options 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Café
+      </option>
+      <option
+        value="option2"
+      >
+        Naïve
+      </option>
+      <option
+        value="option3"
+      >
+        Zürich
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Select > Snapshot Tests > matches snapshot for select with value prop 1`] = `
+<div
+  class="flex"
+>
+  <div
+    class="relative w-full"
+  >
+    <select
+      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+    >
+      <option
+        value="option1"
+      >
+        Option 1
+      </option>
+      <option
+        value="option2"
+      >
+        Option 2
+      </option>
+      <option
+        value="option3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>
+</div>
+`;

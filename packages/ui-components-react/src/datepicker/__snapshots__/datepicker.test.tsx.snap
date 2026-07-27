@@ -1,0 +1,3777 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all boolean prop combinations > datepicker boolean 0 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all boolean prop combinations > datepicker boolean 1 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all boolean prop combinations > datepicker boolean 2 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all boolean prop combinations > datepicker boolean 3 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all boolean prop combinations > datepicker boolean 4 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="block pt-2 relative top-0 z-auto"
+  >
+    <div
+      class="inline-block rounded-lg bg-white p-4 shadow-lg dark:bg-gray-700"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="mb-2 flex justify-between"
+        >
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            January 2025
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="p-1"
+      >
+        <div
+          class="mb-1 grid grid-cols-7"
+        >
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sun
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Mon
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Tue
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Wed
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Thu
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Fri
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sat
+          </span>
+        </div>
+        <div
+          class="grid w-64 grid-cols-7"
+        >
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            29
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            10
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            11
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            12
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            13
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            14
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            15
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            16
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            17
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            18
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            19
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            20
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            21
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            22
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            23
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            24
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            25
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            26
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            27
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            28
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            29
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            8
+          </button>
+        </div>
+      </div>
+      <div
+        class="mt-2 flex space-x-2"
+      >
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 bg-surface-button-alt text-white hover:enabled:bg-surface-button-alt-hover dark:bg-surface-button dark:hover:bg-surface-button-700 focus:ring-surface-button-alt-pressed"
+          type="button"
+        >
+          Today
+        </button>
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 border border-gray-300 bg-white text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+          type="button"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all boolean prop combinations > datepicker boolean 5 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all props provided 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="block pt-2 relative top-0 z-auto"
+  >
+    <div
+      class="inline-block rounded-lg bg-white p-4 shadow-lg dark:bg-gray-700"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="px-2 py-3 text-center font-semibold text-gray-900 dark:text-white"
+        >
+          Select your date
+        </div>
+        <div
+          class="mb-2 flex justify-between"
+        >
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            January 2025
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="p-1"
+      >
+        <div
+          class="mb-1 grid grid-cols-7"
+        >
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Mon
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Tue
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Wed
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Thu
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Fri
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sat
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sun
+          </span>
+        </div>
+        <div
+          class="grid w-64 grid-cols-7"
+        >
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            10
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            11
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            12
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            13
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            14
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            15
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            16
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            17
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            18
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            19
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            20
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            21
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            22
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            23
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            24
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            25
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            26
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            27
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            28
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            29
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            9
+          </button>
+        </div>
+      </div>
+      <div
+        class="mt-2 flex space-x-2"
+      >
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 bg-surface-button-alt text-white hover:enabled:bg-surface-button-alt-hover dark:bg-surface-button dark:hover:bg-surface-button-700 focus:ring-surface-button-alt-pressed"
+          type="button"
+        >
+          Today
+        </button>
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 border border-gray-300 bg-white text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+          type="button"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all string prop combinations > datepicker string 0 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all string prop combinations > datepicker string 1 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all string prop combinations > datepicker string 2 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all weekStart values > datepicker weekStart 0 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all weekStart values > datepicker weekStart 1 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all weekStart values > datepicker weekStart 2 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all weekStart values > datepicker weekStart 3 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all weekStart values > datepicker weekStart 4 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all weekStart values > datepicker weekStart 5 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with all weekStart values > datepicker weekStart 6 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with autoHide prop 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with both minDate and maxDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with complex localization object 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="block pt-2 relative top-0 z-auto"
+  >
+    <div
+      class="inline-block rounded-lg bg-white p-4 shadow-lg dark:bg-gray-700"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="px-2 py-3 text-center font-semibold text-gray-900 dark:text-white"
+        >
+          Select your date
+        </div>
+        <div
+          class="mb-2 flex justify-between"
+        >
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            January 2025
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="p-1"
+      >
+        <div
+          class="mb-1 grid grid-cols-7"
+        >
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Mon
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Tue
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Wed
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Thu
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Fri
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sat
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sun
+          </span>
+        </div>
+        <div
+          class="grid w-64 grid-cols-7"
+        >
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            10
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            11
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            12
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            13
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            14
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            15
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            16
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            17
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            18
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            19
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            20
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            21
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            22
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            23
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            24
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            25
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            26
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            27
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            28
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            29
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600 text-gray-500"
+            disabled=""
+            type="button"
+          >
+            9
+          </button>
+        </div>
+      </div>
+      <div
+        class="mt-2 flex space-x-2"
+      >
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 bg-surface-button-alt text-white hover:enabled:bg-surface-button-alt-hover dark:bg-surface-button dark:hover:bg-surface-button-700 focus:ring-surface-button-alt-pressed"
+          type="button"
+        >
+          Today
+        </button>
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 border border-gray-300 bg-white text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+          type="button"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with custom button labels 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with default props 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with different language localizations > datepicker language 0 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with different language localizations > datepicker language 1 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="1 janvier 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with different language localizations > datepicker language 2 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="1. Januar 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with different language localizations > datepicker language 3 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="1 de enero de 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with different language localizations > datepicker language 4 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="1 gennaio 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with empty localization object 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with empty string button labels 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with empty string title 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with inline prop 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="block pt-2 relative top-0 z-auto"
+  >
+    <div
+      class="inline-block rounded-lg bg-white p-4 shadow-lg dark:bg-gray-700"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="mb-2 flex justify-between"
+        >
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            January 2025
+          </button>
+          <button
+            class="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentcolor"
+              height="1em"
+              stroke="currentcolor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="p-1"
+      >
+        <div
+          class="mb-1 grid grid-cols-7"
+        >
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sun
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Mon
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Tue
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Wed
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Thu
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Fri
+          </span>
+          <span
+            class="h-6 text-center text-sm font-medium leading-6 text-gray-500 dark:text-gray-400"
+          >
+            Sat
+          </span>
+        </div>
+        <div
+          class="grid w-64 grid-cols-7"
+        >
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            29
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            10
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            11
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            12
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            13
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            14
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            15
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            16
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            17
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            18
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            19
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            20
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            21
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            22
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            23
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            24
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            25
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            26
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            27
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            28
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            29
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            30
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            31
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="block flex-1 cursor-pointer rounded-lg border-0 text-center text-sm font-semibold leading-9 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-600"
+            type="button"
+          >
+            8
+          </button>
+        </div>
+      </div>
+      <div
+        class="mt-2 flex space-x-2"
+      >
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 bg-surface-button-alt text-white hover:enabled:bg-surface-button-alt-hover dark:bg-surface-button dark:hover:bg-surface-button-700 focus:ring-surface-button-alt-pressed"
+          type="button"
+        >
+          Today
+        </button>
+        <button
+          class="w-full rounded-lg px-5 py-2 text-center text-sm font-medium focus:ring-2 border border-gray-300 bg-white text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600"
+          type="button"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with localization 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with long title 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with maxDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with minDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with minDate after maxDate (edge case) 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with null localization 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with partial localization 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="1 janvier 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with same minDate and maxDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with special characters in button labels 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with special characters in title 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with specific date range 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with title prop 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with undefined autoHide 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with undefined inline 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with undefined localization 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with undefined maxDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with undefined minDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with undefined title 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with undefined weekStart 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with unicode characters in button labels 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with unicode characters in title 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with very future maxDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with very old minDate 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Datepicker > Snapshot Tests > matches snapshot for datepicker with weekStart prop 1`] = `
+<div
+  class="relative"
+>
+  <div
+    class="flex"
+  >
+    <div
+      class="relative w-full"
+    >
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5 text-gray-500 dark:text-gray-400"
+          fill="currentcolor"
+          height="1em"
+          stroke="currentcolor"
+          stroke-width="0"
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm pl-10 rounded-lg"
+        readonly=""
+        type="text"
+        value="January 1, 2025"
+      />
+    </div>
+  </div>
+</div>
+`;

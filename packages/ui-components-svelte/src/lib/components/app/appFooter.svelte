@@ -30,7 +30,7 @@
 </script>
 
 <Footer
-	class="bg-surface-main border-surface-primary dark:bg-surface-main-dark dark:border-surface-primary-dark border-t px-4 py-2"
+	class="border-t border-surface-primary bg-surface-main px-4 py-2 dark:border-surface-primary-dark dark:bg-surface-main-dark"
 >
 	<div class="flex flex-col items-center justify-between gap-2 md:flex-row">
 		<ServerStatus {serverHealthStatus} {serverName} {serverVersion} />

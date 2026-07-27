@@ -1,19 +1,285 @@
-# @twin.org/ui-components-svelte - Changelog
+# Changelog
+
+## [0.0.3-next.9](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.8...ui-components-svelte-v0.0.3-next.9) (2026-03-24)
+
+
+### Bug Fixes
+
+* try fixed version for the svelte plugin ([#121](https://github.com/iotaledger/twin-ui/issues/121)) ([96c6755](https://github.com/iotaledger/twin-ui/commit/96c6755097891698e94972203d8c48442e6a2899))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.8 to 0.0.3-next.9
+
+## [0.0.3-next.8](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.7...ui-components-svelte-v0.0.3-next.8) (2026-03-18)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* phosphor icons wrapper ([#114](https://github.com/iotaledger/twin-ui/issues/114)) ([7c677d0](https://github.com/iotaledger/twin-ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* package build and publish workflow compatibility ([#118](https://github.com/iotaledger/twin-ui/issues/118)) ([f7d0fa7](https://github.com/iotaledger/twin-ui/commit/f7d0fa7ba9204ffccd54cb423b45b0a54ffb44fb))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.7 to 0.0.3-next.8
+
+## [0.0.3-next.7](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.6...ui-components-svelte-v0.0.3-next.7) (2026-03-18)
+
+
+### Features
+
+* phosphor icons wrapper ([#114](https://github.com/iotaledger/twin-ui/issues/114)) ([7c677d0](https://github.com/iotaledger/twin-ui/commit/7c677d01b4b475975098e0fc0f2e0cd648353cb2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.6 to 0.0.3-next.7
+
+## [0.0.3-next.6](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.5...ui-components-svelte-v0.0.3-next.6) (2026-02-20)
+
+
+### Miscellaneous Chores
+
+* **ui-components-svelte:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.5 to 0.0.3-next.6
+
+## [0.0.3-next.5](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.4...ui-components-svelte-v0.0.3-next.5) (2026-02-18)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.4 to 0.0.3-next.5
+
+## [0.0.3-next.4](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.3...ui-components-svelte-v0.0.3-next.4) (2026-02-16)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.3 to 0.0.3-next.4
+
+## [0.0.3-next.3](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.2...ui-components-svelte-v0.0.3-next.3) (2026-02-13)
+
+
+### Miscellaneous Chores
+
+* **ui-components-svelte:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.2 to 0.0.3-next.3
+
+## [0.0.3-next.2](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.1...ui-components-svelte-v0.0.3-next.2) (2025-12-09)
+
+
+### Miscellaneous Chores
+
+* **ui-components-svelte:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.1 to 0.0.3-next.2
+
+## [0.0.3-next.1](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.3-next.0...ui-components-svelte-v0.0.3-next.1) (2025-11-14)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+* update svelte to v5 ([760678a](https://github.com/iotaledger/twin-ui/commit/760678ab87f180c6b331c52532e4207f1e9f1007))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.3-next.0 to 0.0.3-next.1
+
+## [0.0.2-next.5](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.2-next.4...ui-components-svelte-v0.0.2-next.5) (2025-11-12)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.2-next.4 to 0.0.2-next.5
+
+## [0.0.2-next.4](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.2-next.3...ui-components-svelte-v0.0.2-next.4) (2025-11-12)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.2-next.3 to 0.0.2-next.4
+
+## [0.0.2-next.3](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.2-next.2...ui-components-svelte-v0.0.2-next.3) (2025-11-12)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.2-next.2 to 0.0.2-next.3
+
+## [0.0.2-next.2](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.2-next.1...ui-components-svelte-v0.0.2-next.2) (2025-11-11)
+
+
+### Miscellaneous Chores
+
+* **ui-components-svelte:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.2-next.1 to 0.0.2-next.2
+
+## [0.0.2-next.1](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.2-next.0...ui-components-svelte-v0.0.2-next.1) (2025-09-24)
+
+
+### Features
+
+* eslint migration to flat config ([9e8c4e3](https://github.com/iotaledger/twin-ui/commit/9e8c4e3762996a788577ad850ffb0f35d7d54b16))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+
+
+### Bug Fixes
+
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/ui-tailwind bumped from 0.0.2-next.0 to 0.0.2-next.1
 
 ## 0.0.1 (2025-07-11)
 
 
 ### Features
 
-* release to production ([5f2fd01](https://github.com/twinfoundation/ui/commit/5f2fd01318b3982a4ce097e0a32b0ed0c34e7dc9))
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* Tooltip svelte component ([#4](https://github.com/twinfoundation/ui/issues/4)) ([d336bcf](https://github.com/twinfoundation/ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+* release to production ([5f2fd01](https://github.com/iotaledger/twin-ui/commit/5f2fd01318b3982a4ce097e0a32b0ed0c34e7dc9))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
 
 
 ### Bug Fixes
 
-* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/twinfoundation/ui/issues/48)) ([0708d2a](https://github.com/twinfoundation/ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
-* svelte file upload font-size and padding ([af532d9](https://github.com/twinfoundation/ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
 
 
 ### Dependencies
@@ -22,7 +288,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from ^0.0.0 to ^0.0.1
 
-## [0.0.1-next.52](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.51...ui-components-svelte-v0.0.1-next.52) (2025-06-23)
+## [0.0.1-next.52](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.51...ui-components-svelte-v0.0.1-next.52) (2025-06-23)
 
 
 ### Miscellaneous Chores
@@ -36,7 +302,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.51 to 0.0.1-next.52
 
-## [0.0.1-next.51](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.50...ui-components-svelte-v0.0.1-next.51) (2025-06-11)
+## [0.0.1-next.51](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.50...ui-components-svelte-v0.0.1-next.51) (2025-06-11)
 
 
 ### Miscellaneous Chores
@@ -50,7 +316,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.50 to 0.0.1-next.51
 
-## [0.0.1-next.50](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.49...ui-components-svelte-v0.0.1-next.50) (2025-06-05)
+## [0.0.1-next.50](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.49...ui-components-svelte-v0.0.1-next.50) (2025-06-05)
 
 
 ### Miscellaneous Chores
@@ -64,7 +330,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.49 to 0.0.1-next.50
 
-## [0.0.1-next.49](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.48...ui-components-svelte-v0.0.1-next.49) (2025-05-29)
+## [0.0.1-next.49](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.48...ui-components-svelte-v0.0.1-next.49) (2025-05-29)
 
 
 ### Miscellaneous Chores
@@ -78,7 +344,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.48 to 0.0.1-next.49
 
-## [0.0.1-next.48](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.47...ui-components-svelte-v0.0.1-next.48) (2025-05-28)
+## [0.0.1-next.48](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.47...ui-components-svelte-v0.0.1-next.48) (2025-05-28)
 
 
 ### Miscellaneous Chores
@@ -92,7 +358,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.47 to 0.0.1-next.48
 
-## [0.0.1-next.47](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.46...ui-components-svelte-v0.0.1-next.47) (2025-05-22)
+## [0.0.1-next.47](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.46...ui-components-svelte-v0.0.1-next.47) (2025-05-22)
 
 
 ### Miscellaneous Chores
@@ -106,7 +372,7 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.46 to 0.0.1-next.47
 
-## [0.0.1-next.46](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.45...ui-components-svelte-v0.0.1-next.46) (2025-05-21)
+## [0.0.1-next.46](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.45...ui-components-svelte-v0.0.1-next.46) (2025-05-21)
 
 
 ### Miscellaneous Chores
@@ -120,12 +386,12 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.45 to 0.0.1-next.46
 
-## [0.0.1-next.45](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.44...ui-components-svelte-v0.0.1-next.45) (2025-04-30)
+## [0.0.1-next.45](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.44...ui-components-svelte-v0.0.1-next.45) (2025-04-30)
 
 
 ### Bug Fixes
 
-* svelte file upload font-size and padding ([af532d9](https://github.com/twinfoundation/ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
+* svelte file upload font-size and padding ([af532d9](https://github.com/iotaledger/twin-ui/commit/af532d93b9db6525dbf265df36333bb8a794c185))
 
 
 ### Dependencies
@@ -134,18 +400,18 @@
   * dependencies
     * @twin.org/ui-tailwind bumped from 0.0.1-next.44 to 0.0.1-next.45
 
-## [0.0.1-next.44](https://github.com/twinfoundation/ui/compare/ui-components-svelte-v0.0.1-next.43...ui-components-svelte-v0.0.1-next.44) (2025-04-29)
+## [0.0.1-next.44](https://github.com/iotaledger/twin-ui/compare/ui-components-svelte-v0.0.1-next.43...ui-components-svelte-v0.0.1-next.44) (2025-04-29)
 
 
 ### Features
 
-* svelte validated form class override ([0444d4b](https://github.com/twinfoundation/ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
-* Tooltip svelte component ([#4](https://github.com/twinfoundation/ui/issues/4)) ([d336bcf](https://github.com/twinfoundation/ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
+* svelte validated form class override ([0444d4b](https://github.com/iotaledger/twin-ui/commit/0444d4b767459717f7733dd228e1d8641b9009a3))
+* Tooltip svelte component ([#4](https://github.com/iotaledger/twin-ui/issues/4)) ([d336bcf](https://github.com/iotaledger/twin-ui/commit/d336bcf4c11d21331b6164a5ca8b182fdb015131))
 
 
 ### Bug Fixes
 
-* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/twinfoundation/ui/issues/48)) ([0708d2a](https://github.com/twinfoundation/ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
+* modification on the peerDependencies to have a more stable version of Svelte ([#48](https://github.com/iotaledger/twin-ui/issues/48)) ([0708d2a](https://github.com/iotaledger/twin-ui/commit/0708d2abc0e6b20919903625b2e707ae882a7265))
 
 
 ### Dependencies

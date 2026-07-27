@@ -40,7 +40,7 @@ const baseExports = {
 	},
 	'./icons': {
 		types: './dist/types/icons/index.d.ts',
-		import: './dist/es/icons/index.mjs',
+		import: './dist/es/icons/index.js',
 		require: './dist/cjs/icons/index.js'
 	},
 	'./css/*.css': './dist/css/*.css',
@@ -51,7 +51,14 @@ const baseExports = {
 const ICONS_DIR = path.resolve(__dirname, '../src/icons');
 const iconFiles = fs
 	.readdirSync(ICONS_DIR)
-	.filter(file => file.endsWith('.tsx') && file !== 'index.ts' && file !== 'iconsProps.ts')
+	.filter(
+		file =>
+			file.endsWith('.tsx') &&
+			file !== 'index.ts' &&
+			file !== 'iconsProps.ts' &&
+			file !== 'createPhosphorIcon.tsx' &&
+			file !== 'iconManifest.ts'
+	)
 	.map(file => path.basename(file, '.tsx'));
 
 // Add exports for individual icons
@@ -102,9 +109,7 @@ function getComponentDirs(dirPath, excludeDirs = ['util', 'css']) {
 				const files = fs.readdirSync(fullPath);
 				// A component directory should have a file named exactly the same as the directory
 				// (e.g., button/button.tsx or button/button.ts)
-				return files.some(
-					file => file === `${dir}.tsx` || file === `${dir}.ts` || file === `${dir}.js`
-				);
+				return files.some(file => [`${dir}.tsx`, `${dir}.ts`, `${dir}.js`].includes(file));
 			} catch {
 				return false;
 			}
@@ -156,7 +161,7 @@ function scanStorybookComponents() {
 							// Extract the component name
 							const componentMatch = match.match(/import\s+{?\s*(\w+)/);
 							// Process the match if found
-							const hasComponent = componentMatch && componentMatch[1];
+							const hasComponent = componentMatch?.[1];
 							if (hasComponent) {
 								components.add(
 									componentMatch[1]
@@ -187,6 +192,8 @@ function generateExports() {
 	// Get components from src directory
 	const srcComponents = getComponentDirs(SRC_DIR);
 	process.stdout.write(`📦 Found ${srcComponents.length} components in src directory\n`);
+	const uiComponents = getComponentDirs(`${SRC_DIR}/ui`);
+	process.stdout.write(`📦 Found ${uiComponents.length} UI components in src/ui directory\n`);
 
 	// Get components from storybook
 	const storybookComponents = scanStorybookComponents();
@@ -195,7 +202,7 @@ function generateExports() {
 	);
 
 	// Combine both sets of components
-	const allComponents = new Set([...srcComponents, ...storybookComponents]);
+	const allComponents = new Set([...srcComponents, ...uiComponents, ...storybookComponents]);
 	process.stdout.write(`🔄 Total unique components: ${allComponents.size}\n`);
 
 	// Generate exports for each component
@@ -204,7 +211,8 @@ function generateExports() {
 	for (const component of Array.from(allComponents)) {
 		// Check if component directory exists
 		const componentDir = path.join(SRC_DIR, component);
-		if (!fs.existsSync(componentDir)) {
+		const uiComponentDir = path.join(`${SRC_DIR}/ui`, component);
+		if (!fs.existsSync(componentDir) && !fs.existsSync(uiComponentDir)) {
 			process.stdout.write(
 				`⚠️ Component "${component}" referenced in storybook but directory not found in src\n`
 			);
@@ -212,7 +220,7 @@ function generateExports() {
 			exports[`./${component}`] = {
 				types: `./dist/types/${component}/${component}.d.ts`,
 				import: `./dist/es/${component}/${component}.mjs`,
-				require: `./dist/cjs/${component}/${component}.js`
+				require: './dist/cjs/index.cjs'
 			};
 		}
 	}
@@ -237,31 +245,30 @@ function updatePackageJson() {
 		const currentExports = originalPackageJson.exports || {};
 
 		// Compare the component paths (ignoring directory differences)
-		const currentComponents = Object.keys(currentExports).filter(
-			key => key !== '.' && !key.includes('*')
-		);
-		const newComponents = Object.keys(newExports).filter(key => key !== '.' && !key.includes('*'));
+		// const currentComponents = Object.keys(currentExports).filter(
+		// 	key => key !== '.' && !key.includes('*')
+		// );
+		// const newComponents = Object.keys(newExports).filter(key => key !== '.' && !key.includes('*'));
 
-		// Check if the components list has changed
-		const componentsChanged =
-			currentComponents.length !== newComponents.length ||
-			!currentComponents.every(comp => newComponents.includes(comp));
+		// Always rewrite the exports field so path changes are persisted even when the
+		// exported component keys remain the same.
+		packageJson.exports = newExports;
 
-		if (componentsChanged) {
-			// Only modify the exports field and keep everything else intact
-			packageJson.exports = newExports;
+		// Use tabs as the default indentation
+		fs.writeFileSync(PACKAGE_JSON_PATH, `${JSON.stringify(packageJson, null, '\t')}\n`, 'utf8');
 
-			// Use tabs as the default indentation
-			fs.writeFileSync(PACKAGE_JSON_PATH, `${JSON.stringify(packageJson, null, '\t')}\n`, 'utf8');
+		const currentExportsJson = JSON.stringify(currentExports);
+		const newExportsJson = JSON.stringify(newExports);
+		const exportsChanged = currentExportsJson !== newExportsJson;
+		const componentsCount = Object.keys(newExports).length - 5;
 
-			const componentsCount = Object.keys(newExports).length - 5;
+		if (exportsChanged) {
 			process.stdout.write(
 				`✅ Updated "exports" field in package.json with ${componentsCount} components\n`
 			);
 		} else {
-			// No changes needed
 			process.stdout.write(
-				`✅ "exports" field in package.json is already up-to-date with ${Object.keys(newExports).length - 5} components\n`
+				`✅ Rewrote "exports" field in package.json with ${componentsCount} components (no path changes detected)\n`
 			);
 		}
 	} catch (error) {

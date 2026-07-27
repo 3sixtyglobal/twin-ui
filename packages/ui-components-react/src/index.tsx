@@ -66,7 +66,7 @@ export { Dropdown } from "./dropdown/dropdown";
 export { DropdownPositions } from "./dropdown/dropdownPositions";
 export { DropdownSizes } from "./dropdown/dropdownSizes";
 export type { DropdownSize } from "./dropdown/dropdownSizes";
-export type { DropdownProps } from "./dropdown/dropdownProps";
+export type { DropdownProps, DropdownItem } from "./dropdown/dropdownProps";
 
 // FileInput
 export { FileInput } from "./fileInput/fileInput";
@@ -173,6 +173,14 @@ export type { TextInputProps } from "./textInput/textInputProps";
 export type { TextInputColor } from "./textInput/textInputColors";
 export type { TextInputSize } from "./textInput/textInputSizes";
 
+// InputButton
+export { InputButton } from "./inputButton/inputButton";
+export type { InputButtonProps } from "./inputButton/inputButtonProps";
+
+// InputPhone
+export { InputPhone } from "./inputPhone/inputPhone";
+export type { InputPhoneProps } from "./inputPhone/inputPhoneProps";
+
 // Textarea
 export { Textarea } from "./textarea/textarea";
 export type { TextareaProps } from "./textarea/textareaProps";
@@ -197,6 +205,18 @@ export { TooltipTriggers } from "./tooltip/tooltipTriggers";
 export { TooltipAnimations } from "./tooltip/tooltipAnimations";
 export type { TooltipProps } from "./tooltip/tooltipProps";
 export type { TooltipPlacement } from "./tooltip/tooltipPlacements";
+
+// UI Table (shadcn-style)
+export {
+	Table as UITable,
+	TableHeader,
+	TableBody,
+	TableFooter,
+	TableHead,
+	TableRow,
+	TableCell,
+	TableCaption
+} from "./ui/ui-table/ui-table";
 
 // Constants
 export {
@@ -237,3 +257,23 @@ export { HOVER, CLICK } from "./constants/triggers";
 
 // Configuration
 export { TailwindConfig } from "./config/tailwindConfig";
+
+// StepView
+export { StepView } from "./views/stepView/stepView";
+export { StepViewVariants } from "./views/stepView/stepViewVariants";
+export type {
+	StepViewProps,
+	StepViewFormProps,
+	StepViewBaseProps,
+	StepViewDefaultProps,
+	StepViewInfoProps,
+	StepViewSelectionProps,
+	StepViewKYBProps,
+	StepViewAction,
+	StepViewField,
+	StepViewFieldSection,
+	StepViewFieldRenderProps,
+	StepViewCheckbox,
+	StepViewSelectOption,
+	FieldValidationRule
+} from "./views/stepView/stepViewProps";

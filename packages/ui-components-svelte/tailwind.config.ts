@@ -6,10 +6,10 @@ import { TailwindConfig } from "./src/lib/config/tailwindConfig.js";
 const npmRoot = execSync("npm root").toString().trim().replace(/\\/g, "/");
 
 export default {
-	content: ["./src/**/*.{html,js,svelte,ts}", ...TailwindConfig.getContentPaths(npmRoot, false)],
-	plugins: TailwindConfig.getPlugins(),
-	darkMode: "class",
-	theme: {
-		extend: TailwindConfig.getTheme()
-	}
-};
+			content: ["./src/**/*.{html,js,svelte,ts}", ...TailwindConfig.getContentPaths(npmRoot, false)],
+			plugins: TailwindConfig.getPlugins(),
+			darkMode: "class",
+			theme: {
+				extend: TailwindConfig.getTheme()
+			}
+		};

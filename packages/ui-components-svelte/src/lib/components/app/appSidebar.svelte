@@ -15,7 +15,7 @@
 
 <Sidebar {activeUrl} class="h-full" asideClass="w-16 md:w-64">
 	<SidebarWrapper
-		class="bg-surface-main border-surface-primary dark:bg-surface-main-dark dark:border-surface-primary-dark h-full rounded-none border-r"
+		class="h-full rounded-none border-r border-surface-primary bg-surface-main dark:border-surface-primary-dark dark:bg-surface-main-dark"
 	>
 		{#each groups as group}
 			<SidebarGroup>
@@ -23,7 +23,7 @@
 					<SidebarItem label={item.label} href={item.route}>
 						{#snippet icon()}
 							<item.icon
-								class="text-secondary dark:text-secondary-dark h-6 w-6 transition duration-75"
+								class="h-6 w-6 text-secondary transition duration-75 dark:text-secondary-dark"
 							/>
 						{/snippet}
 					</SidebarItem>

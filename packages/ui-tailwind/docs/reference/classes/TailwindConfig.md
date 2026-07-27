@@ -14,9 +14,9 @@ The tailwind config.
 
 ## Methods
 
-### generateTheme()
+### generateTheme() {#generatetheme}
 
-> `static` **generateTheme**(`figmaVariablesCollections`, `replacements`, `flattenSections`, `removeSections`): `undefined` \| `Partial`\<`CustomThemeConfig` & `object`\>
+> `static` **generateTheme**(`figmaVariablesCollections`, `replacements?`, `flattenSections?`, `removeSections?`): `Partial`\<`CustomThemeConfig` & `object`\> \| `undefined`
 
 Generate the tailwind config theme from the figma variables.
 
@@ -28,19 +28,19 @@ Generate the tailwind config theme from the figma variables.
 
 The figma variables collection.
 
-##### replacements
+##### replacements?
 
 `object`[] = `...`
 
 The replacements to apply to the theme.
 
-##### flattenSections
+##### flattenSections?
 
 `string`[] = `...`
 
 The sections to flatten from the variables.
 
-##### removeSections
+##### removeSections?
 
 `string`[] = `...`
 
@@ -48,13 +48,13 @@ The sections to remove from the variables.
 
 #### Returns
 
-`undefined` \| `Partial`\<`CustomThemeConfig` & `object`\>
+`Partial`\<`CustomThemeConfig` & `object`\> \| `undefined`
 
 The tailwind config theme.
 
 ***
 
-### buildContentPath()
+### buildContentPath() {#buildcontentpath}
 
 > `static` **buildContentPath**(`npmRoot`, `pkg`, `extensions`): `string`
 
@@ -88,21 +88,21 @@ The content path.
 
 ***
 
-### getPlugins()
+### getPlugins() {#getplugins}
 
-> `static` **getPlugins**(): `undefined` \| (`undefined` \| `PluginCreator` \| \{ \} \| (`options`) => `object`)[]
+> `static` **getPlugins**(): (`PluginCreator` \| \{ \} \| (`options`) => `object` \| `undefined`)[] \| `undefined`
 
 Get the plugins.
 
 #### Returns
 
-`undefined` \| (`undefined` \| `PluginCreator` \| \{ \} \| (`options`) => `object`)[]
+(`PluginCreator` \| \{ \} \| (`options`) => `object` \| `undefined`)[] \| `undefined`
 
 The plugins.
 
 ***
 
-### getDefaultThemeReplacements()
+### getDefaultThemeReplacements() {#getdefaultthemereplacements}
 
 > `static` **getDefaultThemeReplacements**(): `object`[]
 
@@ -116,7 +116,7 @@ The default theme replacements.
 
 ***
 
-### getDefaultFlattenSections()
+### getDefaultFlattenSections() {#getdefaultflattensections}
 
 > `static` **getDefaultFlattenSections**(): `string`[]
 
@@ -130,7 +130,7 @@ The sections to strip from variables.
 
 ***
 
-### getDefaultRemoveSections()
+### getDefaultRemoveSections() {#getdefaultremovesections}
 
 > `static` **getDefaultRemoveSections**(): `string`[]
 

@@ -1,0 +1,57 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Modal - Snapshot Tests > matches snapshot for basic modal 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with JSX content 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all positions > modal with bottom-center position 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all positions > modal with bottom-left position 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all positions > modal with bottom-right position 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all positions > modal with center position 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all positions > modal with top-center position 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all positions > modal with top-left position 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all positions > modal with top-right position 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all props combined 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all sections 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all sizes > modal with lg size 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all sizes > modal with md size 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all sizes > modal with sm size 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with all sizes > modal with xlg size 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with body 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with children 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with complex footer button props 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with custom className 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with different positions 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with different sizes 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with dismissible prop 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with empty content 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with footer buttons 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with header 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with multiple footer buttons 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with null content 1`] = `null`;
+
+exports[`Modal - Snapshot Tests > matches snapshot for modal with popup prop 1`] = `null`;

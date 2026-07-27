@@ -21,7 +21,7 @@
 
 {#if limitWidth}
 	<div
-		class="bg-surface-main border-surface-primary dark:bg-surface-main-dark dark:border-surface-primary-dark w-full min-w-96 overflow-x-auto rounded-md border"
+		class="w-full min-w-96 overflow-x-auto rounded-md border border-surface-primary bg-surface-main dark:border-surface-primary-dark dark:bg-surface-main-dark"
 	>
 		{@render table()}
 	</div>

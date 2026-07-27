@@ -47,7 +47,7 @@
 	{name}
 	color={flowbiteMap[color]}
 	{disabled}
-	class={`focus:ring ${colorMap[color]} focus:ring-surface-button-pressed dark:focus:ring-surface-button-pressed-dark dark:focus:border-surface-brand-primary-1-dark disabled:cursor-not-allowed ${rest.class ?? ''}`}
+	class={`focus:ring ${colorMap[color]} focus:ring-surface-button-pressed disabled:cursor-not-allowed dark:focus:border-surface-brand-primary-1-dark dark:focus:ring-surface-button-pressed-dark ${rest.class ?? ''}`}
 	on:change
 	bind:value
 	{items}

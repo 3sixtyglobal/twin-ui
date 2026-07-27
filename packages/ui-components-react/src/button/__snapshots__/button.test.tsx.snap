@@ -1,0 +1,369 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > Snapshot Tests > matches snapshot for button with both icons 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      <div
+        class="flex items-center"
+      >
+        <svg
+          data-testid="mock-left-icon"
+        />
+      </div>
+      Both Icons
+      <div
+        class="flex items-center"
+      >
+        <svg
+          data-testid="mock-right-icon"
+        />
+      </div>
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for button with custom className 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg custom-class"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Custom Class
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for button with left icon 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      <div
+        class="flex items-center"
+      >
+        <svg
+          data-testid="mock-left-icon"
+        />
+      </div>
+      With Left Icon
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for button with right icon 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      With Right Icon
+      <div
+        class="flex items-center"
+      >
+        <svg
+          data-testid="mock-right-icon"
+        />
+      </div>
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for complex button combination 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg complex-button"
+  type="button"
+>
+  <span
+    class="items-stretch flex w-full justify-center bg-white text-gray-900 transition-all duration-75 ease-in group-enabled:group-hover:bg-opacity-0 group-enabled:group-hover:text-inherit dark:bg-gray-900 dark:text-white rounded-md px-5 py-2.5 text-base border border-transparent"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      <div
+        class="flex items-center"
+      >
+        <svg
+          data-testid="mock-left-icon"
+        />
+      </div>
+      Complex Button
+      <div
+        class="flex items-center"
+      >
+        <svg
+          data-testid="mock-right-icon"
+        />
+      </div>
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for dark button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 dark:border-gray-700 border-2 border-transparent focus:outline-none focus:ring-2 text-white dark:text-black bg-gray-800 dark:bg-surface-second hover:enabled:bg-gray-700 focus:ring-gray-200 dark:hover:enabled:bg-gray-600 dark:focus:ring-gray-700 rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Dark Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for disabled button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 cursor-not-allowed opacity-50 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  disabled=""
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Disabled Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for error button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-error dark:bg-error hover:enabled:bg-system-error-tints-600 dark:hover:enabled:bg-system-error-tints-600 focus:ring-system-error-tints-200 rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Error Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for ghost button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none focus:ring-1 text-black dark:text-invert hover:enabled:bg-gray-50 focus:bg-gray-100 focus:ring-gray-200 dark:hover:enabled:bg-surface-second-dark dark:focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Ghost Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for icon-only button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 rounded-lg border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed !aspect-square !rounded-full !p-0 !h-11 !w-11 [&>span]:!p-0 [&>span]:!m-0"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="flex h-full w-full items-center justify-center"
+    >
+      <svg
+        data-testid="mock-icon"
+      />
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for info button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 dark:focus:ring-cyan-800 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-information dark:bg-information hover:enabled:bg-system-information-tints-600 dark:hover:enabled:bg-system-information-tints-600 focus:ring-system-information-tints-200 rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Info Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for large button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-5 py-2.5 text-base"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Large Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for outline button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="items-stretch flex w-full justify-center bg-white text-gray-900 transition-all duration-75 ease-in group-enabled:group-hover:bg-opacity-0 group-enabled:group-hover:text-inherit dark:bg-gray-900 dark:text-white rounded-md px-4 py-2 text-sm border border-transparent"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Outline Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for plain button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-black dark:text-invert bg-surface-second dark:bg-surface-third-dark hover:enabled:bg-surface-third focus:ring-gray-200 dark:hover:enabled:bg-surface-second-dark dark:focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Plain Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for primary button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Primary Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for secondary button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button-alt dark:bg-surface-button-alt hover:enabled:bg-surface-button-alt-hover dark:hover:enabled:bg-surface-button-alt-hover focus:ring-surface-button-alt-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Secondary Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for small button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-surface-button dark:bg-surface-button hover:enabled:bg-surface-button-hover dark:hover:enabled:bg-surface-button-hover focus:ring-surface-button-pressed rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-3 py-1.5 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Small Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for success button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 dark:focus:ring-green-800 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-success dark:bg-success hover:enabled:bg-system-success-tints-600 dark:hover:enabled:bg-system-success-tints-600 focus:ring-system-success-tints-200 rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Success Button
+    </div>
+  </span>
+</button>
+`;
+
+exports[`Button > Snapshot Tests > matches snapshot for warning button 1`] = `
+<button
+  class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 dark:focus:ring-yellow-900 border-2 border-transparent focus:outline-none focus:ring-2 text-white bg-warning dark:bg-warning hover:enabled:bg-system-warning-tints-600 dark:hover:enabled:bg-system-warning-tints-600 focus:ring-system-warning-tints-200 rounded-lg"
+  type="button"
+>
+  <span
+    class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+  >
+    <div
+      class="inline-flex items-center justify-center"
+    >
+      Warning Button
+    </div>
+  </span>
+</button>
+`;

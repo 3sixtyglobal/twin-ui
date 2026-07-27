@@ -6,7 +6,6 @@ import { CLICK, HOVER } from "../constants/triggers";
 /**
  * Popover Triggers.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const PopoverTriggers = {
 	/**
 	 * Click.

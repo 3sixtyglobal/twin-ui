@@ -1,0 +1,1288 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer brand with all props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <a
+      class="mb-4 flex items-center sm:mb-0"
+      data-testid="flowbite-footer-brand"
+      href="https://company.com"
+    >
+      <img
+        alt="Company Logo"
+        class="mr-3 h-8"
+        src="logo.png"
+      />
+      <span
+        class="self-center whitespace-nowrap text-2xl font-semibold text-gray-800 dark:text-white"
+        data-testid="flowbite-footer-brand-span"
+      >
+        Company Name
+      </span>
+    </a>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer brand with default props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <img
+      class="mr-3 h-8"
+      data-testid="flowbite-footer-brand"
+    />
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer brand with empty name 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <img
+      class="mr-3 h-8"
+      data-testid="flowbite-footer-brand"
+    />
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer brand with null name 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <img
+      class="mr-3 h-8"
+      data-testid="flowbite-footer-brand"
+    />
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer brand with special characters in name 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <img
+      class="mr-3 h-8"
+      data-testid="flowbite-footer-brand"
+    />
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer brand with undefined name 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <img
+      class="mr-3 h-8"
+      data-testid="flowbite-footer-brand"
+    />
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer brand with unicode characters in name 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <img
+      class="mr-3 h-8"
+      data-testid="flowbite-footer-brand"
+    />
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer copyright with all props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div
+    class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+    data-testid="flowbite-footer-copyright"
+  >
+    © 
+    2024
+    <a
+      class="ml-1 hover:underline"
+      href="https://company.com"
+    >
+      Company Name
+    </a>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer copyright with different years 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div
+    class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+    data-testid="flowbite-footer-copyright"
+  >
+    © 
+    2023
+    <span
+      class="ml-1"
+      data-testid="flowbite-footer-copyright-span"
+    >
+      Company
+    </span>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer copyright with negative year 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div
+    class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+    data-testid="flowbite-footer-copyright"
+  >
+    © 
+    -1
+    <span
+      class="ml-1"
+      data-testid="flowbite-footer-copyright-span"
+    >
+      Company
+    </span>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer copyright with required props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div
+    class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+    data-testid="flowbite-footer-copyright"
+  >
+    © 
+    2024
+    <span
+      class="ml-1"
+      data-testid="flowbite-footer-copyright-span"
+    >
+      Company
+    </span>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer copyright with special characters in by 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div
+    class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+    data-testid="flowbite-footer-copyright"
+  >
+    © 
+    2024
+    <span
+      class="ml-1"
+      data-testid="flowbite-footer-copyright-span"
+    >
+      Company & Co. &lt;&gt;
+    </span>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer copyright with unicode characters in by 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div
+    class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+    data-testid="flowbite-footer-copyright"
+  >
+    © 
+    2024
+    <span
+      class="ml-1"
+      data-testid="flowbite-footer-copyright-span"
+    >
+      公司名称
+    </span>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer copyright with zero year 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div
+    class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+    data-testid="flowbite-footer-copyright"
+  >
+    © 
+    0
+    <span
+      class="ml-1"
+      data-testid="flowbite-footer-copyright-span"
+    >
+      Company
+    </span>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer divider 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <hr
+    class="my-6 w-full border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8"
+    data-testid="footer-divider"
+  />
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with all props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <a
+      aria-label="Social Media Icon"
+      class="text-gray-500 dark:hover:text-white custom-icon"
+      data-testid="flowbite-footer-icon"
+      href="https://example.com"
+    >
+      <svg
+        data-testid="mock-icon"
+      >
+        Icon
+      </svg>
+    </a>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with empty ariaLabel 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with empty className 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with empty href 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with null ariaLabel 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with null className 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with null href 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with required props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with undefined ariaLabel 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with undefined className 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer icon with undefined href 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <svg
+      data-testid="mock-icon"
+    >
+      Icon
+    </svg>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with array children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  >
+    Item 1
+    Item 2
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with boolean children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  />
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with col false 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  >
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 1
+      </a>
+    </li>
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 2
+      </a>
+    </li>
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with col prop 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white flex-col space-y-4"
+    data-testid="footer-groupLink"
+  >
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 1
+      </a>
+    </li>
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 2
+      </a>
+    </li>
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with default props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  >
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 1
+      </a>
+    </li>
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 2
+      </a>
+    </li>
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with null col 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  >
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 1
+      </a>
+    </li>
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 2
+      </a>
+    </li>
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with number children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  >
+    42
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with string children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  >
+    Simple text content
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link group with undefined col 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <ul
+    class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+    data-testid="footer-groupLink"
+  >
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 1
+      </a>
+    </li>
+    <li
+      class="me-4 last:mr-0 md:mr-6"
+    >
+      <a
+        class="hover:underline"
+        href="https://example.com"
+      >
+        Link 2
+      </a>
+    </li>
+  </ul>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with JSX children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    >
+      <span>
+        JSX Link
+      </span>
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with array children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    >
+      Part 1
+      Part 2
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with boolean children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    />
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with default href 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="#"
+    >
+      Link Text
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with empty href 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href=""
+    >
+      Link Text
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with null href 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="#"
+    >
+      Link Text
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with number children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    >
+      42
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with required props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    >
+      Link Text
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with special characters in children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    >
+      Link & Text &lt;&gt;
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with string children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    >
+      Simple Link
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with undefined href 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="#"
+    >
+      Link Text
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer link with unicode characters in children 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <li
+    class="me-4 last:mr-0 md:mr-6"
+  >
+    <a
+      class="hover:underline"
+      href="https://example.com"
+    >
+      链接文本
+    </a>
+  </li>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer title with empty title 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <h2
+    class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+    data-testid="flowbite-footer-title"
+  />
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer title with long title 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <h2
+    class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+    data-testid="flowbite-footer-title"
+  >
+    This is a very long title that should be rendered properly without any issues or truncation
+  </h2>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer title with required props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <h2
+    class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+    data-testid="flowbite-footer-title"
+  >
+    Section Title
+  </h2>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer title with special characters 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <h2
+    class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+    data-testid="flowbite-footer-title"
+  >
+    Title & Co. &lt;&gt;
+  </h2>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer title with unicode characters 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <h2
+    class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+    data-testid="flowbite-footer-title"
+  >
+    标题
+  </h2>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with all sub-components 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <div>
+      <a
+        class="mb-4 flex items-center sm:mb-0"
+        data-testid="flowbite-footer-brand"
+        href="https://company.com"
+      >
+        <img
+          class="mr-3 h-8"
+        />
+        <span
+          class="self-center whitespace-nowrap text-2xl font-semibold text-gray-800 dark:text-white"
+          data-testid="flowbite-footer-brand-span"
+        >
+          Company
+        </span>
+      </a>
+    </div>
+    <hr
+      class="my-6 w-full border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8"
+      data-testid="footer-divider"
+    />
+    <ul
+      class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+      data-testid="footer-groupLink"
+    >
+      <h2
+        class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+        data-testid="flowbite-footer-title"
+      >
+        Links
+      </h2>
+      <li
+        class="me-4 last:mr-0 md:mr-6"
+      >
+        <a
+          class="hover:underline"
+          href="https://example.com"
+        >
+          Link 1
+        </a>
+      </li>
+      <li
+        class="me-4 last:mr-0 md:mr-6"
+      >
+        <a
+          class="hover:underline"
+          href="https://example.com"
+        >
+          Link 2
+        </a>
+      </li>
+    </ul>
+    <div>
+      <a
+        class="text-gray-500 dark:hover:text-white"
+        data-testid="flowbite-footer-icon"
+        href="https://social.com"
+      >
+        <svg
+          data-testid="mock-icon"
+        >
+          Icon
+        </svg>
+      </a>
+    </div>
+    <div
+      class="text-sm text-gray-500 dark:text-gray-400 sm:text-center"
+      data-testid="flowbite-footer-copyright"
+    >
+      © 
+      2024
+      <span
+        class="ml-1"
+        data-testid="flowbite-footer-copyright-span"
+      >
+        Company
+      </span>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with array body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  Item 1
+  Item 2
+  Item 3
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with boolean body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+/>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with complex body content 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <h3>
+      Company Info
+    </h3>
+    <p>
+      Contact us
+    </p>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with custom className 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between custom-footer"
+  data-testid="flowbite-footer"
+>
+  Footer content
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with default props 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  Footer content
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with empty string body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+/>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with long body content 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  This is a very long footer content that should be rendered properly without any issues or truncation. It contains multiple sentences and should display correctly in the footer component.
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with mixed content body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  Text content
+  42
+  <span>
+    JSX Element
+  </span>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with multiple icons 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <div>
+      <a
+        class="text-gray-500 dark:hover:text-white"
+        data-testid="flowbite-footer-icon"
+        href="https://twitter.com"
+      >
+        <svg
+          data-testid="mock-icon"
+        >
+          Icon
+        </svg>
+      </a>
+    </div>
+    <div>
+      <a
+        class="text-gray-500 dark:hover:text-white"
+        data-testid="flowbite-footer-icon"
+        href="https://facebook.com"
+      >
+        <svg
+          data-testid="mock-icon"
+        >
+          Icon
+        </svg>
+      </a>
+    </div>
+    <div>
+      <a
+        class="text-gray-500 dark:hover:text-white"
+        data-testid="flowbite-footer-icon"
+        href="https://linkedin.com"
+      >
+        <svg
+          data-testid="mock-icon"
+        >
+          Icon
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with multiple link groups 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  <div>
+    <ul
+      class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+      data-testid="footer-groupLink"
+    >
+      <h2
+        class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+        data-testid="flowbite-footer-title"
+      >
+        Products
+      </h2>
+      <li
+        class="me-4 last:mr-0 md:mr-6"
+      >
+        <a
+          class="hover:underline"
+          href="/products"
+        >
+          Product 1
+        </a>
+      </li>
+      <li
+        class="me-4 last:mr-0 md:mr-6"
+      >
+        <a
+          class="hover:underline"
+          href="/products"
+        >
+          Product 2
+        </a>
+      </li>
+    </ul>
+    <ul
+      class="flex flex-wrap text-sm text-gray-500 dark:text-white"
+      data-testid="footer-groupLink"
+    >
+      <h2
+        class="mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white"
+        data-testid="flowbite-footer-title"
+      >
+        Support
+      </h2>
+      <li
+        class="me-4 last:mr-0 md:mr-6"
+      >
+        <a
+          class="hover:underline"
+          href="/support"
+        >
+          Help
+        </a>
+      </li>
+      <li
+        class="me-4 last:mr-0 md:mr-6"
+      >
+        <a
+          class="hover:underline"
+          href="/support"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with null body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+/>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with number body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  2024
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with special characters in body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  Special & Characters: &lt;&gt;&"'
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with string body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  Simple footer text
+</footer>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with undefined body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+/>
+`;
+
+exports[`Footer > Snapshot Tests > matches snapshot for footer with unicode characters in body 1`] = `
+<footer
+  class="w-full rounded-lg bg-white shadow dark:bg-gray-800 md:flex md:items-center md:justify-between"
+  data-testid="flowbite-footer"
+>
+  Unicode: 你好世界 🌍
+</footer>
+`;

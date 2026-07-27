@@ -65,6 +65,8 @@ const globals = {
 };
 
 // Common external dependencies that should not be bundled
+// cmdk and @radix-ui/react-dialog contain "use client" and must be externalized
+// so the consumer's bundler handles them (Rollup errors on that directive when bundling)
 const externalDeps = [
 	/^node:.*/,
 	'react/jsx-runtime',
@@ -75,7 +77,9 @@ const externalDeps = [
 	'intl-messageformat',
 	'@twin.org/core',
 	'@twin.org/ui-tailwind',
-	'tailwindcss'
+	'tailwindcss',
+	'cmdk',
+	'@radix-ui/react-dialog'
 ];
 
 // Common plugins used for all bundles
@@ -144,7 +148,6 @@ const baseConfig = {
 			}
 
 			process.stderr.write(`${message}\n`);
-			// eslint-disable-next-line unicorn/no-process-exit
 			process.exit(1);
 		}
 	},
@@ -179,12 +182,21 @@ const mainBundle = {
 				}
 			}
 		: {
-				file: `dist/${format}/index.${extension}`,
+				dir: `dist/${format}`,
 				format,
 				name: 'TwinUIComponents',
 				exports: 'named',
 				globals,
-				sourcemap: process.env.NODE_ENV !== 'production'
+				sourcemap: process.env.NODE_ENV !== 'production',
+				preserveModules: true,
+				preserveModulesRoot: 'dist/es',
+				entryFileNames: chunkInfo => {
+					if (chunkInfo.name === 'index') {
+						return 'index.cjs';
+					}
+					return '[name].js';
+				},
+				chunkFileNames: '[name].js'
 			},
 	// Prevent watching the output directory to avoid infinite build loops
 	watch: {

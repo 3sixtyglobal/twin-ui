@@ -1,4 +1,4 @@
-# @twin.org/ui-components-svelte - Examples
+# Examples
 
 Install the package:
 

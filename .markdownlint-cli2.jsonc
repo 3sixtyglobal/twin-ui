@@ -1,0 +1,8 @@
+{
+	"ignores": [
+		//
+		"**/node_modules/**/*",
+		"**/docs/reference/**/*",
+		"**/changelog.md"
+	]
+}

@@ -52,7 +52,7 @@ export class FigmaVariables {
 						for (const variable of mode.variables) {
 							if (variable.isAlias) {
 								const alias = variable.value as IFigmaVariableAlias;
-								const resolvedValue = this.getVariableFromCollection(
+								const resolvedValue = FigmaVariables.getVariableFromCollection(
 									collections,
 									alias.collection,
 									alias.name
@@ -104,7 +104,11 @@ export class FigmaVariables {
 			if (!Is.empty(variable)) {
 				if (variable.isAlias) {
 					const alias = variable.value as IFigmaVariableAlias;
-					return this.getVariableFromCollection(collections, alias.collection, alias.name);
+					return FigmaVariables.getVariableFromCollection(
+						collections,
+						alias.collection,
+						alias.name
+					);
 				}
 
 				return variable.value as string | number;

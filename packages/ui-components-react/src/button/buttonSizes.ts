@@ -6,7 +6,6 @@ import { EXTRA_SMALL, SMALL, MEDIUM, LARGE, EXTRA_LARGE } from "../constants/siz
 /**
  * Button sizes.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const ButtonSizes = {
 	/**
 	 * Extra small.

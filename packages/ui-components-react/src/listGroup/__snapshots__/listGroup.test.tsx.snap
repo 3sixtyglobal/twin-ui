@@ -1,0 +1,847 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with active items 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="bg-cyan-700 text-white dark:bg-gray-800 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Active Item
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Inactive Item
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Default Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with all boolean combinations 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="dark:bg-gray-800 cursor-not-allowed bg-gray-100 text-gray-900 hover:bg-gray-100 hover:text-gray-900 focus:text-gray-900 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      disabled=""
+      type="button"
+    >
+      Active Disabled
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="bg-cyan-700 text-white dark:bg-gray-800 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Active Enabled
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 cursor-not-allowed bg-gray-100 text-gray-900 hover:bg-gray-100 hover:text-gray-900 focus:text-gray-900 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      disabled=""
+      type="button"
+    >
+      Inactive Disabled
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Inactive Enabled
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Default
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with complex item combinations 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="bg-cyan-700 text-white dark:bg-gray-800 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="https://example.com"
+    >
+      <svg
+        data-testid="mock-icon"
+      >
+        Icon
+      </svg>
+      Complex Item
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Simple Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with custom className 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white custom-listgroup"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 1
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with default props 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 1
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 2
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with disabled items 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 cursor-not-allowed bg-gray-100 text-gray-900 hover:bg-gray-100 hover:text-gray-900 focus:text-gray-900 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      disabled=""
+      type="button"
+    >
+      Disabled Item
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Enabled Item
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Default Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with empty items array 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+/>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items containing empty titles 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    />
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Valid Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items containing long titles 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      This is a very long item title that should be rendered properly without any issues or truncation
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items containing special characters 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item & Co.
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item &lt;&gt;"
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item with "quotes"
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items containing unicode characters 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      项目 1
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      アイテム 2
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      아이템 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with boolean-like titles 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      true
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      false
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      null
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with duplicate titles 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Duplicate
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Unique
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Duplicate
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with empty href 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href=""
+    >
+      Empty Link Item
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Regular Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with href 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="https://example.com"
+    >
+      Link Item
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Regular Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with icons 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      <svg
+        data-testid="mock-icon"
+      >
+        Icon
+      </svg>
+      Item with Icon
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item without Icon
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with mixed content 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Text Item
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      123
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Special & Characters
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Unicode 你好
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    />
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+       
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with null href 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+    >
+      Null Link Item
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Regular Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with numeric titles 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      1
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      2
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with special href formats 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="http://example.com"
+    >
+      HTTP Link
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="https://example.com"
+    >
+      HTTPS Link
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="/path/to/page"
+    >
+      Relative Link
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="#section"
+    >
+      Hash Link
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="mailto:test@example.com"
+    >
+      Mailto Link
+    </a>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <a
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      href="tel:+1234567890"
+    >
+      Tel Link
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with undefined href 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Undefined Link Item
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Regular Item
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with items with whitespace titles 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+       
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+        
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      	
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      
+
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with many items 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 1
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 2
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 3
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 4
+    </button>
+  </li>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Item 5
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`ListGroup > Snapshot Tests > matches snapshot for listgroup with single item 1`] = `
+<ul
+  class="list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+>
+  <li
+    class="[&>*]:first:rounded-t-lg [&>*]:last:rounded-b-lg [&>*]:last:border-b-0"
+  >
+    <button
+      class="hover:bg-gray-100 hover:text-cyan-700 focus:text-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-700 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:text-white dark:focus:ring-gray-500 flex w-full items-center border-b border-gray-200 px-4 py-2 dark:border-gray-600"
+      type="button"
+    >
+      Single Item
+    </button>
+  </li>
+</ul>
+`;

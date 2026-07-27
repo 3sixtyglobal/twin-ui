@@ -15,18 +15,20 @@ permissions:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on:
+      labels: ${{ github.event.repository.private && 'self-hosted' || 'ubuntu-latest' }}
+      group: ${{ github.event.repository.private && 'twin' || 'default' }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ env.gha-branch }}
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
 
       # Install older version of Vercel CLI until this issue is fixed
       # https://github.com/BetaHuhn/deploy-to-vercel-action/issues/393
@@ -37,10 +39,10 @@ jobs:
         uses: BetaHuhn/deploy-to-vercel-action@v1.10.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          TWIN_VERCEL_TOKEN: ${{ secrets.TWIN_VERCEL_TOKEN }}
+          TWIN_VERCEL_ORG_ID: ${{ secrets.TWIN_VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_STORYBOOK_SVELTE }}
-          VERCEL_SCOPE: ${{ secrets.VERCEL_SCOPE }}
+          TWIN_VERCEL_SCOPE: ${{ secrets.TWIN_VERCEL_SCOPE }}
           ALIAS_DOMAINS: ${{ env.gha-domain }}
           PRODUCTION: ${{ env.gha-production }}
           WORKING_DIRECTORY: packages/ui-components-svelte

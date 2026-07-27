@@ -4,7 +4,6 @@
 /**
  * Card types.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const CardTypes = {
 	/**
 	 * Default.
@@ -50,4 +49,4 @@ export const CardTypes = {
 /**
  * Card types.
  */
-export type CardTypes = (typeof CardTypes)[keyof typeof CardTypes];
+export type CardType = (typeof CardTypes)[keyof typeof CardTypes];

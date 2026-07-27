@@ -6,7 +6,6 @@ import { SMALL, MEDIUM, LARGE } from "../constants/sizes";
 /**
  * TextInput sizes.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const TextInputSizes = {
 	/**
 	 * Small.

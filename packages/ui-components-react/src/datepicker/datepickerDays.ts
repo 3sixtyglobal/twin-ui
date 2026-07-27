@@ -44,4 +44,4 @@ export const DatepickerDays = {
 /**
  * Datepicker Days.
  */
-export type DatepickerDays = (typeof DatepickerDays)[keyof typeof DatepickerDays];
+export type DatepickerDay = (typeof DatepickerDays)[keyof typeof DatepickerDays];

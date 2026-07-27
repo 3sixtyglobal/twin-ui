@@ -1,0 +1,1651 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > lg size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-20 w-20 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > md size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > sm size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-8 w-8 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > xl size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-36 w-36 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all size variants > xs size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-6 w-6 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status position variants > bottom-left status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -bottom-1 -left-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status position variants > bottom-right status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status position variants > top-left status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -left-1 -top-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status position variants > top-right status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -right-1 -top-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > away status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-yellow-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > busy status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-red-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > offline status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-gray-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for all status variants > online status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with JSX children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>
+        JD
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with all props combined 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded complete-avatar-class avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt="Complete Avatar"
+      class="p-1 ring-2 ring-gray-300 dark:ring-gray-500 rounded-full h-20 w-20"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+  <div>
+    <span>
+      CA
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with alt text containing special characters 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt="User scriptalert('xss')/script"
+      class="rounded-full h-10 w-10"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with array children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    J
+    D
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with boolean children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with bordered prop 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="p-1 ring-2 ring-gray-300 dark:ring-gray-500 rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with children content 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    JD
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with custom className 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded custom-avatar-class avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different sizes > lg size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-20 w-20 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different sizes > md size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different sizes > sm size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-8 w-8 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different sizes > xl size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-36 w-36 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different sizes > xs size avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-6 w-6 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different status positions > bottom-left status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -bottom-1 -left-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different status positions > bottom-right status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different status positions > top-left status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -left-1 -top-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with different status positions > top-right status position avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -right-1 -top-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with empty alt text 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt=""
+      class="rounded-full h-10 w-10"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with empty string children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with fragment children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    <span>
+      J
+    </span>
+    <span>
+      D
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with image 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt="User Avatar"
+      class="rounded-full h-10 w-10"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with invalid image URL 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with long alt text 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt="This is a very long alt text that should be handled properly by the avatar component and should not break the layout or functionality"
+      class="rounded-full h-10 w-10"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with long text children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    This is a very long text that should be handled properly by the avatar component
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with multiple classes 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded class1 class2 class3 avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with null alt text 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt=""
+      class="rounded-full h-10 w-10"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with null children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with number children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    42
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with rounded prop 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with special characters in children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    User@123!
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with stacked prop 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full ring-2 ring-gray-300 dark:ring-gray-500 h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > away status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-yellow-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > busy status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-red-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > offline status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-gray-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with status > online status avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <span
+      class="absolute h-3.5 w-3.5 rounded-full border-2 border-white dark:border-gray-800 bg-green-400 -bottom-1 -right-1"
+      data-testid="flowbite-avatar-status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with string children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    John Doe
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with undefined alt text 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt=""
+      class="rounded-full h-10 w-10"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with undefined children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with unicode characters in children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    👤
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with valid image URL 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <img
+      alt="User Avatar"
+      class="rounded-full h-10 w-10"
+      data-testid="flowbite-avatar-img"
+      src="https://example.com/avatar.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with whitespace children 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+       
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for avatar with whitespace in className 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded spaced-class avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar - Snapshot Tests > matches snapshot for default avatar 1`] = `
+<div
+  class="flex items-center justify-center space-x-4 rounded avatar-component"
+  data-testid="flowbite-avatar"
+>
+  <div
+    class="relative"
+  >
+    <div
+      class="rounded-full h-10 w-10 relative overflow-hidden bg-gray-100 dark:bg-gray-600"
+      data-testid="flowbite-avatar-img"
+    >
+      <svg
+        class="absolute -bottom-1 h-auto w-auto text-gray-400"
+        fill="currentcolor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

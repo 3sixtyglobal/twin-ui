@@ -9,3 +9,6 @@ release/**
 **/dist
 **/storybook-static
 *.otf
+
+packages/ui-components-react/**
+packages/ui-components-svelte/**

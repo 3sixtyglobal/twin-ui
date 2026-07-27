@@ -1,0 +1,478 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar > Snapshot Tests > matches snapshot for default navbar 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+>
+  Default navbar
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with Brand sub-component 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  <div
+    data-href="https://example.com"
+    data-testid="flowbite-navbar-brand"
+  >
+    <img
+      alt="Logo"
+      src="/logo.svg"
+    />
+    <span>
+      Brand Name
+    </span>
+  </div>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with Collapse sub-component 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  <div
+    data-testid="flowbite-navbar-collapse"
+  >
+    <div
+      data-href="#"
+      data-testid="flowbite-navbar-link"
+    >
+      Home
+    </div>
+    <div
+      data-href="#"
+      data-testid="flowbite-navbar-link"
+    >
+      About
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with JSX children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  <div
+    data-testid="navbar-content"
+  >
+    JSX Content
+  </div>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with Link sub-component 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  <div
+    data-active="true"
+    data-href="#"
+    data-testid="flowbite-navbar-link"
+  >
+    Home
+  </div>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with Toggle sub-component 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  <button
+    data-testid="flowbite-navbar-toggle"
+  />
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with additional props 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="custom-navbar"
+  id="navbar-1"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with all props combined 1`] = `
+<nav
+  class="custom-navbar"
+  data-fluid="true"
+  data-rounded="true"
+  data-testid="combined-navbar"
+  id="navbar-stable-id"
+  style="background-color: blue;"
+>
+  Combined Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with all sub-components 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  <div
+    data-href="https://example.com"
+    data-testid="flowbite-navbar-brand"
+  >
+    <span>
+      Brand
+    </span>
+  </div>
+  <button
+    data-testid="flowbite-navbar-toggle"
+  />
+  <div
+    data-testid="flowbite-navbar-collapse"
+  >
+    <div
+      data-active="true"
+      data-href="#"
+      data-testid="flowbite-navbar-link"
+    >
+      Home
+    </div>
+    <div
+      data-href="#"
+      data-testid="flowbite-navbar-link"
+    >
+      About
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with aria attributes 1`] = `
+<nav
+  aria-label="Main navigation"
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+  role="navigation"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with array children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Item 1
+  Item 2
+  Item 3
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with boolean children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+/>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with both fluid and rounded props 1`] = `
+<nav
+  data-fluid="true"
+  data-rounded="true"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with complex nested children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  <div>
+    <span>
+      Nested
+    </span>
+    <strong>
+      Content
+    </strong>
+  </div>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with complex structure 1`] = `
+<nav
+  class="custom-navbar"
+  data-fluid="true"
+  data-rounded="true"
+  data-testid="flowbite-navbar"
+>
+  <a
+    class="brand-class"
+    data-testid="flowbite-navbar-brand"
+    href="/"
+  >
+    <img
+      alt="Logo"
+      src="/logo.png"
+    />
+    <span>
+      My Brand
+    </span>
+  </a>
+  <button
+    class="toggle-class"
+    data-testid="flowbite-navbar-toggle"
+  >
+    ☰
+  </button>
+  <div
+    class="collapse-class"
+    data-testid="flowbite-navbar-collapse"
+  >
+    <a
+      class="link-class"
+      data-active="true"
+      data-testid="flowbite-navbar-link"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class="link-class"
+      data-testid="flowbite-navbar-link"
+      href="/about"
+    >
+      About
+    </a>
+    <a
+      class="link-class"
+      data-testid="flowbite-navbar-link"
+      href="/services"
+    >
+      Services
+    </a>
+    <a
+      class="link-class"
+      data-testid="flowbite-navbar-link"
+      href="/contact"
+    >
+      Contact
+    </a>
+  </div>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with custom className 1`] = `
+<nav
+  class="custom-navbar"
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with default props 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with empty string children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+/>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with fluid prop 1`] = `
+<nav
+  data-fluid="true"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with long content 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  This is a very long content that should be rendered properly without any issues or truncation in the navbar component
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with mixed content children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Text content
+  42
+  <span>
+    JSX element
+  </span>
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with multiple boolean props 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="true"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with no children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+/>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with null children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+/>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with number children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  42
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with props 1`] = `
+<nav
+  class="custom-class"
+  data-fluid="true"
+  data-rounded="true"
+  data-testid="flowbite-navbar"
+>
+  Navbar with props
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with rounded prop 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="true"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with special characters in children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Special & Characters: &lt;&gt;&"'
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with string children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Simple Text
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with style prop 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+  style="background-color: red;"
+>
+  Test Content
+</nav>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with undefined children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+/>
+`;
+
+exports[`Navbar > Snapshot Tests > matches snapshot for navbar with unicode characters in children 1`] = `
+<nav
+  data-fluid="false"
+  data-rounded="false"
+  data-testid="flowbite-navbar"
+  id="navbar-stable-id"
+>
+  Unicode: 你好 世界 🌍
+</nav>
+`;

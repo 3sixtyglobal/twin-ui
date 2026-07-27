@@ -6,7 +6,7 @@ import type { ReactNode } from "react";
 /**
  * Radio props.
  */
-export interface RadioProps extends Omit<FlowbiteRadioProps, "color" | "label"> {
+export interface RadioProps extends Omit<FlowbiteRadioProps, "color"> {
 	/**
 	 * Radio id.
 	 */
@@ -30,7 +30,7 @@ export interface RadioProps extends Omit<FlowbiteRadioProps, "color" | "label"> 
 	/**
 	 * Radio label.
 	 */
-	label: string;
+	label?: ReactNode;
 	/**
 	 * Radio value.
 	 */
