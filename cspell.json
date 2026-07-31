@@ -47,6 +47,7 @@
 		"faucet",
 		"Fileupload",
 		"flowbite",
+		"hotfixes",
 		"hoverable",
 		"ipfs",
 		"moveth",
@@ -59,6 +60,7 @@
 		"scylladb",
 		"secp",
 		"Segoe",
+		"shadcn",
 		"Stiftung",
 		"Swatchbook",
 		"tabItem",
@@ -69,8 +71,7 @@
 		"Unrevoking",
 		"vars",
 		"whereis",
-		"WORKDIR",
-		"shadcn"
+		"WORKDIR"
 	],
 	"ignoreRegExpList": [
 		"/from\\s+(['\"]).*\\1/",
