@@ -60,7 +60,6 @@
 		"scylladb",
 		"secp",
 		"Segoe",
-		"shadcn",
 		"Stiftung",
 		"Swatchbook",
 		"tabItem",
@@ -71,7 +70,8 @@
 		"Unrevoking",
 		"vars",
 		"whereis",
-		"WORKDIR"
+		"WORKDIR",
+		"shadcn"
 	],
 	"ignoreRegExpList": [
 		"/from\\s+(['\"]).*\\1/",
