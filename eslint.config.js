@@ -6,10 +6,10 @@
 /* eslint-disable import/no-named-as-default-member */
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
+import headerPlugin from '@tony.ganchev/eslint-plugin-header';
 import typescript from '@typescript-eslint/eslint-plugin';
 import typescriptParser from '@typescript-eslint/parser';
-import headerPlugin from 'eslint-plugin-header';
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from 'eslint-plugin-import-x';
 import jsdocPlugin from 'eslint-plugin-jsdoc';
 import promisePlugin from 'eslint-plugin-promise';
 import simpleImportSortPlugin from 'eslint-plugin-simple-import-sort';
@@ -17,11 +17,14 @@ import unicornPlugin from 'eslint-plugin-unicorn';
 import unusedImportsPlugin from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 import { fileExists } from './scripts/common.mjs';
+import { twinOrgPlugin } from './scripts/eslint/index.mjs';
 
 let customModule;
 if (await fileExists('./eslint.config-custom.js')) {
 	customModule = await import('./eslint.config-custom.js');
 }
+
+const isCI = process.env.CI === 'true';
 
 headerPlugin.rules.header.meta.schema = false;
 
@@ -127,7 +130,25 @@ const jsRules = {
 	'no-prototype-builtins': 'error',
 	'no-regex-spaces': 'error',
 	'no-restricted-globals': 'error',
-	'no-restricted-imports': 'error',
+	'no-restricted-imports': [
+		'error',
+		{
+			patterns: [
+				{
+					group: [
+						'@twin.org/**/index.js',
+						'./index.js',
+						'./**/index.js',
+						'../index.js',
+						'../**/index.js',
+						'!../dist/es/index.js',
+						'!**/dist/es/index.js'
+					],
+					message: 'Import from a concrete module file instead of a barrel file.'
+				}
+			]
+		}
+	],
 	'no-restricted-properties': 'error',
 	'no-return-assign': 'error',
 	'no-script-url': 'error',
@@ -220,6 +241,12 @@ const stylisticJsRules = {
 	'@stylistic/quotes': ['error', 'single', { avoidEscape: true }]
 };
 
+const twinOrgRules = {
+	'@twin.org/no-multiple-declarations': 'error',
+	'@twin.org/no-deep-type-nesting': 'error',
+	'@twin.org/require-internal-on-private-methods': 'error'
+};
+
 const tsRestrictedSyntaxCommon = [
 	{
 		selector: "NewExpression[callee.name='Error']",
@@ -239,6 +266,18 @@ const tsRestrictedSyntaxCommon = [
 		selector: 'BinaryExpression[operator="instanceof"]',
 		message:
 			'instanceof is disallowed. For checking Error types use the BaseError methods. Use type guards or other type checking methods instead.'
+	},
+	{
+		selector:
+			"Program > VariableDeclaration > VariableDeclarator[init.type='ArrowFunctionExpression']",
+		message:
+			'Do not define root-level functions using variable assignments. Use a function declaration instead.'
+	},
+	{
+		selector:
+			"Program > ExportNamedDeclaration > VariableDeclaration > VariableDeclarator[init.type='ArrowFunctionExpression']",
+		message:
+			'Do not define root-level functions using variable assignments. Use a function declaration instead.'
 	}
 ];
 
@@ -265,6 +304,34 @@ const tsRestrictedSyntax = [
 	{
 		selector: 'MethodDefinition[static=true] ThisExpression',
 		message: 'Do not use "this" in static methods'
+	},
+	{
+		selector: 'VariableDeclarator[definite=true]',
+		message:
+			'Definite assignment assertions (let x!: T) are disallowed. Restructure the code so TypeScript can infer definite assignment, or initialise to a safe default.'
+	},
+	{
+		selector:
+			":matches(BinaryExpression[operator='==='], BinaryExpression[operator='!=='], BinaryExpression[operator='=='], BinaryExpression[operator='!=']) > UnaryExpression[operator='typeof']",
+		message: 'Avoid runtime typeof comparisons. Use the @twin.org/core Is.* methods instead.'
+	},
+	{
+		selector:
+			':matches(FunctionDeclaration, ArrowFunctionExpression, FunctionExpression, TSDeclareFunction, TSMethodSignature, TSCallSignatureDeclaration, TSConstructSignatureDeclaration) > Identifier.params > TSTypeAnnotation > TSObjectKeyword',
+		message:
+			'Do not use `object` as a parameter type. Use a specific interface, type alias, or generic constraint instead.'
+	},
+	{
+		selector:
+			'ObjectExpression > SpreadElement > ConditionalExpression[consequent.type="ObjectExpression"][consequent.properties.length=0]',
+		message:
+			'Avoid spreading a conditional where one branch is an empty object to omit properties. Use a property with a conditional value instead: { prop: condition ? value : undefined }.'
+	},
+	{
+		selector:
+			'ObjectExpression > SpreadElement > ConditionalExpression[alternate.type="ObjectExpression"][alternate.properties.length=0]',
+		message:
+			'Avoid spreading a conditional where one branch is an empty object to omit properties. Use a property with a conditional value instead: { prop: condition ? value : undefined }.'
 	}
 ];
 
@@ -294,7 +361,7 @@ const tsRules = {
 	'@typescript-eslint/member-ordering': 'error',
 	'@typescript-eslint/naming-convention': [
 		'error',
-		{ selector: 'variable', format: ['camelCase', 'UPPER_CASE', 'PascalCase'] },
+		{ selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
 		{ selector: 'enumMember', format: ['PascalCase'] },
 		{
 			selector: 'method',
@@ -323,6 +390,11 @@ const tsRules = {
 		{
 			selector: 'class',
 			format: ['PascalCase']
+		},
+		{
+			selector: 'parameter',
+			format: ['camelCase'],
+			leadingUnderscore: 'forbid'
 		}
 	],
 	'@typescript-eslint/no-array-constructor': 'error',
@@ -353,7 +425,7 @@ const tsRules = {
 	'@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
 	'@typescript-eslint/no-unnecessary-qualifier': 'error',
 	'@typescript-eslint/no-unnecessary-type-arguments': 'error',
-	'@typescript-eslint/no-unnecessary-type-assertion': 'error',
+	'@typescript-eslint/no-unnecessary-type-assertion': isCI ? 'off' : 'error',
 	'@typescript-eslint/no-unused-expressions': 'error',
 	'@typescript-eslint/no-unused-private-class-members': 'error',
 	'@typescript-eslint/no-unused-vars': ['error', { args: 'none' }],
@@ -492,43 +564,7 @@ const jsDocRules = {
 	'jsdoc/check-tag-names': [
 		'error',
 		{
-			definedTags: [
-				'json-ld',
-				'title',
-				'description',
-				'id',
-				'format',
-				'pattern',
-				'ref',
-				'comment',
-				'contentMediaType',
-				'contentEncoding',
-				'discriminator',
-				'minimum',
-				'exclusiveMinimum',
-				'maximum',
-				'exclusiveMaximum',
-				'multipleOf',
-				'minLength',
-				'maxLength',
-				'minProperties',
-				'maxProperties',
-				'minItems',
-				'maxItems',
-				'uniqueItems',
-				'propertyNames',
-				'contains',
-				'const',
-				'examples',
-				'default',
-				'required',
-				'if',
-				'then',
-				'else',
-				'readOnly',
-				'writeOnly',
-				'deprecated'
-			]
+			definedTags: ['json-ld', 'json-schema']
 		}
 	],
 	'jsdoc/check-types': 'error',
@@ -538,6 +574,7 @@ const jsDocRules = {
 	'jsdoc/match-description': 'error',
 	'jsdoc/multiline-blocks': ['error', { noSingleLineBlocks: true }],
 	'jsdoc/no-bad-blocks': 'error',
+	'jsdoc/no-blank-blocks': 'error',
 	'jsdoc/no-defaults': 'error',
 	'jsdoc/no-types': 'error',
 	'jsdoc/no-undefined-types': 'error',
@@ -618,7 +655,8 @@ const allRules = {
 	promiseRules,
 	importRules,
 	unicornRules,
-	jsDocRules
+	jsDocRules,
+	twinOrgRules
 };
 
 if (customModule?.extendRules) {
@@ -628,14 +666,18 @@ if (customModule?.extendRules) {
 const config = [
 	// Global ignores
 	{
-		ignores: [
-			'**/dist/**',
-			'**/coverage/**',
-			'**/rollup.config.mjs',
-			'**/vitest.config.ts.timestamp*',
-			'packages/**',
-			'apps/**'
-		]
+		ignores: ['**/dist/**', '**/coverage/**', '**/vitest.config.ts.timestamp*']
+	},
+
+	// Repository structure naming validation.
+	{
+		files: ['scripts/eslint-plugin-repo-structure.mjs'],
+		plugins: {
+			'@twin.org': twinOrgPlugin
+		},
+		rules: {
+			'@twin.org/validate-repo-structure': 'error'
+		}
 	},
 
 	// Base JavaScript configuration
@@ -643,7 +685,7 @@ const config = [
 
 	// JavaScript files
 	{
-		files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
+		files: ['**/*.js', '**/*.mjs'],
 		languageOptions: {
 			ecmaVersion: 2022,
 			sourceType: 'module',
@@ -709,7 +751,8 @@ const config = [
 			'unused-imports': unusedImportsPlugin,
 			'simple-import-sort': simpleImportSortPlugin,
 			header: headerPlugin,
-			'@stylistic': stylistic
+			'@stylistic': stylistic,
+			'@twin.org': twinOrgPlugin
 		},
 		rules: {
 			// Extend recommended TypeScript rules
@@ -738,23 +781,39 @@ const config = [
 			...headerRules,
 
 			// Stylistic
-			...stylisticRules
+			...stylisticRules,
+
+			// Custom twin.org rules
+			...twinOrgRules
 		},
 		settings: {
 			jsdoc: {
-				ignoreInternal: true,
 				mode: 'typescript'
 			}
 		}
 	},
 
+	// Bin entry files can import package dist entrypoints.
+	{
+		files: ['**/bin/index.js'],
+		rules: {
+			'no-restricted-imports': 'off'
+		}
+	},
 	// Test files
 	{
 		files: ['**/tests/**/*.ts'],
 		rules: {
+			'max-classes-per-file': 'off',
 			'no-console': 'off',
+			'jsdoc/require-jsdoc': 'off',
+			'unicorn/consistent-function-scoping': 'off',
 			'unicorn/no-useless-undefined': 'off',
-			'no-restricted-syntax': ['error', ...tsRestrictedSyntax]
+			'no-restricted-syntax': ['error', ...tsRestrictedSyntax],
+			'@typescript-eslint/unbound-method': 'off',
+			'@twin.org/no-multiple-declarations': 'off',
+			'@twin.org/no-deep-type-nesting': 'off',
+			'@twin.org/require-internal-on-private-methods': 'off'
 		}
 	}
 ];
