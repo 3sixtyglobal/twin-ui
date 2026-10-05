@@ -27,3 +27,7 @@ This will create a static version of the app in the `storybook-static` folder.
 ## Changelog
 
 The changes between each version can be found in [docs/changelog.md](docs/changelog.md)
+
+## Origin
+
+This package is derived from the original [iotaledger/twin-ui](https://github.com/iotaledger/twin-ui/tree/next/apps/ui-storybook-svelte) repository.

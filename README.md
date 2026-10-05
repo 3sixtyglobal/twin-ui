@@ -33,7 +33,7 @@ This mono-repository contains the UI components for building TWIN apps.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/iotaledger/twin-ui.git
+git clone https://github.com/3sixtyglobal/twin-ui.git
 cd ui
 ```
 
@@ -112,3 +112,7 @@ npm run storybook
 ## Contributing
 
 To contribute to this package see the guidelines for building and publishing in [CONTRIBUTING](./CONTRIBUTING.md)
+
+## Origin
+
+This repository is derived from the original [iotaledger/twin-ui](https://github.com/iotaledger/twin-ui) repository.
